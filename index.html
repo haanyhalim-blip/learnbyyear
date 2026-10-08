@@ -1,11 +1,11 @@
 <!doctype html>
-<!-- LearnbyYear v9 -->
+<!-- LearnbyYear v10 -->
 <html lang="en-GB">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
 <title>LearnbyYear – what your child learns this year, from England's national curriculum</title>
-<meta name="description" content="England's national curriculum, one child and one year at a time: every English and maths goal for Reception, Year 3 and Year 5 to tick off, the statutory spelling lists, two ready-made routines and the best free resources. For families who home educate and families helping at home alongside school.">
+<meta name="description" content="England's national curriculum, one child and one year at a time: every English and maths goal for Reception, Year 3 and Year 5 to tick off, the statutory spelling lists, two ready-made routines and the best free resources. For families who homeschool and families helping at home alongside school.">
 <link rel="canonical" href="https://learnbyyear.com/">
 <meta property="og:title" content="LearnbyYear">
 <meta property="og:description" content="What your child learns this year, from England's national curriculum – goals to tick off, spelling lists, routines and resources.">
@@ -183,6 +183,45 @@ h2.sec{font-size:1.4rem;margin:6px 0 12px}
 .qp details[open] summary{display:none}
 .qp .ans{display:block;margin-top:2px;font-weight:600;color:var(--done)}
 .qp .more{margin:8px 0 0;font-size:.85rem;color:var(--soft)}
+
+/* Each child: a status on each goal, a summary against their year, and a log of updates */
+.kidsum{background:var(--sheet);border:1.5px solid var(--rule);border-radius:14px;padding:14px 16px;margin:0 0 14px}
+.kidsum h3{margin:0 0 4px;font-family:var(--display);font-size:1.15rem}
+.kidsum .about{color:var(--soft);font-size:.9rem;margin:0 0 10px}
+.ks-sub{display:grid;grid-template-columns:70px minmax(0,1fr);gap:4px 10px;align-items:center;margin:6px 0}
+.ks-sub b{font-size:.92rem}
+.ks-bar{position:relative;height:10px;border-radius:5px;background:var(--rule);overflow:hidden}
+.ks-bar i{position:absolute;left:0;top:0;bottom:0;background:var(--done)}
+.ks-bar u{position:absolute;top:0;bottom:0;width:2px;background:var(--ink);opacity:.55}
+.ks-say{grid-column:2;font-size:.84rem;color:var(--soft)}
+.ks-say .tag{font-weight:700}
+.ks-say .tag.ahead{color:var(--done)} .ks-say .tag.on{color:var(--blue)} .ks-say .tag.catch{color:var(--margin)}
+.ks-h{font-weight:700;font-size:.92rem;margin:12px 0 4px}
+.ks-list{margin:0;padding-left:18px;font-size:.9rem}
+.ks-list li{margin:3px 0}
+.ks-list button{background:none;border:0;padding:0;color:var(--blue);text-decoration:underline;cursor:pointer;font:inherit;text-align:left}
+.ks-note{font-size:.78rem;color:var(--soft);margin:10px 0 0}
+.upd{margin:12px 0 0;border-top:1px solid var(--rule);padding-top:10px}
+.upd summary{cursor:pointer;font-weight:700;font-size:.92rem}
+.upd .ent{padding:8px 0;border-bottom:1px solid var(--rule);font-size:.9rem}
+.upd .ent:last-child{border-bottom:0}
+.upd .ent small{display:block;color:var(--soft);font-size:.78rem}
+.upd form{display:grid;gap:6px;margin:8px 0 4px}
+.upd form .r{display:flex;gap:6px;flex-wrap:wrap}
+.upd input,.upd select,.upd textarea{font:inherit;font-size:.9rem;padding:7px 9px;border:1.5px solid var(--rule);border-radius:8px;background:var(--paper);color:var(--ink)}
+.upd textarea{min-height:60px}
+.upd .add{justify-self:start;font:inherit;font-weight:600;border:0;border-radius:999px;padding:7px 16px;background:var(--blue);color:#fff;cursor:pointer}
+.st{display:inline-block;font-size:.72rem;font-weight:700;border-radius:999px;padding:1px 8px;margin:4px 6px 0 0;border:1.5px solid var(--rule);background:var(--sheet);color:var(--soft);cursor:pointer;font-family:inherit}
+.st.s-secure{background:var(--done);border-color:var(--done);color:#fff}
+.st.s-working{background:#fff4d6;border-color:#e8c46a;color:#7a5600}
+.st.s-ahead{background:#e4f0ff;border-color:var(--blue);color:var(--blue)}
+.stn{display:block;font-size:.8rem;color:var(--soft);font-style:italic;margin-top:2px}
+.stpick{display:flex;gap:6px;flex-wrap:wrap;margin-top:6px}
+.stpick button{font:inherit;font-size:.78rem;border:1.5px solid var(--rule);background:var(--sheet);color:var(--ink);border-radius:999px;padding:3px 10px;cursor:pointer}
+.impbar{background:#e4f0ff;border:1.5px solid var(--blue);border-radius:14px;padding:12px 14px;margin:0 0 14px}
+.impbar p{margin:0 0 8px}
+.impbar button{font:inherit;font-weight:600;border:1.5px solid var(--blue);border-radius:999px;padding:6px 14px;cursor:pointer;margin-right:6px;background:var(--sheet);color:var(--blue)}
+.impbar button.go{background:var(--blue);color:#fff}
 </style>
 </head>
 <body>
@@ -191,7 +230,7 @@ h2.sec{font-size:1.4rem;margin:6px 0 12px}
   <header class="top">
     <div>
       <div class="brand">Learn<b>by</b>Year</div>
-      <p class="tag">What your child learns this year, from England's national curriculum. For families who home educate, and for families who want to help at home alongside school. Tick off each goal as you cover it.</p>
+      <p class="tag">What your child learns this year, from England's national curriculum. For families who homeschool, and for families who want to help at home alongside school. Tick off each goal as you cover it.</p>
 <details class="bwy" id="bwy"><summary>🌱 We're building this with you…</summary><div class="bwyb">
   <p>These apps have one job: to be a handy, on-the-go helper for you and your family. That's it.</p>
   <p>They keep growing based on what you need. If there's anything that would make them more helpful, let us know. We read every message, and we usually add things quickly.</p>
@@ -229,7 +268,9 @@ h2.sec{font-size:1.4rem;margin:6px 0 12px}
 
   <section id="p-curr">
     <div class="who" id="who"></div>
+    <div class="impbar" id="impbar" hidden></div>
     <div class="wholinks" id="wholinks"></div>
+    <div class="kidsum" id="kidsum" hidden></div>
     <div class="kidform" id="kidform" hidden></div>
     <div class="subj" id="subj"></div>
     <div class="meta" id="meta"></div>
@@ -239,7 +280,7 @@ h2.sec{font-size:1.4rem;margin:6px 0 12px}
 
   <section id="p-routine" hidden>
     <h2 class="sec">Two ready-made weekdays</h2>
-    <p class="note">Suggestions to start from, not rules. Home education in England has no set hours; what matters is that it is full-time and suits each child. Both keep English and maths in the morning, when attention is best, and leave afternoons for projects and being outside.</p>
+    <p class="note">Suggestions to start from, not rules. Homeschooling in England has no set hours; what matters is that it is full-time and suits each child. Both keep English and maths in the morning, when attention is best, and leave afternoons for projects and being outside.</p>
     <div class="rt" id="routines"></div>
   </section>
 
@@ -251,8 +292,8 @@ h2.sec{font-size:1.4rem;margin:6px 0 12px}
 
   <section id="p-about" hidden>
     <div class="card"><h3>Taking a child out of school in England</h3>
-      <p>Parents can choose to educate their children at home. You don't have to follow the national curriculum, but the education must be efficient, full-time and suitable for the child's age, ability and any special needs.</p>
-      <p>If your child is registered at a school, write to the head teacher to say you're taking them out to home educate. The school tells the council, and the council may ask how you're educating them. A special school needs the council's agreement first.</p>
+      <p>Parents can choose to homeschool their children (the law calls it “elective home education”). You don't have to follow the national curriculum, but the education must be efficient, full-time and suitable for the child's age, ability and any special needs.</p>
+      <p>If your child is registered at a school, write to the head teacher to say you're taking them out to homeschool. The school tells the council, and the council may ask how you're educating them. A special school needs the council's agreement first.</p>
       <p>Before deciding, read the official guidance and talk to your council: <a href="https://www.gov.uk/home-education" target="_blank" rel="noopener">gov.uk/home-education</a>.</p></div>
     <div class="card"><h3>What's on this site, and where it comes from</h3>
       <p>Year 3 and Year 5 English and maths are the <b>statutory requirements</b> from <i>The national curriculum in England: primary curriculum</i> (Department for Education), word for word. English is set for two years at a time, so Year 3 shows the Years 3–4 programme and Year 5 the Years 5–6 programme. Maths is set for each year.</p>
@@ -263,7 +304,7 @@ h2.sec{font-size:1.4rem;margin:6px 0 12px}
       <p>All subjects and all years, the US standards, each year's version kept so your plans don't change by surprise, and building a child's own plan with Claude or ChatGPT.</p></div>
   </section>
 
-  <p class="foot">Ticks stay on this device – or sign in to keep them in your account. Curriculum text © Crown copyright, used under the Open Government Licence v3.0. <span class="ver">v9</span></p>
+  <p class="foot">Ticks stay on this device – or sign in to keep them in your account. Curriculum text © Crown copyright, used under the Open Government Licence v3.0. <span class="ver">v10</span></p>
 </div>
 
 <div id="acct" hidden role="dialog" aria-modal="true" aria-labelledby="acTitle"><div class="acbox"><button class="acx" id="acX" type="button" aria-label="Close">×</button>
@@ -324,8 +365,8 @@ var DATA = {"maths-y3": [{"strand": "Number – number and place value", "items"
     } else {
       var secs = DATA[k[UI.subj]];
       secs.forEach(function(s, si){ h += '<div class="sheet"><h3>' + esc(s.strand) + '<small>' + (k.id === "r" ? "Children at the expected level will:" : "Pupils should be taught to:") + '</small></h3>';
-        s.items.forEach(function(it, ii){ var id = k.id + ":" + UI.subj + ":" + si + ":" + ii, on = !!T[tk(id)]; total++; if(on) done++;
-          h += '<div class="goal' + (on ? ' done' : '') + '"><input type="checkbox" id="g' + id.replace(/[^a-z0-9]/gi, "_") + '" data-g="' + id + '"' + (on ? ' checked' : '') + '><label for="g' + id.replace(/[^a-z0-9]/gi, "_") + '">' + esc(cap(it.t)) + (it.sub ? '<ul>' + it.sub.map(function(x){ return '<li>' + esc(x) + '</li>'; }).join("") + '</ul>' : '') + '</label><span class="gbtns"><button type="button" class="qb" data-q="' + id + '" aria-expanded="' + (QOPEN === id) + '">📝 Practice</button><button type="button" class="aib" data-ai="' + id + '" aria-expanded="' + (AIOPEN === id) + '" aria-label="Ask your AI">✨ <span class="ail">Ask your </span>AI</button></span>' + (AIOPEN === id ? aiPanel(k, it) : '') + (QOPEN === id ? qPanel(id) : '') + '</div>'; });
+        s.items.forEach(function(it, ii){ var id = k.id + ":" + UI.subj + ":" + si + ":" + ii, on = !!T[tk(id)] || isGot(id); total++; if(on) done++;
+          h += '<div class="goal' + (on ? ' done' : '') + '"><input type="checkbox" id="g' + id.replace(/[^a-z0-9]/gi, "_") + '" data-g="' + id + '"' + (on ? ' checked' : '') + '><label for="g' + id.replace(/[^a-z0-9]/gi, "_") + '">' + esc(cap(it.t)) + (it.sub ? '<ul>' + it.sub.map(function(x){ return '<li>' + esc(x) + '</li>'; }).join("") + '</ul>' : '') + stHTML(id) + '</label><span class="gbtns"><button type="button" class="qb" data-q="' + id + '" aria-expanded="' + (QOPEN === id) + '">📝 Practice</button><button type="button" class="aib" data-ai="' + id + '" aria-expanded="' + (AIOPEN === id) + '" aria-label="Ask your AI">✨ <span class="ail">Ask your </span>AI</button></span>' + (AIOPEN === id ? aiPanel(k, it) : '') + (QOPEN === id ? qPanel(id) : '') + '</div>'; });
         h += '</div>'; });
       $("note").textContent = k.note;
       h = '<p class="aihint">Beside each goal: <b>📝 Practice</b> has five ready-made questions (or things to try together), and <b>✨ Ask your AI</b> writes more with your own Claude or ChatGPT.</p>' + h;
@@ -357,7 +398,7 @@ var DATA = {"maths-y3": [{"strand": "Number – number and place value", "items"
     if(b.dataset.ai){ AIOPEN = AIOPEN === b.dataset.ai ? null : b.dataset.ai; QOPEN = null; drawSheets(); return; }
     var t = b.dataset.aicopy, done = function(){ b.textContent = "Copied ✓"; setTimeout(function(){ b.textContent = "Copy"; }, 1500); };
     if(navigator.clipboard) navigator.clipboard.writeText(t).then(done, function(){}); });
-  function draw(){ drawWho(); drawSheets(); keep(); }
+  function draw(){ drawWho(); drawKidSum(); drawSheets(); keep(); }
   document.addEventListener("click", function(e){ var b = e.target.closest("button"); if(!b) return;
     if(b.dataset.kid){ UI.kid = b.dataset.kid; draw(); return; }
     if(b.dataset.child){ UI.child = b.dataset.child; draw(); return; }
@@ -369,7 +410,7 @@ var DATA = {"maths-y3": [{"strand": "Number – number and place value", "items"
     if(b.dataset.w){ var id = tk(kid().id + ":w:" + b.dataset.w); if(T[id]) delete T[id]; else T[id] = 1; keep(true); drawSheets(); return; }
     if(b.dataset.tab){ document.querySelectorAll("nav.tabs button").forEach(function(x){ x.setAttribute("aria-selected", String(x === b)); });
       ["curr","routine","res","about"].forEach(function(t){ $("p-" + t).hidden = t !== b.dataset.tab; }); return; } });
-  document.addEventListener("change", function(e){ var c = e.target.closest("input[data-g]"); if(!c) return; var id = tk(c.dataset.g); if(c.checked) T[id] = 1; else delete T[id]; keep(true); drawSheets(); if(UI.child) drawWho(); });
+  document.addEventListener("change", function(e){ var c = e.target.closest("input[data-g]"); if(!c) return; var id = tk(c.dataset.g); if(c.checked) T[id] = 1; else delete T[id]; keep(true); drawSheets(); if(UI.child){ drawWho(); drawKidSum(); } });
   // Add or change a child: first name and school year (only the years on this site so far)
   function drawKidForm(){ var f = $("kidform"); if(!KF){ f.hidden = true; f.innerHTML = ""; return; } f.hidden = false;
     f.innerHTML = '<h3>' + (KF.id ? "Change " + esc(KF.name || "your child") : "Add your child") + '</h3>'
@@ -394,6 +435,70 @@ var DATA = {"maths-y3": [{"strand": "Number – number and place value", "items"
       KF = null; keep(true); draw(); } });
   function alertY(){ var ys = document.querySelector("#kidform .ys"); if(ys){ ys.style.outline = "2px solid var(--margin)"; ys.style.borderRadius = "10px"; setTimeout(function(){ ys.style.outline = ""; }, 1500); } }
 
+
+  // ---------- Each child: status on a goal (working on / secure / ahead), a summary against their year, updates ----------
+  var STN = {working:"Working on", secure:"Secure", ahead:"Ahead"}, STOPEN = null;
+  function stOf(id){ var c = child(); return c && c.st ? c.st[id] : null; }
+  function isGot(id){ var x = stOf(id); return !!(x && (x.s === "secure" || x.s === "ahead")); }
+  function stHTML(id){ var c = child(); if(!c) return ""; var x = stOf(id) || {};
+    return '<span style="display:block"><button type="button" class="st' + (x.s ? " s-" + x.s : "") + '" data-st="' + id + '">' + (x.s ? STN[x.s] : "+ status") + '</button>' + (x.n ? '<span class="stn">' + esc(x.n) + (x.src ? " – " + esc(x.src) : "") + '</span>' : '')
+      + (STOPEN === id ? '<span class="stpick">' + ["working","secure","ahead",""].map(function(v){ return '<button type="button" data-stset="' + id + '|' + v + '">' + (v ? STN[v] : "Clear") + '</button>'; }).join("") + '</span>' : '') + '</span>'; }
+  document.addEventListener("click", function(e){ var b = e.target.closest("[data-st],[data-stset]"); if(!b) return; e.preventDefault(); var c = child(); if(!c) return;
+    if(b.dataset.st){ STOPEN = STOPEN === b.dataset.st ? null : b.dataset.st; drawSheets(); return; }
+    var p = b.dataset.stset.split("|"), id = p[0], v = p[1]; c.st = c.st || {};
+    if(!v){ if(c.st[id]) delete c.st[id].s; if(c.st[id] && !c.st[id].n) delete c.st[id]; }
+    else { c.st[id] = c.st[id] || {}; c.st[id].s = v; if(v !== "working") T[tk(id)] = 1; }
+    STOPEN = null; keep(true); draw(); }, true);
+  // How far through the school year we are (1 Sept to 20 July); a two-year English list counts half in the first year
+  function yearFrac(){ var n = new Date(), y = n.getMonth() >= 7 ? n.getFullYear() : n.getFullYear() - 1, a = new Date(y, 8, 1), b = new Date(y + 1, 6, 20);
+    return Math.max(0, Math.min(1, (n - a) / (b - a))); }
+  function subjStats(c, sj){ var y = KIDS.filter(function(k){ return k.id === c.y; })[0], n = 0, got = 0, wk = [], ah = [];
+    DATA[y[sj]].forEach(function(st, si){ st.items.forEach(function(it, ii){ var id = y.id + ":" + sj + ":" + si + ":" + ii, x = (c.st || {})[id] || {}; n++;
+      if(T["c:" + c.id + ":" + id] || x.s === "secure" || x.s === "ahead") got++;
+      if(x.s === "working") wk.push({id:id, sj:sj, t:it.t, n:x.n}); if(x.s === "ahead") ah.push({id:id, sj:sj, t:it.t, n:x.n}); }); });
+    var two = sj === "en" && y.id !== "r", exp = Math.round(n * yearFrac() * (two ? .5 : 1));
+    return {n:n, got:got, exp:exp, wk:wk, ah:ah, two:two}; }
+  function short(t){ t = cap(t).replace(/[.:;]+$/, ""); return t.length > 90 ? t.slice(0, 88).replace(/\s+\S*$/, "") + "…" : t; }
+  function drawKidSum(){ var el = $("kidsum"), c = child(); if(!c || KF){ el.hidden = true; el.innerHTML = ""; return; } el.hidden = false;
+    var y = kid(), h = '<h3>' + esc(c.name) + ' · ' + esc(y.name) + '</h3>' + (c.about ? '<p class="about">' + esc(c.about) + '</p>' : '');
+    var wk = [], ah = [];
+    ["en","ma"].forEach(function(sj){ var r = subjStats(c, sj), pc = r.n ? 100 * r.got / r.n : 0, ex = r.n ? 100 * r.exp / r.n : 0, tag;
+      if(r.got >= r.exp + Math.max(2, Math.round(r.n * .1))) tag = '<span class="tag ahead">Ahead of where most children are now</span>';
+      else if(r.got >= r.exp - 2) tag = '<span class="tag on">On track for this point in the year</span>';
+      else tag = '<span class="tag catch">Behind this point in the year – or not ticked here yet</span>';
+      h += '<div class="ks-sub"><b>' + (sj === "en" ? "English" : "Maths") + '</b><span class="ks-bar" role="img" aria-label="' + r.got + ' of ' + r.n + ' covered"><i style="width:' + pc + '%"></i><u style="left:' + ex + '%"></u></span>'
+        + '<span class="ks-say">' + r.got + ' of ' + r.n + ' secure · most children are around ' + r.exp + ' by now' + (r.two ? ' (this list covers two years)' : '') + ' · ' + tag + '</span></div>';
+      wk = wk.concat(r.wk); ah = ah.concat(r.ah); });
+    if(wk.length) h += '<p class="ks-h">Where to help next</p><ul class="ks-list">' + wk.slice(0, 8).map(function(x){ return '<li><button type="button" data-jump="' + x.id + '">' + (x.sj === "en" ? "English: " : "Maths: ") + esc(short(x.t)) + '</button>' + (x.n ? ' <small>– ' + esc(x.n) + '</small>' : '') + '</li>'; }).join("") + '</ul>';
+    if(ah.length) h += '<p class="ks-h">Ahead of their year – ready to stretch</p><ul class="ks-list">' + ah.map(function(x){ return '<li><button type="button" data-jump="' + x.id + '">' + esc(short(x.t)) + '</button>' + (x.n ? ' <small>– ' + esc(x.n) + '</small>' : '') + '</li>'; }).join("") + '</ul>';
+    var log = (c.log || []).slice().sort(function(a, b){ return (b.d || "").localeCompare(a.d || ""); });
+    h += '<details class="upd"' + (UPDOPEN ? " open" : "") + '><summary>Updates from school, tutors and home (' + log.length + ')</summary>'
+      + '<form id="updForm"><div class="r"><input type="date" id="updD" aria-label="Date"><select id="updS" aria-label="From"><option>School</option><option>Tutor</option><option>Home</option><option>Report</option><option>Homework</option></select></div>'
+      + '<textarea id="updT" maxlength="2000" placeholder="What happened – e.g. reading level went up, spellings 9/10, teacher says…"></textarea><button type="submit" class="add">Add update</button></form>'
+      + log.map(function(x, i){ return '<div class="ent"><small>' + esc(fmtD(x.d)) + ' · ' + esc(x.src || "") + '</small>' + esc(x.t) + '</div>'; }).join("") + '</details>';
+    h += '<p class="ks-note">"Most children by now" is a rough guide: the year\'s goals spread evenly from September to July. Statuses come from what you, the school and tutors have noted – tap a status on any goal to change it.</p>';
+    el.innerHTML = h; var dd = $("updD"); if(dd) dd.value = new Date().toISOString().slice(0, 10); }
+  var UPDOPEN = false;
+  function fmtD(d){ if(!d) return ""; var p = d.split("-"); return p.length === 3 ? +p[2] + " " + ["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"][+p[1] - 1] + " " + p[0] : d; }
+  $("kidsum").addEventListener("toggle", function(e){ if(e.target.classList && e.target.classList.contains("upd")) UPDOPEN = e.target.open; }, true);
+  $("kidsum").addEventListener("submit", function(e){ e.preventDefault(); var c = child(), t = $("updT").value.trim(); if(!c || !t) return;
+    c.log = c.log || []; c.log.push({d:$("updD").value, src:$("updS").value, t:t}); UPDOPEN = true; keep(true); drawKidSum(); });
+  $("kidsum").addEventListener("click", function(e){ var b = e.target.closest("[data-jump]"); if(!b) return; var p = b.dataset.jump.split(":"); UI.subj = p[1]; drawWho(); drawSheets();
+    var g = document.querySelector('[data-g="' + b.dataset.jump + '"]'); if(g){ g.closest(".goal").scrollIntoView({behavior:"smooth", block:"center"}); g.closest(".goal").style.outline = "2px solid var(--blue)"; setTimeout(function(){ g.closest(".goal").style.outline = ""; }, 2500); } });
+  // ---------- Bring in children from a private link (#add=…): nothing in the link reaches our server ----------
+  function addFromLink(){ var m = location.hash.match(/^#add=([A-Za-z0-9_-]+)/); if(!m || !window.DecompressionStream) return;
+    history.replaceState(null, "", location.pathname + location.search);
+    var b64 = m[1].replace(/-/g, "+").replace(/_/g, "/"), bin = atob(b64), u = new Uint8Array(bin.length); for(var i = 0; i < bin.length; i++) u[i] = bin.charCodeAt(i);
+    new Response(new Blob([u]).stream().pipeThrough(new DecompressionStream("deflate-raw"))).text().then(function(txt){ var d = JSON.parse(txt); if(!d || !Array.isArray(d.kids)) return;
+      var bar = $("impbar"); bar.hidden = false;
+      bar.innerHTML = '<p><b>Add ' + d.kids.map(function(k){ return esc(k.name); }).join(", ") + '</b> with their notes so far? They\'re added to this device' + (AUSER ? " and your account" : " – sign in first to keep them in your account") + '.</p><button type="button" class="go" id="impGo">Add them</button><button type="button" id="impNo">Not now</button>';
+      $("impNo").onclick = function(){ bar.hidden = true; };
+      $("impGo").onclick = function(){ d.kids.forEach(function(k){ var c = C.kids.filter(function(x){ return x.name.toLowerCase() === k.name.toLowerCase(); })[0];
+          if(!c){ c = {id:Date.now().toString(36) + Math.random().toString(36).slice(2, 5), name:k.name, y:k.y}; C.kids.push(c); }
+          c.y = k.y; if(k.about) c.about = k.about; c.st = c.st || {}; Object.keys(k.st || {}).forEach(function(g){ c.st[g] = k.st[g]; if(k.st[g].s !== "working") T["c:" + c.id + ":" + g] = 1; });
+          c.log = c.log || []; (k.log || []).forEach(function(x){ if(!c.log.some(function(y){ return y.d === x.d && y.t === x.t; })) c.log.push(x); }); });
+        UI.child = C.kids[0].id; bar.hidden = true; keep(true); draw(); window.scrollTo(0, 0); }; }, function(){}); }
+  addFromLink(); window.addEventListener("hashchange", addFromLink);
   // ---------- Sign in (optional): same account as the other Family Ecosphere sites ----------
   // Your children and their ticks are saved under your account (site "learnbyyear"), so they open on any phone or laptop.
   var SB_URL = "https://nlbeqaoffratriysazrx.supabase.co", SB_KEY = "sb_publishable_HjyFCCwqTjqeAIV1bh28ww_li-Rw7CZ";
@@ -473,7 +578,7 @@ var DATA = {"maths-y3": [{"strand": "Number – number and place value", "items"
     ["Times Tables Rock Stars","ttrockstars.com","Times tables practice as a game.","Paid"],
     ["Doodle","doodlelearning.com","Daily maths and English practice that adapts to the child.","Paid"],
     ["Outschool","outschool.com","Small live online classes taught by independent teachers.","Paid"],
-    ["Education Otherwise","educationotherwise.org","UK home education charity: support, groups and advice.","Support"],
+    ["Education Otherwise","educationotherwise.org","UK homeschooling charity: support, groups and advice.","Support"],
     ["Home education guidance","gov.uk/home-education","The official rules in England.","Official"]];
   $("resources").innerHTML = RES.map(function(r){ return '<a href="https://' + (r[1].indexOf("gov.uk") === 0 || r[1].indexOf("bbc.") === 0 || r[1].indexOf("oxford") === 0 || r[1].indexOf("thenational") === 0 ? "www." : "www.") + r[1] + '" target="_blank" rel="noopener"><b>' + esc(r[0]) + '</b><span>' + esc(r[2]) + '</span><small>' + esc(r[3]) + ' · ' + esc(r[1]) + '</small></a>'; }).join("");
   draw();
