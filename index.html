@@ -1,5 +1,5 @@
 <!doctype html>
-<!-- LearnbyYear v18 -->
+<!-- LearnbyYear v19 -->
 <html lang="en-GB">
 <head>
 <meta charset="utf-8">
@@ -217,6 +217,7 @@ h2.sec{font-size:1.4rem;margin:6px 0 12px}
 .upd input[type=file]{padding:6px;max-width:100%}
 .ent .docb{font:inherit;font-weight:600;color:var(--blue);background:none;border:0;padding:2px 0;cursor:pointer;text-align:left;text-decoration:underline;text-underline-offset:2px}
 .docnote{font-size:.82rem;color:var(--soft);margin:2px 0 0}
+.ent .docrm{float:right;font:inherit;font-size:.8rem;color:var(--soft);background:none;border:1px solid var(--rule);border-radius:999px;padding:2px 10px;cursor:pointer}
 .upd .add{justify-self:start;font:inherit;font-weight:600;border:0;border-radius:999px;padding:7px 16px;background:var(--blue);color:#fff;cursor:pointer}
 .st{display:inline-block;font-size:.72rem;font-weight:700;border-radius:999px;padding:1px 8px;margin:4px 6px 0 0;border:1.5px solid var(--rule);background:var(--sheet);color:var(--soft);cursor:pointer;font-family:inherit}
 .st.s-secure{background:var(--done);border-color:var(--done);color:#fff}
@@ -375,7 +376,7 @@ h2.sec{font-size:1.4rem;margin:6px 0 12px}
       <p>All subjects and all years, the US standards, each year's version kept so your plans don't change by surprise, and building a child's own plan with Claude or ChatGPT.</p></div>
   </section>
 
-  <p class="foot">Ticks stay on this device – or sign in to keep them in your account. England curriculum text © Crown copyright, used under the Open Government Licence v3.0. Common Core State Standards © 2010 NGA Center and CCSSO. <span class="ver">v18</span></p>
+  <p class="foot">Ticks stay on this device – or sign in to keep them in your account. England curriculum text © Crown copyright, used under the Open Government Licence v3.0. Common Core State Standards © 2010 NGA Center and CCSSO. <span class="ver">v19</span></p>
 </div>
 
 <div id="acct" hidden role="dialog" aria-modal="true" aria-labelledby="acTitle"><div class="acbox"><button class="acx" id="acX" type="button" aria-label="Close">×</button>
@@ -575,7 +576,7 @@ var DATA = {"maths-y3": [{"strand": "Number – number and place value", "items"
           + '<input type="file" id="docF" multiple accept="image/*,application/pdf,.pdf,.doc,.docx,.txt" aria-label="Choose files"><button type="submit" class="add" id="docGo">Upload</button>'
           + '<p class="docnote" id="docNote">Kept privately in your account – only you can open them, when signed in. Photos, PDFs or Word files, up to 20 MB each.</p></form>'
         : '<p class="docnote">Sign in to keep the real school reports, letters and homework here – stored privately in your account, never on a public page.</p><button type="button" class="add" data-docsign="1">Sign in</button>')
-      + docs.map(function(x){ return '<div class="ent"><small>' + esc(fmtD(x.d)) + ' · ' + esc(x.src || "") + '</small><button type="button" class="docb" data-doc="' + esc(x.id) + '">📄 ' + esc(x.n) + '</button></div>'; }).join("") + '</details>';
+      + docs.map(function(x){ return '<div class="ent">' + (AUSER ? '<button type="button" class="docrm" data-docrm="' + esc(x.id) + '" aria-label="Remove ' + esc(x.n) + '">Remove</button>' : '') + '<small>' + esc(fmtD(x.d)) + ' · ' + esc(x.src || "") + '</small><button type="button" class="docb" data-doc="' + esc(x.id) + '">📄 ' + esc(x.n) + '</button></div>'; }).join("") + '</details>';
     h += '<p class="ks-note">"Most children by now" is a rough guide: the year\'s goals spread evenly from September to July. Statuses come from what you, the school and tutors have noted – tap a status on any goal to change it.</p>';
     el.innerHTML = h; var dd = $("updD"); if(dd) dd.value = new Date().toISOString().slice(0, 10); var d2 = $("docD"); if(d2) d2.value = new Date().toISOString().slice(0, 10); }
   var UPDOPEN = false, DOCOPEN = false, DOCBOX = "learnbyyear-docs";
@@ -596,11 +597,15 @@ var DATA = {"maths-y3": [{"strand": "Number – number and place value", "items"
         if(r.error){ go.disabled = false; var m = String(r.error.message || r.error); note.textContent = /bucket|not found|security|policy|row-level/i.test(m) ? "One setup step is still needed before documents can be saved (the Supabase step for documents)." : /mime|type/i.test(m) ? f.name + " isn't a photo, PDF or Word file." : "Couldn't upload " + f.name + " – " + m; if(done){ keep(true); } return; }
         c.docs = c.docs || []; c.docs.push({id:Date.now().toString(36) + Math.random().toString(36).slice(2, 6), p:path, n:f.name.slice(0, 120), d:d, src:src, sz:f.size, ty:f.type || ""}); done++; next(); },
         function(){ go.disabled = false; note.textContent = "Can't reach the server just now – try again in a minute."; if(done) keep(true); }); })(); }
+  function docRemove(id){ var c = child(), x = c && docOf(c, id); if(!x || !AUSER || !asb) return; if(!confirm("Remove " + x.n + "? The file will be deleted from your account.")) return;
+    asb.storage.from(DOCBOX).remove([x.p]).then(function(r){ if(r.error && !/not found/i.test(String(r.error.message || r.error))){ alert("Couldn't remove " + x.n + " just now – try again in a minute."); return; }
+      c.docs = (c.docs || []).filter(function(d){ return d.id !== id; }); (c.log || []).forEach(function(u){ if(u.doc === id) delete u.doc; }); DOCOPEN = true; keep(true); drawKidSum(); },
+      function(){ alert("Can't reach the server just now – try again in a minute."); }); }
   function docOpen(id){ var c = child(), x = c && docOf(c, id); if(!x) return; if(!AUSER || !asb){ $("acctBtn").click(); return; }
     var w = window.open("", "_blank"); if(w) try{ w.document.write("<p style='font:16px system-ui;padding:20px'>Opening " + esc(x.n) + "…</p>"); }catch(e){}
     asb.storage.from(DOCBOX).createSignedUrl(x.p, 600).then(function(r){ if(r.data && r.data.signedUrl){ if(w) w.location.href = r.data.signedUrl; else location.href = r.data.signedUrl; }
       else { if(w) w.close(); alert("Couldn't open " + x.n + ". Make sure you're signed in to the same account that uploaded it."); } }, function(){ if(w) w.close(); alert("Can't reach the server just now – try again in a minute."); }); }
-  $("kidsum").addEventListener("click", function(e){ var dn = e.target.closest("[data-doc]"); if(dn) return docOpen(dn.dataset.doc); if(e.target.closest("[data-docsign]")){ DOCOPEN = true; $("acctBtn").click(); return; }
+  $("kidsum").addEventListener("click", function(e){ var rm = e.target.closest("[data-docrm]"); if(rm) return docRemove(rm.dataset.docrm); var dn = e.target.closest("[data-doc]"); if(dn) return docOpen(dn.dataset.doc); if(e.target.closest("[data-docsign]")){ DOCOPEN = true; $("acctBtn").click(); return; }
     var b = e.target.closest("[data-jump]"); if(!b) return; var p = b.dataset.jump.split(":"); UI.subj = p[1]; drawWho(); drawSheets();
     var g = document.querySelector('[data-g="' + b.dataset.jump + '"]'); if(g){ g.closest(".goal").scrollIntoView({behavior:"smooth", block:"center"}); g.closest(".goal").style.outline = "2px solid var(--blue)"; setTimeout(function(){ g.closest(".goal").style.outline = ""; }, 2500); } });
   // ---------- Bring in children from a private link (#add=…): nothing in the link reaches our server ----------
