@@ -1,5 +1,5 @@
 <!doctype html>
-<!-- LearnbyYear v14 -->
+<!-- LearnbyYear v15 -->
 <html lang="en-GB">
 <head>
 <meta charset="utf-8">
@@ -329,7 +329,7 @@ h2.sec{font-size:1.4rem;margin:6px 0 12px}
       <p>All subjects and all years, the US standards, each year's version kept so your plans don't change by surprise, and building a child's own plan with Claude or ChatGPT.</p></div>
   </section>
 
-  <p class="foot">Ticks stay on this device – or sign in to keep them in your account. England curriculum text © Crown copyright, used under the Open Government Licence v3.0. Common Core State Standards © 2010 NGA Center and CCSSO. <span class="ver">v14</span></p>
+  <p class="foot">Ticks stay on this device – or sign in to keep them in your account. England curriculum text © Crown copyright, used under the Open Government Licence v3.0. Common Core State Standards © 2010 NGA Center and CCSSO. <span class="ver">v15</span></p>
 </div>
 
 <div id="acct" hidden role="dialog" aria-modal="true" aria-labelledby="acTitle"><div class="acbox"><button class="acx" id="acX" type="button" aria-label="Close">×</button>
@@ -417,13 +417,16 @@ var DATA = {"maths-y3": [{"strand": "Number – number and place value", "items"
     $("meta").innerHTML = '<span><b>' + (ch ? esc(ch.name) + '</b> · ' + esc(k.name) : esc(k.name) + '</b> · ' + esc(k.year)) + ' ' + subjName(UI.subj) + '</span><span class="bar" role="img" aria-label="' + pct + '% covered"><i style="width:' + pct + '%"></i></span><span>' + done + ' of ' + total + ' covered' + (ch ? '<button type="button" class="editkid" data-editkid="' + ch.id + '">edit</button>' : '') + '</span>'; }
   // 📝 Practice: five ready-made questions or things to try for each goal (questions.json, loaded the first time it's needed)
   var QOPEN = null, QS = null;
-  function qPanel(id){ if(!QS) return '<div class="qp"><p>Loading…</p></div>'; var q = QS[id] || QS[id.replace(/^y4:en:/, "y3:en:").replace(/^y6:en:/, "y5:en:")]; if(!q) return '<div class="qp"><p>Ready-made questions for this one are coming soon. Meanwhile, tap ✨ Ask your AI for practice questions.</p></div>';
+  function qPanel(id){ if(!QS || (/^(k|g\d):/.test(id) && QLOAD["questions-us.json"] !== 2) || (!/^(k|g\d):/.test(id) && QLOAD["questions.json"] !== 2)) return '<div class="qp"><p>Loading…</p></div>'; var q = QS[id] || QS[id.replace(/^y4:en:/, "y3:en:").replace(/^y6:en:/, "y5:en:")]; if(!q) return '<div class="qp"><p>Ready-made questions for this one are coming soon. Meanwhile, tap ✨ Ask your AI for practice questions.</p></div>';
     return '<div class="qp"><p>' + (q.t === "q" ? "Ask these out loud. Tap “answer” to check." : "Things to try together – a few minutes each.") + '</p><ol>'
       + q.items.map(function(x){ return q.t === "q" ? '<li>' + esc(x[0]) + '<details><summary>answer</summary><span class="ans">' + esc(x[1]) + '</span></details></li>' : '<li>' + esc(x) + '</li>'; }).join("")
       + '</ol><p class="more">Want more? Tap ✨ Ask your AI.</p></div>'; }
   document.addEventListener("click", function(e){ var b = e.target.closest("[data-q]"); if(!b) return;
     QOPEN = QOPEN === b.dataset.q ? null : b.dataset.q; AIOPEN = null; drawSheets();
-    if(QOPEN && !QS) fetch("questions.json").then(function(r){ return r.json(); }).then(function(d){ QS = d; drawSheets(); }, function(){ QS = {}; drawSheets(); }); });
+    if(QOPEN) loadQs(/^(k|g\d):/.test(QOPEN) ? "questions-us.json" : "questions.json"); });
+  var QLOAD = {};   // England and US questions are separate files, each loaded the first time it's needed
+  function loadQs(file){ if(QLOAD[file]){ if(QS) drawSheets(); return; } QLOAD[file] = 1; QS = QS || null;
+    fetch(file).then(function(r){ return r.json(); }).then(function(d){ QS = QS || {}; Object.keys(d).forEach(function(k){ QS[k] = d[k]; }); QLOAD[file] = 2; drawSheets(); }, function(){ QLOAD[file] = 0; QS = QS || {}; drawSheets(); }); }
   // ✨ Ask your AI: prompts built from the goal, the year and the age, opened in the parent's own Claude or ChatGPT
   var AIOPEN = null;
   function aiPrompts(k, it){ var g = cap(it.t).replace(/[.:;]+$/, "") + (it.sub ? " (" + it.sub.join("; ").replace(/[.;]+$/, "") + ")" : ""),
