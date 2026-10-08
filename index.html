@@ -1,5 +1,5 @@
 <!doctype html>
-<!-- LearnbyYear v21 -->
+<!-- LearnbyYear v22 -->
 <html lang="en-GB">
 <head>
 <meta charset="utf-8">
@@ -138,6 +138,18 @@ h2.sec{font-size:1.4rem;margin:6px 0 12px}
 /* My children: each child gets their own plan from their year's curriculum */
 .who{grid-template-columns:repeat(auto-fill,minmax(150px,1fr))}
 .who button.add{border-style:dashed;color:var(--blue);place-content:center;font-weight:600}
+/* My family: one card per child – homework waiting, how English and maths are going, and the school week */
+.who.fam{grid-template-columns:repeat(auto-fill,minmax(160px,1fr))}
+.who.fam button[data-child]{gap:5px;padding:14px}
+.who.fam .fc-hw{font-size:.86rem;font-weight:700;color:var(--ink)}
+.who.fam .fc-hw.none{font-weight:400;color:var(--soft)}
+.who.fam .fc-tags{display:grid;gap:2px}
+.who.fam .fc-tags span{font-size:.8rem;color:var(--soft)}
+.who.fam .fc-tags span::before{content:"";display:inline-block;width:8px;height:8px;border-radius:50%;margin-right:6px;background:var(--rule);vertical-align:1px}
+.who.fam .fc-tags .on::before{background:var(--done)}
+.who.fam .fc-tags .ahead::before{background:var(--blue)}
+.who.fam .fc-tags .catch::before{background:#e8a92a}
+#ccsw[hidden]{display:none}
 .wholinks{display:flex;justify-content:flex-end;gap:14px;margin:-8px 0 12px;font-size:.88rem}
 .wholinks button{background:none;border:0;color:var(--blue);text-decoration:underline;cursor:pointer;font:inherit;padding:0}
 .kidform{background:var(--sheet);border:1.5px solid var(--rule);border-radius:14px;padding:14px;margin:0 0 16px}
@@ -393,7 +405,7 @@ h2.sec{font-size:1.4rem;margin:6px 0 12px}
       <p>All subjects and all years, the US standards, each year's version kept so your plans don't change by surprise, and building a child's own plan with Claude or ChatGPT.</p></div>
   </section>
 
-  <p class="foot">Ticks stay on this device – or sign in to keep them in your account. England curriculum text © Crown copyright, used under the Open Government Licence v3.0. Common Core State Standards © 2010 NGA Center and CCSSO. <button type="button" class="fbfoot" id="fbFoot">Feedback</button> · <span class="ver">v21</span></p>
+  <p class="foot">Ticks stay on this device – or sign in to keep them in your account. England curriculum text © Crown copyright, used under the Open Government Licence v3.0. Common Core State Standards © 2010 NGA Center and CCSSO. <button type="button" class="fbfoot" id="fbFoot">Feedback</button> · <span class="ver">v22</span></p>
 </div>
 
 <div id="acct" hidden role="dialog" aria-modal="true" aria-labelledby="acTitle"><div class="acbox"><button class="acx" id="acX" type="button" aria-label="Close">×</button>
@@ -456,7 +468,8 @@ var DATA = {"maths-y3": [{"strand": "Number – number and place value", "items"
   function drawWho(){ if(UI.child && !child()) UI.child = "";
     document.querySelectorAll("#ccsw [data-cc]").forEach(function(b){ b.setAttribute("aria-pressed", String(b.dataset.cc === UI.cc)); }); $("ccsw").hidden = !!UI.child;
     var mine = !!UI.child || (C.kids.length && UI.child !== null && UI.kid === "");
-    if(UI.child) $("who").innerHTML = C.kids.map(function(c){ var y = KIDS.filter(function(k){ return k.id === c.y; })[0] || {}; return '<button type="button" data-child="' + c.id + '" aria-pressed="' + (c.id === UI.child) + '"><b>' + esc(c.name) + '</b><small>' + esc(y.name || "") + ' · ' + covered(c) + '% covered</small></button>'; }).join("") + '<button type="button" class="add" data-addkid="1">+ Add a child</button>';
+    $("who").classList.toggle("fam", !!UI.child);
+    if(UI.child) $("who").innerHTML = C.kids.map(famCard).join("") + '<button type="button" class="add" data-addkid="1">+ Add a child</button>';
     else $("who").innerHTML = KIDS.filter(function(k){ return (k.cc || "uk") === UI.cc; }).map(function(k){ return '<button type="button" data-kid="' + k.id + '" aria-pressed="' + (k.id === UI.kid) + '"><b>' + esc(k.name) + '</b><small>' + esc(k.year) + ' · ' + esc(k.stage) + '</small></button>'; }).join("") + (C.kids.length ? "" : '<button type="button" class="add" data-addkid="1">+ Add your child</button>');
     $("wholinks").innerHTML = UI.child ? '<button type="button" data-browse="1">Browse any year</button>' : (C.kids.length ? '<button type="button" data-mine="1">← My children</button>' : "");
     drawKidForm();
@@ -567,6 +580,12 @@ var DATA = {"maths-y3": [{"strand": "Number – number and place value", "items"
       if(x.s === "working") wk.push({id:id, sj:sj, t:it.t, n:x.n}); if(x.s === "ahead") ah.push({id:id, sj:sj, t:it.t, n:x.n}); }); });
     var two = sj === "en" && /^y[3-6]$/.test(y.id), second = two && (y.id === "y4" || y.id === "y6"), exp = Math.round(n * (two ? (second ? .5 : 0) + yearFrac() * .5 : yearFrac()));
     return {n:n, got:got, exp:exp, wk:wk, ah:ah, two:two}; }
+  function famCard(c){ var y = KIDS.filter(function(k){ return k.id === c.y; })[0] || {}, hw = hwOpen(c).length, wkn = (y.cc === "us" ? usWeek() : schoolWeek()).w;
+    var tag = function(sj){ var r = subjStats(c, sj); if(!r.n) return ""; if(!r.got && !r.wk.length && !r.ah.length) return '<span>' + (sj === "en" ? "English" : y.cc === "us" ? "Math" : "Maths") + ': not ticked yet</span>'; var cls = r.got >= r.exp + Math.max(2, Math.round(r.n * .1)) ? "ahead" : r.got >= r.exp - 2 ? "on" : "catch";
+      return '<span class="' + cls + '">' + (sj === "en" ? "English" : y.cc === "us" ? "Math" : "Maths") + ': ' + {ahead:"ahead", on:"on track", catch:"help needed"}[cls] + '</span>'; };
+    return '<button type="button" data-child="' + c.id + '" aria-pressed="' + (c.id === UI.child) + '"><b>' + esc(c.name) + '</b><small>' + esc(y.name || "") + ' · Week ' + wkn + '</small>'
+      + '<span class="fc-hw' + (hw ? "" : " none") + '">' + (hw ? "📝 " + hw + (hw === 1 ? " task" : " tasks") + " from school" : "No homework waiting") + '</span>'
+      + '<span class="fc-tags">' + tag("en") + tag("ma") + '</span></button>'; }
   function short(t){ t = cap(t).replace(/[.:;]+$/, ""); return t.length > 90 ? t.slice(0, 88).replace(/\s+\S*$/, "") + "…" : t; }
   function drawKidSum(){ var el = $("kidsum"), c = child(); if(!c || KF){ el.hidden = true; el.innerHTML = ""; return; } el.hidden = false;
     var y = kid(), h = '<h3>' + esc(c.name) + ' · ' + esc(y.name) + '</h3>' + (c.about ? '<p class="about">' + esc(c.about) + '</p>' : '') + hwHTML(c);
