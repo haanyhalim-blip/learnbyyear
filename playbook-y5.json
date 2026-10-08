@@ -1,0 +1,1986 @@
+{
+ "year": "y5",
+ "weeks": [
+  {
+   "w": 1,
+   "term": "Autumn 1",
+   "title": "Place value to a million",
+   "ma": [
+    "y5:ma:0:0"
+   ],
+   "en": [
+    "y5:en:1:0",
+    "y5:en:1:1",
+    "y5:en:3:0",
+    "y5:en:5:2",
+    "y5:en:2:0"
+   ],
+   "spell": {
+    "rule": "verb prefixes dis-, mis-, re-, de-, over- (disagree, misbehave, reappear, defrost, overflow)",
+    "words": [
+     "develop"
+    ]
+   },
+   "read": "a longer novel of the child's choice from the library, to read through the half term",
+   "days": [
+    {
+     "d": "Mon",
+     "ma": "Write digit cards 0–9 on paper scraps; pick six to make a number such as 482,615. Read it aloud, then say the value of every digit (the 8 is worth 80,000).",
+     "en": "Choose a library novel for this half term and start a reading journal: write the title, your first impressions after ten pages and one question you want answered."
+    },
+    {
+     "d": "Tue",
+     "ma": "Use the same six cards to make the largest and smallest possible numbers, then write both in words, e.g. nine hundred and seventy-five thousand, four hundred and twenty-one.",
+     "en": "Read aloud for 10 minutes, then find and label one noun, verb, adjective, adverb, preposition and determiner on a single page of your book."
+    },
+    {
+     "d": "Wed",
+     "ma": "Order these smallest to largest: 305,412; 350,142; 35,421; 305,241; 530,124. Then write three comparisons using < and >.",
+     "en": "Handwriting: copy two sentences from your book in joined writing, then again a little faster. Circle your neatest joins and decide which letters (e.g. after g, j, y) you prefer not to join."
+    },
+    {
+     "d": "Thu",
+     "ma": "Partition 704,096 in three different ways, e.g. 700,000 + 4,000 + 96 and 704 thousands + 96 ones. Explain what each zero is doing.",
+     "en": "Add dis-, mis-, re-, de- and over- to appear, behave, build, frost and sleep. Write a sentence for each new verb and explain how the prefix changed the meaning."
+    },
+    {
+     "d": "Fri",
+     "ma": "Quick check: write one million in digits; give the value of the 6 in 368,210; order 99,999, 100,001 and 90,999; make the number closest to 500,000 from your digit cards.",
+     "en": "Quick check: tell a parent what has happened in your book so far in five sentences, label the word classes in 'The tired dog slept quietly under the table', and spell this week's words."
+    }
+   ]
+  },
+  {
+   "w": 2,
+   "term": "Autumn 1",
+   "title": "Counting in powers of 10 and Roman numerals",
+   "ma": [
+    "y5:ma:0:1",
+    "y5:ma:0:5"
+   ],
+   "en": [
+    "y5:en:1:0",
+    "y5:en:1:1",
+    "y5:en:1:2",
+    "y5:en:5:0",
+    "y5:en:4:0",
+    "y5:en:2:0"
+   ],
+   "spell": {
+    "rule": "suffixes that turn nouns and adjectives into verbs: -ate, -ise, -ify (active → activate, apology → apologise, solid → solidify)",
+    "words": [
+     "recognise",
+     "communicate"
+    ]
+   },
+   "read": "a myth or legend from a library collection",
+   "days": [
+    {
+     "d": "Mon",
+     "ma": "Start at 45,260 and count on in 1,000s to 53,260 aloud, then count back in 10,000s from 145,260 to 5,260, writing each number.",
+     "en": "Read a myth or legend. List the hero, the challenge, the magical or supernatural element and the ending, then discuss what lesson the story teaches."
+    },
+    {
+     "d": "Tue",
+     "ma": "Write 10 more, 100 more, 1,000 more, 10,000 more and 100,000 more than 489,905. Circle any place where several digits change at once.",
+     "en": "Find three descriptions of a creature or hero in the myth. Turn a plain phrase into an expanded noun phrase: 'the dragon' → 'the ancient, smoke-breathing dragon with scales like rusted armour'."
+    },
+    {
+     "d": "Wed",
+     "ma": "Learn I, V, X, L, C, D and M. Write 1–20 in Roman numerals, then 40 (XL), 90 (XC), 400 (CD) and 900 (CM).",
+     "en": "Inference: choose a moment when a character makes a big choice. Write what they feel and why, quoting a phrase from the text as evidence."
+    },
+    {
+     "d": "Thu",
+     "ma": "Roman years: decode MCMLXXXV, MMXXIV and MDCLXVI, then write the year you were born and this year in Roman numerals.",
+     "en": "Plan your own myth on a story mountain: a hero, a creature, a quest and a lesson. Note which features you are borrowing from the myth you read."
+    },
+    {
+     "d": "Fri",
+     "ma": "Quick check: count back in 100s from 2,350 to 1,750; what is 100,000 less than 612,004; convert CDXLIV to digits and 1999 to Roman numerals.",
+     "en": "Quick check: retell the myth in 60 words or fewer, turn 'apology', 'solid' and 'active' into verbs, and spell this week's words."
+    }
+   ]
+  },
+  {
+   "w": 3,
+   "term": "Autumn 1",
+   "title": "Negative numbers and rounding",
+   "ma": [
+    "y5:ma:0:2",
+    "y5:ma:0:3"
+   ],
+   "en": [
+    "y5:en:4:1",
+    "y5:en:5:0",
+    "y5:en:4:2",
+    "y5:en:2:4",
+    "y5:en:4:0"
+   ],
+   "spell": {
+    "rule": "words ending -cious and -tious (vicious, delicious, ambitious, cautious)",
+    "words": [
+     "marvellous"
+    ]
+   },
+   "read": "more myths and legends, comparing heroes across stories",
+   "days": [
+    {
+     "d": "Mon",
+     "ma": "Draw a number line from −20 to 20 on a long strip of paper. Count back in 3s from 12 to −9 and forward in 5s from −25 to 15.",
+     "en": "Write the opening paragraph of your myth, describing the setting with at least three senses."
+    },
+    {
+     "d": "Tue",
+     "ma": "The freezer is −18 °C and the kitchen is 21 °C: what is the difference? Make up four more temperature pairs that cross zero and find each difference.",
+     "en": "Relative clauses: write five sentences about your myth using who, which, where, when or whose, e.g. 'The cave, which smelt of smoke, was silent.'"
+    },
+    {
+     "d": "Wed",
+     "ma": "Round 346,782 to the nearest 10, 100, 1,000, 10,000 and 100,000. Set the answers out in a table and say which rounding changes the most digits.",
+     "en": "Write the middle of your myth where the hero meets the creature. Include a short conversation, punctuated correctly, that shows what each character is like."
+    },
+    {
+     "d": "Thu",
+     "ma": "Find big numbers in a newspaper or reference book (town populations, distances, crowd sizes). Round each to the nearest 1,000 and 10,000 and decide which is most sensible to tell a friend.",
+     "en": "Write the ending, then read the whole myth aloud. Underline two words to improve and check any spelling you are unsure of in a dictionary."
+    },
+    {
+     "d": "Fri",
+     "ma": "Quick check: order −7, 3, −12, 0, −1; find the difference between −6 °C and 9 °C; round 85,549 to the nearest 1,000 and 10,000; give a number that rounds to 400,000.",
+     "en": "Quick check: share your finished myth with the family, point out three relative clauses you used, and spell this week's words from dictation."
+    }
+   ]
+  },
+  {
+   "w": 4,
+   "term": "Autumn 1",
+   "title": "Number puzzles and problems",
+   "ma": [
+    "y5:ma:0:3",
+    "y5:ma:0:4",
+    "y5:ma:0:0",
+    "y5:ma:0:2"
+   ],
+   "en": [
+    "y5:en:1:3",
+    "y5:en:1:4",
+    "y5:en:5:1",
+    "y5:en:4:0"
+   ],
+   "spell": {
+    "rule": "words ending -cial and -tial (official, special, partial, essential)",
+    "words": [
+     "especially"
+    ]
+   },
+   "read": "a news article written for children (printed or online)",
+   "days": [
+    {
+     "d": "Mon",
+     "ma": "Puzzle: I am a 6-digit even number; I round to 250,000 to the nearest 10,000 and my digits add to 12. Find two possible numbers, then write a puzzle for a parent.",
+     "en": "Read a news article for children. Mark who, what, where, when and why with five different symbols or colours."
+    },
+    {
+     "d": "Tue",
+     "ma": "Find the population of your town or a nearby city in a reference book or online. Write it in words, round it to the nearest 100,000 and compare it with another place.",
+     "en": "Fact or opinion: sort ten sentences from the article into facts you could check and opinions someone believes. Look for clue words such as 'should', 'best' and 'I think'."
+    },
+    {
+     "d": "Wed",
+     "ma": "A stadium holds 52,305 people. 10,000 seats are added, then 1,000 removed. How many now? Show how the digits change on a place value grid.",
+     "en": "Parenthesis: add extra information with brackets, dashes or commas, e.g. 'The mayor (who arrived late) cut the ribbon.' Write two sentences with each."
+    },
+    {
+     "d": "Thu",
+     "ma": "Negative number problems: a lift at floor 4 goes down 7 floors; it was −3 °C at midnight and rose 11 degrees by noon. Solve these, then write and solve three of your own.",
+     "en": "Plan a news report about a real family or neighbourhood event: headline, a who-what-where-when opening, details, a quote and a closing line."
+    },
+    {
+     "d": "Fri",
+     "ma": "Quick check: round 709,512 to the nearest 100,000; 10,000 less than 203,450; −4 + 9; write 560,070 in words; is 49,999 nearer 40,000 or 50,000?",
+     "en": "Quick check: label five new sentences as fact or opinion, add parenthesis to 'My sister ate the last biscuit', and spell this week's words."
+    }
+   ]
+  },
+  {
+   "w": 5,
+   "term": "Autumn 1",
+   "title": "Adding and subtracting large numbers",
+   "ma": [
+    "y5:ma:1:0",
+    "y5:ma:1:1"
+   ],
+   "en": [
+    "y5:en:4:1",
+    "y5:en:4:2",
+    "y5:en:4:3",
+    "y5:en:5:1",
+    "y5:en:2:5"
+   ],
+   "spell": {
+    "rule": "words ending -ant, -ance, -ancy (observant, observance, hesitancy, tolerance)",
+    "words": [
+     "restaurant",
+     "hindrance"
+    ]
+   },
+   "read": "news reports and the front page of a local paper",
+   "days": [
+    {
+     "d": "Mon",
+     "ma": "Column addition: 45,678 + 23,594 and 127,309 + 68,795. Say each carried digit aloud as you go.",
+     "en": "Write a catchy headline and the opening paragraph of your news report, answering who, what, where and when in two sentences."
+    },
+    {
+     "d": "Tue",
+     "ma": "Column subtraction with exchanging: 82,403 − 37,658 and 100,000 − 46,275. Check each answer by adding it to the number you subtracted.",
+     "en": "Write the main body in two paragraphs linked by phrases such as 'Later that afternoon', 'Meanwhile' or 'As a result'."
+    },
+    {
+     "d": "Wed",
+     "ma": "Mental methods: 34,000 + 27,000; 6,450 − 1,999 (take 2,000, add 1); 72,500 + 8,600. Explain your method for each.",
+     "en": "Add a quote from an eyewitness in inverted commas, a subheading, and a caption for an imagined photo."
+    },
+    {
+     "d": "Thu",
+     "ma": "Holiday budget: with £3,000 to spend, add made-up costs (flights £1,248, hotel £975, trips £386) in columns and find how much is left.",
+     "en": "Proof-read using a dictionary: look up any doubtful word by its first three or four letters, and check every verb stays in the past tense."
+    },
+    {
+     "d": "Fri",
+     "ma": "Quick check: 56,382 + 29,749; 70,015 − 38,467; 9,000 − 3,250 mentally; find the missing digit in 4_,312 + 21,456 = 67,768.",
+     "en": "Quick check: read your report aloud like a newsreader, then point to one example of parenthesis and one linking phrase; spell this week's words."
+    }
+   ]
+  },
+  {
+   "w": 6,
+   "term": "Autumn 1",
+   "title": "Estimating and multi-step problems",
+   "ma": [
+    "y5:ma:1:1",
+    "y5:ma:1:2",
+    "y5:ma:1:3"
+   ],
+   "en": [
+    "y5:en:1:0",
+    "y5:en:1:2",
+    "y5:en:4:4",
+    "y5:en:0:0"
+   ],
+   "spell": {
+    "rule": "words ending -ent, -ence, -ency (innocent, innocence, frequency, confident)",
+    "words": [
+     "existence"
+    ]
+   },
+   "read": "poems with vivid imagery, e.g. weather or nature poems",
+   "days": [
+    {
+     "d": "Mon",
+     "ma": "Round to the nearest 1,000 to estimate 38,912 + 21,207 and 75,003 − 48,699, then calculate. How close was each estimate?",
+     "en": "Read three poems aloud from a poetry anthology. Choose a favourite and give two reasons for your choice."
+    },
+    {
+     "d": "Tue",
+     "ma": "Spot the mistake: a parent writes 24,615 + 18,390 = 52,005 and two correct sums. Use rounding to find the wrong one without working them all out.",
+     "en": "Figurative language hunt: find a simile, a metaphor and an example of personification. Explain what picture each puts in your head."
+    },
+    {
+     "d": "Wed",
+     "ma": "A school raised £2,345 at a fair and £1,870 at a concert, then spent £3,199 on books. How much is left? Draw a bar model first.",
+     "en": "Split two unfamiliar words from the poems into prefix, root and suffix (e.g. un-predict-able) and work out their meaning before checking."
+    },
+    {
+     "d": "Thu",
+     "ma": "Write your own two-step word problem using numbers from home (steps walked in a week, pages read this month). Swap with a parent and solve each other's.",
+     "en": "Start learning a short poem (8–12 lines) by heart: read it aloud three times, then cover one line at a time and recite."
+    },
+    {
+     "d": "Fri",
+     "ma": "Quick check: 8,400 + 5,700 mentally; estimate then calculate 61,248 − 29,875; a library had 14,506 books, gave away 2,380 and bought 1,145 – how many now?",
+     "en": "Quick check: perform your poem using pace, volume and pauses, then name one simile or metaphor and its effect; spell this week's words."
+    }
+   ]
+  },
+  {
+   "w": 7,
+   "term": "Autumn 1",
+   "title": "Consolidation: number and calculation",
+   "ma": [
+    "y5:ma:0:0",
+    "y5:ma:0:2",
+    "y5:ma:0:3",
+    "y5:ma:0:5",
+    "y5:ma:1:0",
+    "y5:ma:1:3"
+   ],
+   "en": [
+    "y5:en:4:2",
+    "y5:en:4:3",
+    "y5:en:1:5",
+    "y5:en:5:2",
+    "y5:en:1:0"
+   ],
+   "spell": {
+    "rule": "review: this half term's prefixes and suffixes (-ate, -ise, -ify, -cious, -tial, -ance, -ence)",
+    "words": [
+     "excellent"
+    ]
+   },
+   "read": "finish the half-term novel and write a short recommendation",
+   "days": [
+    {
+     "d": "Mon",
+     "ma": "Draw six digit slips to build a number; read it, write it in words and round it to the nearest 1,000, 10,000 and 100,000. Repeat three times.",
+     "en": "Choose your best piece from this half term (myth or news report). Re-read it and use a coloured pen to improve three word choices."
+    },
+    {
+     "d": "Tue",
+     "ma": "Convert MMXV and CCCXC; find the difference between −14 °C and 6 °C; count back in 4s from 10 to −14.",
+     "en": "Find and label in your own writing a relative clause, an expanded noun phrase, parenthesis and a word with a prefix."
+    },
+    {
+     "d": "Wed",
+     "ma": "Column methods: 147,836 + 52,479 and 300,402 − 156,875. Check each with the inverse operation.",
+     "en": "Proof-read a paragraph a parent writes with ten deliberate mistakes (spellings, capital letters, commas, tense). Can you find them all?"
+    },
+    {
+     "d": "Thu",
+     "ma": "A charity needs £50,000. It raised £18,765 in spring and £23,490 in summer. How much more does it need? Use rounding to check your answer.",
+     "en": "Book talk: discuss your novel with a parent for 10 minutes. Each of you must build on the other's point ('Yes, and also…') or politely disagree."
+    },
+    {
+     "d": "Fri",
+     "ma": "Half-term check: write 406,060 in words; round 671,500 to the nearest 10,000; −8 + 15; 64,709 + 28,856; 90,000 − 43,618; MCMXC in digits. Mark together and note one thing to revisit.",
+     "en": "Quick check: write a five-sentence recommendation of your book for a friend, with reasons, and take a test on the half term's spelling words."
+    }
+   ]
+  },
+  {
+   "w": 8,
+   "term": "Autumn 2",
+   "title": "Multiples and factors",
+   "ma": [
+    "y5:ma:2:0"
+   ],
+   "en": [
+    "y5:en:1:1",
+    "y5:en:1:0",
+    "y5:en:0:0",
+    "y5:en:2:4",
+    "y5:en:2:5"
+   ],
+   "spell": {
+    "rule": "-able and -ible (adorable, possible, reliable, sensible)",
+    "words": [
+     "available"
+    ]
+   },
+   "read": "an extract from a classic story written over a hundred years ago",
+   "days": [
+    {
+     "d": "Mon",
+     "ma": "Arrange 36 pieces of dried pasta into rectangles to find every factor pair: 1 × 36, 2 × 18, 3 × 12, 4 × 9, 6 × 6.",
+     "en": "Read an extract from a classic story written over a hundred years ago. List words and phrases that sound old-fashioned."
+    },
+    {
+     "d": "Tue",
+     "ma": "List all the factors of 24 and of 40 and circle the common factors. Which is the highest common factor?",
+     "en": "Dictionary detectives: look up five unfamiliar words from the extract using their first three or four letters, and write each meaning in modern English."
+    },
+    {
+     "d": "Wed",
+     "ma": "List the first ten multiples of 6 and of 8. Which numbers appear in both lists? What is the smallest?",
+     "en": "Word roots: find word families (sign, signal, signature; act, action, react) and use known roots to guess new words in the extract."
+    },
+    {
+     "d": "Thu",
+     "ma": "Factor detective: which number under 50 has the most factors? Test 24, 36 and 48 and justify your answer.",
+     "en": "Summarise the extract in three sentences, one per main event, then write two questions you would like answered by reading on."
+    },
+    {
+     "d": "Fri",
+     "ma": "Quick check: all factor pairs of 60; common factors of 18 and 27; a common multiple of 4 and 5; true or false: 7 is a factor of 84.",
+     "en": "Quick check: rewrite two old-fashioned sentences in modern English, find three words in a dictionary against the clock, and spell this week's words."
+    }
+   ]
+  },
+  {
+   "w": 9,
+   "term": "Autumn 2",
+   "title": "Primes, squares and cubes",
+   "ma": [
+    "y5:ma:2:1",
+    "y5:ma:2:2",
+    "y5:ma:2:7"
+   ],
+   "en": [
+    "y5:en:1:3",
+    "y5:en:1:7",
+    "y5:en:5:0",
+    "y5:en:4:0"
+   ],
+   "spell": {
+    "rule": "-ably and -ibly (considerably, comfortably, horribly, sensibly)",
+    "words": [
+     "guarantee"
+    ]
+   },
+   "read": "persuasive leaflets, adverts and letters found around the house",
+   "days": [
+    {
+     "d": "Mon",
+     "ma": "With pasta pieces, try to make rectangles of 2, 3, 5, 7, 11 and 13 (only one row works – these are prime), then 4, 6, 9 and 12 (composite).",
+     "en": "Collect two leaflets or adverts. Find the persuasive tricks: questions to the reader, exaggeration, 'you' language, and facts mixed with opinions."
+    },
+    {
+     "d": "Tue",
+     "ma": "Write 1–100 in a 10 × 10 grid. Cross out multiples of 2, 3, 5 and 7 (but not those numbers themselves); circle the primes left and learn those up to 19.",
+     "en": "Modal verbs and adverbs: rewrite 'You will love it' to show different levels of certainty using might, could, should, must, perhaps and definitely."
+    },
+    {
+     "d": "Wed",
+     "ma": "Build squares from coins: 1², 2², 3², 4², 5². Write the squares up to 12² and spot the pattern in the differences (3, 5, 7…).",
+     "en": "Plan a persuasive letter to the family: why we should have a weekly games night. Note three reasons, each backed by evidence."
+    },
+    {
+     "d": "Thu",
+     "ma": "Stack sugar cubes, dice or building bricks into 2 × 2 × 2 and 3 × 3 × 3 cubes. Write 1³ to 5³ (1, 8, 27, 64, 125). What is 10³?",
+     "en": "Write the letter in four paragraphs, using a modal verb in each and answering one objection ('Some might say… however…')."
+    },
+    {
+     "d": "Fri",
+     "ma": "Quick check: is 51 prime? (try 3); list the primes up to 19; 7²; 4³; write 30 as a product of prime factors.",
+     "en": "Quick check: read your letter aloud persuasively and let the family vote, then label five sentences fact or opinion; spell this week's words."
+    }
+   ]
+  },
+  {
+   "w": 10,
+   "term": "Autumn 2",
+   "title": "Mental multiplication and dividing by 10, 100, 1,000",
+   "ma": [
+    "y5:ma:2:4",
+    "y5:ma:2:6"
+   ],
+   "en": [
+    "y5:en:1:5",
+    "y5:en:1:6",
+    "y5:en:1:7",
+    "y5:en:4:1"
+   ],
+   "spell": {
+    "rule": "adding suffixes to words ending in -fer (referring, referred, reference, preferred, transferring)",
+    "words": [
+     "occur",
+     "interrupt"
+    ]
+   },
+   "read": "a novel suitable for a family debate about a character's choices",
+   "days": [
+    {
+     "d": "Mon",
+     "ma": "If 7 × 8 = 56, what are 70 × 8, 7 × 800, 560 ÷ 8 and 5,600 ÷ 70? Make a fact web for 6 × 9 in the same way.",
+     "en": "Choose a debate question about a book, e.g. 'Was the main character right to break the rules?' Write three reasons for and three against."
+    },
+    {
+     "d": "Tue",
+     "ma": "Draw a place value chart from thousands to thousandths. Show the digits moving for 34 × 10, 34 × 100, 34 × 1,000, 4.5 × 100 and 260 ÷ 1,000.",
+     "en": "Find two quotations from the book that support your side. Practise 'I think… because… for example, on page…'."
+    },
+    {
+     "d": "Wed",
+     "ma": "Mental strategies: 25 × 16 (double and halve), 99 × 6 (100 × 6 − 6), 15 × 12 (15 × 10 + 15 × 2). Explain each method aloud.",
+     "en": "Hold a 10-minute family debate: each person speaks for one minute from notes and replies courteously ('I see your point, but…')."
+    },
+    {
+     "d": "Thu",
+     "ma": "A recipe uses 0.25 kg of flour per batch: how much for 10 and 100 batches? A 2 litre bottle is shared into 10 and then 100 equal cups: how much in each?",
+     "en": "Write a short discussion text: introduction, arguments for, arguments against and your conclusion, using 'On the other hand' and 'Furthermore'."
+    },
+    {
+     "d": "Fri",
+     "ma": "Quick check: 4.7 × 100; 3,600 ÷ 100; 0.08 × 1,000; 12 × 25 mentally; 480 ÷ 6; correct this mistake: 3.5 × 10 = 3.50.",
+     "en": "Quick check: give a one-minute talk from notes about your current book, with two reasons and one piece of evidence; spell this week's words."
+    }
+   ]
+  },
+  {
+   "w": 11,
+   "term": "Autumn 2",
+   "title": "Written multiplication",
+   "ma": [
+    "y5:ma:2:3"
+   ],
+   "en": [
+    "y5:en:1:4",
+    "y5:en:4:1",
+    "y5:en:5:1",
+    "y5:en:3:0"
+   ],
+   "spell": {
+    "rule": "hyphens after a prefix when two vowels meet (co-ordinate, re-enter, co-operate, co-own)",
+    "words": [
+     "committee"
+    ]
+   },
+   "read": "instructions and explanations: recipes, game rules, how-to guides",
+   "days": [
+    {
+     "d": "Mon",
+     "ma": "Short multiplication: 2,347 × 6 and 4,058 × 7 in columns. Estimate first (2,000 × 6) to check the size of the answer.",
+     "en": "Read a recipe or game rules. List the features: title, a 'You will need:' list, numbered steps, bossy (imperative) verbs and time words."
+    },
+    {
+     "d": "Tue",
+     "ma": "Work out 36 × 24 with a grid first, then with formal long multiplication (36 × 4 plus 36 × 20). Compare the two.",
+     "en": "Write a 'You will need:' list for making a sandwich, introducing it with a colon and punctuating the bullet points consistently."
+    },
+    {
+     "d": "Wed",
+     "ma": "Long multiplication: 147 × 32 and 253 × 46. Check with an estimate such as 150 × 30 = 4,500.",
+     "en": "Write instructions for a game or simple recipe you know, with a title, headings, numbered steps and a 'top tip' box."
+    },
+    {
+     "d": "Thu",
+     "ma": "A school orders 28 boxes of 144 pencils; a hall has 36 rows of 24 chairs. Solve both with long multiplication.",
+     "en": "Make a final copy on card: print the title clearly and use joined handwriting for the steps; choose a pen or pencil and explain why."
+    },
+    {
+     "d": "Fri",
+     "ma": "Quick check: 3,219 × 8; 64 × 37; 1,205 × 13; find the error in a worked example where the zero placeholder was forgotten.",
+     "en": "Quick check: a parent follows your instructions exactly – note where they get stuck and add one clearer step; spell this week's words."
+    }
+   ]
+  },
+  {
+   "w": 12,
+   "term": "Autumn 2",
+   "title": "Short division and remainders",
+   "ma": [
+    "y5:ma:2:5"
+   ],
+   "en": [
+    "y5:en:4:1",
+    "y5:en:1:2",
+    "y5:en:2:6",
+    "y5:en:5:0",
+    "y5:en:4:0"
+   ],
+   "spell": {
+    "rule": "ei after c and the ee sound (receive, ceiling, deceive) plus exceptions (protein, seize)",
+    "words": [
+     "leisure",
+     "foreign"
+    ]
+   },
+   "read": "a story with a strongly described, atmospheric setting",
+   "days": [
+    {
+     "d": "Mon",
+     "ma": "Share 96 pasta pieces into 4 equal groups, then write it as short division: 96 ÷ 4 = 24. Repeat with 156 ÷ 6.",
+     "en": "Read a descriptive passage from your book. Collect words and phrases that build atmosphere and sort them by sense."
+    },
+    {
+     "d": "Tue",
+     "ma": "Short division: 4,536 ÷ 7 and 2,913 ÷ 3. Check each by multiplying back.",
+     "en": "Use a thesaurus to find three sharper words each for 'cold', 'dark', 'quiet' and 'walked'; discuss the small differences in meaning."
+    },
+    {
+     "d": "Wed",
+     "ma": "1,247 ÷ 5 = 249 r 2. Write the remainder as a remainder and as a fraction (249 2/5). Do the same for 863 ÷ 4.",
+     "en": "Look out of a window at dusk; write a paragraph with expanded noun phrases and one piece of personification."
+    },
+    {
+     "d": "Thu",
+     "ma": "Remainders in real life: 130 pupils, 8 per minibus – how many minibuses? (round up). £50 for £6 tickets – how many tickets? (round down).",
+     "en": "Rewrite your paragraph to change the atmosphere from calm to tense, keeping the same setting. Compare which words you changed."
+    },
+    {
+     "d": "Fri",
+     "ma": "Quick check: 3,456 ÷ 8; 925 ÷ 4 with remainder; 2,000 eggs into boxes of 6 – how many full boxes and how many eggs left over?",
+     "en": "Quick check: read both versions aloud; can a parent tell which is calm and which tense, and which words gave it away? Spell this week's words."
+    }
+   ]
+  },
+  {
+   "w": 13,
+   "term": "Autumn 2",
+   "title": "Solving problems with all four operations",
+   "ma": [
+    "y5:ma:2:8",
+    "y5:ma:2:9"
+   ],
+   "en": [
+    "y5:en:1:0",
+    "y5:en:4:4",
+    "y5:en:4:2",
+    "y5:en:5:2"
+   ],
+   "spell": {
+    "rule": "the letter string ough (ought, bough, rough, cough, though, through, thorough)",
+    "words": [
+     "thorough"
+    ]
+   },
+   "read": "a short playscript",
+   "days": [
+    {
+     "d": "Mon",
+     "ma": "The equals sign means 'has the same value as': solve 45 + ? = 60 − 7; 6 × 8 = 4 × ?; 120 ÷ ? = 3 × 5. Make up three of your own.",
+     "en": "Read a short playscript. List its features: cast list, scene headings, stage directions in brackets and no speech marks."
+    },
+    {
+     "d": "Tue",
+     "ma": "Six friends share 3 pizzas cut into 8 slices each; then 4 more friends arrive. Can the slices still be shared equally? Use factors to explain.",
+     "en": "Turn a page of dialogue from your book into a playscript, adding stage directions with adverbs (angrily, under her breath)."
+    },
+    {
+     "d": "Wed",
+     "ma": "A square patio has an area of 64 m² – how long is each side? A box holds 5³ cubes – how many? Which square number lies between 50 and 60?",
+     "en": "Rehearse your scene with family members, trying different tones and volumes so the meaning is clear."
+    },
+    {
+     "d": "Thu",
+     "ma": "A café sells 148 cups of tea a day at £2 and 96 cakes at £3. What are its takings for a 6-day week? Write the steps before calculating.",
+     "en": "Edit your script after the rehearsal: cut lines that didn't work, add stage directions, and label one verb, adverb and clause."
+    },
+    {
+     "d": "Fri",
+     "ma": "Quick check: buses leave every 12 minutes and trains every 15 from 9:00 – when do both next leave together? 7 × 6 = 50 − ?; 4² + 2³; change from £20 after 3 books at £4.75.",
+     "en": "Quick check: perform the scene for the family, then explain one change you made to the script and why; spell this week's words."
+    }
+   ]
+  },
+  {
+   "w": 14,
+   "term": "Autumn 2",
+   "title": "Consolidation: multiplication and division",
+   "ma": [
+    "y5:ma:2:0",
+    "y5:ma:2:2",
+    "y5:ma:2:3",
+    "y5:ma:2:5",
+    "y5:ma:2:6",
+    "y5:ma:2:9"
+   ],
+   "en": [
+    "y5:en:4:2",
+    "y5:en:4:3",
+    "y5:en:4:4",
+    "y5:en:2:2",
+    "y5:en:2:4"
+   ],
+   "spell": {
+    "rule": "review: -able/-ible, -fer words, hyphenated prefixes, ei and ough",
+    "words": [
+     "necessary"
+    ]
+   },
+   "read": "a winter poem or seasonal story, read aloud",
+   "days": [
+    {
+     "d": "Mon",
+     "ma": "Sort 2, 9, 15, 17, 21, 25, 29, 36, 49 and 51 into primes, square numbers and other composite numbers. Explain 51.",
+     "en": "Pick your best writing from this half term (letter, instructions or description) and improve three words using a thesaurus."
+    },
+    {
+     "d": "Tue",
+     "ma": "Long multiplication: 342 × 24 and 1,506 × 7. Estimate first, then calculate.",
+     "en": "Homophones: write sentences for there/their/they're, where/wear/were and its/it's, then proof-read your chosen piece for them."
+    },
+    {
+     "d": "Wed",
+     "ma": "Short division: 2,748 ÷ 6 and 5,003 ÷ 4. If 5,003 guests sit at tables of 4, how many tables are needed?",
+     "en": "Make a neat final copy of your improved piece in joined handwriting."
+    },
+    {
+     "d": "Thu",
+     "ma": "Powers of 10 relay: a parent calls out 6.3 × 100, 4,200 ÷ 1,000, 0.57 × 10, 80 ÷ 100; you answer and show it on a place value chart.",
+     "en": "Learn a short winter poem by heart (or polish your autumn poem) and rehearse it with expression."
+    },
+    {
+     "d": "Fri",
+     "ma": "Half-term check: factor pairs of 48; is 91 prime?; 6³; 2,435 × 6; 57 × 34; 3,148 ÷ 4; 0.72 × 100; 8 = 64 ÷ ?. Mark together and note one thing to revisit.",
+     "en": "Quick check: perform your poem to the family and take a test on the half term's spelling words."
+    }
+   ]
+  },
+  {
+   "w": 15,
+   "term": "Spring 1",
+   "title": "Equivalent fractions and ordering",
+   "ma": [
+    "y5:ma:3:1",
+    "y5:ma:3:0"
+   ],
+   "en": [
+    "y5:en:1:4",
+    "y5:en:5:0",
+    "y5:en:4:0",
+    "y5:en:2:1"
+   ],
+   "spell": {
+    "rule": "silent letters (doubt, island, lamb, solemn, knight, psalm)",
+    "words": [
+     "muscle",
+     "yacht"
+    ]
+   },
+   "read": "a biography of an inspiring person from history (non-fiction)",
+   "days": [
+    {
+     "d": "Mon",
+     "ma": "Fold paper strips into halves, quarters and eighths; show that 1/2 = 2/4 = 4/8. Write every fraction equal to 1/2 up to twelfths.",
+     "en": "Read a short biography from the library or a children's encyclopedia. Make a timeline of five key events in the person's life."
+    },
+    {
+     "d": "Tue",
+     "ma": "Shade 3/10 on a 10 × 10 grid and show it equals 30/100. Find hundredths equal to 7/10, 1/5 and 1/4.",
+     "en": "Make a fact file with notes (not sentences) under headings: early life, achievements, challenges, why they are remembered."
+    },
+    {
+     "d": "Wed",
+     "ma": "Simplify 6/8, 9/12, 15/20 and 40/100 by dividing top and bottom by a common factor.",
+     "en": "Perfect form: change 'She won the prize' to 'She had won the prize before she was twenty' and 'She has inspired many people'. Write four sentences of your own."
+    },
+    {
+     "d": "Thu",
+     "ma": "Order 2/3, 5/6 and 7/12 (change to twelfths), then 3/4, 5/8 and 11/16. Draw bars to check.",
+     "en": "Silent letter hunt: find words with silent letters in your book or around the house (knee, comb, scissors, wrist) and group them by silent letter."
+    },
+    {
+     "d": "Fri",
+     "ma": "Quick check: three fractions equal to 2/5; simplify 18/24; order 1/2, 3/8, 5/16; which is greater, 7/10 or 69/100?",
+     "en": "Quick check: tell a parent five facts about the person from memory, write two sentences in the perfect form, and spell this week's words."
+    }
+   ]
+  },
+  {
+   "w": 16,
+   "term": "Spring 1",
+   "title": "Mixed numbers and improper fractions",
+   "ma": [
+    "y5:ma:3:2"
+   ],
+   "en": [
+    "y5:en:4:1",
+    "y5:en:4:2",
+    "y5:en:2:1",
+    "y5:en:0:0",
+    "y5:en:4:0"
+   ],
+   "spell": {
+    "rule": "more silent letters (gnome, rhubarb, column, autumn, sword)",
+    "words": [
+     "rhyme",
+     "rhythm"
+    ]
+   },
+   "read": "an autobiography or memoir extract, plus a family member's life story",
+   "days": [
+    {
+     "d": "Mon",
+     "ma": "Cut paper circles into quarters. Show 7/4 as seven quarters, then rearrange it as 1 3/4. Do the same with 9/4 and 11/4.",
+     "en": "Interview a grandparent, neighbour or family member about their life, noting answers to six questions you prepare."
+    },
+    {
+     "d": "Tue",
+     "ma": "Convert 13/5, 17/3 and 25/8 to mixed numbers, and 2 3/4, 3 1/6 and 4 2/5 to improper fractions.",
+     "en": "Plan a biography of them with paragraphs for early life, key events and life now; give each paragraph a heading."
+    },
+    {
+     "d": "Wed",
+     "ma": "Draw a number line from 0 to 4 marked in thirds. Place 5/3, 2 1/3, 10/3 and 3 2/3 on it.",
+     "en": "Write the biography in the third person and past tense, linking paragraphs with 'Years later', 'After that' and 'Eventually'."
+    },
+    {
+     "d": "Thu",
+     "ma": "Write statements such as 3/5 + 4/5 = 7/5 = 1 2/5. Make five of your own where the total is more than 1.",
+     "en": "Edit for consistent tense and subject–verb agreement ('they were', not 'they was'); add a fact box. Use root words to explain 'autobiography' (auto + bio + graph)."
+    },
+    {
+     "d": "Fri",
+     "ma": "Quick check: 19/6 as a mixed number; 5 1/2 as an improper fraction; order 9/4, 2 1/8 and 17/8; 4/7 + 5/7.",
+     "en": "Quick check: read the biography to the person you interviewed and ask what you got right; spell this week's words."
+    }
+   ]
+  },
+  {
+   "w": 17,
+   "term": "Spring 1",
+   "title": "Adding and subtracting fractions",
+   "ma": [
+    "y5:ma:3:3"
+   ],
+   "en": [
+    "y5:en:1:0",
+    "y5:en:1:1",
+    "y5:en:1:5",
+    "y5:en:2:2"
+   ],
+   "spell": {
+    "rule": "homophones: advice/advise, device/devise, practice/practise, licence/license (noun -ce, verb -se)",
+    "words": [
+     "prejudice",
+     "sacrifice"
+    ]
+   },
+   "read": "a traditional tale or modern story from another culture",
+   "days": [
+    {
+     "d": "Mon",
+     "ma": "Same denominators: 3/8 + 4/8, 7/9 − 2/9, 5/6 + 4/6 (write the last as a mixed number). Show each with paper strips.",
+     "en": "Read a traditional tale from a culture different from your own. Note the setting, foods, customs or words that show where it comes from."
+    },
+    {
+     "d": "Tue",
+     "ma": "Related denominators: 1/2 + 1/4, 2/3 + 1/6 and 3/4 − 3/8. Change to the same denominator first and draw bars.",
+     "en": "Compare it with a fairy tale you know well using a Venn diagram of similarities and differences."
+    },
+    {
+     "d": "Wed",
+     "ma": "Mixed numbers: 2 1/4 + 1 1/2 and 3 5/6 − 1 1/3. Deal with the wholes first, then the fractions.",
+     "en": "Discuss with a parent what the story shows people value (honesty, cleverness, family). Each person must build on the last idea."
+    },
+    {
+     "d": "Thu",
+     "ma": "A cake uses 3/4 cup of sugar and 1/8 cup of honey. How much sweetener in total? If you had 2 cups of sugar, how much is left?",
+     "en": "Homophones: write pairs of sentences with advice/advise and practice/practise, and a memory trick (the noun has 'ice' like 'device')."
+    },
+    {
+     "d": "Fri",
+     "ma": "Quick check: 5/12 + 1/3; 1 − 3/10; 4 2/5 − 2 7/10; a 3 1/2 m ribbon has 1 3/4 m cut off – how much is left?",
+     "en": "Quick check: summarise the tale in three sentences, name one theme, complete five homophone gap sentences, and spell this week's words."
+    }
+   ]
+  },
+  {
+   "w": 18,
+   "term": "Spring 1",
+   "title": "Multiplying fractions and scaling",
+   "ma": [
+    "y5:ma:3:4",
+    "y5:ma:2:10"
+   ],
+   "en": [
+    "y5:en:4:0",
+    "y5:en:4:1",
+    "y5:en:5:0",
+    "y5:en:2:2"
+   ],
+   "spell": {
+    "rule": "near-homophones and often-confused words (affect/effect, aloud/allowed, past/passed, herd/heard)",
+    "words": [
+     "persuade"
+    ]
+   },
+   "read": "a story that jumps in time with a flashback",
+   "days": [
+    {
+     "d": "Mon",
+     "ma": "Use paper strips to show 3 × 2/5 = 6/5 = 1 1/5. Then draw 4 × 3/4 and 5 × 2/3.",
+     "en": "Read a chapter and find where the author refers back to the past. How is it signalled ('had' + verb, 'years before')?"
+    },
+    {
+     "d": "Tue",
+     "ma": "Mixed number × whole number: 3 × 1 1/2 and 4 × 2 1/3. Multiply the whole part and fraction part separately, then add.",
+     "en": "Plan a short story with a flashback: a present-day opening, a memory, and a return to the present. Note how the character feels in each part."
+    },
+    {
+     "d": "Wed",
+     "ma": "Scaling: a recipe for 4 needs 1 1/2 cups of flour – how much for 8 and for 12? A model is 1/10 the size of a 4 m car – how long is it?",
+     "en": "Write the present-day opening and the flashback, using the past perfect: 'She had never seen the sea before that summer.'"
+    },
+    {
+     "d": "Thu",
+     "ma": "Rates: a tap fills 6 litres a minute – how much in 7 minutes? A cyclist rides 3 km every 10 minutes – how far in an hour? Show it in a table.",
+     "en": "Write the return to the present and an ending that links to the memory. Check affect/effect and past/passed."
+    },
+    {
+     "d": "Fri",
+     "ma": "Quick check: 6 × 3/8; 2 × 2 3/5; 1/4 of 36; a robot moves 5 m every 2 seconds – how far in 20 seconds?",
+     "en": "Quick check: read your story aloud and show where the time changes and which verb forms tell the reader; spell this week's words."
+    }
+   ]
+  },
+  {
+   "w": 19,
+   "term": "Spring 1",
+   "title": "Decimals as fractions and thousandths",
+   "ma": [
+    "y5:ma:3:5",
+    "y5:ma:3:6"
+   ],
+   "en": [
+    "y5:en:1:4",
+    "y5:en:4:1",
+    "y5:en:5:1",
+    "y5:en:2:3"
+   ],
+   "spell": {
+    "rule": "more often-confused words (stationary/stationery, principal/principle, profit/prophet, wary/weary)",
+    "words": [
+     "stomach"
+    ]
+   },
+   "read": "an information book about an animal or place",
+   "days": [
+    {
+     "d": "Mon",
+     "ma": "Write 0.71 = 71/100, 0.3 = 3/10 and 0.09 = 9/100. Then turn 47/100, 6/10 and 125/1,000 into decimals.",
+     "en": "Read an information book. Note how it's organised: headings, subheadings, bullet points, diagrams and a glossary."
+    },
+    {
+     "d": "Tue",
+     "ma": "Kitchen scales read 1.235 kg – what does each digit mean? Show that 1 g = 1/1,000 kg = 0.001 kg.",
+     "en": "Précis: summarise one long paragraph in 25 words or fewer, keeping only the key facts."
+    },
+    {
+     "d": "Wed",
+     "ma": "On a place value chart write 0.4, 0.04 and 0.004 and say each as a fraction. How many thousandths make one tenth? One hundredth?",
+     "en": "Plan a report on something you know well (a hobby, a pet, your town) with four subheadings and notes under each."
+    },
+    {
+     "d": "Thu",
+     "ma": "Measure five objects in millimetres (pen, spoon, phone charger…). Write each in metres to three decimal places (154 mm = 0.154 m) and as a fraction.",
+     "en": "Write two sections using a colon to introduce a list and consistent bullet points. Break technical words into parts (sub-marine, tele-scope) to explain them."
+    },
+    {
+     "d": "Fri",
+     "ma": "Quick check: 0.307 as a fraction; 9/1,000 as a decimal; 3 tenths + 4 thousandths; which is bigger, 0.06 or 0.006?",
+     "en": "Quick check: share your report and point out a colon, a bullet list and your précis; spell this week's words."
+    }
+   ]
+  },
+  {
+   "w": 20,
+   "term": "Spring 1",
+   "title": "Consolidation: fractions",
+   "ma": [
+    "y5:ma:3:0",
+    "y5:ma:3:1",
+    "y5:ma:3:2",
+    "y5:ma:3:3",
+    "y5:ma:3:4",
+    "y5:ma:3:5",
+    "y5:ma:3:6"
+   ],
+   "en": [
+    "y5:en:4:2",
+    "y5:en:4:3",
+    "y5:en:1:6",
+    "y5:en:2:3",
+    "y5:en:5:2"
+   ],
+   "spell": {
+    "rule": "review: silent letters and homophones",
+    "words": [
+     "soldier"
+    ]
+   },
+   "read": "a non-fiction book on a topic of the child's choice, for a short presentation",
+   "days": [
+    {
+     "d": "Mon",
+     "ma": "Make a fraction wall from paper strips (halves to twelfths). Use it to find three pairs of equivalent fractions and order 5/6, 3/4 and 2/3.",
+     "en": "Pick your best writing of this half term (biography, flashback story or report). Highlight one strength and one place to improve, then edit it."
+    },
+    {
+     "d": "Tue",
+     "ma": "Convert 23/4 to a mixed number; add 2/3 + 5/6; subtract 1 1/2 − 3/4.",
+     "en": "List five words you misspelt this half term, find the tricky part of each and make up a memory trick."
+    },
+    {
+     "d": "Wed",
+     "ma": "Multiply 7 × 3/5 and 3 × 2 1/4; draw one of them as a bar model.",
+     "en": "Prepare a two-minute talk about your report topic using notes on a small card."
+    },
+    {
+     "d": "Thu",
+     "ma": "Make matching cards: 0.5 and 1/2, 0.25 and 25/100, 0.007 and 7/1,000, 0.43 and 43/100, 0.9 and 9/10. Play pairs face down.",
+     "en": "Give your talk to the family, then answer two questions using your notes."
+    },
+    {
+     "d": "Fri",
+     "ma": "Half-term check: simplify 12/18; order 3/5, 7/10, 13/20; 22/7 as a mixed number; 3/8 + 3/4; 2 − 5/6; 4 × 2/3; 0.063 as a fraction. Mark together and note one thing to revisit.",
+     "en": "Quick check: give an example of a perfect-form verb, a relative clause, a modal verb and parenthesis, then take the half-term spelling test."
+    }
+   ]
+  },
+  {
+   "w": 21,
+   "term": "Spring 2",
+   "title": "Ordering and rounding decimals",
+   "ma": [
+    "y5:ma:3:8",
+    "y5:ma:3:7"
+   ],
+   "en": [
+    "y5:en:1:0",
+    "y5:en:1:2",
+    "y5:en:4:4",
+    "y5:en:3:0"
+   ],
+   "spell": {
+    "rule": "double letters in tricky words (accommodate, embarrass, committee, occurrence)",
+    "words": [
+     "accommodate",
+     "embarrass"
+    ]
+   },
+   "read": "a narrative poem or ballad that tells a story",
+   "days": [
+    {
+     "d": "Mon",
+     "ma": "Order 2.45, 2.405, 2.5 and 2.054 using a place value chart, then write comparisons with < and >.",
+     "en": "Read a narrative poem or ballad aloud. Retell its story in your own words."
+    },
+    {
+     "d": "Tue",
+     "ma": "Order packet weights from lightest to heaviest: 0.454 kg, 1.5 kg, 0.75 kg, 1.25 kg, 0.4 kg (or use real packets from the cupboard).",
+     "en": "Tap the beat of one verse and mark the stressed syllables. Discuss how rhythm and rhyme carry the story along."
+    },
+    {
+     "d": "Wed",
+     "ma": "Round 3.46, 7.82, 12.05 and 0.97 to the nearest whole number and to one decimal place. Draw a number line for the trickiest.",
+     "en": "Learn two verses by heart and mark where to speed up, slow down, get louder or quieter."
+    },
+    {
+     "d": "Thu",
+     "ma": "Race times: 12.47 s, 12.5 s, 12.09 s, 12.405 s. Who won? Round each to one decimal place – does any order change?",
+     "en": "Write a fair copy of your favourite verse in your best handwriting and illustrate it; explain your choice of pen or pencil."
+    },
+    {
+     "d": "Fri",
+     "ma": "Quick check: order 0.6, 0.06, 0.66, 0.606; round 4.95 to one decimal place and to a whole number; give a number with three decimal places between 2.3 and 2.31.",
+     "en": "Quick check: perform your verses and name one figurative phrase and its effect; spell this week's words."
+    }
+   ]
+  },
+  {
+   "w": 22,
+   "term": "Spring 2",
+   "title": "Calculating with decimals",
+   "ma": [
+    "y5:ma:3:9",
+    "y5:ma:2:6"
+   ],
+   "en": [
+    "y5:en:4:0",
+    "y5:en:4:2",
+    "y5:en:5:0",
+    "y5:en:2:3"
+   ],
+   "spell": {
+    "rule": "unstressed vowels you can't hear clearly (separate, desperate, definite, category)",
+    "words": [
+     "desperate",
+     "category"
+    ]
+   },
+   "read": "formal letters, notices and official information leaflets",
+   "days": [
+    {
+     "d": "Mon",
+     "ma": "Add £3.45 + £12.80 + £0.99 and take £7.65 from £20 in columns, lining up the decimal points.",
+     "en": "Compare an informal note ('Hiya, can't come!') with a formal letter. List differences in words, contractions and greetings."
+    },
+    {
+     "d": "Tue",
+     "ma": "A shelf is 1.2 m long. Three books are 0.035 m, 0.042 m and 0.028 m thick. What is their total thickness and how much shelf is left?",
+     "en": "Formal language: change 'We need to fix the park' to 'It is essential that the park be repaired'. Write four formal requests about your area."
+    },
+    {
+     "d": "Wed",
+     "ma": "Show digits moving on a place value chart for 0.45 × 100, 3.2 ÷ 10, 56 ÷ 1,000 and 0.006 × 1,000.",
+     "en": "Plan a formal letter to the local council about improving something nearby (a crossing, bins, a play area): reason, evidence, suggestion."
+    },
+    {
+     "d": "Thu",
+     "ma": "100 identical paper clips weigh 0.15 kg – how much does one weigh in kg and in g? Ten apples weigh 1.85 kg – about how much is one?",
+     "en": "Write the letter, then edit for formality: remove slang and contractions, check paragraphs and end with 'Yours faithfully'."
+    },
+    {
+     "d": "Fri",
+     "ma": "Quick check: 4.75 + 2.6; 10 − 3.48; 7.3 × 100; 82 ÷ 1,000; items cost £4.99 and £3.75 – how much change from £10?",
+     "en": "Quick check: turn five informal sentences into formal ones and spell this week's words."
+    }
+   ]
+  },
+  {
+   "w": 23,
+   "term": "Spring 2",
+   "title": "Percentages",
+   "ma": [
+    "y5:ma:3:10",
+    "y5:ma:3:11"
+   ],
+   "en": [
+    "y5:en:1:4",
+    "y5:en:5:0",
+    "y5:en:4:1",
+    "y5:en:0:0"
+   ],
+   "spell": {
+    "rule": "the 'shun' sound spelt -tion, -sion, -ssion, -cian (explanation, extension, admission, magician)",
+    "words": [
+     "explanation",
+     "pronunciation"
+    ]
+   },
+   "read": "a science explanation of how something works, e.g. the water cycle",
+   "days": [
+    {
+     "d": "Mon",
+     "ma": "On a 10 × 10 grid shade 37 squares: that's 37%, 37/100 and 0.37. Do the same for 5%, 50% and 85%.",
+     "en": "Read an explanation of a natural process such as the water cycle. Draw a labelled flow diagram of the steps."
+    },
+    {
+     "d": "Tue",
+     "ma": "Learn 1/2 = 50% = 0.5, 1/4 = 25%, 1/5 = 20%, 2/5 = 40%, 4/5 = 80%. Make matching cards and play pairs.",
+     "en": "Passive voice: change 'The sun heats the water' to 'The water is heated by the sun'. Write four passive sentences and discuss why scientists use them."
+    },
+    {
+     "d": "Wed",
+     "ma": "Find 50% of £36, 25% of 80, 10% of 450 and 20% of 60 g. Explain the shortcut for each.",
+     "en": "Split evaporation, condensation and precipitation into root and suffix and use the parts to explain each meaning."
+    },
+    {
+     "d": "Thu",
+     "ma": "Find percentages on food packets (e.g. '30% fruit'). What percentage is not fruit? Write it as a fraction and a decimal.",
+     "en": "Write your own explanation of how something at home works (a kettle, a fridge, a bicycle) using because, so, as a result and therefore."
+    },
+    {
+     "d": "Fri",
+     "ma": "Quick check: 3/25 as a percentage; 0.7 as a percentage; 40% of 25; in a class of 20, 15 have a pet – what percentage is that?",
+     "en": "Quick check: explain your process aloud from your diagram, point to two passive sentences, and spell this week's words."
+    }
+   ]
+  },
+  {
+   "w": 24,
+   "term": "Spring 2",
+   "title": "Converting units of measure",
+   "ma": [
+    "y5:ma:4:0",
+    "y5:ma:4:1"
+   ],
+   "en": [
+    "y5:en:1:1",
+    "y5:en:1:7",
+    "y5:en:5:1",
+    "y5:en:2:6"
+   ],
+   "spell": {
+    "rule": "words from French with unusual endings (-que, -gue, -eur: unique, tongue, amateur)",
+    "words": [
+     "queue",
+     "amateur"
+    ]
+   },
+   "read": "a mystery or detective story",
+   "days": [
+    {
+     "d": "Mon",
+     "ma": "Measure the kitchen table in cm and convert to m and mm; convert 2.5 km to m and 3,400 m to km.",
+     "en": "Read the opening of a mystery. Predict the culprit and copy two clues from the text that support your prediction."
+    },
+    {
+     "d": "Tue",
+     "ma": "Weigh items on kitchen scales and convert grams to kilograms (450 g = 0.45 kg). How many 250 ml cups make 1 litre? 1.5 litres?",
+     "en": "Inference: what does a suspicious character's behaviour suggest? Write 'I think… because the text says…'."
+    },
+    {
+     "d": "Wed",
+     "ma": "Rough equivalents: 1 inch ≈ 2.5 cm, 1 foot ≈ 30 cm, 1 pound ≈ 450 g, 1 pint ≈ 570 ml. Measure your height in cm and estimate it in feet and inches.",
+     "en": "Commas for clarity: compare 'Let's eat, Grandma' with 'Let's eat Grandma' and write three sentences where a comma changes the meaning; add hyphens to 'man eating shark'."
+    },
+    {
+     "d": "Thu",
+     "ma": "Convert an old recipe: 1 lb flour, 2 pints milk, 8 oz sugar (1 oz ≈ 28 g) into approximate metric amounts.",
+     "en": "Use a thesaurus to find suspenseful synonyms for 'look' (peer, glance, scrutinise) and 'said' (hissed, whispered); use five in sentences."
+    },
+    {
+     "d": "Fri",
+     "ma": "Quick check: 3.4 km in m; 650 mm in cm; 2,750 g in kg; 1.2 l in ml; roughly how many cm in 12 inches?",
+     "en": "Quick check: update your prediction with new evidence, punctuate three ambiguous sentences, and spell this week's words."
+    }
+   ]
+  },
+  {
+   "w": 25,
+   "term": "Spring 2",
+   "title": "Measurement problems, money and rates",
+   "ma": [
+    "y5:ma:4:6",
+    "y5:ma:2:10"
+   ],
+   "en": [
+    "y5:en:4:1",
+    "y5:en:4:2",
+    "y5:en:4:3",
+    "y5:en:2:4"
+   ],
+   "spell": {
+    "rule": "the suffixes -ment and -ness, keeping the root (equipment, government, happiness, loneliness)",
+    "words": [
+     "government",
+     "environment"
+    ]
+   },
+   "read": "more mystery stories, looking at how clues are planted",
+   "days": [
+    {
+     "d": "Mon",
+     "ma": "Potatoes cost £1.10 per kg and carrots £0.80 per kg. What do 1.2 kg of potatoes and 0.5 kg of carrots cost altogether?",
+     "en": "Plan a short mystery set at home: a missing object, three suspects, a red herring and a final clue."
+    },
+    {
+     "d": "Tue",
+     "ma": "A recipe for 4 uses 300 g pasta, 0.6 l sauce and 150 g cheese. Scale it for 8 people and for 2.",
+     "en": "Write the opening, building suspense with short sentences, a dash for a dramatic pause and a relative clause about a suspect."
+    },
+    {
+     "d": "Wed",
+     "ma": "A car uses 1 litre of fuel every 15 km – how much for 135 km? Walking at 5 km an hour, how long does 12.5 km take?",
+     "en": "Write the middle where clues are found, with dialogue that moves the action on."
+    },
+    {
+     "d": "Thu",
+     "ma": "How many 25 cm tiles fit along a 2 m wall? How much ribbon goes twice round a parcel 30 cm by 20 cm? Give answers in cm and m.",
+     "en": "Write the reveal, then proof-read with a dictionary and check that your commas prevent any confusion."
+    },
+    {
+     "d": "Fri",
+     "ma": "Quick check: 4 × 1.75 kg; £5 ÷ 4; 3 bottles of 750 ml in litres; a plant 4 cm tall grows 1.5 cm a week – how tall after 6 weeks?",
+     "en": "Quick check: read your mystery to the family – can they solve it before the end? Note one edit to make and spell this week's words."
+    }
+   ]
+  },
+  {
+   "w": 26,
+   "term": "Spring 2",
+   "title": "Consolidation: decimals, percentages and measures",
+   "ma": [
+    "y5:ma:3:7",
+    "y5:ma:3:8",
+    "y5:ma:3:9",
+    "y5:ma:3:10",
+    "y5:ma:3:11",
+    "y5:ma:4:0"
+   ],
+   "en": [
+    "y5:en:1:5",
+    "y5:en:1:6",
+    "y5:en:4:3",
+    "y5:en:5:2",
+    "y5:en:4:2"
+   ],
+   "spell": {
+    "rule": "review: double letters, unstressed vowels, -tion/-sion and -ment/-ness",
+    "words": [
+     "individual"
+    ]
+   },
+   "read": "a finished book to discuss in a family book club",
+   "days": [
+    {
+     "d": "Mon",
+     "ma": "Order 6.035, 6.3, 6.305 and 6.53, then round each to one decimal place and to the nearest whole number.",
+     "en": "Choose your best piece from this half term (formal letter, explanation or mystery) and improve it using a checklist of that text type's features."
+    },
+    {
+     "d": "Tue",
+     "ma": "Complete fraction–decimal–percentage triangles for 1/4, 2/5, 3/10, 0.15 and 64%.",
+     "en": "Book club: discuss a book you've finished with a family member; agree, or courteously challenge each other's views on the ending."
+    },
+    {
+     "d": "Wed",
+     "ma": "Conversion race: 4.2 kg to g; 75 cm to m; 3,500 ml to l; 0.6 km to m. Time yourself, then try to beat it.",
+     "en": "Find and label in your writing a passive sentence, a modal verb, a relative clause and an example of parenthesis."
+    },
+    {
+     "d": "Thu",
+     "ma": "A jug holds 1.5 l. 40% is poured out. How many millilitres remain? Show two ways.",
+     "en": "Proof-read your chosen piece backwards, sentence by sentence, to catch spelling slips."
+    },
+    {
+     "d": "Fri",
+     "ma": "Half-term check: 0.47 as a percentage; 3/5 as a decimal; order 0.9, 0.09, 0.909; round 13.86 to one decimal place; 2.4 m in cm; 25% of 1.2 kg in g; £10 − £6.37. Mark and note one thing to revisit.",
+     "en": "Quick check: a two-minute book talk from notes, then the half-term spelling test."
+    }
+   ]
+  },
+  {
+   "w": 27,
+   "term": "Summer 1",
+   "title": "Perimeter and area",
+   "ma": [
+    "y5:ma:4:2",
+    "y5:ma:4:3"
+   ],
+   "en": [
+    "y5:en:1:3",
+    "y5:en:1:6",
+    "y5:en:1:7",
+    "y5:en:5:1"
+   ],
+   "spell": {
+    "rule": "words ending -sure and -ture (measure, treasure, creature, adventure)",
+    "words": [
+     "temperature"
+    ]
+   },
+   "read": "opinion columns and discussion texts on one topic",
+   "days": [
+    {
+     "d": "Mon",
+     "ma": "Measure a rectangular table and a book in cm; calculate the perimeter and area (cm²) of each.",
+     "en": "Read two opinion pieces on the same topic (e.g. homework, screen time). List facts and opinions in two columns."
+    },
+    {
+     "d": "Tue",
+     "ma": "On squared paper draw an L-shaped room: 8 m by 6 m with a 3 m by 2 m corner cut out. Find the missing lengths and the perimeter.",
+     "en": "Write two sentences joined by a semi-colon ('It was raining; we stayed in') and two using a colon to explain ('There was one problem: the door was locked')."
+    },
+    {
+     "d": "Wed",
+     "ma": "Find the area of the L-shape by splitting it into two rectangles – then do it a different way to check.",
+     "en": "Plan a balanced argument: 'Should 10-year-olds have their own mobile phone?' Three points for each side with evidence."
+    },
+    {
+     "d": "Thu",
+     "ma": "Draw round your hand on 1 cm squared paper. Estimate the area by counting whole squares and squares more than half covered.",
+     "en": "Write it with an introduction, both sides and a reasoned conclusion, using 'However', 'In addition' and 'On balance'."
+    },
+    {
+     "d": "Fri",
+     "ma": "Quick check: perimeter and area of a 7 cm × 4 cm rectangle; a square with perimeter 36 cm – what is its area?; two different rectangles with area 24 cm².",
+     "en": "Quick check: hold a five-minute family debate on the topic, each side giving reasons; spell this week's words."
+    }
+   ]
+  },
+  {
+   "w": 28,
+   "term": "Summer 1",
+   "title": "Volume, capacity and time",
+   "ma": [
+    "y5:ma:4:4",
+    "y5:ma:4:5"
+   ],
+   "en": [
+    "y5:en:1:0",
+    "y5:en:1:7",
+    "y5:en:4:0",
+    "y5:en:2:0"
+   ],
+   "spell": {
+    "rule": "y making an 'i' sound in words from Greek (myth, gym, pyramid, mystery)",
+    "words": [
+     "system",
+     "symbol"
+    ]
+   },
+   "read": "a finished book plus a few book reviews",
+   "days": [
+    {
+     "d": "Mon",
+     "ma": "Build cuboids from sugar cubes, dice or building bricks; count the cubes and record length × width × height each time.",
+     "en": "Read two book reviews (newspaper, magazine or library leaflet). List their features: summary without spoilers, opinion, rating and recommendation."
+    },
+    {
+     "d": "Tue",
+     "ma": "Estimate, then measure, how many cups fill a jug; read the scale in ml. Estimate the capacity of a mug, a bowl and a bottle and check.",
+     "en": "Plan a review of a book you've finished: who would enjoy it and why, the best moment, and one criticism."
+    },
+    {
+     "d": "Wed",
+     "ma": "Convert: 2.5 hours to minutes, 4 minutes to seconds, 3 days to hours, 6 weeks to days. How many days in a leap year?",
+     "en": "Make review words with suffixes -ful, -less, -able and -ous (suspenseful, believable, humorous); check spellings with a dictionary."
+    },
+    {
+     "d": "Thu",
+     "ma": "A film starts at 17:45 and lasts 2 h 15 min – when does it end? About how many days old are you? Show your working.",
+     "en": "Write the review in four paragraphs with a star rating and a reason for it."
+    },
+    {
+     "d": "Fri",
+     "ma": "Quick check: volume of a 3 × 2 × 4 cuboid of cubes; 400 ml + 750 ml in litres; 3 h 20 min in minutes; 200 seconds in minutes and seconds; 72 hours in days.",
+     "en": "Quick check: recommend the book to a family member in one minute, justifying your rating; spell this week's words."
+    }
+   ]
+  },
+  {
+   "w": 29,
+   "term": "Summer 1",
+   "title": "Measuring and drawing angles",
+   "ma": [
+    "y5:ma:5:1",
+    "y5:ma:5:2"
+   ],
+   "en": [
+    "y5:en:1:1",
+    "y5:en:4:1",
+    "y5:en:4:2",
+    "y5:en:5:0"
+   ],
+   "spell": {
+    "rule": "prefixes sub-, inter-, super-, anti-, auto- and what they mean",
+    "words": [
+     "interfere"
+    ]
+   },
+   "read": "a story told as a diary or in the first person",
+   "days": [
+    {
+     "d": "Mon",
+     "ma": "Find angles around the house: corner of a book (right angle), open scissors (acute), a wide-open door (obtuse), the outside of a corner (reflex). Sort them.",
+     "en": "Read diary entries in a story. How do the first person and informal language show the writer's feelings?"
+    },
+    {
+     "d": "Tue",
+     "ma": "Fold a scrap of paper twice to make a right-angle checker; test ten angles in the room and estimate each in degrees.",
+     "en": "Choose a character from your book at a dramatic moment. Infer their thoughts and feelings and list evidence from the text."
+    },
+    {
+     "d": "Wed",
+     "ma": "Draw angles of 40°, 75°, 130° and 160° using a protractor (from a school pencil case if you have one). Label each acute or obtuse.",
+     "en": "Write a diary entry as that character in the first person, using modal verbs to show worries ('I might never…')."
+    },
+    {
+     "d": "Thu",
+     "ma": "A parent draws five angles; estimate each, then measure it. Score a point for every estimate within 10°.",
+     "en": "Edit: keep the tense and first person consistent; change one sentence to show emotion through actions rather than naming it."
+    },
+    {
+     "d": "Fri",
+     "ma": "Quick check: name the type of 95°, 270° and 17°; draw 60°; what angle do clock hands make at 2 o'clock and at 4 o'clock?",
+     "en": "Quick check: read your diary aloud in character while a parent asks two questions in role; spell this week's words."
+    }
+   ]
+  },
+  {
+   "w": 30,
+   "term": "Summer 1",
+   "title": "Angles on a line, at a point and in rectangles",
+   "ma": [
+    "y5:ma:5:3",
+    "y5:ma:5:4"
+   ],
+   "en": [
+    "y5:en:1:2",
+    "y5:en:4:4",
+    "y5:en:4:1",
+    "y5:en:2:6"
+   ],
+   "spell": {
+    "rule": "words ending -ous (dangerous, various, courageous, outrageous)",
+    "words": [
+     "disastrous",
+     "mischievous"
+    ]
+   },
+   "read": "a collection of poems on one theme, e.g. the sea or the city",
+   "days": [
+    {
+     "d": "Mon",
+     "ma": "Cross two pencils on paper and draw along them. Measure or reason the four angles; show angles on a straight line total 180° and round a point 360°.",
+     "en": "Read three poems on one theme. Pick the line with the strongest image and explain its effect on you."
+    },
+    {
+     "d": "Tue",
+     "ma": "Missing angles: a straight line split into 65° and ?; angles round a point of 90°, 120° and ?. How many degrees in a quarter, half and three-quarter turn?",
+     "en": "Gather ideas for your own poem on that theme: list sights, sounds and smells, and turn three into similes or metaphors."
+    },
+    {
+     "d": "Wed",
+     "ma": "Measure a rectangular card: opposite sides equal, all angles 90°. If a rectangle's long side is 12 cm and perimeter 34 cm, find the short side.",
+     "en": "Draft a poem of three or four verses, using a thesaurus to find precise verbs."
+    },
+    {
+     "d": "Thu",
+     "ma": "Draw a rectangle and one diagonal. If the diagonal makes a 35° angle at one corner, find the other part of that corner. Make up three more.",
+     "en": "Read the poem aloud to test its rhythm, cut unnecessary words and write a neat final copy."
+    },
+    {
+     "d": "Fri",
+     "ma": "Quick check: missing angle on a line with 112°; round a point with 150° and 95°; a rectangle 9 cm long with perimeter 30 cm – how wide?; right angles in a full turn?",
+     "en": "Quick check: perform your poem using pauses and emphasis; spell this week's words."
+    }
+   ]
+  },
+  {
+   "w": 31,
+   "term": "Summer 1",
+   "title": "Polygons and 3-D shapes",
+   "ma": [
+    "y5:ma:5:5",
+    "y5:ma:5:0"
+   ],
+   "en": [
+    "y5:en:1:4",
+    "y5:en:1:6",
+    "y5:en:4:0",
+    "y5:en:5:1",
+    "y5:en:3:0"
+   ],
+   "spell": {
+    "rule": "word families that reveal silent letters (sign/signature, muscle/muscular, bomb/bombard)",
+    "words": [
+     "signature"
+    ]
+   },
+   "read": "reference books and children's information websites for a research project",
+   "days": [
+    {
+     "d": "Mon",
+     "ma": "Draw a square, a rectangle, a regular hexagon and an irregular pentagon with a ruler. Measure sides and angles to explain which are regular.",
+     "en": "Choose a research question (e.g. 'How do bees make honey?') and find two sources: a library book, an encyclopedia or a children's website."
+    },
+    {
+     "d": "Tue",
+     "ma": "Hunt for 3-D shapes at home: cereal box (cuboid), tin (cylinder), dice (cube). Sketch each and count faces, edges and vertices.",
+     "en": "Take notes in your own words under headings, recording where each fact came from."
+    },
+    {
+     "d": "Wed",
+     "ma": "Open a small box flat and draw its net. Then draw two different nets of a cube on squared paper, cut them out and fold to test.",
+     "en": "Turn your notes into a poster with headings, bullet points and a colon before a list; print the headings clearly."
+    },
+    {
+     "d": "Thu",
+     "ma": "Make a triangular dotty grid on paper and draw a cube and a cuboid on it. Ask a parent to name 3-D shapes from your drawings.",
+     "en": "Rehearse a three-minute presentation from your poster, keeping to the topic and using notes."
+    },
+    {
+     "d": "Fri",
+     "ma": "Quick check: is a rhombus regular? Why?; name the shape with six rectangular faces; vertices on a square-based pyramid; sketch a net of a cuboid.",
+     "en": "Quick check: give your presentation and answer questions; spell this week's words."
+    }
+   ]
+  },
+  {
+   "w": 32,
+   "term": "Summer 1",
+   "title": "Consolidation: measurement and geometry",
+   "ma": [
+    "y5:ma:4:2",
+    "y5:ma:4:3",
+    "y5:ma:4:4",
+    "y5:ma:5:1",
+    "y5:ma:5:3",
+    "y5:ma:5:5"
+   ],
+   "en": [
+    "y5:en:4:2",
+    "y5:en:4:3",
+    "y5:en:2:5",
+    "y5:en:5:2",
+    "y5:en:1:5"
+   ],
+   "spell": {
+    "rule": "review: -sure/-ture, y as 'i', -ous and science prefixes",
+    "words": [
+     "achieve"
+    ]
+   },
+   "read": "two favourite books from the year so far, to compare",
+   "days": [
+    {
+     "d": "Mon",
+     "ma": "Draw a shape made of two rectangles; find its perimeter and area.",
+     "en": "Choose your best writing this half term (argument, review, diary or poem) and judge it against its purpose: does it do its job?"
+    },
+    {
+     "d": "Tue",
+     "ma": "Write your name in capital letters with a ruler; estimate then measure the angles in letters such as A, K, N and V.",
+     "en": "Proof-read your chosen piece with a dictionary, finding any doubtful word by its first three or four letters."
+    },
+    {
+     "d": "Wed",
+     "ma": "Estimate how many cubes would build a 2 × 3 × 4 cuboid, then calculate. Pour exactly 350 ml into a jug and read the scale.",
+     "en": "Grammar quiz with a parent: give an example of a semi-colon, a colon, a modal verb, a relative clause, the passive and the perfect form."
+    },
+    {
+     "d": "Thu",
+     "ma": "Sort household shapes into regular and irregular polygons. Find the missing angle round a point: 100°, 80°, 110° and ?.",
+     "en": "Compare two books you've read this year: which had the better ending and why? Listen and respond to a parent's view."
+    },
+    {
+     "d": "Fri",
+     "ma": "Half-term check: perimeter and area of 6 cm × 9 cm; volume of a 4 × 4 × 4 cube; 90 minutes in hours; type of a 200° angle; missing angle on a line with 47°; is every rectangle regular? Mark and note one thing to revisit.",
+     "en": "Quick check: the half-term spelling test, then write a final copy of your improved piece."
+    }
+   ]
+  },
+  {
+   "w": 33,
+   "term": "Summer 2",
+   "title": "Reflection and translation",
+   "ma": [
+    "y5:ma:6:0"
+   ],
+   "en": [
+    "y5:en:4:0",
+    "y5:en:1:1",
+    "y5:en:5:0",
+    "y5:en:2:3"
+   ],
+   "spell": {
+    "rule": "adverbs from adjectives ending -ic and -le (basically, frantically, gently, terribly)",
+    "words": [
+     "apparent",
+     "appreciate"
+    ]
+   },
+   "read": "an adventure or quest story",
+   "days": [
+    {
+     "d": "Mon",
+     "ma": "Fold paper, cut a shape and open it to see the reflection. On squared paper, reflect a triangle in a vertical mirror line.",
+     "en": "Read an adventure story chapter; note how the author builds tension and reveals the hero's character."
+    },
+    {
+     "d": "Tue",
+     "ma": "Draw axes numbered 0–10 and plot a triangle at (2, 3), (5, 3), (2, 7). Reflect it in the line x = 6 and write the new coordinates.",
+     "en": "Plan your own adventure: a map of the setting, a hero with a strength and a flaw, three obstacles and a climax."
+    },
+    {
+     "d": "Wed",
+     "ma": "Slide a paper shape on squared paper 4 squares right and 3 down; describe the move in words and record the new coordinates.",
+     "en": "Write character profiles of your hero and villain using expanded noun phrases and relative clauses."
+    },
+    {
+     "d": "Thu",
+     "ma": "Design a border pattern by translating and reflecting one simple shape. Explain why the shape's size and angles never change.",
+     "en": "Build word families from roots (venture → adventure, adventurous; brave → bravery, bravely) and check spellings."
+    },
+    {
+     "d": "Fri",
+     "ma": "Quick check: reflect a rectangle in a mirror line; translate (1, 2) 3 right and 4 up; describe the move from (5, 5) to (2, 8).",
+     "en": "Quick check: tell your story plan aloud in two minutes; spell this week's words."
+    }
+   ]
+  },
+  {
+   "w": 34,
+   "term": "Summer 2",
+   "title": "Line graphs",
+   "ma": [
+    "y5:ma:7:0"
+   ],
+   "en": [
+    "y5:en:4:1",
+    "y5:en:4:2",
+    "y5:en:4:3",
+    "y5:en:2:1"
+   ],
+   "spell": {
+    "rule": "words ending -er, -or, -ar (sailor, calendar, collar, governor)",
+    "words": [
+     "familiar"
+    ]
+   },
+   "read": "adventure stories, noticing how chapters end on a cliffhanger",
+   "days": [
+    {
+     "d": "Mon",
+     "ma": "A parent sketches a line graph of temperature from 6 am to 6 pm. Find the highest and lowest and the rise between two times.",
+     "en": "Write the opening of your adventure, introducing setting and hero with a strong hook."
+    },
+    {
+     "d": "Tue",
+     "ma": "Collect data: measure the length of a shadow from a pencil standing on a sunny windowsill every hour (or a seedling's height every day).",
+     "en": "Write the build-up and problem, with dialogue that reveals character."
+    },
+    {
+     "d": "Wed",
+     "ma": "Draw a line graph of your data with labelled axes and a sensible scale.",
+     "en": "Write the climax using a mix of short and long sentences and a dash for drama."
+    },
+    {
+     "d": "Thu",
+     "ma": "Write and answer five questions about your graph: how much did it change between two times? When was the change fastest? What is the total of two readings?",
+     "en": "Write the resolution, then edit for tense, subject–verb agreement and silent-letter spellings."
+    },
+    {
+     "d": "Fri",
+     "ma": "Quick check: from a parent's line graph of a car journey (distance against time), answer three comparison and difference questions.",
+     "en": "Quick check: read your adventure aloud to the family; spell this week's words."
+    }
+   ]
+  },
+  {
+   "w": 35,
+   "term": "Summer 2",
+   "title": "Tables and timetables",
+   "ma": [
+    "y5:ma:7:1",
+    "y5:ma:4:5"
+   ],
+   "en": [
+    "y5:en:1:3",
+    "y5:en:1:4",
+    "y5:en:4:1",
+    "y5:en:5:1"
+   ],
+   "spell": {
+    "rule": "plurals of words ending -f, -fe and -o (halves, knives, potatoes, pianos)",
+    "words": [
+     "variety"
+    ]
+   },
+   "read": "a magazine or newspaper feature article",
+   "days": [
+    {
+     "d": "Mon",
+     "ma": "Read a bus or train timetable (printed or online). Find how long three journeys take and which bus gets you somewhere by 10:00.",
+     "en": "Read a magazine feature. Note how headings, a standfirst, captions and fact boxes guide the reader."
+    },
+    {
+     "d": "Tue",
+     "ma": "Make a 24-hour timetable for a family day out: leave 08:45, travel 1 h 20 min, activities and lunch, home by 17:30.",
+     "en": "Retrieve: make a table of five key facts from the feature with the paragraph each came from."
+    },
+    {
+     "d": "Wed",
+     "ma": "Make a table of family members' heights in cm (or shoe sizes). Ask and answer: who is tallest? What is the difference between the tallest and shortest?",
+     "en": "Write a feature article about your adventure story's setting as if it were a real place, with headings and a fact box."
+    },
+    {
+     "d": "Thu",
+     "ma": "Your 14:35 train is 25 minutes late and the journey takes 1 h 50 min – when do you arrive? Convert 7:20 pm and 11:05 am to the 24-hour clock.",
+     "en": "Add brackets or dashes for extra information and bullet points with a colon; check one fact and one opinion are clearly marked."
+    },
+    {
+     "d": "Fri",
+     "ma": "Quick check: from the timetable, the journey time between two stops; 19:40 in 12-hour time; 135 minutes in hours and minutes; a fact read from your height table.",
+     "en": "Quick check: share your article and point out one fact, one opinion and one piece of parenthesis; spell this week's words."
+    }
+   ]
+  },
+  {
+   "w": 36,
+   "term": "Summer 2",
+   "title": "Problem-solving with the whole year's maths",
+   "ma": [
+    "y5:ma:2:9",
+    "y5:ma:1:3",
+    "y5:ma:4:6",
+    "y5:ma:0:4",
+    "y5:ma:2:8"
+   ],
+   "en": [
+    "y5:en:1:6",
+    "y5:en:4:4",
+    "y5:en:1:7",
+    "y5:en:0:0"
+   ],
+   "spell": {
+    "rule": "suffixes -ful, -less, -ly keeping the root (hopeful, careless, carefully)",
+    "words": [
+     "awkward"
+    ]
+   },
+   "read": "speeches and persuasive talks",
+   "days": [
+    {
+     "d": "Mon",
+     "ma": "Party planning: 28 guests, sandwiches in packs of 6 at £1.85 – how many packs and what cost? Show each step.",
+     "en": "Read or listen to a speech for children. Note how the speaker uses questions, repetition and pauses."
+    },
+    {
+     "d": "Tue",
+     "ma": "Ages puzzle: Mum is 3 times Sam's age; in 6 years their ages will add up to 60. How old is each now? Try and improve guesses in a table.",
+     "en": "Choose a topic you care about (e.g. less litter in the park) and write a two-minute speech with three reasons."
+    },
+    {
+     "d": "Wed",
+     "ma": "Square and cube clues: I'm a square number and a multiple of 4 between 30 and 70. I'm a cube number less than 100 that is odd. Who am I?",
+     "en": "Word study: use roots to explain 'visible, invisible, vision' and 'export, transport, portable'; add one to your speech."
+    },
+    {
+     "d": "Thu",
+     "ma": "A family drives 238 km at an average of 68 km per hour, stopping for 25 minutes. Leaving at 09:10, when do they arrive?",
+     "en": "Rehearse your speech with notes, using gestures, volume and eye contact."
+    },
+    {
+     "d": "Fri",
+     "ma": "Quick check: 3,000 − (465 + 1,280); 15 × 24; 2,345 ÷ 5; how many 0.25 l glasses from 3 litres; round 487,654 to the nearest 10,000.",
+     "en": "Quick check: deliver your speech to the family, who must ask one question you answer with a reason; spell this week's words."
+    }
+   ]
+  },
+  {
+   "w": 37,
+   "term": "Summer 2",
+   "title": "Review: number, calculation and fractions",
+   "ma": [
+    "y5:ma:0:0",
+    "y5:ma:0:3",
+    "y5:ma:1:0",
+    "y5:ma:2:3",
+    "y5:ma:2:5",
+    "y5:ma:3:3",
+    "y5:ma:3:4",
+    "y5:ma:3:11"
+   ],
+   "en": [
+    "y5:en:1:1",
+    "y5:en:1:2",
+    "y5:en:1:3",
+    "y5:en:1:4",
+    "y5:en:0:0"
+   ],
+   "spell": {
+    "rule": "review: tricky statutory words from the year",
+    "words": [
+     "language"
+    ]
+   },
+   "read": "a short story read in one sitting, then a non-fiction extract on the same theme",
+   "days": [
+    {
+     "d": "Mon",
+     "ma": "Read and write 703,060 and 730,600 in words; round both to the nearest 1,000 and 100,000; add them with the column method.",
+     "en": "Read a short story in one sitting. Write three questions about it: one 'find it' question, one 'why' question, one 'what does this word mean' question, and answer them."
+    },
+    {
+     "d": "Tue",
+     "ma": "Long multiplication 256 × 37 and short division 6,174 ÷ 6; check each with an estimate.",
+     "en": "Find two examples of figurative language in the story and explain the effect on the reader."
+    },
+    {
+     "d": "Wed",
+     "ma": "Fractions: 2/3 + 5/12; 3 1/4 − 1 5/8; 5 × 3/4 as a mixed number.",
+     "en": "Read a non-fiction extract on the same theme and sort five statements from it into facts and opinions."
+    },
+    {
+     "d": "Thu",
+     "ma": "Percentages: 20% of £45, 75% of 120, 40% of 2.5 kg; write 3/20 and 7/25 as percentages.",
+     "en": "Retrieve and present: turn the extract's key facts into a five-bullet fact box with a heading."
+    },
+    {
+     "d": "Fri",
+     "ma": "Quick check: ten mixed questions – place value, rounding, column methods, long multiplication, division with remainder, fractions and percentages. Mark and talk about the trickiest.",
+     "en": "Quick check: summarise the story in 40 words, explain one unfamiliar word using its root, and take a spelling test of words from the year."
+    }
+   ]
+  },
+  {
+   "w": 38,
+   "term": "Summer 2",
+   "title": "Review: measurement, geometry and statistics",
+   "ma": [
+    "y5:ma:4:0",
+    "y5:ma:4:3",
+    "y5:ma:4:6",
+    "y5:ma:5:2",
+    "y5:ma:5:3",
+    "y5:ma:6:0",
+    "y5:ma:7:0"
+   ],
+   "en": [
+    "y5:en:5:0",
+    "y5:en:5:1",
+    "y5:en:5:2",
+    "y5:en:2:0",
+    "y5:en:2:2",
+    "y5:en:2:3"
+   ],
+   "spell": {
+    "rule": "review: the year's spelling rules (prefixes, suffixes, homophones, silent letters)",
+    "words": [
+     "dictionary"
+    ]
+   },
+   "read": "a mix of poems and short non-fiction pieces to spot grammar features in",
+   "days": [
+    {
+     "d": "Mon",
+     "ma": "Measure and convert: the length of the hallway in m and cm; a bag of shopping in kg and g; a glass of water in ml and l.",
+     "en": "Grammar treasure hunt: find in a book a relative clause, a modal verb, a passive sentence, parenthesis and a perfect-form verb."
+    },
+    {
+     "d": "Tue",
+     "ma": "Area of the floor of your bedroom in m² (measure and multiply); estimate how many 50 cm × 50 cm squares would cover it.",
+     "en": "Punctuation fix-up: a parent writes five sentences missing commas, brackets, dashes, a colon or a semi-colon; you correct them."
+    },
+    {
+     "d": "Wed",
+     "ma": "Draw and measure angles of 25°, 90°, 145° and 210°; find missing angles on a line (138°) and round a point (90°, 115°, ?).",
+     "en": "Prefix and suffix challenge: make as many words as you can from the root 'act' or 'form' in five minutes."
+    },
+    {
+     "d": "Thu",
+     "ma": "Plot a square at (1, 1), (3, 1), (3, 3), (1, 3); translate it 4 right and 2 up and reflect it in a vertical line; record coordinates.",
+     "en": "Homophone and confused-word quiz: advice/advise, affect/effect, stationary/stationery, principal/principle."
+    },
+    {
+     "d": "Fri",
+     "ma": "Quick check: read a parent's line graph of daily temperatures and answer two difference questions; convert 3.6 kg to g and 450 cm to m; area of a 12 m × 7 m garden.",
+     "en": "Quick check: use grammar terms to explain three sentences you wrote this year, and spell ten of the year's words."
+    }
+   ]
+  },
+  {
+   "w": 39,
+   "term": "Summer 2",
+   "title": "Fun project: plan a family fun day",
+   "ma": [
+    "y5:ma:4:6",
+    "y5:ma:7:1",
+    "y5:ma:2:9",
+    "y5:ma:3:11",
+    "y5:ma:4:5",
+    "y5:ma:1:2"
+   ],
+   "en": [
+    "y5:en:4:0",
+    "y5:en:4:1",
+    "y5:en:4:2",
+    "y5:en:4:3",
+    "y5:en:4:4",
+    "y5:en:3:0",
+    "y5:en:1:0"
+   ],
+   "spell": {
+    "rule": "spell-it-right: words for your fun day programme",
+    "words": [
+     "competition"
+    ]
+   },
+   "read": "the child's free choice, including a book to recommend for the summer holiday",
+   "days": [
+    {
+     "d": "Mon",
+     "ma": "Plan a family fun day with a pretend budget of £50: list activities and food with prices and make sure the total stays within budget.",
+     "en": "Plan a fun day programme: the audience (the family), the purpose (inform and excite), and the sections you will include."
+    },
+    {
+     "d": "Tue",
+     "ma": "Make a timetable for the day in 24-hour time, with start and end times and how long each event lasts.",
+     "en": "Write the programme: a welcome paragraph, a timetable, a description of each activity and the rules for a quiz or game."
+    },
+    {
+     "d": "Wed",
+     "ma": "Work out scores and prizes: if 20% of points are bonus points, how many bonus points are in a 40-point game? Round the money spent to check it.",
+     "en": "Edit and proof-read the programme, then make a neat final copy with headings and bullet points; choose the best pen for each part."
+    },
+    {
+     "d": "Thu",
+     "ma": "Hold the fun day (or part of it): measure and record results in a table – longest standing jump in cm, beanbag throws, a timed puzzle.",
+     "en": "Write and rehearse a short opening speech or a poem to perform at the start of the fun day."
+    },
+    {
+     "d": "Fri",
+     "ma": "Final check: present the results table and answer questions about it – who won each event and by how much?",
+     "en": "Perform your speech or poem, then recommend one book for the summer holiday and explain why."
+    }
+   ]
+  }
+ ]
+}

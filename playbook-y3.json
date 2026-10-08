@@ -1,0 +1,2027 @@
+{
+ "year": "y3",
+ "weeks": [
+  {
+   "w": 1,
+   "term": "Autumn 1",
+   "title": "Hundreds, tens and ones",
+   "ma": [
+    "y3:ma:0:1",
+    "y3:ma:0:3"
+   ],
+   "en": [
+    "y3:en:1:0",
+    "y3:en:1:3",
+    "y3:en:3:0",
+    "y3:en:3:1",
+    "y3:en:2:0",
+    "y3:en:5:2"
+   ],
+   "spell": {
+    "rule": "Prefixes un- and dis- turn a word into its opposite (unkind, unhappy, disagree, dislike, disobey)",
+    "words": [
+     "disappear",
+     "answer"
+    ]
+   },
+   "read": "Start a reading-for-pleasure pile: one story, one poetry book and one fact book from the library or home shelf.",
+   "days": [
+    {
+     "d": "Mon",
+     "ma": "Draw a chart with columns H, T and O. Build 145, 230 and 307 with dried pasta (ten pieces in a pile make a ten, ten piles make a hundred) and say what each digit is worth – in 307 the 3 is worth 300 and the 0 means no tens.",
+     "en": "Choose three books for the week (a story, a poem book, a fact book). Read the first page of each aloud together and talk about which one your child most wants to carry on with, and why."
+    },
+    {
+     "d": "Tue",
+     "ma": "Quick-draw numbers: you say 426, your child draws it as hundreds squares, tens sticks and ones dots; then swap roles. Include a zero-tens number such as 509 and talk about why the 0 matters.",
+     "en": "Handwriting warm-up: write 'an in un' (diagonal join to n) and 'on wn' (horizontal join from o and w) five times each, keeping letters on the line and the same height."
+    },
+    {
+     "d": "Wed",
+     "ma": "Partition 352 three ways: 300 + 50 + 2, then 300 + 40 + 12, then 200 + 150 + 2. Use the pasta model to prove each version still makes 352, then try 461.",
+     "en": "Word-class hunt: from two pages of the story, list three nouns, three verbs and three adjectives in a table headed noun, verb, adjective. Ask your child to use those words when explaining a choice."
+    },
+    {
+     "d": "Thu",
+     "ma": "Digit swap: write 4, 7 and 1 on paper scraps. Make all six three-digit numbers they can (147, 174, 417 …) and say what the 7 is worth in each one.",
+     "en": "Spelling: add un- or dis- to kind, happy, agree, like, obey and appear. Say what each new word means and write two of them in sentences, e.g. 'The magician made the coin disappear.'"
+    },
+    {
+     "d": "Fri",
+     "ma": "Friday check: What is the 6 worth in 562? Partition 408. Draw 231 as squares, sticks and dots. Which number has 3 hundreds, 0 tens and 9 ones? Mark together and redo any slips.",
+     "en": "Dictation: read aloud 'I dislike it when my socks disappear.' and 'Can you answer the question?' Your child writes them from memory, then checks capitals, full stops, the question mark and the spellings of disappear and answer."
+    }
+   ]
+  },
+  {
+   "w": 2,
+   "term": "Autumn 1",
+   "title": "Reading and writing numbers to 1000",
+   "ma": [
+    "y3:ma:0:4",
+    "y3:ma:0:3",
+    "y3:ma:0:1"
+   ],
+   "en": [
+    "y3:en:5:0",
+    "y3:en:5:2",
+    "y3:en:2:0",
+    "y3:en:1:1",
+    "y3:en:3:0",
+    "y3:en:2:5"
+   ],
+   "spell": {
+    "rule": "Prefixes mis- (wrongly) and re- (again): misbehave, mislead, misspell, redo, rebuild, return",
+    "words": [
+     "remember",
+     "heard"
+    ]
+   },
+   "read": "A short chapter book read independently, plus a story read aloud by an adult each evening.",
+   "days": [
+    {
+     "d": "Mon",
+     "ma": "Write 'three hundred and forty-six' in words and 346 in numerals side by side. Then do the same for 590, 708 and 999, checking hyphens in numbers like forty-six.",
+     "en": "Joining sentences: talk about conjunctions. Finish these three starters aloud then in writing: 'I wore my coat because …', 'We can play outside if …', 'I brushed my teeth when …'."
+    },
+    {
+     "d": "Tue",
+     "ma": "Number match: write five numbers in numerals (215, 620, 803, 471, 999) and the same five in words on separate scraps. Mix them up and race to pair them.",
+     "en": "Read a chapter of the independent book. Stop twice and ask 'What do you think will happen next, and what in the text makes you think that?'"
+    },
+    {
+     "d": "Wed",
+     "ma": "Represent 263 four ways on one sheet: in words, as squares-sticks-dots, as 200 + 60 + 3 and as a point roughly placed on a 0–1000 line. Talk about which way shows it most clearly.",
+     "en": "Spelling: add mis- or re- to behave, lead, spell, do, build and turn. Sort the words into 'done wrongly' and 'done again', then write 'I need to redo my misspelt word.'"
+    },
+    {
+     "d": "Thu",
+     "ma": "Number of the day from a page number, house number or receipt: read it aloud, write it in words, say the value of each digit and write the numbers 1 more and 1 less.",
+     "en": "Handwriting: copy 'I remember what I heard.' three times using diagonal joins (re, me, he) and making ascenders (h, d, b) twice the height of small letters."
+    },
+    {
+     "d": "Fri",
+     "ma": "Friday check: write 470 and 905 in words; write 'six hundred and twelve' in numerals; what is the 0 worth in 905? Draw 384 any way you like. Mark and correct together.",
+     "en": "Dictation: 'I heard a noise because the dog misbehaved.' and 'Do you remember when we rebuilt the tower?' Check the conjunctions, question mark and the words heard and remember."
+    }
+   ]
+  },
+  {
+   "w": 3,
+   "term": "Autumn 1",
+   "title": "Counting in 4s, 8s, 50s and 100s; 10 or 100 more or less",
+   "ma": [
+    "y3:ma:0:0",
+    "y3:ma:0:5"
+   ],
+   "en": [
+    "y3:en:1:0",
+    "y3:en:1:1",
+    "y3:en:0:1",
+    "y3:en:2:2",
+    "y3:en:1:3"
+   ],
+   "spell": {
+    "rule": "The short i sound spelt y in the middle of words (myth, gym, pyramid, mystery, Egypt)",
+    "words": [
+     "bicycle"
+    ]
+   },
+   "read": "Myths and legends from the library – read one aloud together and talk about the hero and the challenge.",
+   "days": [
+    {
+     "d": "Mon",
+     "ma": "Count aloud from 0 in 50s to 1000 while clapping, then in 100s. Write the 50s sequence and spot the pattern (the last two digits go 50, 00, 50, 00).",
+     "en": "Read a myth aloud together. Afterwards, your child retells it in five sentences using fingers as prompts: who, where, the problem, what happened, how it ended."
+    },
+    {
+     "d": "Tue",
+     "ma": "Count in 4s to 48 by laying out spoons in groups of four, then in 8s to 96 by pairing those groups. Ask: which numbers are in both counts? (8, 16, 24 …)",
+     "en": "Spelling: write myth, gym, pyramid, mystery and Egypt. Underline the y making a short i sound. Then use bicycle and group in a sentence about the myth's hero."
+    },
+    {
+     "d": "Wed",
+     "ma": "10 and 100 more or less: start at 347. Your child says 357, 447, 337, 247 and writes each. Repeat with 590 (watch 590 + 10 = 600) and 105 (105 – 10 = 95).",
+     "en": "Tricky words: read aloud a list of exception words from your book (e.g. 'though', 'busy', 'island', 'heard'). Point to the part of each word that does not sound as it looks."
+    },
+    {
+     "d": "Thu",
+     "ma": "Number trail: draw a 3×3 grid, start at 230 in the corner. Moving right adds 10, moving down adds 100. Fill in the grid, then ask questions like 'What is 100 less than 450?'",
+     "en": "Discussion: talk about the myth's hero. Would you have made the same choice? Take turns to give a reason, and practise saying 'I agree because…' or 'I see it differently because…'."
+    },
+    {
+     "d": "Fri",
+     "ma": "Friday check: count on in 8s from 0 to 64; what is 10 more than 495? 100 less than 312? Fill the gaps: 150, 200, __, 300, __. Mark and talk through one mistake.",
+     "en": "Dictation: 'The group rode a bicycle to the pyramid.' and 'It was a mystery.' Check the y-spelt words, capital letters and full stops."
+    }
+   ]
+  },
+  {
+   "w": 4,
+   "term": "Autumn 1",
+   "title": "Comparing and ordering numbers to 1000",
+   "ma": [
+    "y3:ma:0:2",
+    "y3:ma:0:5",
+    "y3:ma:0:3"
+   ],
+   "en": [
+    "y3:en:4:0",
+    "y3:en:4:1",
+    "y3:en:1:1",
+    "y3:en:2:2",
+    "y3:en:3:1"
+   ],
+   "spell": {
+    "rule": "The u sound spelt ou (young, touch, double, trouble, country, cousin)",
+    "words": [
+     "enough",
+     "library"
+    ]
+   },
+   "read": "A story with a strong setting – collect describing words and phrases the author uses for places.",
+   "days": [
+    {
+     "d": "Mon",
+     "ma": "Compare with < and >: 365 __ 356, 709 __ 790, 418 __ 481. Your child explains using hundreds first, then tens: 'Both have 3 hundreds, but 6 tens is more than 5 tens.'",
+     "en": "Read a setting description from your story aloud. Underline or list five words and phrases that help you picture the place, e.g. 'the creaking gate', 'mist curled'."
+    },
+    {
+     "d": "Tue",
+     "ma": "Order five household numbers (e.g. page counts or prices in pence: 245, 452, 254, 425, 524) smallest to largest. Then mark them roughly on a 0–1000 line drawn on paper.",
+     "en": "Plan a setting: choose a place (a stormy beach, a busy market, an old library). Draw it and label it with what you see, hear, smell and feel – at least eight labels."
+    },
+    {
+     "d": "Wed",
+     "ma": "Make the biggest and smallest numbers from digits 3, 0, 8 (830 and 308 – not 038). Repeat with 5, 1, 9. Order all four numbers.",
+     "en": "Draft: turn the labels into a paragraph of four or five sentences describing the setting. Say each sentence aloud before writing it."
+    },
+    {
+     "d": "Thu",
+     "ma": "Problem: three friends score 412, 421 and 214 points in a game. Who won? Who came last? How many more points did the winner need to reach 500?",
+     "en": "Spelling and handwriting: write young, touch, double, trouble, country, enough and library neatly, with descenders (g, y) dropping below the line and not touching the next line."
+    },
+    {
+     "d": "Fri",
+     "ma": "Friday check: put in order 670, 607, 760, 76; write <, > or = for 499 __ 500 and 300 + 40 __ 340; make the largest number from 2, 9, 4. Mark together.",
+     "en": "Dictation: 'There was not enough room in the library.' and 'My young cousin was in trouble.' Then read the setting paragraph aloud and pick one word to make more exciting."
+    }
+   ]
+  },
+  {
+   "w": 5,
+   "term": "Autumn 1",
+   "title": "Adding and subtracting ones, tens and hundreds mentally",
+   "ma": [
+    "y3:ma:1:0"
+   ],
+   "en": [
+    "y3:en:5:0",
+    "y3:en:2:0",
+    "y3:en:0:0",
+    "y3:en:1:1",
+    "y3:en:4:1"
+   ],
+   "spell": {
+    "rule": "Adding -ly to make adverbs (sad → sadly, complete → completely, happy → happily, gentle → gently)",
+    "words": [
+     "actual(ly)"
+    ]
+   },
+   "read": "Any story – hunt for words ending in -ly and talk about what they tell you about how things happen.",
+   "days": [
+    {
+     "d": "Mon",
+     "ma": "Add ones: 342 + 5, 342 + 7, 368 + 4 (crosses the ten). Show the jumps on a hand-drawn number line, then do three more in your head.",
+     "en": "Adverbs: act out verbs in different ways – walk slowly, speak loudly, eat quickly. Write 'The cat crept __ across the wall.' with three different -ly adverbs."
+    },
+    {
+     "d": "Tue",
+     "ma": "Add and subtract tens: 342 + 30, 342 – 20, 385 + 40 (crosses the hundred to 425). Only the tens digit should change unless you cross a hundred – check this each time.",
+     "en": "Spelling: add -ly to sad, complete, happy, gentle, actual and probable. Spot the rule changes: y becomes i (happily), -le becomes -ly (gently, probably)."
+    },
+    {
+     "d": "Wed",
+     "ma": "Add and subtract hundreds: 342 + 300, 760 – 400, 128 + 600. Then a mixed round: you say 'start at 450, add 3 tens, take 2 hundreds' and your child tracks it mentally.",
+     "en": "Read a page of your story and find -ly adverbs. Discuss what each tells you: how, when or how often (e.g. 'suddenly' – when; 'carefully' – how)."
+    },
+    {
+     "d": "Thu",
+     "ma": "Shopping in pence: 'You have 245p and earn 30p, then 100p more.' Solve mentally, then check by writing it out. Make up two more for each other.",
+     "en": "Write three sentences about your morning that each use an adverb for time or manner, e.g. 'Finally, I actually found my shoe.' 'I will probably be early tomorrow.'"
+    },
+    {
+     "d": "Fri",
+     "ma": "Friday check: 563 + 6, 563 + 60, 563 + 600, 812 – 5, 812 – 50, 812 – 500, 395 + 10. Your child explains which digit changes each time.",
+     "en": "Dictation: 'She probably ran quickly.' and 'He actually spoke kindly to the dog.' Check -ly spellings and underline each adverb."
+    }
+   ]
+  },
+  {
+   "w": 6,
+   "term": "Autumn 1",
+   "title": "Column addition",
+   "ma": [
+    "y3:ma:1:1",
+    "y3:ma:1:2"
+   ],
+   "en": [
+    "y3:en:2:1",
+    "y3:en:4:0",
+    "y3:en:4:1",
+    "y3:en:4:2",
+    "y3:en:4:3",
+    "y3:en:4:4"
+   ],
+   "spell": {
+    "rule": "Homophones: here/hear, meet/meat, peace/piece, knot/not, see/sea",
+    "words": [
+     "heart",
+     "early"
+    ]
+   },
+   "read": "A traditional tale read aloud – the story your child will retell in writing this week.",
+   "days": [
+    {
+     "d": "Mon",
+     "ma": "Column addition without exchange: 234 + 152 and 413 + 365. Line up hundreds, tens and ones on squared or lined paper and always start with the ones.",
+     "en": "Read a traditional tale (e.g. a fox-and-crow fable or the three pigs). Make a five-box story map with a quick drawing and a few words in each box."
+    },
+    {
+     "d": "Tue",
+     "ma": "Column addition with one exchange: 247 + 135 (7 + 5 = 12, so write 2 and carry 1 ten). Build it with pasta first, then do 368 + 214 on paper.",
+     "en": "Draft the retelling using the story map – one short paragraph per two boxes. Include one sentence of what a character says."
+    },
+    {
+     "d": "Wed",
+     "ma": "Estimate first: 289 + 412 is about 300 + 400 = 700. Then calculate in columns (701). Do 156 + 378 and 445 + 267 the same way, comparing each answer with its estimate.",
+     "en": "Homophones: write pairs here/hear, meet/meat, peace/piece, knot/not and draw a tiny picture clue for each. Write 'Here I can hear the sea.'"
+    },
+    {
+     "d": "Thu",
+     "ma": "Check with the inverse: after 356 + 128 = 484, check 484 – 128 = 356. Make one deliberate mistake in a sum (e.g. 356 + 128 = 474) and let your child find it.",
+     "en": "Edit and proof-read the retelling: read it aloud, change one dull word for a better one, then check capital letters, full stops and any homophones."
+    },
+    {
+     "d": "Fri",
+     "ma": "Friday check: estimate then calculate 325 + 143, 278 + 115, 459 + 386. Check one with subtraction. Talk about which needed exchanging and why.",
+     "en": "Read the finished retelling aloud to the family using expression and a clear voice. Then dictation: 'I could hear my heart beating early in the morning.'"
+    }
+   ]
+  },
+  {
+   "w": 7,
+   "term": "Autumn 1",
+   "title": "Consolidation: place value and addition",
+   "ma": [
+    "y3:ma:0:1",
+    "y3:ma:0:2",
+    "y3:ma:0:0",
+    "y3:ma:0:4",
+    "y3:ma:1:0",
+    "y3:ma:1:1",
+    "y3:ma:0:5"
+   ],
+   "en": [
+    "y3:en:1:3",
+    "y3:en:2:5",
+    "y3:en:4:3",
+    "y3:en:5:0",
+    "y3:en:2:0",
+    "y3:en:2:1",
+    "y3:en:3:1"
+   ],
+   "spell": {
+    "rule": "Revise this half term: prefixes un-, dis-, mis-, re-; y for short i; ou for u; -ly; homophones",
+    "words": [
+     "often"
+    ]
+   },
+   "read": "Re-read a favourite book from this half term and choose a passage to read aloud with expression.",
+   "days": [
+    {
+     "d": "Mon",
+     "ma": "Place value relay: say 'four hundred and six', your child writes it, partitions it, and gives 10 more and 100 less. Repeat with 590 and 813.",
+     "en": "Spelling round-up: you read 10 words from this half term (disappear, remember, bicycle, enough, gently, hear …). Your child writes them; tick and practise any slips."
+    },
+    {
+     "d": "Tue",
+     "ma": "Order 389, 398, 938, 893, 839 and place them on a 0–1000 number line. Then count on in 4s from 0 to 40 and in 8s from 0 to 80.",
+     "en": "Grammar recap: write 'We stayed inside __ it was raining.' and finish with because, when and although. Talk about how the meaning changes."
+    },
+    {
+     "d": "Wed",
+     "ma": "Mental mix: 476 + 5, 476 + 50, 476 + 500, 703 – 4, 703 – 40, 703 – 400. Then a column sum with exchange: 467 + 258.",
+     "en": "Write a short paragraph about something you often do at weekends. Use one adverb, one conjunction and one prefix word. Proof-read for capitals and full stops."
+    },
+    {
+     "d": "Thu",
+     "ma": "Problem day: 'A school library has 345 story books and 278 fact books. How many altogether? Is that more or less than 600?' Estimate, calculate, check.",
+     "en": "Book chat: talk about the best book from this half term. Each person gives one reason and asks the other one question about their choice."
+    },
+    {
+     "d": "Fri",
+     "ma": "Half-term check: 10 mixed questions you write, e.g. value of 7 in 573; 260 + 40; 100 less than 615; 584 < or > 548; 356 + 279. Celebrate what's secure, note what to revisit.",
+     "en": "Dictation: 'I often believe I can hear the sea.' and 'Do you remember when the bicycle disappeared?' Then a neat copy in best joined handwriting."
+    }
+   ]
+  },
+  {
+   "w": 8,
+   "term": "Autumn 2",
+   "title": "Column subtraction",
+   "ma": [
+    "y3:ma:1:1",
+    "y3:ma:1:2"
+   ],
+   "en": [
+    "y3:en:0:0",
+    "y3:en:2:0",
+    "y3:en:1:2",
+    "y3:en:4:0",
+    "y3:en:4:1"
+   ],
+   "spell": {
+    "rule": "Suffix -ation turns verbs into nouns (inform → information, prepare → preparation, admire → admiration)",
+    "words": [
+     "imagine"
+    ]
+   },
+   "read": "Instructions and how-to texts – recipes, craft pages or game rules in a library book.",
+   "days": [
+    {
+     "d": "Mon",
+     "ma": "Column subtraction without exchange: 586 – 243 and 794 – 512. Line up the digits and start with the ones. Check the first one with pasta.",
+     "en": "Read a recipe or set of instructions. Point out the features: title, 'You will need' list, numbered steps, bossy verbs at the start (mix, fold, cut)."
+    },
+    {
+     "d": "Tue",
+     "ma": "Subtraction with one exchange: 352 – 127 (you can't do 2 – 7, so exchange a ten: 12 – 7 = 5). Model with pasta, then do 461 – 238 on paper.",
+     "en": "Spelling: add -ation to inform, prepare, admire, sense (sensation) and imagine (imagination – drop the e). Use two in a sentence."
+    },
+    {
+     "d": "Wed",
+     "ma": "Exchange across a zero: 403 – 158. Talk it through slowly (borrow from the hundreds, then the tens). Then try 600 – 274.",
+     "en": "Plan instructions for a simple job at home, such as making a jam sandwich or laying the table. List what you need and the steps in order, aloud first."
+    },
+    {
+     "d": "Thu",
+     "ma": "Check with the inverse: after 532 – 276 = 256, add 256 + 276 to get back to 532. Then estimate before calculating 715 – 389 (about 700 – 400 = 300).",
+     "en": "Write the instructions with a title, a 'You will need' heading and numbered steps, each starting with a bossy verb. Then follow them exactly – did they work?"
+    },
+    {
+     "d": "Fri",
+     "ma": "Friday check: 678 – 234, 543 – 276, 800 – 425. Estimate first, check one by adding. Find the error in '462 – 135 = 337'.",
+     "en": "Dictation: 'Use your imagination to prepare the information.' and 'First, fold the paper.' Check the -ation words and the comma after 'First'."
+    }
+   ]
+  },
+  {
+   "w": 9,
+   "term": "Autumn 2",
+   "title": "Estimating, checking and missing-number problems",
+   "ma": [
+    "y3:ma:1:2",
+    "y3:ma:1:3"
+   ],
+   "en": [
+    "y3:en:1:2",
+    "y3:en:4:1",
+    "y3:en:5:0",
+    "y3:en:2:4",
+    "y3:en:2:0"
+   ],
+   "spell": {
+    "rule": "Prefixes sub- (under), super- (above) and inter- (between): subway, submarine, supermarket, superstar, international",
+    "words": [
+     "circle"
+    ]
+   },
+   "read": "A non-fiction book about an animal – practise finding facts using the contents and index.",
+   "days": [
+    {
+     "d": "Mon",
+     "ma": "Missing numbers: 245 + __ = 300, __ – 120 = 380, 500 – __ = 365. Use a bar model (a long bar for the whole, two short bars for the parts) to show each one.",
+     "en": "Use a fact book's contents and index to find three facts about one animal: what it eats, where it lives and one surprising fact. Write each in a note-style bullet."
+    },
+    {
+     "d": "Tue",
+     "ma": "Estimate or calculate? For each, first round and estimate, then work out: 398 + 207, 612 – 289. Decide if the answer is sensible before checking with the inverse.",
+     "en": "Prepositions: hide a toy and describe where it is using prepositions (under, behind, between, above, inside). Write three of the sentences."
+    },
+    {
+     "d": "Wed",
+     "ma": "Two-step problem: 'A farmer has 450 eggs. She sells 175 on Monday and 120 on Tuesday. How many are left?' Draw a bar model, then calculate.",
+     "en": "Spelling: sub-, super-, inter- words. Find them in a dictionary using the first two or three letters (s-u-b). Write subway, submarine, superstar and international."
+    },
+    {
+     "d": "Thu",
+     "ma": "Make up a missing-number puzzle for each other using a number from the house (e.g. 'a recipe needs 300 g of flour, we have 175 g – how much more?').",
+     "en": "Write a short fact report about the animal with a heading and two sub-headings ('Home' and 'Food'), using your notes from Monday."
+    },
+    {
+     "d": "Fri",
+     "ma": "Friday check: __ + 160 = 425; 700 – __ = 512; estimate then calculate 389 + 276; a two-step problem about 300 stickers shared out. Mark and discuss strategies.",
+     "en": "Dictation: 'The submarine went down in the centre of the sea.' and 'Draw a circle around the superstar.' Then look up 'circle' in a dictionary to check."
+    }
+   ]
+  },
+  {
+   "w": 10,
+   "term": "Autumn 2",
+   "title": "The 3 times table",
+   "ma": [
+    "y3:ma:2:0",
+    "y3:ma:2:1"
+   ],
+   "en": [
+    "y3:en:1:0",
+    "y3:en:4:4",
+    "y3:en:1:3",
+    "y3:en:2:2",
+    "y3:en:0:1"
+   ],
+   "spell": {
+    "rule": "The k sound spelt ch (scheme, chorus, chemist, echo, character, school)",
+    "words": [
+     "question"
+    ]
+   },
+   "read": "Poetry – a poetry anthology; read some free verse (no rhyme pattern) and some rhyming poems.",
+   "days": [
+    {
+     "d": "Mon",
+     "ma": "Build the 3 times table with groups of three spoons or socks up to 12 × 3. Write 3, 6, 9 … 36 and notice the digit pattern (3, 6, 9, 12 – digits add to 3, 6 or 9).",
+     "en": "Read two poems aloud: one that rhymes and one in free verse. Talk about the differences and which one you prefer, giving a reason."
+    },
+    {
+     "d": "Tue",
+     "ma": "Multiplication and division facts: from 4 × 3 = 12, write 3 × 4 = 12, 12 ÷ 3 = 4 and 12 ÷ 4 = 3. Do the same for 7 × 3 and 9 × 3.",
+     "en": "Choose a short poem to learn and perform. Practise reading it with changes of volume and pace, and add one action for an important line."
+    },
+    {
+     "d": "Wed",
+     "ma": "Times-table ping-pong: you say 6 × 3, your child answers and asks you one. Then try division: 'How many 3s in 27?' Keep score for 3 minutes.",
+     "en": "Spelling: write scheme, chorus, echo, character and school; underline 'ch' saying k. Write 'The chorus asked a question.'"
+    },
+    {
+     "d": "Thu",
+     "ma": "Problem: 'Stools have 3 legs. How many legs on 8 stools? I counted 33 legs – how many stools?' Draw arrays to show each answer.",
+     "en": "Discuss a poem together: Which words catch your interest? What pictures do they make in your head? Take turns and build on each other's ideas."
+    },
+    {
+     "d": "Fri",
+     "ma": "Friday check: 3 × 6, 3 × 9, 11 × 3, 24 ÷ 3, 36 ÷ 3, and a missing number: 3 × __ = 21. Then write the whole table from memory.",
+     "en": "Perform the learned poem to the family. Then dictation: 'The character's echo rang out at school.' and 'Can you answer the question?'"
+    }
+   ]
+  },
+  {
+   "w": 11,
+   "term": "Autumn 2",
+   "title": "The 4 and 8 times tables",
+   "ma": [
+    "y3:ma:2:0",
+    "y3:ma:2:1",
+    "y3:ma:0:0"
+   ],
+   "en": [
+    "y3:en:5:1",
+    "y3:en:5:0",
+    "y3:en:4:1",
+    "y3:en:1:1",
+    "y3:en:3:0"
+   ],
+   "spell": {
+    "rule": "The ay sound spelt ei, eigh or ey (vein, weigh, eight, neighbour, they, obey)",
+    "words": [
+     "eight/eighth",
+     "weight"
+    ]
+   },
+   "read": "A story with plenty of conversation – spot how speech is set out on the page.",
+   "days": [
+    {
+     "d": "Mon",
+     "ma": "The 4 times table: count in 4s using pairs of shoes (each pair of pairs = 4 shoes) up to 48. Write the facts and the matching division facts for 4.",
+     "en": "Speech marks: find a conversation in your book. Point to the inverted commas, the comma or question mark inside them, and the capital letter where speech starts."
+    },
+    {
+     "d": "Tue",
+     "ma": "Double to get 8s: 4 × 3 = 12, so 8 × 3 = 24. Make a two-column list of 4s and 8s up to 12 and talk about the doubling link.",
+     "en": "Write three lines of speech for two characters, e.g. \"Where are you going?\" asked the fox. Check the punctuation goes inside the inverted commas."
+    },
+    {
+     "d": "Wed",
+     "ma": "Division: 32 ÷ 4, 32 ÷ 8, 56 ÷ 8, 48 ÷ 4. Use 'sharing into bowls' with pasta for one of them, then answer the rest from table facts.",
+     "en": "Spelling: write eight, eighth, weight, weigh, neighbour, they and obey. Make up a sentence with three of them, e.g. 'They weigh eight apples.'"
+    },
+    {
+     "d": "Thu",
+     "ma": "Problem: 'Spiders have 8 legs. How many legs on 6 spiders? A table has 4 legs – how many tables have 36 legs?' Solve, then make one up for each other.",
+     "en": "Read a chapter and choose a line of speech. Ask: how was the character feeling? What did they say or do that shows it? Write your answer with 'I think … because …'."
+    },
+    {
+     "d": "Fri",
+     "ma": "Friday check: 4 × 7, 8 × 6, 8 × 9, 40 ÷ 4, 64 ÷ 8, 4 × __ = 44. Count in 8s from 0 to 96 out loud.",
+     "en": "Dictation: \"Is that the eighth one?\" asked my neighbour. Check the inverted commas, question mark and spelling of eighth."
+    }
+   ]
+  },
+  {
+   "w": 12,
+   "term": "Autumn 2",
+   "title": "Multiplying two-digit numbers by one-digit numbers",
+   "ma": [
+    "y3:ma:2:1",
+    "y3:ma:2:0"
+   ],
+   "en": [
+    "y3:en:2:1",
+    "y3:en:4:1",
+    "y3:en:5:1",
+    "y3:en:4:2",
+    "y3:en:1:1"
+   ],
+   "spell": {
+    "rule": "Homophones: rain/rein/reign, main/mane, plain/plane, great/grate, break/brake",
+    "words": [
+     "reign"
+    ]
+   },
+   "read": "A story where two characters argue or disagree – a good model for writing dialogue.",
+   "days": [
+    {
+     "d": "Mon",
+     "ma": "Partition to multiply: 13 × 3 = 10 × 3 + 3 × 3 = 30 + 9 = 39. Show it with pasta tens and ones, then do 14 × 4 and 12 × 8.",
+     "en": "Plan a short story scene where two characters disagree (e.g. who gets the last biscuit). Draw the characters and jot down three things each might say."
+    },
+    {
+     "d": "Tue",
+     "ma": "Grid method: draw a 2-box grid for 23 × 4 (20 × 4 = 80 and 3 × 4 = 12, total 92). Then do 32 × 3 and 15 × 8.",
+     "en": "Write the scene with at least four lines of dialogue, starting a new line each time the speaker changes. Use said-alternatives like whispered, snapped, giggled."
+    },
+    {
+     "d": "Wed",
+     "ma": "Short written method: line up 24 × 3 in columns, multiply ones then tens (4 × 3 = 12, write 2, carry 1; 2 × 3 = 6, + 1 = 7). Answer 72. Then try 36 × 4.",
+     "en": "Homophones: sort rain/rein/reign, main/mane, plain/plane, great/grate, break/brake into a table with a meaning or drawing for each. Write 'The king's reign began in the rain.'"
+    },
+    {
+     "d": "Thu",
+     "ma": "Problem: 'Eggs come in boxes of 6. We buy 4 boxes. How many eggs?' Then 'A pencil costs 18p. How much for 4?' Estimate first (about 20 × 4 = 80p).",
+     "en": "Edit the dialogue: read it aloud in character. Check every spoken part has inverted commas and the punctuation sits inside. Improve one 'said'."
+    },
+    {
+     "d": "Fri",
+     "ma": "Friday check: 21 × 3, 16 × 4, 13 × 8, 45 × 3 (with exchange), and 'Which is greater, 24 × 3 or 18 × 4?' Show working.",
+     "en": "Dictation: \"Hold the reins!\" shouted the rider in the rain. Then write 'The plane landed on the plain.' and check each homophone."
+    }
+   ]
+  },
+  {
+   "w": 13,
+   "term": "Autumn 2",
+   "title": "Division and scaling problems",
+   "ma": [
+    "y3:ma:2:1",
+    "y3:ma:2:2"
+   ],
+   "en": [
+    "y3:en:4:0",
+    "y3:en:4:1",
+    "y3:en:4:3",
+    "y3:en:5:2",
+    "y3:en:2:0"
+   ],
+   "spell": {
+    "rule": "Suffix -ous (famous, dangerous, poisonous, enormous, nervous, curious)",
+    "words": [
+     "famous"
+    ]
+   },
+   "read": "Letters and postcards – look at how letters are laid out with an address, greeting and sign-off.",
+   "days": [
+    {
+     "d": "Mon",
+     "ma": "Divide by sharing and grouping: 24 ÷ 3 with 24 pasta pieces, first shared into 3 bowls, then grouped in 3s. Then 48 ÷ 4 and 72 ÷ 8 from table facts.",
+     "en": "Look at a letter (a real one at home or one in a book). Label the parts: address, date, greeting, paragraphs, sign-off. Talk about why letters have this layout."
+    },
+    {
+     "d": "Tue",
+     "ma": "Remainders: share 14 grapes between 4 people (3 each, 2 left over). Try 25 ÷ 3 and 30 ÷ 8, writing the remainder as 'r'.",
+     "en": "Plan a letter to a relative about something famous or popular at your house this term. Note three paragraph ideas: news, a question to ask, a plan."
+    },
+    {
+     "d": "Wed",
+     "ma": "Scaling: 'A carrot is 8 cm, a pencil is 3 times as long – how long is the pencil?' 'A toy costs 4p, a ball costs 5 times as much.' Draw bar models.",
+     "en": "Write the letter in three paragraphs. Use at least one -ous word (curious, enormous, nervous) and one conjunction (when, if, because, although)."
+    },
+    {
+     "d": "Thu",
+     "ma": "Correspondence: '3 tops and 4 pairs of trousers – how many different outfits?' Lay out real clothes or draw them and list all 12 combinations.",
+     "en": "Proof-read the letter for spelling and punctuation, then name the parts of speech in one sentence (noun, verb, adjective, adverb, conjunction)."
+    },
+    {
+     "d": "Fri",
+     "ma": "Friday check: 36 ÷ 4, 56 ÷ 8, 27 ÷ 3, 19 ÷ 4 (with remainder), a scaling question and an outfit question with 2 hats and 3 scarves.",
+     "en": "Dictation: 'The famous dog was very curious.' and 'It is a popular and enormous park.' Check the -ous spellings and full stops."
+    }
+   ]
+  },
+  {
+   "w": 14,
+   "term": "Autumn 2",
+   "title": "Consolidation: subtraction, tables and problem solving",
+   "ma": [
+    "y3:ma:1:1",
+    "y3:ma:1:3",
+    "y3:ma:2:0",
+    "y3:ma:2:1",
+    "y3:ma:2:2"
+   ],
+   "en": [
+    "y3:en:1:1",
+    "y3:en:2:5",
+    "y3:en:4:2",
+    "y3:en:5:1",
+    "y3:en:1:2",
+    "y3:en:0:1"
+   ],
+   "spell": {
+    "rule": "Revise this half term: -ation; sub-/super-/inter-; ch as k; ei/eigh/ey; homophones; -ous",
+    "words": [
+     "favourite"
+    ]
+   },
+   "read": "A seasonal story or poem collection from the library, read aloud by an adult.",
+   "days": [
+    {
+     "d": "Mon",
+     "ma": "Column calculations: 548 + 276 and 603 – 247, each with an estimate first and an inverse check afterwards.",
+     "en": "Spelling round-up: you read 10 words from this half term (imagination, circle, question, eight, weight, reign, famous …). Tick, then practise any slips three times."
+    },
+    {
+     "d": "Tue",
+     "ma": "Times-table challenge: shuffle paper cards with 3, 4 and 8 times-table questions; how many in 2 minutes? Repeat to beat the score.",
+     "en": "Read a story with a surprise ending. Before the end, predict what will happen; after, discuss which clues hinted at the surprise."
+    },
+    {
+     "d": "Wed",
+     "ma": "Multiplication: 27 × 3, 18 × 4, 14 × 8. Then divide: 96 ÷ 8, 84 ÷ 4, and 50 ÷ 3 with a remainder.",
+     "en": "Write a short letter or speech-filled paragraph about your favourite part of this term. Edit it: improve one word, fix one punctuation mark."
+    },
+    {
+     "d": "Thu",
+     "ma": "Problem mix: 'Each box holds 8 crackers. How many in 7 boxes? We ate 19 – how many left?' and 'A rope is 4 times as long as a 15 cm ribbon – how long is it?'",
+     "en": "Use a fact book or leaflet to answer three questions you write first (e.g. 'When did it open?'). Record answers in a small table."
+    },
+    {
+     "d": "Fri",
+     "ma": "Half-term check: 10 mixed questions – two column sums, three table facts, two divisions, a missing number, a scaling and a two-step problem. Note what to revisit.",
+     "en": "Dictation: '\"What a surprise!\" said my neighbour.' and 'My favourite subject is the famous history of the island.' Check speech punctuation and spellings."
+    }
+   ]
+  },
+  {
+   "w": 15,
+   "term": "Spring 1",
+   "title": "Measuring length in m, cm and mm",
+   "ma": [
+    "y3:ma:4:0"
+   ],
+   "en": [
+    "y3:en:5:0",
+    "y3:en:5:2",
+    "y3:en:4:1",
+    "y3:en:1:2",
+    "y3:en:2:2"
+   ],
+   "spell": {
+    "rule": "Words ending -ture (picture, adventure, creature, furniture, nature, mixture)",
+    "words": [
+     "length",
+     "height"
+    ]
+   },
+   "read": "A recount or diary-style book, or a non-fiction book about how things are measured.",
+   "days": [
+    {
+     "d": "Mon",
+     "ma": "Find a ruler or tape measure. Measure five objects to the nearest cm (a spoon, a book, a shoe) and record them in a table. Talk about where the 0 starts.",
+     "en": "Present perfect versus past: compare 'I ate my lunch.' with 'I have eaten my lunch.' Say three things you have done today and three things you did last week."
+    },
+    {
+     "d": "Tue",
+     "ma": "Millimetres: look at the tiny marks between cm. Measure a coin, a button and a paper clip in mm. Know that 1 cm = 10 mm, so 3 cm 4 mm = 34 mm.",
+     "en": "Spelling: write picture, adventure, creature, furniture, nature and mixture. Then measure and write 'The length of the picture is 20 cm.'"
+    },
+    {
+     "d": "Wed",
+     "ma": "Metres: use a piece of string cut to 1 m (100 cm, measured with the ruler). Estimate, then measure the length of a bed, a table and a hallway in m and cm.",
+     "en": "Plan a recount of a recent day out or weekend: list five events in order with time words (first, after that, later, finally)."
+    },
+    {
+     "d": "Thu",
+     "ma": "Compare: put 45 cm, 1 m, 85 cm, 120 cm and 1 m 5 cm in order. Then find the difference between your height and a family member's height.",
+     "en": "Write the recount in the past tense, adding one sentence in the present perfect, e.g. 'I have never seen such a tall tree.' Use the word height or length."
+    },
+    {
+     "d": "Fri",
+     "ma": "Friday check: convert 6 cm to mm, 200 cm to m, 1 m 30 cm to cm; measure a line you draw (e.g. 7 cm 5 mm); order 90 cm, 1 m, 1 m 2 cm.",
+     "en": "Dictation: 'I have measured the height of the furniture.' and 'We went on an adventure.' Check -ture words and the verb forms."
+    }
+   ]
+  },
+  {
+   "w": 16,
+   "term": "Spring 1",
+   "title": "Adding and subtracting lengths; introducing perimeter",
+   "ma": [
+    "y3:ma:4:0",
+    "y3:ma:4:1"
+   ],
+   "en": [
+    "y3:en:2:4",
+    "y3:en:1:0",
+    "y3:en:0:0",
+    "y3:en:2:5",
+    "y3:en:3:1"
+   ],
+   "spell": {
+    "rule": "Words ending -sure (measure, treasure, pleasure, enclosure, leisure)",
+    "words": [
+     "describe"
+    ]
+   },
+   "read": "A dictionary and a reference book – practise looking up new words you meet in your reading.",
+   "days": [
+    {
+     "d": "Mon",
+     "ma": "Add lengths: a 35 cm scarf tied to a 48 cm scarf (ignore the knot!) – how long altogether? Then 1 m 20 cm + 45 cm. Write as cm calculations.",
+     "en": "Dictionary race: practise finding words by their first two or three letters (tr- for treasure, me- for measure, pl- for pleasure). Time each find."
+    },
+    {
+     "d": "Tue",
+     "ma": "Subtract lengths: 'A ribbon is 90 cm. I cut off 37 cm. How much is left?' Then 'One plant is 64 cm, another 1 m – what's the difference?'",
+     "en": "Spelling: write measure, treasure, pleasure, enclosure. Notice the -sure ending sounds like 'zher'. Write a treasure-hunt clue using two of the words."
+    },
+    {
+     "d": "Wed",
+     "ma": "Perimeter: walk around the edge of a rug or table with a finger. Measure each side and add them together. Explain that perimeter is the distance all the way round.",
+     "en": "Read a page of a fact book and choose two unfamiliar words. Use the dictionary to look them up and the root word to explain them, e.g. 'measure' in 'measurement'."
+    },
+    {
+     "d": "Thu",
+     "ma": "Draw a rectangle 6 cm by 4 cm with a ruler. Find the perimeter (6 + 4 + 6 + 4 = 20 cm). Then draw a 5 cm square and find its perimeter.",
+     "en": "Handwriting: copy a four-line treasure-hunt clue in your best joined writing, checking letters are evenly spaced and tall letters stay parallel."
+    },
+    {
+     "d": "Fri",
+     "ma": "Friday check: 46 cm + 38 cm, 1 m – 35 cm, 300 mm in cm, and the perimeter of a 7 cm by 3 cm rectangle. Measure one thing to check an answer.",
+     "en": "Dictation: 'Describe the treasure you found.' and 'It was a pleasure to measure the enclosure.' Use the dictionary to check any word you weren't sure about."
+    }
+   ]
+  },
+  {
+   "w": 17,
+   "term": "Spring 1",
+   "title": "Perimeter of 2-D shapes",
+   "ma": [
+    "y3:ma:4:1",
+    "y3:ma:4:0"
+   ],
+   "en": [
+    "y3:en:5:0",
+    "y3:en:5:1",
+    "y3:en:4:1",
+    "y3:en:4:2",
+    "y3:en:3:0"
+   ],
+   "spell": {
+    "rule": "The sh sound spelt ch, mostly in words from French (chef, chalet, machine, brochure, parachute)",
+    "words": [
+     "guide",
+     "guard"
+    ]
+   },
+   "read": "Adventure stories – notice sentences that start with when, where or how something happened.",
+   "days": [
+    {
+     "d": "Mon",
+     "ma": "Measure the perimeter of a book, a placemat and a tile (or a cereal box face). Record each side and the total. Which has the longest perimeter?",
+     "en": "Fronted adverbials: sentences that begin with when, where or how, followed by a comma. Say three aloud: 'Later that day, …', 'Under the bridge, …', 'Without a sound, …'."
+    },
+    {
+     "d": "Tue",
+     "ma": "Perimeter of a triangle and other shapes: draw a triangle with sides 4 cm, 5 cm and 6 cm, and an L-shape on squared paper. Count or measure and total each one.",
+     "en": "Write five sentences about a guard creeping through a castle, each beginning with a fronted adverbial and a comma, e.g. 'In the dark corridor, the guard listened.'"
+    },
+    {
+     "d": "Wed",
+     "ma": "Missing sides: 'A rectangle has a perimeter of 20 cm and one side is 6 cm – what are the other sides?' Use string or matchsticks to test ideas.",
+     "en": "Spelling: write chef, chalet, machine, brochure and parachute. Write 'The chef was our guide in the chalet.'"
+    },
+    {
+     "d": "Thu",
+     "ma": "Design a garden fence: draw a rectangle garden on squared paper (1 square = 1 m). Find the perimeter. Can you draw two different rectangles with a 16 m perimeter?",
+     "en": "Edit Tuesday's sentences: are the commas there? Change one adverbial for a more exciting one. Read them aloud, pausing at each comma."
+    },
+    {
+     "d": "Fri",
+     "ma": "Friday check: perimeter of a 9 cm by 2 cm rectangle; a 6 cm square; a triangle with sides 3 cm, 4 cm, 5 cm; and 'which perimeter is longer?' with two drawn shapes.",
+     "en": "Dictation: 'Before dawn, the guard checked the machine.' and 'With a smile, our guide opened the door.' Check the commas after the fronted adverbials."
+    }
+   ]
+  },
+  {
+   "w": 18,
+   "term": "Spring 1",
+   "title": "Tenths",
+   "ma": [
+    "y3:ma:3:0"
+   ],
+   "en": [
+    "y3:en:1:0",
+    "y3:en:4:4",
+    "y3:en:1:3",
+    "y3:en:0:1",
+    "y3:en:2:2"
+   ],
+   "spell": {
+    "rule": "The suffix -tion (position, action, invention, mention, station, fraction)",
+    "words": [
+     "position"
+    ]
+   },
+   "read": "Play scripts – find a short play in an anthology or write out a scene from a favourite story as a script.",
+   "days": [
+    {
+     "d": "Mon",
+     "ma": "Fold a strip of paper into 10 equal parts (or draw a 10 cm line divided at every cm). Each part is one tenth, written 1/10. Colour 3 parts: 3/10.",
+     "en": "Read a short play script together. Notice the layout: character names on the left, no inverted commas, stage directions in brackets."
+    },
+    {
+     "d": "Tue",
+     "ma": "Count in tenths aloud on a number line from 0 to 2: 1/10, 2/10 … 9/10, 1, 1 and 1/10 … Then count back from 1 to 0.",
+     "en": "Choose parts and rehearse the script. Practise changing your voice for each character and using the stage directions as actions."
+    },
+    {
+     "d": "Wed",
+     "ma": "Dividing by 10: share 1 chocolate bar or a 10-section strip between 10 people – each gets 1/10. Then 3 strips shared by 10: each gets 3/10.",
+     "en": "Spelling: write position, action, invention, mention, station and fraction; underline -tion. Write 'Mention the fraction in that position.'"
+    },
+    {
+     "d": "Thu",
+     "ma": "Tenths of an amount: 1/10 of 30 pasta pieces (3), 1/10 of 50p (5p), 3/10 of 20 (6). Lay them out to check.",
+     "en": "Turn a scene from a familiar fairy tale into a short script with three characters and two stage directions. Perform it for the family."
+    },
+    {
+     "d": "Fri",
+     "ma": "Friday check: what fraction of this 10-part strip is shaded (draw 7)? Count from 4/10 to 1 and 3/10. 1/10 of 80. 4 ÷ 10 written as tenths.",
+     "en": "Discussion: what did the audience like about the play? Take turns, listening without interrupting. Then dictation: 'The actor took his position on the stage.'"
+    }
+   ]
+  },
+  {
+   "w": 19,
+   "term": "Spring 1",
+   "title": "Fractions of a set of objects",
+   "ma": [
+    "y3:ma:3:1",
+    "y3:ma:3:2"
+   ],
+   "en": [
+    "y3:en:1:1",
+    "y3:en:1:0",
+    "y3:en:5:0",
+    "y3:en:4:2",
+    "y3:en:2:2"
+   ],
+   "spell": {
+    "rule": "Words ending -gue and -que, from French (league, tongue, rogue, antique, unique, cheque)",
+    "words": [
+     "quarter",
+     "island"
+    ]
+   },
+   "read": "Fables – short stories with a moral; talk about the lesson each one teaches.",
+   "days": [
+    {
+     "d": "Mon",
+     "ma": "Unit fractions of a set: share 12 buttons into 2, 3 and 4 equal groups. Write 1/2 of 12 = 6, 1/3 of 12 = 4, 1/4 of 12 = 3.",
+     "en": "Read two fables. For each, decide what the moral (lesson) is and write it in one sentence. Do both fables share a theme?"
+    },
+    {
+     "d": "Tue",
+     "ma": "Non-unit fractions: if 1/4 of 20 is 5, then 3/4 of 20 is 15. Lay out 20 pieces of pasta in four rows to see it. Then 2/3 of 15 and 3/5 of 10.",
+     "en": "Pronouns: rewrite 'The fox saw the crow. The fox wanted the cheese. The fox called to the crow.' using he, she, it, they so it doesn't repeat."
+    },
+    {
+     "d": "Wed",
+     "ma": "Fractions in the kitchen: 1/2 of 8 apples, 1/4 of a 12-egg tray, 2/3 of 9 strawberries. Physically share them out to check.",
+     "en": "Spelling: write league, tongue, rogue, antique, unique; quarter and island. Say each and notice the silent letters."
+    },
+    {
+     "d": "Thu",
+     "ma": "Problem: 'There are 24 children on an island trip. A quarter go swimming, a third go fishing. How many do each?' Draw a bar split into parts.",
+     "en": "Write your own short fable about two animals with a clear moral in the last line. Then edit: replace a repeated noun with a pronoun."
+    },
+    {
+     "d": "Fri",
+     "ma": "Friday check: 1/3 of 18, 1/4 of 28, 3/4 of 16, 2/5 of 20, and 'which is more: 1/2 of 10 or 1/3 of 18?'",
+     "en": "Dictation: 'A quarter of the island was unique.' and 'The rogue stuck out his tongue.' Then read your fable aloud."
+    }
+   ]
+  },
+  {
+   "w": 20,
+   "term": "Spring 1",
+   "title": "Consolidation: length, perimeter and early fractions",
+   "ma": [
+    "y3:ma:4:0",
+    "y3:ma:4:1",
+    "y3:ma:3:0",
+    "y3:ma:3:1",
+    "y3:ma:2:0"
+   ],
+   "en": [
+    "y3:en:5:1",
+    "y3:en:2:4",
+    "y3:en:4:3",
+    "y3:en:1:3",
+    "y3:en:2:5",
+    "y3:en:5:0"
+   ],
+   "spell": {
+    "rule": "Revise this half term: -ture, -sure, ch as sh, -tion, -gue/-que",
+    "words": [
+     "difficult"
+    ]
+   },
+   "read": "Re-read a favourite fable or play from this half term and prepare it to read aloud.",
+   "days": [
+    {
+     "d": "Mon",
+     "ma": "Measure and order: measure three things in cm and mm, order them, then find the difference between the longest and shortest.",
+     "en": "Spelling round-up: 10 words from this half term (length, height, measure, guide, position, quarter, island, creature …). Practise any slips."
+    },
+    {
+     "d": "Tue",
+     "ma": "Perimeter puzzle: draw two shapes on squared paper with the same perimeter but a different shape. Measure to prove it.",
+     "en": "Grammar recap: write two sentences with fronted adverbials and commas, one with the present perfect ('I have …') and one with a pronoun replacing a noun."
+    },
+    {
+     "d": "Wed",
+     "ma": "Tenths and fractions: count in tenths from 0 to 2; find 1/10 of 40, 1/4 of 24, 3/4 of 24.",
+     "en": "Write a short paragraph about something difficult you learned this term. Proof-read for spelling and punctuation, then look up one word in a dictionary."
+    },
+    {
+     "d": "Thu",
+     "ma": "Tables top-up: quick-fire 3, 4 and 8 facts for 3 minutes, then a scaling question: 'A ruler is 30 cm; a table is 4 times as long – how long?'",
+     "en": "Book talk: discuss which story from this half term was best and why. Each person must respond to what the other said before giving a new idea."
+    },
+    {
+     "d": "Fri",
+     "ma": "Half-term check: 10 mixed questions – a conversion, a perimeter, a length subtraction, counting in tenths, two fractions of amounts and tables facts. Note what to revisit.",
+     "en": "Dictation: 'In the morning, the creature has eaten a quarter of the mixture.' and 'It was difficult to measure.' Check commas and -ture/-sure."
+    }
+   ]
+  },
+  {
+   "w": 21,
+   "term": "Spring 2",
+   "title": "Fractions as numbers on a number line",
+   "ma": [
+    "y3:ma:3:2",
+    "y3:ma:3:5"
+   ],
+   "en": [
+    "y3:en:4:0",
+    "y3:en:4:1",
+    "y3:en:1:1",
+    "y3:en:0:0"
+   ],
+   "spell": {
+    "rule": "The zh sound spelt -sion (division, television, invasion, decision, explosion)",
+    "words": [
+     "possible",
+     "opposite"
+    ]
+   },
+   "read": "A chapter book with clear paragraphs – notice how a new paragraph starts with a new time, place or speaker.",
+   "days": [
+    {
+     "d": "Mon",
+     "ma": "Draw a 0–1 number line 12 cm long and mark quarters every 3 cm. Label 1/4, 2/4, 3/4. Then draw another and mark thirds every 4 cm.",
+     "en": "Look at a page of your book. Count the paragraphs and say what each one is about in a few words. Why did the author start a new paragraph there?"
+    },
+    {
+     "d": "Tue",
+     "ma": "Fractions beyond 1: on a 0–2 line, mark halves (1/2, 1, 1 1/2, 2). Count in quarters aloud from 0 to 2.",
+     "en": "Plan a story of three paragraphs: beginning, problem, ending. Note a time or place change for each new paragraph (Early next morning…, Back at home…)."
+    },
+    {
+     "d": "Wed",
+     "ma": "Comparing unit fractions: fold three paper strips into halves, thirds and quarters. Show that 1/2 > 1/3 > 1/4 – more parts means smaller parts.",
+     "en": "Write the first two paragraphs of the story, each starting with a time or place phrase. Rehearse each sentence aloud first."
+    },
+    {
+     "d": "Thu",
+     "ma": "Same denominator: on a fifths strip, compare 2/5 and 4/5. Order 3/8, 1/8, 7/8, 5/8. Explain: same size parts, so more parts is bigger.",
+     "en": "Spelling: add -sion to divide (division), decide (decision), explode (explosion), invade (invasion). Notice how the root changes. Finish the third paragraph using one -sion word."
+    },
+    {
+     "d": "Fri",
+     "ma": "Friday check: place 1/2, 1/4 and 3/4 on a 0–1 line; < or >: 1/3 __ 1/5, 2/6 __ 5/6; order 1/2, 1/8, 1/4.",
+     "en": "Dictation: 'It was possible to see the opposite side of the river.' and 'She made a quick decision.' Read the whole story aloud."
+    }
+   ]
+  },
+  {
+   "w": 22,
+   "term": "Spring 2",
+   "title": "Equivalent fractions",
+   "ma": [
+    "y3:ma:3:3",
+    "y3:ma:3:2"
+   ],
+   "en": [
+    "y3:en:4:0",
+    "y3:en:4:1",
+    "y3:en:4:2",
+    "y3:en:1:1",
+    "y3:en:2:0"
+   ],
+   "spell": {
+    "rule": "-ssion and -cian endings (discussion, expression, permission; musician, magician, electrician)",
+    "words": [
+     "promise"
+    ]
+   },
+   "read": "Leaflets, posters and adverts at home or in the library – how do they persuade you?",
+   "days": [
+    {
+     "d": "Mon",
+     "ma": "Fold a paper strip in half, then in quarters. Show that 1/2 is the same as 2/4. Fold again into eighths to show 1/2 = 4/8.",
+     "en": "Look at a leaflet or poster. Find persuasive features: a catchy title, questions to the reader, exciting adjectives, a promise. Discuss which works best."
+    },
+    {
+     "d": "Tue",
+     "ma": "Draw two identical rectangles. Shade 1/3 of one; split the other into sixths and shade 2/6. Compare: equal amounts. Find another fraction that equals 1/3.",
+     "en": "Plan a poster persuading people to visit an imaginary place (a magic library, an island zoo). List five reasons and a slogan."
+    },
+    {
+     "d": "Wed",
+     "ma": "Fraction wall: on paper, draw rows for 1 whole, halves, quarters, eighths, thirds and sixths, all the same length. Use it to find three pairs of equivalent fractions.",
+     "en": "Write the poster using a heading, sub-headings and bullet points, including a question to the reader and a promise ('We promise you will…')."
+    },
+    {
+     "d": "Thu",
+     "ma": "Equivalent sets: 1/2 of 8 sweets = 4; 2/4 of 8 sweets = 4. Show with real objects that 1/2 and 2/4 give the same amount. Try 1/3 and 2/6 of 12.",
+     "en": "Spelling: write discussion, expression, permission, musician, magician and electrician. Note that -cian words are jobs. Edit the poster: is every word spelt correctly and persuasive?"
+    },
+    {
+     "d": "Fri",
+     "ma": "Friday check: fill the gaps 1/2 = __/4 = __/8; 1/3 = 2/__; shade 3/6 of a drawn rectangle and name an equivalent; true or false: 2/4 = 1/3.",
+     "en": "Present the poster aloud as an advert with expression. Dictation: 'The musician gave her permission.' and 'I promise to join the discussion.'"
+    }
+   ]
+  },
+  {
+   "w": 23,
+   "term": "Spring 2",
+   "title": "Adding and subtracting fractions",
+   "ma": [
+    "y3:ma:3:4",
+    "y3:ma:3:2"
+   ],
+   "en": [
+    "y3:en:1:0",
+    "y3:en:4:4",
+    "y3:en:0:0",
+    "y3:en:2:0",
+    "y3:en:1:3"
+   ],
+   "spell": {
+    "rule": "Prefixes in- and im- meaning 'not' (inactive, incorrect, invisible; impossible, impatient, imperfect)",
+    "words": [
+     "different",
+     "important"
+    ]
+   },
+   "read": "Narrative poems – poems that tell a story, often with verses and a pattern.",
+   "days": [
+    {
+     "d": "Mon",
+     "ma": "Cut a paper 'pizza' into 8 slices. You eat 2/8, I eat 3/8: together we ate 5/8. Write 2/8 + 3/8 = 5/8. Notice the denominator stays the same.",
+     "en": "Read a narrative poem aloud together. Talk about who is in it, what happens, and how the verses move the story along."
+    },
+    {
+     "d": "Tue",
+     "ma": "Subtract with the same pizza: 7/8 – 4/8 = 3/8. Then try 5/6 – 2/6, 4/5 – 1/5. Draw bar models for each.",
+     "en": "Spelling: add in- or im- to active, correct, visible, possible, patient, perfect. Rule: im- comes before words starting with p (and m, b)."
+    },
+    {
+     "d": "Wed",
+     "ma": "Number line jumps: start at 1/7 and jump on 3/7 – where do you land? Do 2/10 + 5/10 and 9/10 – 6/10 the same way.",
+     "en": "Learn two verses of the poem by heart. Practise with changes in volume and pace at the exciting moments."
+    },
+    {
+     "d": "Thu",
+     "ma": "Make a whole: what must be added to 3/5 to make 1? (2/5). Try 1/4, 5/8 and 2/3. Use paper strips to check.",
+     "en": "Read your own new words aloud: incorrect, invisible, impatient. Explain the root word and what the prefix changes. Find one more in a book."
+    },
+    {
+     "d": "Fri",
+     "ma": "Friday check: 2/9 + 5/9, 6/7 – 2/7, 1/4 + 2/4, 1 – 3/10, and a word problem: 'I drank 2/6 of the jug, you drank 3/6. How much is left?'",
+     "en": "Perform the poem for the family, then discuss: what was important in the story? Was it different from other poems you know? Take turns."
+    }
+   ]
+  },
+  {
+   "w": 24,
+   "term": "Spring 2",
+   "title": "Comparing fractions and solving fraction problems",
+   "ma": [
+    "y3:ma:3:5",
+    "y3:ma:3:6",
+    "y3:ma:3:1"
+   ],
+   "en": [
+    "y3:en:1:1",
+    "y3:en:4:1",
+    "y3:en:4:2",
+    "y3:en:2:0",
+    "y3:en:5:0"
+   ],
+   "spell": {
+    "rule": "Adding vowel suffixes to longer words: double the last letter when the final syllable is stressed (forgetting, beginning, preferred) but not otherwise (gardening, limited)",
+    "words": [
+     "learn"
+    ]
+   },
+   "read": "A story told by a character in the first person – think about how the narrator feels.",
+   "days": [
+    {
+     "d": "Mon",
+     "ma": "Order unit fractions: write 1/2, 1/5, 1/3, 1/10, 1/4 on scraps and put them in order, smallest first. Check with folded strips.",
+     "en": "Read a chapter. Choose a moment where a character's feelings change. What did they do or say that shows the feeling? Write: 'I think … because the text says …'."
+    },
+    {
+     "d": "Tue",
+     "ma": "Same-denominator order: 3/7, 6/7, 1/7, 4/7. Then problem: 'A fox ate 3/8 of a pie and a badger ate 5/8. Who ate more? How much more?'",
+     "en": "Retell the same event from a different character's point of view in the first person ('I was furious when …'). Plan three key moments first."
+    },
+    {
+     "d": "Wed",
+     "ma": "Mixed problem: 'There are 20 biscuits. I give 1/4 to Grandma and 2/5 to my friend. How many are left?' Use real objects or drawings.",
+     "en": "Write the retelling, using the conjunctions when, because and although at least once each."
+    },
+    {
+     "d": "Thu",
+     "ma": "Fraction puzzle: 'I'm thinking of a fraction bigger than 1/4 but smaller than 1/2, with 8 as the denominator.' (3/8) Make up one for each other.",
+     "en": "Spelling: add -ing and -ed to forget, begin, prefer, garden and limit. Discuss which double the last letter. Edit the retelling, checking these endings."
+    },
+    {
+     "d": "Fri",
+     "ma": "Friday check: order 1/6, 1/3, 1/2; order 2/9, 7/9, 4/9; 3/4 of 12; 2/5 + 2/5; a word problem comparing two fractions of a cake.",
+     "en": "Read the retelling aloud. Dictation: 'I was beginning to learn the song.' and 'She preferred gardening, although it rained.'"
+    }
+   ]
+  },
+  {
+   "w": 25,
+   "term": "Spring 2",
+   "title": "Mass and capacity",
+   "ma": [
+    "y3:ma:4:0"
+   ],
+   "en": [
+    "y3:en:1:2",
+    "y3:en:2:1",
+    "y3:en:4:1",
+    "y3:en:5:0"
+   ],
+   "spell": {
+    "rule": "Homophones and near-homophones: whose/who's, weather/whether, berry/bury, fair/fare, missed/mist, breath/breathe",
+    "words": [
+     "breath",
+     "breathe"
+    ]
+   },
+   "read": "Explanation texts – how things work, such as how bread rises or how plants drink water.",
+   "days": [
+    {
+     "d": "Mon",
+     "ma": "Mass: use kitchen scales to weigh an apple, a tin and a bag of rice in grams. Know 1 kg = 1000 g. Order the items from lightest to heaviest.",
+     "en": "Read an explanation text. Find the 'how' and 'why' words (because, so, this causes, as a result). Record three facts in a table."
+    },
+    {
+     "d": "Tue",
+     "ma": "Estimate then weigh: guess which weighs more, a potato or an onion, then check. Add masses: 250 g of flour + 175 g of sugar. Subtract: 500 g – 320 g.",
+     "en": "Homophones: sort whose/who's, weather/whether, berry/bury, fair/fare, missed/mist. Write 'Whose turn is it?' and 'Who's coming?' Talk about the difference."
+    },
+    {
+     "d": "Wed",
+     "ma": "Capacity: use a measuring jug to fill a mug, a glass and a bowl with water. Read the scale in ml and note that 1 litre = 1000 ml.",
+     "en": "Explanation draft: write how a plant drinks water, or why we breathe faster when running. Use a heading, three steps and the conjunctions so, because, when."
+    },
+    {
+     "d": "Thu",
+     "ma": "Compare capacity: which holds more, a cup (about 250 ml) or a bottle (500 ml)? How many cups fill a 1 litre jug? Pour to check.",
+     "en": "Spelling: breath (noun) and breathe (verb) – write a sentence with each. Then add one diagram with labels to the explanation."
+    },
+    {
+     "d": "Fri",
+     "ma": "Friday check: read three scales you draw (e.g. 300 g, 750 ml, 2 kg); 450 g + 350 g; 1 l – 400 ml; order 1 kg, 800 g, 1200 g.",
+     "en": "Dictation: 'Take a deep breath and breathe out slowly.' and 'Whether the weather is fair or not, we will go.' Check each homophone."
+    }
+   ]
+  },
+  {
+   "w": 26,
+   "term": "Spring 2",
+   "title": "Consolidation: fractions and measures",
+   "ma": [
+    "y3:ma:3:2",
+    "y3:ma:3:3",
+    "y3:ma:3:4",
+    "y3:ma:3:5",
+    "y3:ma:3:6",
+    "y3:ma:4:0"
+   ],
+   "en": [
+    "y3:en:1:2",
+    "y3:en:2:1",
+    "y3:en:2:5",
+    "y3:en:4:3",
+    "y3:en:4:4",
+    "y3:en:0:1"
+   ],
+   "spell": {
+    "rule": "Revise this half term: -sion, -ssion/-cian, in-/im-, doubling before -ing/-ed, homophones",
+    "words": [
+     "fruit"
+    ]
+   },
+   "read": "A non-fiction book on a topic of your child's choice – practise finding answers quickly.",
+   "days": [
+    {
+     "d": "Mon",
+     "ma": "Fraction recap: order 1/3, 1/8, 1/2; find two fractions equal to 1/2; 3/7 + 2/7; 1 – 4/9.",
+     "en": "Spelling round-up: 10 words from this half term (decision, permission, musician, impossible, important, beginning, breathe …). Practise slips."
+    },
+    {
+     "d": "Tue",
+     "ma": "Cooking maths: follow a simple recipe for fruit salad or mashed potatoes, weighing ingredients in g and measuring liquids in ml.",
+     "en": "Write a short recipe or instructions for what you cooked, with a heading and numbered steps. Proof-read it for spelling and punctuation."
+    },
+    {
+     "d": "Wed",
+     "ma": "Equivalence and comparing: fold strips to show 2/8 = 1/4 and 2/6 = 1/3. Then 'Is 3/4 of 12 more or less than 2/3 of 12?'",
+     "en": "Retrieval: write four questions about a non-fiction topic, then use contents and index to find the answers, writing them in full sentences."
+    },
+    {
+     "d": "Thu",
+     "ma": "Problem mix: 'A jug holds 1 litre. I pour out 350 ml, then 400 ml. How much is left?' and 'A bag of potatoes weighs 2 kg; how much is half?'",
+     "en": "Read your recipe or a favourite piece of writing aloud to the family, clearly and with good expression."
+    },
+    {
+     "d": "Fri",
+     "ma": "Half-term check: 10 mixed questions – equivalent fractions, add/subtract fractions, comparing, fraction of an amount, reading a scale, adding masses. Note what to revisit.",
+     "en": "Dictation: 'Whose fruit is in the bowl?' and 'The potatoes weigh a lot, so we need permission to carry them.' Check homophones and spellings."
+    }
+   ]
+  },
+  {
+   "w": 27,
+   "term": "Summer 1",
+   "title": "Money: pounds and pence",
+   "ma": [
+    "y3:ma:4:2",
+    "y3:ma:1:0"
+   ],
+   "en": [
+    "y3:en:1:0",
+    "y3:en:1:3",
+    "y3:en:4:0",
+    "y3:en:4:1",
+    "y3:en:0:0"
+   ],
+   "spell": {
+    "rule": "Prefixes auto- (self) and anti- (against): autograph, automatic, autopilot; antiseptic, anticlockwise, antisocial",
+    "words": [
+     "address"
+    ]
+   },
+   "read": "Fairy stories – read two versions of the same tale and compare them.",
+   "days": [
+    {
+     "d": "Mon",
+     "ma": "Gather household coins. Sort and name them (1p to £2). Make 75p in three different ways, and £1.30 using the fewest coins.",
+     "en": "Read a well-known fairy story aloud. Then find a different version (from another country or a modern retelling) and list two things that are the same and two that differ."
+    },
+    {
+     "d": "Tue",
+     "ma": "Write amounts in two ways: 245p = £2.45, £3.07 = 307p. Explain why £3.7 is wrong for 307p. Convert five prices from a receipt or packet.",
+     "en": "Discussion: which version of the fairy story was better and why? Take turns to give a reason and respond to each other's ideas."
+    },
+    {
+     "d": "Wed",
+     "ma": "Set up a toy shop with priced items (pencil 35p, book £1.20, ball 85p). Add two items: 35p + 85p = £1.20. Add three: £1.20 + 35p + 85p.",
+     "en": "Spelling: write autograph, automatic, anticlockwise and antiseptic. Use the prefix meaning to explain each word. Write 'Turn anticlockwise to the next exercise.'"
+    },
+    {
+     "d": "Thu",
+     "ma": "Total and compare: 'Which costs more, a 65p apple and a 40p banana, or a £1 juice?' Then 'How much more?'",
+     "en": "Plan your own fairy story twist (e.g. the wolf is the hero). Note the setting, characters, problem and ending in a four-box plan."
+    },
+    {
+     "d": "Fri",
+     "ma": "Friday check: write 509p in £; make £2.15 with coins; 45p + 38p; £1.50 + 75p; a two-item comparison question from the toy shop.",
+     "en": "Write the opening paragraph of your fairy story twist. Dictation: 'Write your address on the envelope.' and 'We did some exercise.'"
+    }
+   ]
+  },
+  {
+   "w": 28,
+   "term": "Summer 1",
+   "title": "Money: giving change",
+   "ma": [
+    "y3:ma:4:2",
+    "y3:ma:1:3"
+   ],
+   "en": [
+    "y3:en:0:0",
+    "y3:en:2:0",
+    "y3:en:2:4",
+    "y3:en:1:1",
+    "y3:en:3:1",
+    "y3:en:4:1"
+   ],
+   "spell": {
+    "rule": "Adding -ly to words ending -le and -ic (gently, simply, humbly; basically, frantically, dramatically)",
+    "words": [
+     "busy/business"
+    ]
+   },
+   "read": "Continue the fairy story twist and read a book that uses lots of interesting new vocabulary.",
+   "days": [
+    {
+     "d": "Mon",
+     "ma": "Change from £1: buy an item for 64p. Count on from 64p to 70p (6p), then to £1 (30p): change is 36p. Do 27p, 45p and 82p.",
+     "en": "Word families: find the root in happiness, unhappy, happily; act, action, actor, react. Collect a family for 'help' and 'sign'."
+    },
+    {
+     "d": "Tue",
+     "ma": "Change from £2 and £5: buy a book for £1.35 with £2 (65p change); buy items costing £3.20 with £5 (£1.80). Use real coins to check.",
+     "en": "Spelling: add -ly to gentle, simple, humble, basic and dramatic (-ic + ally). Write 'The busy chef worked frantically.'"
+    },
+    {
+     "d": "Wed",
+     "ma": "Shop roleplay: one person is the shopkeeper, one the customer with a £5 note made of paper. Buy two things each time and work out change.",
+     "en": "Dictionary: look up three new words from your reading using the first two or three letters. Write the meaning and a sentence for each."
+    },
+    {
+     "d": "Thu",
+     "ma": "Missing amounts: 'I paid with £1 and got 23p change – what did it cost?' 'I had £3, bought a pen, and now have £1.75.'",
+     "en": "Continue the fairy story twist: write the middle paragraph where the problem happens, using one new word from your dictionary work."
+    },
+    {
+     "d": "Fri",
+     "ma": "Friday check: change from £1 for 56p; change from £2 for £1.19; total of 85p + £1.25 and change from £5; a missing-cost problem.",
+     "en": "Handwriting and dictation: 'The business was very busy, so the baker worked frantically.' Copy it neatly with even spacing."
+    }
+   ]
+  },
+  {
+   "w": 29,
+   "term": "Summer 1",
+   "title": "Telling the time: analogue, Roman numerals, 12- and 24-hour",
+   "ma": [
+    "y3:ma:4:3",
+    "y3:ma:4:4"
+   ],
+   "en": [
+    "y3:en:2:3",
+    "y3:en:5:1",
+    "y3:en:5:2",
+    "y3:en:2:5",
+    "y3:en:3:0"
+   ],
+   "spell": {
+    "rule": "Possessive apostrophes with plurals: the girls' coats, the boys' bags, the dogs' bowls, but the children's books, the men's hats",
+    "words": [
+     "minute"
+    ]
+   },
+   "read": "A story with several groups of characters (families, teams, animals) – spot plural possessive apostrophes.",
+   "days": [
+    {
+     "d": "Mon",
+     "ma": "Make a paper-plate clock (or draw one) with numbers 1–12. Read o'clock, half past, quarter past and quarter to times. Then add Roman numerals I to XII round the outside.",
+     "en": "Apostrophe sort: write 'the girl's coat' (one girl) and 'the girls' coats' (many girls). Make three more pairs (dog, cat, boy)."
+    },
+    {
+     "d": "Tue",
+     "ma": "Five-minute steps: count round the clock in 5s. Read and draw 10 past 4, 25 to 7, 20 past 9. Ask: where does the minute hand point for 35 minutes past?",
+     "en": "Irregular plurals: children's, men's, women's, people's. Write 'The children's books were on the women's table.' Explain where the apostrophe goes and why."
+    },
+    {
+     "d": "Wed",
+     "ma": "24-hour clock: write the times of daily events (breakfast 07:30, school 08:45, dinner 18:00). Convert 3:00 p.m. to 15:00 and 20:15 to 8:15 p.m.",
+     "en": "Find three apostrophes in your reading book. Decide: is it a contraction (didn't) or possession (the dog's bone)? Name the grammatical term."
+    },
+    {
+     "d": "Thu",
+     "ma": "Roman numeral clock-face quiz: point to IV, VII, IX and XII and say the number. Read a time on a Roman numeral clock you draw (e.g. hand at IX = quarter to).",
+     "en": "Spelling and handwriting: write 'the dogs' bowls', 'the boys' bikes' and 'the children's toys' in joined writing, keeping joins smooth."
+    },
+    {
+     "d": "Fri",
+     "ma": "Friday check: read three clock times you draw; write 14:00 and 21:30 as 12-hour times; Roman numerals for 4 and 11; put an apostrophe in 'the cats tails' (several cats).",
+     "en": "Dictation: 'The girls' bus left in a minute.' and 'The children's ball was caught by the men's team.' Check apostrophes."
+    }
+   ]
+  },
+  {
+   "w": 30,
+   "term": "Summer 1",
+   "title": "Time to the minute; days, months and years",
+   "ma": [
+    "y3:ma:4:4",
+    "y3:ma:4:5",
+    "y3:ma:4:3"
+   ],
+   "en": [
+    "y3:en:1:2",
+    "y3:en:4:1",
+    "y3:en:5:0",
+    "y3:en:4:3",
+    "y3:en:2:2"
+   ],
+   "spell": {
+    "rule": "Word families from the same root (solve, solution, dissolve; sign, signal, signature; child, childish, children)",
+    "words": [
+     "calendar",
+     "February"
+    ]
+   },
+   "read": "Newspapers or children's news reports – notice the headline, opening sentence and quotes.",
+   "days": [
+    {
+     "d": "Mon",
+     "ma": "Time to the nearest minute: read times like 7:23, 4:48, 11:06 on a drawn clock. Count in 5s then on in 1s. Practise saying '23 minutes past 7' and '12 minutes to 5'.",
+     "en": "Read a news report for children. Find the headline, who/what/where/when/why in the opening, and any quotes. Note facts in a table."
+    },
+    {
+     "d": "Tue",
+     "ma": "Seconds and minutes: 60 seconds = 1 minute. Time 30 seconds of star jumps. How many seconds in 2 minutes? 3 minutes? Use a kitchen timer.",
+     "en": "Spelling: build word families for solve, sign and child. Use the calendar to find the date and write today's date with the month spelt in full."
+    },
+    {
+     "d": "Wed",
+     "ma": "Calendar: learn the rhyme or knuckle trick for days in each month. February has 28 days, or 29 in a leap year. How many days in a year? A leap year?",
+     "en": "Plan a news report about a real family event (a birthday, a new pet, a big clean-up). Note who, what, where, when, why."
+    },
+    {
+     "d": "Thu",
+     "ma": "a.m. and p.m.: list five things you do in a day with times and a.m. or p.m. Use the words morning, afternoon, noon and midnight in sentences.",
+     "en": "Write the news report with a headline, an opening sentence answering who/what/where/when, and a quote from a family member in inverted commas. Proof-read it."
+    },
+    {
+     "d": "Fri",
+     "ma": "Friday check: read 3:17 and 9:52 on drawn clocks; seconds in 4 minutes; days in April, February (leap year) and a year; is 2 p.m. morning or afternoon?",
+     "en": "Dictation: 'In February, the calendar shows 28 days.' and 'I signed my signature at noon.' Read the news report aloud like a presenter."
+    }
+   ]
+  },
+  {
+   "w": 31,
+   "term": "Summer 1",
+   "title": "Comparing durations",
+   "ma": [
+    "y3:ma:4:6",
+    "y3:ma:4:4",
+    "y3:ma:4:5"
+   ],
+   "en": [
+    "y3:en:4:0",
+    "y3:en:4:1",
+    "y3:en:4:2",
+    "y3:en:4:3",
+    "y3:en:5:1",
+    "y3:en:1:1"
+   ],
+   "spell": {
+    "rule": "Tricky ough words (through, thought, though, enough, rough, bought, cough)",
+    "words": [
+     "through",
+     "though/although"
+    ]
+   },
+   "read": "An adventure story – how does the author build excitement?",
+   "days": [
+    {
+     "d": "Mon",
+     "ma": "Duration: a film starts at 4:15 and ends at 5:40. How long is it? Count on with a number line: 4:15 → 5:15 (1 hour) → 5:40 (25 minutes).",
+     "en": "Read an exciting chapter. Note how the author builds tension: short sentences, questions, sound words, cliff-hangers. Plan your own adventure in four boxes."
+    },
+    {
+     "d": "Tue",
+     "ma": "Time tasks: time brushing teeth, putting on shoes and tidying a shelf with a timer or watch. Record in seconds and minutes and order them.",
+     "en": "Draft the opening and build-up of the adventure. Include a fronted adverbial with a comma and one line of speech."
+    },
+    {
+     "d": "Wed",
+     "ma": "Compare: 'Baking takes 35 minutes, walking to the park takes 18 minutes. How much longer is baking?' And 'Which is longer: 90 seconds or 1 minute 20 seconds?'",
+     "en": "Spelling: write through, thought, though, enough, rough, bought and cough. Group them by sound. Write 'Although it was rough, we walked through.'"
+    },
+    {
+     "d": "Thu",
+     "ma": "Timetable: make a simple day plan (10:00 reading, 10:25 snack, 10:40 park). Ask questions: how long is reading? What time is it 45 minutes after 10:40?",
+     "en": "Write the problem and ending of the adventure. Then edit: is there a fronted adverbial with a comma? Is the speech punctuated? Improve two words."
+    },
+    {
+     "d": "Fri",
+     "ma": "Friday check: time between 2:30 and 3:15; 2:50 to 4:05; order 100 seconds, 1 minute, 2 minutes; how many days in 3 weeks; a timetable question.",
+     "en": "Proof-read the full adventure story for spellings and punctuation. Dictation: 'Though I thought it was rough, we got through.'"
+    }
+   ]
+  },
+  {
+   "w": 32,
+   "term": "Summer 1",
+   "title": "Consolidation: money and time",
+   "ma": [
+    "y3:ma:4:2",
+    "y3:ma:4:3",
+    "y3:ma:4:4",
+    "y3:ma:4:5",
+    "y3:ma:4:6"
+   ],
+   "en": [
+    "y3:en:2:3",
+    "y3:en:2:5",
+    "y3:en:1:3",
+    "y3:en:4:4",
+    "y3:en:5:2"
+   ],
+   "spell": {
+    "rule": "Revise this half term: auto-/anti-, -ly after -le/-ic, plural possessive apostrophes, word families, ough words",
+    "words": [
+     "history"
+    ]
+   },
+   "read": "Re-read the adventure story your child wrote, plus a book on a history topic from the library.",
+   "days": [
+    {
+     "d": "Mon",
+     "ma": "Money recap: total £1.45 + 65p and give change from £5; write 308p in £. Run the toy shop with three customers.",
+     "en": "Spelling round-up: 10 words from this half term (address, exercise, business, minute, caught, calendar, February, through …). Practise slips."
+    },
+    {
+     "d": "Tue",
+     "ma": "Time recap: read 6:38, 11:12 and 03:45 / 15:45 on clocks you draw; write in Roman numerals I to XII.",
+     "en": "Apostrophe challenge: write five sentences using plural possessives (the teachers' room, the mice's cheese). Name the grammar term: possessive apostrophe."
+    },
+    {
+     "d": "Wed",
+     "ma": "Durations: 'A bus leaves at 9:20 and arrives at 10:05. How long is the journey?' Then plan a 2-hour afternoon in 20-minute chunks.",
+     "en": "Read a history book page about life long ago. Discuss: what was different then? Take turns, building on each other's points."
+    },
+    {
+     "d": "Thu",
+     "ma": "Calendar facts: days in each month; seconds in a minute; a leap year has 366 days. Make a family birthday list with dates and count months between them.",
+     "en": "Read the finished adventure story aloud to the family with expression. Ask the audience for one thing they liked and one suggestion."
+    },
+    {
+     "d": "Fri",
+     "ma": "Half-term check: 10 mixed questions on coins, change, 12/24-hour, Roman numerals, minutes and seconds, months and durations. Note what to revisit.",
+     "en": "Dictation: 'The boys' history books were through the door in a minute.' and 'The children's address is on the calendar.' Check apostrophes."
+    }
+   ]
+  },
+  {
+   "w": 33,
+   "term": "Summer 2",
+   "title": "2-D and 3-D shapes",
+   "ma": [
+    "y3:ma:5:0",
+    "y3:ma:5:3"
+   ],
+   "en": [
+    "y3:en:1:0",
+    "y3:en:4:1",
+    "y3:en:2:1",
+    "y3:en:0:1"
+   ],
+   "spell": {
+    "rule": "Homophones: accept/except, affect/effect, ball/bawl, scene/seen, groan/grown",
+    "words": [
+     "straight"
+    ]
+   },
+   "read": "Shape poems and calligrams – poems where the words make a picture.",
+   "days": [
+    {
+     "d": "Mon",
+     "ma": "Draw 2-D shapes with a ruler: square, rectangle, triangle, pentagon, hexagon, octagon. Count sides and corners and label them. Which have straight sides only?",
+     "en": "Read some shape poems and calligrams (or look them up in a poetry book). Talk about how the shape adds to the meaning."
+    },
+    {
+     "d": "Tue",
+     "ma": "3-D shape hunt: find a cube (dice or stock cube), cuboid (cereal box), cylinder (tin), sphere (ball), cone and pyramid around the house. Count faces, edges and vertices.",
+     "en": "Plan a shape poem about an object: a ball, a clock, a snail. Collect ten words or phrases about how it looks, moves and sounds."
+    },
+    {
+     "d": "Wed",
+     "ma": "Make 3-D shapes: build a cube and a pyramid using cocktail sticks (or rolled paper) joined with blobs of play dough or bits of bread. Describe them from different sides.",
+     "en": "Write the shape poem, arranging the words along the outline of the object. Read it aloud to check the rhythm."
+    },
+    {
+     "d": "Thu",
+     "ma": "Horizontal and vertical: find lines around the house – the edge of a table (horizontal), a door frame (vertical). Draw a picture of a window and label each line H or V.",
+     "en": "Homophones: write accept/except, affect/effect, ball/bawl, scene/seen, groan/grown with a sentence for each. Write 'I have seen a straight line in that scene.'"
+    },
+    {
+     "d": "Fri",
+     "ma": "Friday check: name and draw a pentagon and a hexagon; faces on a cube and a cylinder; point to a horizontal and a vertical line; is a cone the same shape when it's on its side?",
+     "en": "Dictation: 'Everyone except me has seen the circle.' and 'The baby will bawl for the ball.' Then read the shape poem aloud."
+    }
+   ]
+  },
+  {
+   "w": 34,
+   "term": "Summer 2",
+   "title": "Angles, turns and lines",
+   "ma": [
+    "y3:ma:5:1",
+    "y3:ma:5:2",
+    "y3:ma:5:3"
+   ],
+   "en": [
+    "y3:en:4:1",
+    "y3:en:5:0",
+    "y3:en:1:2",
+    "y3:en:2:0"
+   ],
+   "spell": {
+    "rule": "Prefix revision and il-/ir- before l and r: illegal, illogical, irregular, irresponsible (plus dis-, mis-, re-, in-, im-)",
+    "words": [
+     "regular",
+     "arrive"
+    ]
+   },
+   "read": "Instructions and maps in a non-fiction book about orienteering, treasure trails or directions.",
+   "days": [
+    {
+     "d": "Mon",
+     "ma": "Make a right-angle checker by folding a scrap of paper into quarters (the corner is a right angle). Hunt for right angles in the room: books, door corners, tiles.",
+     "en": "Read instructions with directions (a map trail or a game). Notice the time words and prepositions: first, next, past, behind, opposite."
+    },
+    {
+     "d": "Tue",
+     "ma": "Turns: stand and make quarter, half, three-quarter and full turns clockwise and anticlockwise. Two right angles = half turn, four = full turn.",
+     "en": "Write instructions to guide someone from your bed to the kitchen, using turns and right angles, e.g. 'Turn a quarter turn clockwise, then walk five steps.'"
+    },
+    {
+     "d": "Wed",
+     "ma": "Greater or less than a right angle: open a book or pair of scissors to make angles; sort drawn angles into 'smaller than', 'equal to' and 'greater than' a right angle.",
+     "en": "Spelling: add il- or ir- to legal, logical, regular, responsible and explain why (il- before l, ir- before r). Recap un-, dis-, mis-, re-, in-, im-."
+    },
+    {
+     "d": "Thu",
+     "ma": "Parallel and perpendicular: look at railway-track style lines (parallel – never meet) and the corner of a page (perpendicular – meet at a right angle). Draw and label three of each.",
+     "en": "Test the bedroom-to-kitchen instructions: one person reads, the other follows. Edit any step that went wrong, adding prepositions or time conjunctions."
+    },
+    {
+     "d": "Fri",
+     "ma": "Friday check: how many right angles in a half turn? in a full turn? Draw an angle smaller than a right angle; draw a pair of parallel lines and a pair of perpendicular lines.",
+     "en": "Dictation: 'Make a quarter turn and you will arrive at the door.' and 'It is irregular to turn anticlockwise.'"
+    }
+   ]
+  },
+  {
+   "w": 35,
+   "term": "Summer 2",
+   "title": "Pictograms and tables",
+   "ma": [
+    "y3:ma:6:0",
+    "y3:ma:6:1"
+   ],
+   "en": [
+    "y3:en:1:2",
+    "y3:en:4:0",
+    "y3:en:4:1",
+    "y3:en:2:0",
+    "y3:en:3:1"
+   ],
+   "spell": {
+    "rule": "Suffixes -ment, -ness, -ful, -less (enjoyment, sadness, careful, hopeless) and what happens to a root ending in y (happiness, merciful)",
+    "words": [
+     "appear"
+    ]
+   },
+   "read": "A fact file or encyclopedia-style book with tables, charts and labelled diagrams.",
+   "days": [
+    {
+     "d": "Mon",
+     "ma": "Tally and table: survey family and friends (by phone or in person) on their favourite fruit. Record tallies in a table and total each row.",
+     "en": "Read a fact file. Find information in a table or chart and write two facts from it in full sentences."
+    },
+    {
+     "d": "Tue",
+     "ma": "Pictogram: make a pictogram of the fruit survey where one picture = 2 votes, using half a picture for 1. Give it a title and key.",
+     "en": "Plan your own fact file about an animal or topic of interest. Plan four headings: appearance, habitat, food, amazing facts."
+    },
+    {
+     "d": "Wed",
+     "ma": "Read the pictogram: 'How many more chose apples than bananas? How many people voted altogether?' Write three questions for someone else.",
+     "en": "Spelling: add -ment, -ness, -ful, -less to enjoy, sad, care, hope, happy and mercy. Write one sentence using two of them."
+    },
+    {
+     "d": "Thu",
+     "ma": "Scaled pictogram: redraw the data where one picture = 4 votes (quarter pictures for 1). Discuss: which scale is easier to read?",
+     "en": "Write the fact file with headings and a simple table or labelled diagram, in neat joined handwriting."
+    },
+    {
+     "d": "Fri",
+     "ma": "Friday check: read a pictogram you draw (1 symbol = 5 cars); answer a 'how many more' and a 'how many fewer' question; complete a missing tally.",
+     "en": "Dictation: 'Our dog will appear in the careful drawing.' and 'The topic was full of interest.' Share your fact file aloud."
+    }
+   ]
+  },
+  {
+   "w": 36,
+   "term": "Summer 2",
+   "title": "Bar charts and data questions",
+   "ma": [
+    "y3:ma:6:0",
+    "y3:ma:6:1"
+   ],
+   "en": [
+    "y3:en:1:1",
+    "y3:en:1:3",
+    "y3:en:2:1",
+    "y3:en:2:4",
+    "y3:en:5:2"
+   ],
+   "spell": {
+    "rule": "Homophone review: there/their/they're, two/to/too, here/hear, whose/who's, peace/piece",
+    "words": [
+     "notice",
+     "surprise"
+    ]
+   },
+   "read": "A longer story read across the week – summarise each chapter in one sentence.",
+   "days": [
+    {
+     "d": "Mon",
+     "ma": "Bar chart: count the colours of 20 objects in a drawer (socks, pencils). Draw a bar chart on squared paper with labelled axes and a title.",
+     "en": "Read a chapter, then summarise it in one sentence that covers the main idea of all the paragraphs, not just one."
+    },
+    {
+     "d": "Tue",
+     "ma": "Scaled bar chart: redraw a chart where each step on the axis is 2 (0, 2, 4 …). Read off values that fall between lines (e.g. 7).",
+     "en": "Discussion: talk about a character's choices in the chapter. Use 'I noticed …' and 'Did you notice …?' and take turns listening."
+    },
+    {
+     "d": "Wed",
+     "ma": "Two-step questions: from the bar chart, 'How many more blue than red? How many red and green together? How many fewer yellow than the total of blue and green?'",
+     "en": "Homophones: there/their/they're, two/to/too. Write one sentence using all three of each set, e.g. 'They're putting their coats over there.'"
+    },
+    {
+     "d": "Thu",
+     "ma": "Tables to charts: use a weather or TV-time diary for one week (minutes per day) and draw a bar chart. What do you notice?",
+     "en": "Dictionary: look up three words from the chapter using the first three letters, and use the grammar words noun, verb or adjective to label each."
+    },
+    {
+     "d": "Fri",
+     "ma": "Friday check: read a bar chart you draw with a scale of 5; answer 'how many more' and a two-step question; complete a missing bar from a table.",
+     "en": "Dictation: 'Did you notice their surprise?' and 'They're going to the park too.' Then a one-sentence summary of the week's book."
+    }
+   ]
+  },
+  {
+   "w": 37,
+   "term": "Summer 2",
+   "title": "Review: number, calculation and times tables",
+   "ma": [
+    "y3:ma:0:5",
+    "y3:ma:1:0",
+    "y3:ma:1:1",
+    "y3:ma:1:2",
+    "y3:ma:1:3",
+    "y3:ma:2:0",
+    "y3:ma:2:1",
+    "y3:ma:2:2"
+   ],
+   "en": [
+    "y3:en:2:2",
+    "y3:en:2:5",
+    "y3:en:5:0",
+    "y3:en:5:1",
+    "y3:en:0:1",
+    "y3:en:3:1"
+   ],
+   "spell": {
+    "rule": "Review autumn rules: prefixes, -ly, -ation, ei/eigh/ey, -ous, and the homophones met so far",
+    "words": [
+     "disappear",
+     "remember",
+     "eight/eighth",
+     "famous"
+    ]
+   },
+   "read": "A joke or riddle book – fun reading that plays with word meanings.",
+   "days": [
+    {
+     "d": "Mon",
+     "ma": "Place value game: write digits 0–9 on scraps; draw three and make the largest and smallest numbers; add 10, 100 and find the difference between them.",
+     "en": "Spelling review: your child writes 20 words learned this year (from autumn and spring). Make a list of any to practise with look–say–cover–write–check."
+    },
+    {
+     "d": "Tue",
+     "ma": "Column calculation challenge: 476 + 358 and 802 – 367, each with an estimate and inverse check. Then make up your own for a grown-up to try.",
+     "en": "Grammar check-up: write sentences using a conjunction (although), a fronted adverbial with a comma, the present perfect, and direct speech."
+    },
+    {
+     "d": "Wed",
+     "ma": "Tables bingo: draw a 3×3 grid with answers from the 3, 4 and 8 tables; call out questions (6 × 4, 7 × 8 …) and cross off. Then do 23 × 4 and 96 ÷ 8.",
+     "en": "Read jokes and riddles aloud. Discuss which ones use homophones or words with two meanings, and why they're funny."
+    },
+    {
+     "d": "Thu",
+     "ma": "Problem solving: 'A cinema has 8 rows of 24 seats. 145 people come. How many empty seats?' Plan, estimate, solve and check.",
+     "en": "Write five of your own jokes or riddles. Proof-read them for spelling of tricky words and correct punctuation."
+    },
+    {
+     "d": "Fri",
+     "ma": "Review check: 12 mixed questions from the autumn and spring number work. Celebrate progress and list any facts to keep practising over summer.",
+     "en": "Dictation: 'Do you remember the eighth famous magician?' and 'Although it was dark, the rabbit didn't disappear.' Copy one in best handwriting."
+    }
+   ]
+  },
+  {
+   "w": 38,
+   "term": "Summer 2",
+   "title": "Review: fractions, measures, shape and data",
+   "ma": [
+    "y3:ma:3:6",
+    "y3:ma:3:1",
+    "y3:ma:3:4",
+    "y3:ma:4:0",
+    "y3:ma:4:1",
+    "y3:ma:4:2",
+    "y3:ma:4:3",
+    "y3:ma:4:6",
+    "y3:ma:5:2",
+    "y3:ma:6:1"
+   ],
+   "en": [
+    "y3:en:1:1",
+    "y3:en:1:2",
+    "y3:en:2:3",
+    "y3:en:2:4",
+    "y3:en:4:3",
+    "y3:en:2:1"
+   ],
+   "spell": {
+    "rule": "Review spring and summer rules: -ture/-sure, -tion/-sion/-cian, in-/im-/il-/ir-, possessive apostrophes, ough",
+    "words": [
+     "length",
+     "quarter",
+     "minute",
+     "through"
+    ]
+   },
+   "read": "A mixture of fiction and non-fiction chosen by your child at the library.",
+   "days": [
+    {
+     "d": "Mon",
+     "ma": "Measurement trail: measure the perimeter of a table, weigh three foods and find the capacity of two cups. Record in a table with units.",
+     "en": "Spelling review: 20 words from spring and summer. Use a dictionary to check any that are uncertain."
+    },
+    {
+     "d": "Tue",
+     "ma": "Fractions review: 3/4 of 16; 2/7 + 4/7; order 1/3, 1/6, 1/2; find an equivalent to 2/4. Then a problem: 'A tin holds 12 biscuits; 1/3 are eaten. How many left?'",
+     "en": "Read a story chapter and answer three questions: one about a fact, one about a character's feelings with evidence, one prediction."
+    },
+    {
+     "d": "Wed",
+     "ma": "Time and money mix: 'A café opens at 08:30 and closes at 4:15 p.m. How long is it open?' 'A drink is £1.35 – change from £2?'",
+     "en": "Retrieval: from a non-fiction book, make a mini quiz of five questions for the family, with an answer key."
+    },
+    {
+     "d": "Thu",
+     "ma": "Shape and data: find right angles and parallel lines in the room; then make a bar chart of how many of each 3-D shape you found.",
+     "en": "Proof-read a piece of writing from earlier in the year. Correct spellings, add missing apostrophes and improve two words."
+    },
+    {
+     "d": "Fri",
+     "ma": "Review check: 12 mixed questions on fractions, measures, money, time, angles and charts. Celebrate progress and note any to revisit next year.",
+     "en": "Dictation: 'The girls' quarter-hour walk went through the woods.' and 'Measure the length in a minute.' Check apostrophes and spellings."
+    }
+   ]
+  },
+  {
+   "w": 39,
+   "term": "Summer 2",
+   "title": "Fun project: plan a family fun day",
+   "ma": [
+    "y3:ma:4:2",
+    "y3:ma:4:6",
+    "y3:ma:6:0",
+    "y3:ma:4:0",
+    "y3:ma:5:0"
+   ],
+   "en": [
+    "y3:en:4:0",
+    "y3:en:4:1",
+    "y3:en:4:2",
+    "y3:en:4:3",
+    "y3:en:4:4",
+    "y3:en:1:0",
+    "y3:en:1:3"
+   ],
+   "spell": {
+    "rule": "Spelling celebration: choose 10 favourite words from this year's list and make them into a word search",
+    "words": [
+     "favourite",
+     "important",
+     "surprise",
+     "remember"
+    ]
+   },
+   "read": "Your child's choice – a favourite book from the year to re-read and recommend.",
+   "days": [
+    {
+     "d": "Mon",
+     "ma": "Survey the family on three activities for a fun day (picnic, games, a walk). Record in a table and draw a bar chart to pick the winners.",
+     "en": "Plan an invitation for the fun day: who, what, where, when and why. Look at real invitations or cards for ideas."
+    },
+    {
+     "d": "Tue",
+     "ma": "Budget: give your child a pretend £10 to plan a picnic using prices from a receipt or shop leaflet. Add the totals and work out what's left.",
+     "en": "Write the invitation with a heading and the key details. Edit for clear, persuasive language and check spellings and punctuation."
+    },
+    {
+     "d": "Wed",
+     "ma": "Timetable: plan the day from 10:00 to 15:00 in 12- and 24-hour time, with durations for each activity. Check it all adds up to 5 hours.",
+     "en": "Write a short programme of events for the day with headings and sub-headings. Read it aloud to the family with a clear voice."
+    },
+    {
+     "d": "Thu",
+     "ma": "Make and measure: make a pennant banner of paper triangles. Measure each side, find the perimeter, and measure the string length needed in cm and m.",
+     "en": "Book recommendation: write a short review of your favourite book of the year (what it's about, best part, who would like it), then share it and discuss."
+    },
+    {
+     "d": "Fri",
+     "ma": "Run the fun day (or a mini version): keep to the timetable, count the money, and finish with a fun quiz of 10 questions covering the whole year.",
+     "en": "Celebration: read aloud a favourite piece of your own writing from the year. Talk about how your writing has changed and set one goal for Year 4."
+    }
+   ]
+  }
+ ]
+}

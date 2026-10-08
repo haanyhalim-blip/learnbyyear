@@ -1,5 +1,5 @@
 <!doctype html>
-<!-- LearnbyYear v15 -->
+<!-- LearnbyYear v16 -->
 <html lang="en-GB">
 <head>
 <meta charset="utf-8">
@@ -237,6 +237,44 @@ h2.sec{font-size:1.4rem;margin:6px 0 12px}
 .bwy .bwyb .bwyh{margin:0 28px 8px 0;font-weight:800;font-size:1.05rem;color:var(--ink,#222)}
 .bwyx{position:absolute;right:8px;top:6px;border:0;background:none;font-size:1.5rem;line-height:1;cursor:pointer;color:var(--muted,#777)}
 .bwy .bwysi{font:inherit;font-weight:700;background:none;border:0;padding:0;color:inherit;text-decoration:underline;cursor:pointer}
+
+/* Week by week: the playbook – what to cover this week, a short lesson each day, and how it fits each child */
+.wk-top{display:flex;align-items:center;gap:8px;margin:0 0 10px;flex-wrap:wrap}
+.wk-top select{font:inherit;font-size:.9rem;padding:6px 8px;border:1.5px solid var(--rule);border-radius:10px;background:var(--sheet);color:var(--ink)}
+.wk-nav{display:flex;align-items:center;gap:8px;background:var(--sheet);border:1.5px solid var(--rule);border-radius:14px;padding:8px 10px;margin:0 0 12px}
+.wk-nav button{flex:none;width:38px;height:38px;border-radius:50%;border:1.5px solid var(--rule);background:var(--paper);color:var(--ink);font-size:1.2rem;cursor:pointer}
+.wk-nav button:disabled{opacity:.35;cursor:default}
+.wk-nav .mid{flex:1;text-align:center;min-width:0}
+.wk-nav .mid b{display:block;font-family:var(--display);font-size:1.05rem}
+.wk-nav .mid small{color:var(--soft);font-size:.82rem}
+.wk-nav .now{font:inherit;font-size:.78rem;font-weight:600;color:var(--blue);background:none;border:0;width:auto;height:auto;text-decoration:underline;padding:0;margin-left:6px;border-radius:0}
+.wk h3{font-family:var(--display);font-size:1.35rem;margin:4px 0 10px;text-wrap:balance}
+.wk .blk{background:var(--sheet);border:1.5px solid var(--rule);border-radius:14px;padding:12px 14px;margin:0 0 12px}
+.wk .blk h4{margin:0 0 6px;font-size:.78rem;letter-spacing:.08em;text-transform:uppercase;color:var(--soft)}
+.wk .glist{margin:0;padding:0;list-style:none}
+.wk .glist li{padding:6px 0;border-top:1px solid var(--rule);display:flex;gap:8px;align-items:flex-start;font-size:.92rem}
+.wk .glist li:first-child{border-top:0}
+.wk .glist li span{flex:1;min-width:0}
+.wk .glist li button{flex:none;font:inherit;font-size:.78rem;font-weight:600;border:1.5px solid var(--rule);background:var(--paper);color:var(--done);border-radius:999px;padding:3px 9px;cursor:pointer}
+.wk .glist .st{cursor:default}
+.wk .spell b{font-size:.95rem}
+.wk .chips{display:flex;flex-wrap:wrap;gap:6px;margin-top:6px}
+.wk .chips span{border:1.5px solid var(--rule);border-radius:999px;padding:2px 10px;font-size:.88rem;background:var(--paper)}
+.wk .day{border:1.5px solid var(--rule);border-radius:14px;background:var(--sheet);margin:0 0 8px;overflow:hidden}
+.wk .day summary{cursor:pointer;list-style:none;padding:10px 14px;font-weight:700;display:flex;align-items:center;gap:8px}
+.wk .day summary::-webkit-details-marker{display:none}
+.wk .day summary::after{content:"›";margin-left:auto;color:var(--soft);transition:transform .15s}
+.wk .day[open] summary::after{transform:rotate(90deg)}
+.wk .day.today{border-color:var(--blue)}
+.wk .day.today summary small{color:var(--blue);font-weight:700}
+.wk .day .db{padding:0 14px 12px}
+.wk .day .db p{margin:6px 0;line-height:1.5}
+.wk .day .db p b{color:var(--soft);font-size:.8rem;letter-spacing:.06em;text-transform:uppercase;display:block}
+.wk .forkid{background:#eef6ff;border-color:var(--blue)}
+.wk .forkid ul{margin:4px 0 0;padding-left:18px;font-size:.9rem}
+.wk .forkid li{margin:3px 0}
+.wk .note{font-size:.8rem;color:var(--soft)}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]) .wk .forkid{background:#16233a}}
 </style>
 </head>
 <body>
@@ -281,6 +319,7 @@ h2.sec{font-size:1.4rem;margin:6px 0 12px}
 
   <nav class="tabs" role="tablist" aria-label="Sections">
     <button role="tab" data-tab="curr" aria-selected="true" id="t-curr">Curriculum</button>
+    <button role="tab" data-tab="week" aria-selected="false" id="t-week">Week by week</button>
     <button role="tab" data-tab="routine" aria-selected="false" id="t-routine">Routines</button>
     <button role="tab" data-tab="res" aria-selected="false" id="t-res">Resources</button>
     <button role="tab" data-tab="about" aria-selected="false" id="t-about">About &amp; the law</button>
@@ -297,6 +336,10 @@ h2.sec{font-size:1.4rem;margin:6px 0 12px}
     <div class="meta" id="meta"></div>
     <p class="note" id="note"></p>
     <div id="sheets"></div>
+  </section>
+
+  <section id="p-week" hidden>
+    <div id="weekView"></div>
   </section>
 
   <section id="p-routine" hidden>
@@ -329,7 +372,7 @@ h2.sec{font-size:1.4rem;margin:6px 0 12px}
       <p>All subjects and all years, the US standards, each year's version kept so your plans don't change by surprise, and building a child's own plan with Claude or ChatGPT.</p></div>
   </section>
 
-  <p class="foot">Ticks stay on this device – or sign in to keep them in your account. England curriculum text © Crown copyright, used under the Open Government Licence v3.0. Common Core State Standards © 2010 NGA Center and CCSSO. <span class="ver">v15</span></p>
+  <p class="foot">Ticks stay on this device – or sign in to keep them in your account. England curriculum text © Crown copyright, used under the Open Government Licence v3.0. Common Core State Standards © 2010 NGA Center and CCSSO. <span class="ver">v16</span></p>
 </div>
 
 <div id="acct" hidden role="dialog" aria-modal="true" aria-labelledby="acTitle"><div class="acbox"><button class="acx" id="acX" type="button" aria-label="Close">×</button>
@@ -441,7 +484,7 @@ var DATA = {"maths-y3": [{"strand": "Number – number and place value", "items"
     if(b.dataset.ai){ AIOPEN = AIOPEN === b.dataset.ai ? null : b.dataset.ai; QOPEN = null; drawSheets(); return; }
     var t = b.dataset.aicopy, done = function(){ b.textContent = "Copied ✓"; setTimeout(function(){ b.textContent = "Copy"; }, 1500); };
     if(navigator.clipboard) navigator.clipboard.writeText(t).then(done, function(){}); });
-  function draw(){ drawWho(); drawKidSum(); drawSheets(); keep(); }
+  function draw(){ drawWho(); drawKidSum(); drawSheets(); keep(); if(UI.tab === "week") drawWeek(); }
   document.addEventListener("click", function(e){ var b = e.target.closest("button"); if(!b) return;
     if(b.dataset.kid){ UI.kid = b.dataset.kid; draw(); return; }
     if(b.dataset.cc){ UI.cc = b.dataset.cc; var first = KIDS.filter(function(k){ return k.cc === UI.cc; }); if(kid().cc !== UI.cc) UI.kid = UI.cc === "us" ? "g3" : "y3"; if(UI.cc === "us") loadUS(); draw(); return; }
@@ -453,7 +496,7 @@ var DATA = {"maths-y3": [{"strand": "Number – number and place value", "items"
     if(b.dataset.subj){ UI.subj = b.dataset.subj; draw(); return; }
     if(b.dataset.w){ var id = tk(kid().id + ":w:" + b.dataset.w); if(T[id]) delete T[id]; else T[id] = 1; keep(true); drawSheets(); return; }
     if(b.dataset.tab){ document.querySelectorAll("nav.tabs button").forEach(function(x){ x.setAttribute("aria-selected", String(x === b)); });
-      ["curr","routine","res","about"].forEach(function(t){ $("p-" + t).hidden = t !== b.dataset.tab; }); return; } });
+      ["curr","week","routine","res","about"].forEach(function(t){ $("p-" + t).hidden = t !== b.dataset.tab; }); UI.tab = b.dataset.tab; if(UI.tab === "week") drawWeek(); return; } });
   document.addEventListener("change", function(e){ var c = e.target.closest("input[data-g]"); if(!c) return; var id = tk(c.dataset.g); if(c.checked) T[id] = 1; else delete T[id]; keep(true); drawSheets(); if(UI.child){ drawWho(); drawKidSum(); } });
   // Add or change a child: first name and school year (only the years on this site so far)
   function drawKidForm(){ var f = $("kidform"); if(!KF){ f.hidden = true; f.innerHTML = ""; return; } f.hidden = false;
@@ -544,6 +587,51 @@ var DATA = {"maths-y3": [{"strand": "Number – number and place value", "items"
           c.log = c.log || []; (k.log || []).forEach(function(x){ if(!c.log.some(function(y){ return y.d === x.d && y.t === x.t; })) c.log.push(x); }); });
         UI.child = C.kids[0].id; bar.hidden = true; keep(true); draw(); window.scrollTo(0, 0); }; }, function(){}); }
   addFromLink(); window.addEventListener("hashchange", addFromLink);
+
+  // ---------- Week by week: the playbook for the year (generic), fitted to each child when one is chosen ----------
+  var PB = {}, WK = null;   // WK: the week being looked at (null = this school week)
+  function schoolWeek(){ var n = new Date(), y = n.getMonth() >= 7 ? n.getFullYear() : n.getFullYear() - 1, d = new Date(y, 8, 1); while(d.getDay() !== 1) d.setDate(d.getDate() + 1);
+    var gaps = {7:1, 14:2, 20:1, 26:2, 32:1}, DAYMS = 864e5;   // England: half terms and holidays after these weeks
+    if(n < d) return {w:1, hol:"Before term starts"};
+    for(var w = 1; w <= 39; w++){ var end = new Date(+d + 7 * DAYMS); if(n < end) return {w:w}; d = end;
+      if(gaps[w]){ var back = new Date(+d + gaps[w] * 7 * DAYMS); if(n < back) return {w:w + 1, hol:w === 14 ? "Christmas holiday" : w === 26 ? "Easter holiday" : "Half term"}; d = back; } }
+    return {w:39, hol:"Summer holiday"}; }
+  function loadPB(y){ if(PB[y] !== undefined) return; PB[y] = null; fetch("playbook-" + y + ".json").then(function(r){ if(!r.ok) throw 0; return r.json(); }).then(function(d){ PB[y] = d; if(UI.tab === "week") drawWeek(); }, function(){ PB[y] = false; if(UI.tab === "week") drawWeek(); }); }
+  function goalText(id){ var p = id.split(":"), y = KIDS.filter(function(k){ return k.id === p[0]; })[0]; if(!y) return ""; var secs = DATA[y[p[1]]]; var it = secs && secs[+p[2]] && secs[+p[2]].items[+p[3]]; return it ? it.t : ""; }
+  function drawWeek(){ var el = $("weekView"), k = kid(), c = child();
+    var pick = '<div class="wk-top"><label for="wkYear" class="note">Plan for</label><select id="wkYear">' + (c ? '<option value="">' + esc(c.name) + ' – ' + esc(k.name) + '</option>' : '') + KIDS.filter(function(x){ return x.cc === "uk"; }).map(function(x){ return '<option value="' + x.id + '"' + (!c && x.id === k.id ? " selected" : "") + '>' + esc(x.name) + '</option>'; }).join("") + '</select></div>';
+    if(k.cc === "us"){ el.innerHTML = pick + '<p class="note">The week-by-week plan is coming for US grades. England\'s Reception, Year 3 and Year 5 are ready.</p>'; return; }
+    if(PB[k.id] === undefined) loadPB(k.id);
+    if(PB[k.id] === null){ el.innerHTML = pick + '<p class="note">Loading the plan…</p>'; return; }
+    if(PB[k.id] === false){ el.innerHTML = pick + '<p class="note">The week-by-week plan for ' + esc(k.name) + ' is coming soon. Reception, Year 3 and Year 5 are ready now.</p>'; return; }
+    var now = schoolWeek(), wn = WK || now.w, w = PB[k.id].weeks.filter(function(x){ return x.w === wn; })[0]; if(!w) return;
+    var dow = new Date().getDay(), today = (!WK || WK === now.w) && !now.hol && dow >= 1 && dow <= 5 ? ["Mon","Tue","Wed","Thu","Fri"][dow - 1] : "";
+    var stOf2 = function(id){ return c && c.st ? c.st[id] : null; };
+    var gl = function(ids){ return '<ul class="glist">' + ids.map(function(id){ var x = stOf2(id) || {}; return '<li><span>' + esc(short(goalText(id))) + (x.s ? ' <span class="st s-' + x.s + '">' + STN[x.s] + '</span>' : '') + '</span><button type="button" data-wjump="' + id + '">📝 Practice</button></li>'; }).join("") + '</ul>'; };
+    var h = pick + '<div class="wk-nav"><button type="button" data-wkgo="-1" aria-label="Previous week"' + (wn <= 1 ? " disabled" : "") + '>‹</button><div class="mid"><b>Week ' + wn + ' · ' + esc(w.term) + '</b><small>' + (wn === now.w && !WK ? (now.hol ? now.hol + " – this is the week after it" : "This week") : "Week " + wn + " of 39") + '</small>' + (WK && WK !== now.w ? '<button type="button" class="now" data-wknow="1">Back to this week</button>' : '') + '</div><button type="button" data-wkgo="1" aria-label="Next week"' + (wn >= 39 ? " disabled" : "") + '>›</button></div>';
+    h += '<div class="wk"><h3>' + esc(w.title) + '</h3>';
+    if(c){ var all = (w.ma || []).concat(w.en || []), sec = all.filter(function(id){ var x = stOf2(id); return x && (x.s === "secure" || x.s === "ahead"); }), wk = all.filter(function(id){ var x = stOf2(id); return x && x.s === "working"; }),
+        earlier = Object.keys(c.st || {}).filter(function(id){ return c.st[id].s === "working" && all.indexOf(id) < 0; }).slice(0, 3),
+        since = new Date(Date.now() - 10 * 864e5).toISOString().slice(0, 10), fresh = (c.log || []).filter(function(x){ return (x.d || "") >= since; });
+      if(sec.length || wk.length || earlier.length || fresh.length){
+        h += '<div class="blk forkid"><h4>For ' + esc(c.name) + ' this week</h4><ul>'
+          + sec.map(function(id){ return '<li>Already secure: ' + esc(short(goalText(id))) + ' – a quick check is enough, or stretch it.</li>'; }).join("")
+          + wk.map(function(id){ var x = stOf2(id); return '<li>Keep going: ' + esc(short(goalText(id))) + (x.n ? ' <i>(' + esc(x.n) + ')</i>' : '') + '</li>'; }).join("")
+          + earlier.map(function(id){ return '<li>From earlier, still working on: ' + esc(short(goalText(id))) + '</li>'; }).join("")
+          + fresh.map(function(x){ return '<li>' + esc(x.src || "Update") + ', ' + esc(fmtD(x.d)) + ': ' + esc(x.t.length > 140 ? x.t.slice(0, 138) + "…" : x.t) + '</li>'; }).join("") + '</ul></div>'; } }
+    h += '<div class="blk"><h4>' + (k.cc === "us" ? "Math" : "Maths") + ' this week</h4>' + gl(w.ma || []) + '</div>';
+    h += '<div class="blk"><h4>English this week</h4>' + gl(w.en || []) + '</div>';
+    if(w.spell) h += '<div class="blk spell"><h4>Spelling and sounds</h4><b>' + esc(w.spell.rule || "") + '</b>' + (w.spell.words && w.spell.words.length ? '<div class="chips">' + w.spell.words.map(function(x){ return '<span>' + esc(x) + '</span>'; }).join("") + '</div>' : '') + '</div>';
+    if(w.read) h += '<div class="blk"><h4>Reading</h4>' + esc(w.read) + '</div>';
+    h += (w.days || []).map(function(d){ var isT = d.d === today; return '<details class="day' + (isT ? " today" : "") + '"' + (isT || (!today && d.d === "Mon") ? " open" : "") + '><summary>' + esc({Mon:"Monday",Tue:"Tuesday",Wed:"Wednesday",Thu:"Thursday",Fri:"Friday"}[d.d] || d.d) + (isT ? ' <small>Today</small>' : '') + '</summary><div class="db"><p><b>' + (k.cc === "us" ? "Math" : "Maths") + '</b>' + esc(d.ma) + '</p><p><b>English</b>' + esc(d.en) + '</p></div></details>'; }).join("");
+    h += '<p class="note">About 15–20 minutes each for maths and English. It\'s a guide, not a rulebook – follow your child, and skip what they already know. Weeks follow the usual school terms in England.</p></div>';
+    el.innerHTML = h; }
+  $("weekView").addEventListener("change", function(e){ if(e.target.id !== "wkYear") return; var v = e.target.value; if(v){ UI.child = ""; UI.kid = v; UI.cc = "uk"; } WK = null; draw(); drawWeek(); });
+  $("weekView").addEventListener("click", function(e){ var b = e.target.closest("button"); if(!b) return;
+    if(b.dataset.wkgo){ WK = Math.max(1, Math.min(39, (WK || schoolWeek().w) + +b.dataset.wkgo)); drawWeek(); return; }
+    if(b.dataset.wknow){ WK = null; drawWeek(); return; }
+    if(b.dataset.wjump){ var id = b.dataset.wjump, p = id.split(":"); document.querySelector('nav.tabs [data-tab="curr"]').click(); UI.subj = p[1]; drawWho(); QOPEN = id; AIOPEN = null; drawSheets(); loadQs("questions.json");
+      setTimeout(function(){ var g = document.querySelector('[data-g="' + id + '"]'); if(g) g.closest(".goal").scrollIntoView({behavior:"smooth", block:"center"}); }, 120); } });
   // ---------- Sign in (optional): same account as the other Family Ecosphere sites ----------
   // Your children and their ticks are saved under your account (site "learnbyyear"), so they open on any phone or laptop.
   var SB_URL = "https://nlbeqaoffratriysazrx.supabase.co", SB_KEY = "sb_publishable_HjyFCCwqTjqeAIV1bh28ww_li-Rw7CZ";

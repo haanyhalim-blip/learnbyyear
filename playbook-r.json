@@ -1,0 +1,2300 @@
+{
+ "year": "r",
+ "weeks": [
+  {
+   "w": 1,
+   "term": "Autumn 1",
+   "title": "Settling in: s, a, t, p",
+   "ma": [
+    "r:ma:0:0",
+    "r:ma:1:1"
+   ],
+   "en": [
+    "r:en:0:0",
+    "r:en:0:2",
+    "r:en:3:0",
+    "r:en:3:1"
+   ],
+   "spell": {
+    "rule": "s a t p (tricky word: I)",
+    "words": [
+     "a",
+     "at",
+     "sat",
+     "pat",
+     "tap",
+     "sap",
+     "pats",
+     "taps"
+    ]
+   },
+   "read": "A rhyming picture book – pause before the rhyming word and let your child fill it in",
+   "days": [
+    {
+     "d": "Mon",
+     "ma": "Sock pairs: tip out a pile of clean socks and match the pairs together, counting each pair aloud as you make a pile (stop at 5).",
+     "en": "Sound walk: stand still in the garden or a room, close eyes for one minute and listen, then take turns saying what you heard. Introduce s as a hissing snake and hunt for three things that start with s."
+    },
+    {
+     "d": "Tue",
+     "ma": "Teddy tea party: give each toy one cup and one spoon, saying 'one for you, one for you'. Is there one each, or are some left over?",
+     "en": "Introduce a (ants crawling up your arm) and t (tap the table). Play I-spy with sounds: 'I spy something beginning with t'."
+    },
+    {
+     "d": "Wed",
+     "ma": "Stair count: climb the stairs together counting 1 to 5, then jump back down saying 5, 4, 3, 2, 1, blast off!",
+     "en": "Introduce p (puff out a candle). Say s-a-t, p-a-t and t-a-p slowly like a robot; your child shouts the word and does an action."
+    },
+    {
+     "d": "Thu",
+     "ma": "Make piles of 1, 2 and 3 toy cars or spoons and ask 'which pile has the most? Which has the fewest?'",
+     "en": "Write s, a, t, p big in chalk outside or with a finger in a tray of flour; trace each one together while saying its sound."
+    },
+    {
+     "d": "Fri",
+     "ma": "Quick check: show 1 to 5 fingers quickly; your child copies with their own fingers and tells you how many.",
+     "en": "Quick check: point to s, a, t, p on scraps of paper in any order for a sound each, then blend at, sat and pat together. Spot the word I in a book."
+    }
+   ]
+  },
+  {
+   "w": 2,
+   "term": "Autumn 1",
+   "title": "Numbers 1 to 3; sounds i, n, m, d",
+   "ma": [
+    "r:ma:0:0",
+    "r:ma:0:1"
+   ],
+   "en": [
+    "r:en:3:0",
+    "r:en:3:1",
+    "r:en:4:0",
+    "r:en:2:1"
+   ],
+   "spell": {
+    "rule": "i n m d (tricky words: the, to)",
+    "words": [
+     "in",
+     "it",
+     "pin",
+     "tin",
+     "nap",
+     "man",
+     "map",
+     "dad",
+     "dip",
+     "mat"
+    ]
+   },
+   "read": "A picture book with a simple repeating pattern your child can join in with",
+   "days": [
+    {
+     "d": "Mon",
+     "ma": "Find 1, 2, 3: hunt the house for one spoon, two shoes and three pegs and line them up in order.",
+     "en": "Introduce i (wiggle fingers like an itchy insect) and n (make a 'nnn' aeroplane noise). Sort a pile of toys: which start with n?"
+    },
+    {
+     "d": "Tue",
+     "ma": "Peek-a-boo dots: draw 1, 2 or 3 dots on scraps of paper, flash one for a second and ask how many – no counting allowed, just looking.",
+     "en": "Introduce m (rub your tummy, 'mmm') and d (bang a pretend drum). Robot talk: say m-a-p and d-i-p and your child says the word."
+    },
+    {
+     "d": "Wed",
+     "ma": "Tower of three: build towers of 1, 2 and 3 bricks and put them in order from shortest to tallest, saying the number of each.",
+     "en": "Read the repeating book together and stop before a page turn: 'What do you think will happen next?' Then turn and check."
+    },
+    {
+     "d": "Thu",
+     "ma": "Jump to it: call out 1, 2 or 3 and your child does that many jumps, claps or stamps, counting aloud.",
+     "en": "Write i, n, m, d with a wet paintbrush on a fence or path, saying the sound as you form each letter; watch them dry and do it again."
+    },
+    {
+     "d": "Fri",
+     "ma": "Quick check: show 1, 2 or 3 dots or fingers for a second; can your child say how many at a glance?",
+     "en": "Word fishing: write sat, pin, man, dad and tip on paper fish; your child 'catches' one, reads it by blending, and keeps it. Find 'the' on a page."
+    }
+   ]
+  },
+  {
+   "w": 3,
+   "term": "Autumn 1",
+   "title": "Numbers 4 and 5; sounds g, o, c, k",
+   "ma": [
+    "r:ma:0:0",
+    "r:ma:0:1",
+    "r:ma:1:1"
+   ],
+   "en": [
+    "r:en:3:0",
+    "r:en:3:1",
+    "r:en:0:0",
+    "r:en:1:0"
+   ],
+   "spell": {
+    "rule": "g o c k (tricky words: no, go)",
+    "words": [
+     "got",
+     "dog",
+     "cot",
+     "cat",
+     "kit",
+     "kid",
+     "can",
+     "top",
+     "pot",
+     "dig"
+    ]
+   },
+   "read": "A library picture book about animals – talk about what each animal is doing",
+   "days": [
+    {
+     "d": "Mon",
+     "ma": "Five fingers: show 5 fingers in different ways (4 and 1, 3 and 2) and ask 'Is it still five?' Then try 4 the same way.",
+     "en": "Introduce g (gurgle like water down a drain) and o (say 'o' as you flick a light on and off). Find things in the kitchen starting with g or o."
+    },
+    {
+     "d": "Tue",
+     "ma": "Egg box count: put dried pasta or buttons into an egg box, one per hole, touching and counting each one up to 4 or 5.",
+     "en": "Introduce c and k – two letters, same sound. Click your fingers 'c, c, c'. Blend c-a-t, k-i-t and d-o-g aloud."
+    },
+    {
+     "d": "Wed",
+     "ma": "Who has more? Give two teddies different handfuls of up to 5 bricks; your child counts each and says who has more.",
+     "en": "Picture chat: look at a page of the animal book and ask 'What can you see? What is the dog doing?' Encourage a full-sentence answer."
+    },
+    {
+     "d": "Thu",
+     "ma": "Hopscotch to 5: chalk squares numbered 1 to 5 on the ground and hop along saying the numbers, then hop back.",
+     "en": "Go and no: write 'go' and 'no' on two cards and play traffic lights – your child reads the card you hold up and moves or freezes."
+    },
+    {
+     "d": "Fri",
+     "ma": "Quick check: tip out 4 or 5 objects; can your child say how many, then make a group with the same amount?",
+     "en": "Quick check: read got, cat, dog and kid from cards, then say a sound (g, o, c, k) for your child to point to."
+    }
+   ]
+  },
+  {
+   "w": 4,
+   "term": "Autumn 1",
+   "title": "Seeing amounts; sounds ck, e, u, r",
+   "ma": [
+    "r:ma:0:1",
+    "r:ma:0:0"
+   ],
+   "en": [
+    "r:en:3:0",
+    "r:en:3:1",
+    "r:en:4:1",
+    "r:en:0:2"
+   ],
+   "spell": {
+    "rule": "ck e u r (tricky words: I, into)",
+    "words": [
+     "duck",
+     "sock",
+     "rock",
+     "kick",
+     "pet",
+     "red",
+     "bed",
+     "hen",
+     "up",
+     "run",
+     "rug",
+     "sun"
+    ]
+   },
+   "read": "A non-fiction library book about ducks, farm animals or pets",
+   "days": [
+    {
+     "d": "Mon",
+     "ma": "Dice snap: roll a die and say the number of dots without counting, then fetch that many toys.",
+     "en": "Introduce ck (two letters, one sound, as at the end of duck) and e (tap your elbow). Hunt for a sock, a rock or a clock and say the ck at the end."
+    },
+    {
+     "d": "Tue",
+     "ma": "Finger flash: hide your hands, then show some fingers for two seconds – how many did your child see?",
+     "en": "Introduce u (put up an umbrella) and r (roll like a dog 'rrr'). Robot talk with r-e-d, s-u-n and d-u-ck."
+    },
+    {
+     "d": "Wed",
+     "ma": "Dot plates: draw dice patterns for 1 to 5 on paper plates or paper, spread them out and your child runs to the one you call.",
+     "en": "Mealtime chat: take turns telling one thing you did today and ask a 'why' question about it. Wait for the answer and reply to it."
+    },
+    {
+     "d": "Thu",
+     "ma": "Ladybird spots: draw ladybirds with 1 to 5 spots; your child puts the matching number of buttons next to each.",
+     "en": "Spell it: say 'sun', tap the three sounds on three fingers together, then your child writes s-u-n with chalk or a crayon."
+    },
+    {
+     "d": "Fri",
+     "ma": "Quick check: flash the dot plates; score a point for each amount named without counting.",
+     "en": "Quick check: read bed, duck, rug and kick and do an action for each. Spot I and into in a book."
+    }
+   ]
+  },
+  {
+   "w": 5,
+   "term": "Autumn 1",
+   "title": "More, fewer, same; sounds h, b, f, ff",
+   "ma": [
+    "r:ma:1:1",
+    "r:ma:0:0"
+   ],
+   "en": [
+    "r:en:3:0",
+    "r:en:3:1",
+    "r:en:2:0",
+    "r:en:2:2"
+   ],
+   "spell": {
+    "rule": "h b f ff (tricky words: no, go, the)",
+    "words": [
+     "hat",
+     "hot",
+     "bag",
+     "bed",
+     "big",
+     "bus",
+     "fun",
+     "fit",
+     "off",
+     "puff",
+     "huff"
+    ]
+   },
+   "read": "A traditional tale with a wolf who huffs and puffs – told from memory or from a library book",
+   "days": [
+    {
+     "d": "Mon",
+     "ma": "Snack compare: make two plates of up to 5 raisins or pieces of fruit. Which has more? Which has fewer? Now make them the same.",
+     "en": "Introduce h (pant like a dog) and b (bounce a ball). Collect three things beginning with h or b and say the first sound of each."
+    },
+    {
+     "d": "Tue",
+     "ma": "Toy rows: line up two rows of toys side by side, one opposite one; which row has more, and how can you tell?",
+     "en": "Introduce f and ff (ff sits at the end, as in off and puff). Read huff, puff and off, blowing a tissue each time."
+    },
+    {
+     "d": "Wed",
+     "ma": "Shoe count: make a pile of grown-up shoes and a pile of children's shoes; count and say which pile has more.",
+     "en": "Read or tell the wolf tale. Talk about the new words in it (huff, puff, straw, chimney) and what they mean."
+    },
+    {
+     "d": "Thu",
+     "ma": "Fair or unfair: give two teddies different numbers of bricks; your child says who has more and makes it fair.",
+     "en": "Retell the tale using toys as characters, using story words such as 'once upon a time', 'next' and 'in the end'."
+    },
+    {
+     "d": "Fri",
+     "ma": "Quick check: show two groups (such as 3 and 5 spoons); your child points to the group with more, then fewer, and explains how they know.",
+     "en": "Quick check: chalk h, b, f and ff on the ground and call a sound to hop on, then read hat, big and off."
+    }
+   ]
+  },
+  {
+   "w": 6,
+   "term": "Autumn 1",
+   "title": "Making 4 and 5; sounds l, ll, ss",
+   "ma": [
+    "r:ma:0:0",
+    "r:ma:0:2"
+   ],
+   "en": [
+    "r:en:3:0",
+    "r:en:3:1",
+    "r:en:3:2",
+    "r:en:4:0"
+   ],
+   "spell": {
+    "rule": "l ll ss (tricky words: to, the, into)",
+    "words": [
+     "lip",
+     "log",
+     "let",
+     "bell",
+     "doll",
+     "fill",
+     "hill",
+     "hiss",
+     "kiss",
+     "mess"
+    ]
+   },
+   "read": "A bedtime story with lots of characters – count the characters together",
+   "days": [
+    {
+     "d": "Mon",
+     "ma": "Five in the bed: lay 5 toys on a towel; roll some out and count how many are in bed and how many are out.",
+     "en": "Introduce l (lick a lolly) and ll (as at the end of bell and doll). Tap a spoon on a glass each time you say a word with l in it."
+    },
+    {
+     "d": "Tue",
+     "ma": "Hidden hands: hide 4 buttons in your two hands; open one hand – how many must be in the other?",
+     "en": "Introduce ss (a hissing snake at the end of hiss and mess). Blend hiss, kiss, mess and fill."
+    },
+    {
+     "d": "Wed",
+     "ma": "Two colours: make 5 using two colours of pegs or pasta in different ways (4 and 1, 3 and 2) and say each one.",
+     "en": "Read captions together: 'a big red bus', 'a doll in bed'. Your child points to each word as you read."
+    },
+    {
+     "d": "Thu",
+     "ma": "Stair split: put 5 toys on two stairs, some on each; how many different ways can you share them out?",
+     "en": "Tall letters: write l, b, d, h and k with a chunky pencil on the back of an envelope, starting each at the top."
+    },
+    {
+     "d": "Fri",
+     "ma": "Quick check: show 5 fingers, fold some down and ask 'How many are hiding?'",
+     "en": "Quick check: your child reads 'a doll in a bed' and 'the bell is on the hill' and draws a picture to match."
+    }
+   ]
+  },
+  {
+   "w": 7,
+   "term": "Autumn 1",
+   "title": "Consolidation: Phase 2 sounds and numbers to 5",
+   "ma": [
+    "r:ma:0:0",
+    "r:ma:0:1",
+    "r:ma:0:2",
+    "r:ma:1:1"
+   ],
+   "en": [
+    "r:en:0:0",
+    "r:en:3:0",
+    "r:en:3:1",
+    "r:en:3:2",
+    "r:en:4:1",
+    "r:en:4:2"
+   ],
+   "spell": {
+    "rule": "Review all Phase 2 sounds from s to ss (tricky words: I, no, go, to, the, into)",
+    "words": [
+     "sat",
+     "pin",
+     "dog",
+     "duck",
+     "red",
+     "bus",
+     "hill",
+     "mess",
+     "cat",
+     "puff"
+    ]
+   },
+   "read": "Re-read your child's favourite book from this half term",
+   "days": [
+    {
+     "d": "Mon",
+     "ma": "Number hunt: spot the numbers 1 to 5 on things around the home (clock, oven, remote control) and do that many star jumps for each.",
+     "en": "Sound bingo: write 9 Phase 2 letters in a grid; call sounds and your child covers each with a coin or button."
+    },
+    {
+     "d": "Tue",
+     "ma": "Dice and dots: roll a die, say the amount at a glance and collect that many pegs; keep going until someone has 10.",
+     "en": "Robot word race: say any word from the list in robot sounds (d-o-g); your child blends it and points to something that matches."
+    },
+    {
+     "d": "Wed",
+     "ma": "Which has more? Hide up to 5 small toys in each hand; your child picks a hand, counts both and says which had more.",
+     "en": "Story recall: re-read a favourite book; your child tells you the bits they remember and what they liked best."
+    },
+    {
+     "d": "Thu",
+     "ma": "Car park: make 5 with toy cars in two 'car parks' drawn on paper; how many different ways can you park them?",
+     "en": "Label it: write a label for a toy such as 'a red bus' or 'a big dog'. Your child sounds it out and writes it – any sensible spelling counts."
+    },
+    {
+     "d": "Fri",
+     "ma": "Celebration check: count to 5 and back, name some dice patterns at a glance and show 5 two ways on fingers.",
+     "en": "Quick check: hide I, no, go, to, the and into on paper around a room; your child reads each one as they find it."
+    }
+   ]
+  },
+  {
+   "w": 8,
+   "term": "Autumn 2",
+   "title": "Numbers 6, 7, 8; sounds j, v, w",
+   "ma": [
+    "r:ma:0:0",
+    "r:ma:1:0"
+   ],
+   "en": [
+    "r:en:3:0",
+    "r:en:3:1",
+    "r:en:2:1",
+    "r:en:1:2"
+   ],
+   "spell": {
+    "rule": "j v w (tricky words: he, she)",
+    "words": [
+     "jam",
+     "jet",
+     "jog",
+     "van",
+     "vet",
+     "web",
+     "wet",
+     "win",
+     "wig"
+    ]
+   },
+   "read": "A picture book with a surprise ending – guess the ending before you read it",
+   "days": [
+    {
+     "d": "Mon",
+     "ma": "Count on: do 6 claps, then 2 more stamps – how many altogether? Try 7 and 1, then count everything as high as you can go.",
+     "en": "Introduce j (wobble like jelly) and v (vroom like a van). Blend jam, jet, van and vet."
+    },
+    {
+     "d": "Tue",
+     "ma": "Five and a bit: make 6 with one full hand and 1 finger, 7 with a hand and 2, 8 with a hand and 3. Spot the pattern.",
+     "en": "Introduce w (blow like the wind). Draw a spider's web and write web, wet, win and wig on it to read."
+    },
+    {
+     "d": "Wed",
+     "ma": "Autumn collection: gather 8 leaves, sticks or stones outside, line them up and count, touching each one.",
+     "en": "Read the surprise-ending book, stopping before the end: 'What do you think will happen?' Then read on and check."
+    },
+    {
+     "d": "Thu",
+     "ma": "Step numbers: stick numbers 1 to 8 on the stairs; your child stands on the step you call and counts on to the top.",
+     "en": "Weekend talk: help your child say 'I went to … and then I …' about the past, and 'Tomorrow I will …' about the future."
+    },
+    {
+     "d": "Fri",
+     "ma": "Quick check: ask for 6, 7 or 8 objects from a bigger pile; can your child stop at the right number?",
+     "en": "Quick check: read he and she on cards, then read 'he is wet' and 'she has a jet'."
+    }
+   ]
+  },
+  {
+   "w": 9,
+   "term": "Autumn 2",
+   "title": "Numbers 9 and 10; sounds x, y, z, zz, qu",
+   "ma": [
+    "r:ma:0:0",
+    "r:ma:0:1",
+    "r:ma:1:0"
+   ],
+   "en": [
+    "r:en:3:0",
+    "r:en:3:1",
+    "r:en:4:1",
+    "r:en:0:1"
+   ],
+   "spell": {
+    "rule": "x y z zz qu (tricky words: we, me, be)",
+    "words": [
+     "box",
+     "fox",
+     "six",
+     "yes",
+     "yet",
+     "zip",
+     "zap",
+     "buzz",
+     "fizz",
+     "quiz",
+     "quack"
+    ]
+   },
+   "read": "A library book of nursery rhymes – learn one new rhyme off by heart",
+   "days": [
+    {
+     "d": "Mon",
+     "ma": "Ten frame: draw two rows of five boxes (or use an egg box with ten holes) and fill it with 9, then 10, pieces of pasta.",
+     "en": "Introduce x (as at the end of box and six) and y (yawn 'y'). Read box, fox, six and yes."
+    },
+    {
+     "d": "Tue",
+     "ma": "Keep counting: count star jumps past 10 to see how far you get together; listen for the 'teen' numbers.",
+     "en": "Introduce z and zz (buzz like a bee) and qu (two letters, quack like a duck). Blend zip, buzz, quiz and quack."
+    },
+    {
+     "d": "Wed",
+     "ma": "Skittles: stand up 10 empty plastic bottles or toilet rolls, roll a ball, and count how many fell and how many are standing.",
+     "en": "Rhyme time: say a nursery rhyme together, then invite your child to ask you a question about it ('Why did he fall?')."
+    },
+    {
+     "d": "Thu",
+     "ma": "Ten toes: count toes, then fingers, touching each one, then count both together past 10.",
+     "en": "Spell it: say fox, zip and yes; your child taps the sounds on fingers then writes each word with chalk or a crayon."
+    },
+    {
+     "d": "Fri",
+     "ma": "Quick check: flash the ten frame with 6 to 10 filled; how many pieces? How many empty spaces?",
+     "en": "Quick check: write we, me, be, he and she on paper; call one and your child splats it with a hand."
+    }
+   ]
+  },
+  {
+   "w": 10,
+   "term": "Autumn 2",
+   "title": "Comparing to 10; sounds ch, sh",
+   "ma": [
+    "r:ma:1:1",
+    "r:ma:0:0"
+   ],
+   "en": [
+    "r:en:3:0",
+    "r:en:3:1",
+    "r:en:0:2",
+    "r:en:2:2"
+   ],
+   "spell": {
+    "rule": "ch sh (tricky words: was, my)",
+    "words": [
+     "chip",
+     "chop",
+     "chin",
+     "much",
+     "rich",
+     "ship",
+     "shop",
+     "shed",
+     "fish",
+     "dish",
+     "wish"
+    ]
+   },
+   "read": "A non-fiction library book about the sea or boats",
+   "days": [
+    {
+     "d": "Mon",
+     "ma": "Fruit bowl: count the apples and the other fruit (or two kinds of pasta, up to 10); which has more, fewer or the same?",
+     "en": "Introduce ch (choo-choo train). Find ch in chin, chop and much, chugging your arms each time you hear it."
+    },
+    {
+     "d": "Tue",
+     "ma": "Grab and compare: take turns grabbing a handful of pegs, count them, and say who has more and who has fewer.",
+     "en": "Introduce sh (finger on lips, 'sh'). Read ship, shop, fish and dish, and sort them into sh at the start and sh at the end."
+    },
+    {
+     "d": "Wed",
+     "ma": "Set the table: count the people and the plates; are there enough forks? How many more do you need?",
+     "en": "Pretend shop: set up a toy shop; take turns as shopkeeper and customer, asking and answering 'How much?' and 'Have you got…?'"
+    },
+    {
+     "d": "Thu",
+     "ma": "Bigger wins: write 1 to 10 on scraps of paper; each player picks one and the bigger number wins the round.",
+     "en": "Word explorer: read the sea book and pick two new words (such as 'shell' or 'crab'); use each in a sentence together today."
+    },
+    {
+     "d": "Fri",
+     "ma": "Quick check: show two groups up to 10; your child says which has more and explains how they know.",
+     "en": "Quick check: read 'a fish in a dish' and 'my ship was red'; your child draws one of them."
+    }
+   ]
+  },
+  {
+   "w": 11,
+   "term": "Autumn 2",
+   "title": "Shape and pattern; sounds th, ng",
+   "ma": [
+    "r:ma:1:2",
+    "r:ma:1:1"
+   ],
+   "en": [
+    "r:en:3:0",
+    "r:en:3:1",
+    "r:en:2:0",
+    "r:en:4:0"
+   ],
+   "spell": {
+    "rule": "th ng (tricky words: you, they)",
+    "words": [
+     "this",
+     "that",
+     "them",
+     "then",
+     "thin",
+     "moth",
+     "ring",
+     "king",
+     "song",
+     "long",
+     "sing",
+     "bang"
+    ]
+   },
+   "read": "A traditional tale with a king or queen",
+   "days": [
+    {
+     "d": "Mon",
+     "ma": "Shape hunt: find circles, squares, triangles and rectangles around the home; count the sides and corners of each.",
+     "en": "Introduce th (poke your tongue out a little: this, that, thin). Read this, that, then and moth."
+    },
+    {
+     "d": "Tue",
+     "ma": "Spoon patterns: make a repeating line of fork, spoon, fork, spoon… What comes next? Then try red, red, blue.",
+     "en": "Introduce ng (as in ring, king and sing). Sing a favourite song and listen for words that end in ng."
+    },
+    {
+     "d": "Wed",
+     "ma": "Clap patterns: clap, stamp, clap, stamp; your child continues, then makes up a pattern for you to copy.",
+     "en": "Read the king or queen tale, then your child draws three pictures – beginning, middle, end – and retells it in their own words."
+    },
+    {
+     "d": "Thu",
+     "ma": "Shape pictures: tear or cut paper into shapes and make a house or rocket; which shape is the biggest? Which is the smallest?",
+     "en": "Letter shapes: write th, sh, ch and ng with a finger on a steamed-up window or in a tray of flour, saying the sound each time."
+    },
+    {
+     "d": "Fri",
+     "ma": "Quick check: put a few household objects in a pillowcase; feel one and describe its shape for the other person to guess.",
+     "en": "Quick check: read 'the king can sing a long song', then find you and they in a book."
+    }
+   ]
+  },
+  {
+   "w": 12,
+   "term": "Autumn 2",
+   "title": "Number bonds to 5; sounds ai, ee",
+   "ma": [
+    "r:ma:0:2",
+    "r:ma:0:0"
+   ],
+   "en": [
+    "r:en:3:0",
+    "r:en:3:1",
+    "r:en:3:2",
+    "r:en:0:0"
+   ],
+   "spell": {
+    "rule": "ai ee (tricky words: her, all)",
+    "words": [
+     "rain",
+     "tail",
+     "wait",
+     "sail",
+     "pain",
+     "see",
+     "bee",
+     "feet",
+     "seed",
+     "deep",
+     "week"
+    ]
+   },
+   "read": "A picture book about the weather",
+   "days": [
+    {
+     "d": "Mon",
+     "ma": "Part-part-whole: draw a big circle joined to two small circles; put 5 buttons in the big one, then split them into the two small ones in different ways.",
+     "en": "Introduce ai (rain on the roof). Read rain, tail, wait and sail, wiggling fingers like rain for each ai."
+    },
+    {
+     "d": "Tue",
+     "ma": "Two hands: 'I have 5 pieces of pasta; there are 2 in this hand – how many in the other?' Swap roles.",
+     "en": "Introduce ee (what can you see?). Read see, bee, feet and seed, making a buzzing bee fly to each word."
+    },
+    {
+     "d": "Wed",
+     "ma": "Hop together: hop 3 times then 2 more; how many altogether? Try 4 and 1, then 5 and 0.",
+     "en": "Read the weather book; ask your child what they noticed and let them ask you a question about it."
+    },
+    {
+     "d": "Thu",
+     "ma": "Bath ducks: put 5 toys in the bath or a bowl, 2 swim away; how many are left? Say it as a sentence together.",
+     "en": "Read captions: 'see the bee', 'a tail in the rain', 'wait for her'. Your child reads each and acts it out."
+    },
+    {
+     "d": "Fri",
+     "ma": "Quick check: show 5 fingers, fold some down, and your child says the bond (3 and 2 make 5) without counting.",
+     "en": "Quick check: sound race – write ai, ee, sh, ch, th and ng; how fast can your child say every sound?"
+    }
+   ]
+  },
+  {
+   "w": 13,
+   "term": "Autumn 2",
+   "title": "One more, one less; sounds igh, oa",
+   "ma": [
+    "r:ma:0:0",
+    "r:ma:1:1"
+   ],
+   "en": [
+    "r:en:3:0",
+    "r:en:3:1",
+    "r:en:4:1",
+    "r:en:4:2"
+   ],
+   "spell": {
+    "rule": "igh oa (tricky words: are, was, my)",
+    "words": [
+     "high",
+     "night",
+     "light",
+     "sigh",
+     "right",
+     "boat",
+     "coat",
+     "goat",
+     "road",
+     "soap",
+     "toad"
+    ]
+   },
+   "read": "A night-time or bedtime story",
+   "days": [
+    {
+     "d": "Mon",
+     "ma": "Stair steps: stand on step 4; go up one – which step now? Down one – which step now?",
+     "en": "Introduce igh (three letters, one sound, as in night). Read high, light, night and right, reaching up high on each one."
+    },
+    {
+     "d": "Tue",
+     "ma": "Tower plus one: build a tower of 6 bricks; add one – how many? Take one off – how many?",
+     "en": "Introduce oa (a goat in a boat). Read boat, coat, goat, road and soap."
+    },
+    {
+     "d": "Wed",
+     "ma": "Number line hop: chalk 0 to 10 on the ground; stand on a number, then jump to one more and one less.",
+     "en": "Write a sentence: 'a goat in a boat'. Your child says it, counts the words on fingers, then writes it with your help."
+    },
+    {
+     "d": "Thu",
+     "ma": "Paper chain: make a chain of 10 paper strips; tear one off at a time, saying 'one less' and the new number.",
+     "en": "Packing list: write a list for a teddy's trip – 'a coat', 'a hat', 'a sock' – your child sounds out each word."
+    },
+    {
+     "d": "Fri",
+     "ma": "Quick check: say a number up to 9; your child tells you one more and one less.",
+     "en": "Quick check: say 'a boat at night'; your child writes it and reads it back to you."
+    }
+   ]
+  },
+  {
+   "w": 14,
+   "term": "Autumn 2",
+   "title": "Consolidation: winter games with sounds and numbers",
+   "ma": [
+    "r:ma:0:0",
+    "r:ma:0:1",
+    "r:ma:0:2",
+    "r:ma:1:1"
+   ],
+   "en": [
+    "r:en:1:0",
+    "r:en:2:0",
+    "r:en:3:0",
+    "r:en:3:1",
+    "r:en:3:2",
+    "r:en:4:2"
+   ],
+   "spell": {
+    "rule": "Review j to oa (tricky words: he, she, we, me, be, was, my, you, they, her, all, are)",
+    "words": [
+     "jam",
+     "fox",
+     "shop",
+     "thin",
+     "ring",
+     "rain",
+     "see",
+     "night",
+     "coat",
+     "quiz"
+    ]
+   },
+   "read": "A winter story – re-read it twice this week",
+   "days": [
+    {
+     "d": "Mon",
+     "ma": "Parcels: wrap small boxes or toys in newspaper and count them; hide some behind your back and ask how many are hiding.",
+     "en": "Sound sort: write ch, sh, th, ng, ai, ee, igh and oa on cards and sort toys and household objects by the sound in their name."
+    },
+    {
+     "d": "Tue",
+     "ma": "Snowball throw: throw rolled-up socks into a basket; count the ones in and out, then compare scores.",
+     "en": "Card writing: write a short message in a homemade card, such as 'to you from me', with your child sounding out each word."
+    },
+    {
+     "d": "Wed",
+     "ma": "Domino dots: match dot patterns on dominoes or homemade dot cards, naming each amount at a glance.",
+     "en": "Retell the winter story with toys as characters, using words from the book."
+    },
+    {
+     "d": "Thu",
+     "ma": "Bond hands: show 5 fingers with some up and some down; your child says how many up and how many down.",
+     "en": "Party plan: plan a pretend winter party together – what will we need and why? Encourage 'because' in each answer."
+    },
+    {
+     "d": "Fri",
+     "ma": "Quick check: one more and one less up to 10, and which of two groups has more.",
+     "en": "Quick check: read tricky words from a pile; any that stick go back in the pile for next week."
+    }
+   ]
+  },
+  {
+   "w": 15,
+   "term": "Spring 1",
+   "title": "Making 6 and 7; sounds oo and oo",
+   "ma": [
+    "r:ma:0:0",
+    "r:ma:1:2"
+   ],
+   "en": [
+    "r:en:3:0",
+    "r:en:3:1",
+    "r:en:0:1",
+    "r:en:2:2"
+   ],
+   "spell": {
+    "rule": "long oo and short oo (tricky words: was, you, they)",
+    "words": [
+     "moon",
+     "zoo",
+     "food",
+     "roof",
+     "boot",
+     "cool",
+     "book",
+     "look",
+     "foot",
+     "cook",
+     "good",
+     "wood"
+    ]
+   },
+   "read": "A non-fiction library book about space or the moon",
+   "days": [
+    {
+     "d": "Mon",
+     "ma": "Six on two plates: share 6 grapes or pasta pieces between two plates in different ways (5 and 1, 4 and 2, 3 and 3).",
+     "en": "Introduce long oo (moon, zoo) and short oo (book, look). Say both, then sort words into a 'moon' pile and a 'book' pile."
+    },
+    {
+     "d": "Tue",
+     "ma": "Seven days: count the days of the week on fingers; split 7 into 5 school days and 2 weekend days.",
+     "en": "Read moon, food, look and good; your child points up at the moon for long oo and opens a book for short oo."
+    },
+    {
+     "d": "Wed",
+     "ma": "Car colours: line up 7 toy cars or blocks of two colours; say 'four red and three blue make seven'. Change them round.",
+     "en": "Read the space book; your child asks you two questions about it and you answer, then swap."
+    },
+    {
+     "d": "Thu",
+     "ma": "Dice pairs: roll two dice and check whether they make 6 or 7 together; collect the pairs that do.",
+     "en": "Word of the day: pick a new word from the space book (such as 'rocket' or 'orbit') and both use it three times today."
+    },
+    {
+     "d": "Fri",
+     "ma": "Quick check: hide part of a group of 6 or 7 under a cup; how many are hiding?",
+     "en": "Quick check: read 'look at the moon' and 'a good book'."
+    }
+   ]
+  },
+  {
+   "w": 16,
+   "term": "Spring 1",
+   "title": "Making 8, 9, 10; sounds ar, or",
+   "ma": [
+    "r:ma:0:0",
+    "r:ma:0:1"
+   ],
+   "en": [
+    "r:en:3:0",
+    "r:en:3:1",
+    "r:en:4:1",
+    "r:en:1:1"
+   ],
+   "spell": {
+    "rule": "ar or (tricky words: me, be, all)",
+    "words": [
+     "car",
+     "farm",
+     "park",
+     "star",
+     "jar",
+     "dark",
+     "fork",
+     "corn",
+     "horn",
+     "short",
+     "sort",
+     "torch"
+    ]
+   },
+   "read": "A picture book set on a farm",
+   "days": [
+    {
+     "d": "Mon",
+     "ma": "Ten frame gaps: fill a ten frame with 8 objects; how many empty spaces? '8 and 2 make 10.'",
+     "en": "Introduce ar (open wide for the doctor). Read car, farm, park and star."
+    },
+    {
+     "d": "Tue",
+     "ma": "Finger nines: show 9 fingers in different ways using both hands (5 and 4, 6 and 3) and say each one.",
+     "en": "Introduce or (toot a horn). Read fork, corn, short and torch."
+    },
+    {
+     "d": "Wed",
+     "ma": "Number stories: '9 birds on a fence, some fly away…' Act it out with toys and say how many stayed and how many flew.",
+     "en": "Why questions: look at a farm picture and ask 'Why do you think the farmer needs a tractor? Why is the barn big?'"
+    },
+    {
+     "d": "Thu",
+     "ma": "Two rows of five: lay 10 toys in two rows of five and see that 10 is 5 and 5; move one across – now what?",
+     "en": "Spell it: say park and fork; your child taps the sounds and writes them, remembering ar and or are two letters."
+    },
+    {
+     "d": "Fri",
+     "ma": "Quick check: show 8, 9 or 10 on a ten frame for a moment; how many? How many more make 10?",
+     "en": "Quick check: read 'a star in the dark' and 'a short fork'."
+    }
+   ]
+  },
+  {
+   "w": 17,
+   "term": "Spring 1",
+   "title": "Number bonds to 10; sounds ur, ow",
+   "ma": [
+    "r:ma:0:2",
+    "r:ma:0:0"
+   ],
+   "en": [
+    "r:en:3:0",
+    "r:en:3:1",
+    "r:en:3:2",
+    "r:en:2:0"
+   ],
+   "spell": {
+    "rule": "ur ow (tricky words: her, my, they)",
+    "words": [
+     "fur",
+     "turn",
+     "burn",
+     "hurt",
+     "surf",
+     "cow",
+     "now",
+     "how",
+     "down",
+     "town",
+     "owl"
+    ]
+   },
+   "read": "A story with an owl or other night-time animals",
+   "days": [
+    {
+     "d": "Mon",
+     "ma": "Skittles to 10: knock over some of 10 bottles; the standing ones and the fallen ones make 10. Say the pair.",
+     "en": "Introduce ur (a nurse with a purse). Read fur, turn, hurt and burn."
+    },
+    {
+     "d": "Tue",
+     "ma": "Finger partners: show some fingers; your child puts up the rest of their fingers to make 10 together.",
+     "en": "Introduce ow (ow! a cow stepped on my toe). Read cow, now, down, town and owl."
+    },
+    {
+     "d": "Wed",
+     "ma": "Bond hop: chalk 0 to 10; your child stands on a number and counts the hops to reach 10.",
+     "en": "Read the owl story, then your child retells it using 'first', 'next', 'then' and 'in the end'."
+    },
+    {
+     "d": "Thu",
+     "ma": "Ten in the bed: 10 toys on a blanket; some roll out; how many in, how many out?",
+     "en": "Read a sentence: 'turn the car down the road' – your child reads it, pointing to each word."
+    },
+    {
+     "d": "Fri",
+     "ma": "Quick check: call a number 0 to 10; your child shouts its partner to make 10.",
+     "en": "Quick check: read her, my and they, then 'they can see a cow'."
+    }
+   ]
+  },
+  {
+   "w": 18,
+   "term": "Spring 1",
+   "title": "Doubles; sounds oi, ear",
+   "ma": [
+    "r:ma:0:2",
+    "r:ma:1:2"
+   ],
+   "en": [
+    "r:en:3:0",
+    "r:en:3:1",
+    "r:en:4:2",
+    "r:en:1:2"
+   ],
+   "spell": {
+    "rule": "oi ear (tricky words: are, you, all)",
+    "words": [
+     "coin",
+     "oil",
+     "soil",
+     "boil",
+     "join",
+     "ear",
+     "hear",
+     "near",
+     "dear",
+     "beard",
+     "year"
+    ]
+   },
+   "read": "A funny picture book – talk about what made you laugh",
+   "days": [
+    {
+     "d": "Mon",
+     "ma": "Mirror doubles: put 1 to 5 buttons in front of a mirror; how many can you see now? 'Double 2 is 4.'",
+     "en": "Introduce oi (boing like a spring). Read coin, oil, soil and join."
+    },
+    {
+     "d": "Tue",
+     "ma": "Double dice: roll one die, then make the same amount again with toys – say 'double 3 is 6'.",
+     "en": "Introduce ear (hear with your ear). Read ear, hear, near, dear and beard."
+    },
+    {
+     "d": "Wed",
+     "ma": "Butterfly spots: draw a butterfly, put spots on one wing and the same on the other; count all the spots.",
+     "en": "Talk time: chat about something your child did yesterday and will do tomorrow, modelling full sentences joined with 'and' or 'because'."
+    },
+    {
+     "d": "Thu",
+     "ma": "Doubles at home: socks, shoes, hands, eyes – count one, then both; how many altogether?",
+     "en": "Sentence starter: write 'I can hear a …'; your child finishes it with their own idea and writes it."
+    },
+    {
+     "d": "Fri",
+     "ma": "Quick check: a quick doubles quiz up to double 5, using fingers if needed.",
+     "en": "Quick check: read 'a coin in the soil' and 'can you hear me?'"
+    }
+   ]
+  },
+  {
+   "w": 19,
+   "term": "Spring 1",
+   "title": "Odd and even, sharing; sounds air, ure, er",
+   "ma": [
+    "r:ma:1:2",
+    "r:ma:1:1"
+   ],
+   "en": [
+    "r:en:3:0",
+    "r:en:3:1",
+    "r:en:2:1",
+    "r:en:0:0"
+   ],
+   "spell": {
+    "rule": "air ure er (tricky words: he, she, we, was)",
+    "words": [
+     "air",
+     "fair",
+     "hair",
+     "pair",
+     "chair",
+     "sure",
+     "cure",
+     "letter",
+     "hammer",
+     "ladder",
+     "winter"
+    ]
+   },
+   "read": "A story with three tries or three characters – guess what the third will do",
+   "days": [
+    {
+     "d": "Mon",
+     "ma": "Sock partners: pair up 6 socks, then 7 socks; with odd numbers one is left without a partner.",
+     "en": "Introduce air (fair hair). Read air, hair, pair and chair."
+    },
+    {
+     "d": "Tue",
+     "ma": "Fair shares: share 8 pieces of pasta between two teddies, then share 7; what happens to the last one?",
+     "en": "Introduce ure (are you sure?) and er (a better letter). Read sure, cure, letter and hammer."
+    },
+    {
+     "d": "Wed",
+     "ma": "Two by two: march toys into a box in pairs; which amounts make perfect pairs and which leave one out?",
+     "en": "Read the story and stop at three points to guess what happens next, especially before the third try."
+    },
+    {
+     "d": "Thu",
+     "ma": "Odd or even path: write 1 to 10 in chalk; hop only on numbers that can be shared into pairs (2, 4, 6, 8, 10).",
+     "en": "Listen and do: give three instructions in a row ('touch your nose, hop twice, sit down') for your child to follow, then swap."
+    },
+    {
+     "d": "Fri",
+     "ma": "Quick check: give your child up to 10 objects; they pair them up and say odd or even.",
+     "en": "Quick check: read 'a pair of chairs' and 'a better letter'."
+    }
+   ]
+  },
+  {
+   "w": 20,
+   "term": "Spring 1",
+   "title": "Consolidation: all the new sounds and numbers to 10",
+   "ma": [
+    "r:ma:0:0",
+    "r:ma:0:2",
+    "r:ma:1:1",
+    "r:ma:1:2"
+   ],
+   "en": [
+    "r:en:2:2",
+    "r:en:3:0",
+    "r:en:3:1",
+    "r:en:3:2",
+    "r:en:4:1",
+    "r:en:4:2"
+   ],
+   "spell": {
+    "rule": "Review all Phase 3 sounds (tricky words: he, she, we, me, be, was, my, you, her, they, all, are)",
+    "words": [
+     "chair",
+     "moon",
+     "park",
+     "fork",
+     "turn",
+     "cow",
+     "coin",
+     "hear",
+     "light",
+     "sheep"
+    ]
+   },
+   "read": "A favourite book from the library chosen by your child",
+   "days": [
+    {
+     "d": "Mon",
+     "ma": "Make 10 hunt: collect 10 small things; split them between two bowls and say the pair each time you change them.",
+     "en": "Digraph dash: write 10 of the new sounds (such as sh, ai, igh, oo, ar) around a room; call a sound and your child runs to it."
+    },
+    {
+     "d": "Tue",
+     "ma": "Doubles snap: roll a die and say the double; check by making it with toys.",
+     "en": "Read along: your child reads one page or one line from the library book to a toy."
+    },
+    {
+     "d": "Wed",
+     "ma": "Compare and fix: make two piles of up to 10; say which has more and how many to move to make them equal.",
+     "en": "New words: pick three interesting words from this half term's books and act each one out for the other to guess."
+    },
+    {
+     "d": "Thu",
+     "ma": "Odd or even sort: count piles of 1 to 10 pegs and put them in an 'odd' box or an 'even' box.",
+     "en": "Write a sentence about something you did this week, such as 'I had a good week'; your child writes it."
+    },
+    {
+     "d": "Fri",
+     "ma": "Celebration check: bonds to 10 with fingers, one double and an odd or even question.",
+     "en": "Quick check: read chair, moon, park, coin and light, then three tricky words."
+    }
+   ]
+  },
+  {
+   "w": 21,
+   "term": "Spring 2",
+   "title": "Counting to 20; reading with ch, sh, th, ng",
+   "ma": [
+    "r:ma:1:0",
+    "r:ma:0:0"
+   ],
+   "en": [
+    "r:en:3:1",
+    "r:en:3:2",
+    "r:en:0:2",
+    "r:en:1:0"
+   ],
+   "spell": {
+    "rule": "Review ch sh th ng in longer words (tricky words: you, they, are)",
+    "words": [
+     "shop",
+     "chin",
+     "thing",
+     "long",
+     "shell",
+     "check",
+     "moth",
+     "wing",
+     "much",
+     "rich"
+    ]
+   },
+   "read": "A counting book that goes up to 20",
+   "days": [
+    {
+     "d": "Mon",
+     "ma": "Count to 20: count stairs, then keep going on the way back, or count jumps to 20 in the garden.",
+     "en": "Sound hunt: find sh, ch, th and ng in the counting book or around the house (shoe, chair, the, ring)."
+    },
+    {
+     "d": "Tue",
+     "ma": "Teen numbers: make 13 as a ten frame of 10 plus 3 more; try 15 and 18.",
+     "en": "Read shell, check, much and thing; your child acts each one out after reading it."
+    },
+    {
+     "d": "Wed",
+     "ma": "Twenty pegs: peg 20 clothes pegs around a bucket or box, counting each one; then take them off counting backwards from 10.",
+     "en": "Back-and-forth chat: play 'Would you rather…?' and both explain your answers."
+    },
+    {
+     "d": "Thu",
+     "ma": "Number line: write 1 to 20 on paper strips and peg them in order on a string or lay them on the floor.",
+     "en": "Show and tell: your child chooses a toy and tells you three things about it, using a new word."
+    },
+    {
+     "d": "Fri",
+     "ma": "Quick check: count to 20 forwards, then from 10 back to 0.",
+     "en": "Quick check: read 'a moth on a long thing' and 'they are on a ship'."
+    }
+   ]
+  },
+  {
+   "w": 22,
+   "term": "Spring 2",
+   "title": "Counting past 20; reading with ai, ee, igh, oa, oo",
+   "ma": [
+    "r:ma:1:0"
+   ],
+   "en": [
+    "r:en:3:1",
+    "r:en:3:2",
+    "r:en:2:0",
+    "r:en:4:0"
+   ],
+   "spell": {
+    "rule": "Review ai ee igh oa oo (tricky words: all, her, was)",
+    "words": [
+     "rain",
+     "feet",
+     "light",
+     "boat",
+     "moon",
+     "book",
+     "sheep",
+     "tail",
+     "night",
+     "road"
+    ]
+   },
+   "read": "A story about a journey",
+   "days": [
+    {
+     "d": "Mon",
+     "ma": "Big count: count toys, pasta or stairs past 20; notice that 21, 22, 23 follow the same pattern as 1, 2, 3.",
+     "en": "Sound sort: write ai, ee, igh, oa and oo on paper and sort the word list under the right sound."
+    },
+    {
+     "d": "Tue",
+     "ma": "Clap count: count claps to 30, clapping louder on 10, 20 and 30.",
+     "en": "Read the journey story; your child retells where the character went in order, using a toy to show the journey."
+    },
+    {
+     "d": "Wed",
+     "ma": "Bundles of ten: group pasta, sticks or pegs into tens; count the tens and the ones left over.",
+     "en": "Read a sentence: 'a sheep in the rain' – your child reads it and draws a picture."
+    },
+    {
+     "d": "Thu",
+     "ma": "Twenty-something: count out loud from 18 to 28 bouncing a ball, then from 25 to 35.",
+     "en": "Letter writing: practise the letters in rain, feet, boat and night, starting each one in the right place."
+    },
+    {
+     "d": "Fri",
+     "ma": "Quick check: start at a number such as 19 or 26 and your child carries on counting.",
+     "en": "Quick check: read rain, feet, light, boat and moon, then all, her and was."
+    }
+   ]
+  },
+  {
+   "w": 23,
+   "term": "Spring 2",
+   "title": "3D shapes and position; reading with ar, or, ur, ow, oi",
+   "ma": [
+    "r:ma:1:1",
+    "r:ma:0:1"
+   ],
+   "en": [
+    "r:en:3:1",
+    "r:en:4:1",
+    "r:en:2:2",
+    "r:en:1:1"
+   ],
+   "spell": {
+    "rule": "Review ar or ur ow oi (tricky words: said, so)",
+    "words": [
+     "farm",
+     "fork",
+     "turn",
+     "down",
+     "coin",
+     "park",
+     "horn",
+     "burn",
+     "town",
+     "soil"
+    ]
+   },
+   "read": "A picture book that shows where things are (under, behind, on top)",
+   "days": [
+    {
+     "d": "Mon",
+     "ma": "Shape sort: find boxes, tins, balls and tubes in the kitchen; which roll, which stack, which do both?",
+     "en": "Sound sort: write ar, or, ur, ow and oi and sort the word list under them."
+    },
+    {
+     "d": "Tue",
+     "ma": "Hide and seek teddy: hide a toy and give clues using 'under', 'behind' and 'next to'; then swap.",
+     "en": "Spell it: say down, farm and coin; your child writes them, choosing the right letters for each sound."
+    },
+    {
+     "d": "Wed",
+     "ma": "Tallest tower: build towers with boxes and tins; which is tallest? Which shapes are best at the bottom?",
+     "en": "Read the 'where' book and talk about new position words, using them to describe things around you."
+    },
+    {
+     "d": "Thu",
+     "ma": "Dot flash: arrange up to 5 buttons in different layouts and flash them – can your child still see how many at a glance?",
+     "en": "Why does it roll? Ask your child to explain why a ball rolls and a box does not."
+    },
+    {
+     "d": "Fri",
+     "ma": "Quick check: name a 3D shape (ball, box, tube) and your child finds one at home and says if it rolls.",
+     "en": "Quick check: read 'turn down the park' and say 'said' and 'so' from cards."
+    }
+   ]
+  },
+  {
+   "w": 24,
+   "term": "Spring 2",
+   "title": "Measuring; two-syllable words",
+   "ma": [
+    "r:ma:1:1"
+   ],
+   "en": [
+    "r:en:3:1",
+    "r:en:3:2",
+    "r:en:4:1",
+    "r:en:0:1"
+   ],
+   "spell": {
+    "rule": "Review ear air ure er, plus two-syllable words (tricky words: have, like)",
+    "words": [
+     "hear",
+     "fair",
+     "sure",
+     "letter",
+     "rocket",
+     "carpet",
+     "sunset",
+     "pocket",
+     "garden",
+     "farmer"
+    ]
+   },
+   "read": "A non-fiction book about growing things",
+   "days": [
+    {
+     "d": "Mon",
+     "ma": "Longer or shorter: compare spoons, socks and shoes; line them up from shortest to longest.",
+     "en": "Two-part words: clap the two beats in rocket, carpet and garden, then read each part and push them together."
+    },
+    {
+     "d": "Tue",
+     "ma": "Heavy and light: hold two objects, one in each hand; which is heavier? Check with a coat-hanger balance if you like.",
+     "en": "Read sunset, pocket and farmer by covering one half, reading it, then reading the other half."
+    },
+    {
+     "d": "Wed",
+     "ma": "Full, half full, empty: pour water between cups in the bath or sink and describe each one.",
+     "en": "Read the growing book; your child asks you questions about it and comments on what surprised them."
+    },
+    {
+     "d": "Thu",
+     "ma": "Taller than me: find things in the house that are taller or shorter than your child, and things about the same.",
+     "en": "Spell it: your child writes 'I like…' and finishes it with a word of their choice."
+    },
+    {
+     "d": "Fri",
+     "ma": "Quick check: give three objects to put in order of length or weight, and say which is longest or heaviest.",
+     "en": "Quick check: read 'I have a rocket' and 'a fair garden'."
+    }
+   ]
+  },
+  {
+   "w": 25,
+   "term": "Spring 2",
+   "title": "Number stories to 10; reading and writing captions",
+   "ma": [
+    "r:ma:0:2",
+    "r:ma:0:0"
+   ],
+   "en": [
+    "r:en:3:2",
+    "r:en:4:2",
+    "r:en:2:0",
+    "r:en:0:0"
+   ],
+   "spell": {
+    "rule": "Captions and sentences with Phase 3 sounds (tricky words: so, do, some)",
+    "words": [
+     "coat",
+     "chair",
+     "rain",
+     "look",
+     "moon",
+     "farm",
+     "garden",
+     "rocket",
+     "fish",
+     "night"
+    ]
+   },
+   "read": "A story with a problem to solve",
+   "days": [
+    {
+     "d": "Mon",
+     "ma": "Bus story: 10 seats on a toy bus (a box); 6 people get on, how many empty seats? Make up more stories.",
+     "en": "Caption match: write three short captions and draw three pictures; your child reads and matches them."
+    },
+    {
+     "d": "Tue",
+     "ma": "Take away: 7 toys at a picnic, 3 go home; how many are left? Act it out with real toys.",
+     "en": "Read the problem story; ask 'What was the problem? How did they fix it?'"
+    },
+    {
+     "d": "Wed",
+     "ma": "Number sentences: say '4 and 6 make 10' with fingers, then '10 take away 4 leaves 6'.",
+     "en": "Write a caption for a photo or a drawing, such as 'the moon at night'."
+    },
+    {
+     "d": "Thu",
+     "ma": "Make 10 snack: share 10 pieces of fruit between two plates in a new way each time and say the bond.",
+     "en": "Listen and draw: read a short sentence aloud ('a fish in a big box'); your child draws exactly what they heard."
+    },
+    {
+     "d": "Fri",
+     "ma": "Quick check: tell a quick number story within 10 and your child answers with a sentence.",
+     "en": "Quick check: your child reads a caption you have written and writes one of their own."
+    }
+   ]
+  },
+  {
+   "w": 26,
+   "term": "Spring 2",
+   "title": "Consolidation: spring review",
+   "ma": [
+    "r:ma:0:0",
+    "r:ma:0:2",
+    "r:ma:1:0",
+    "r:ma:1:1"
+   ],
+   "en": [
+    "r:en:1:2",
+    "r:en:3:0",
+    "r:en:3:1",
+    "r:en:3:2",
+    "r:en:4:1",
+    "r:en:4:2"
+   ],
+   "spell": {
+    "rule": "Review Phase 3 sounds and two-syllable words (tricky words: said, so, have, like, do, some)",
+    "words": [
+     "chair",
+     "night",
+     "boat",
+     "park",
+     "turn",
+     "coin",
+     "letter",
+     "garden",
+     "rocket",
+     "sheep"
+    ]
+   },
+   "read": "Re-read the book your child enjoyed most this half term",
+   "days": [
+    {
+     "d": "Mon",
+     "ma": "Counting relay: take turns counting one number each from 1 as high as you can go past 20.",
+     "en": "Sound bingo: grid of Phase 3 sounds; call each and your child covers it."
+    },
+    {
+     "d": "Tue",
+     "ma": "Bond pairs: write 0 to 10 on paper and match the pairs that make 10.",
+     "en": "Read two pages of the favourite book, with your child reading the words they can."
+    },
+    {
+     "d": "Wed",
+     "ma": "Measure challenge: find something longer than a spoon, heavier than a shoe and taller than a chair.",
+     "en": "Feelings chat: talk about the best part of this half term and why, using full sentences."
+    },
+    {
+     "d": "Thu",
+     "ma": "Number line race: jump along a chalk line from 10 to 20, saying each number.",
+     "en": "Write two sentences about a picture your child has drawn."
+    },
+    {
+     "d": "Fri",
+     "ma": "Celebration check: bonds to 10, counting past 20 and a comparing question.",
+     "en": "Quick check: read the word list and say each tricky word."
+    }
+   ]
+  },
+  {
+   "w": 27,
+   "term": "Summer 1",
+   "title": "Take away within 5; blends at the end of words",
+   "ma": [
+    "r:ma:0:2"
+   ],
+   "en": [
+    "r:en:3:1",
+    "r:en:4:1",
+    "r:en:0:2"
+   ],
+   "spell": {
+    "rule": "Adjacent consonants at the end: nd nt mp st lk lp (tricky words: come, were)",
+    "words": [
+     "tent",
+     "hand",
+     "jump",
+     "milk",
+     "best",
+     "lamp",
+     "help",
+     "sink",
+     "lost",
+     "pond"
+    ]
+   },
+   "read": "A story set outdoors or on a camping trip",
+   "days": [
+    {
+     "d": "Mon",
+     "ma": "Five birds: 5 toys on a wall; 2 fly away – how many are left? Answer quickly, then check.",
+     "en": "Blends at the end: say tent, jump and milk slowly – can your child hear both sounds at the end? Read them together."
+    },
+    {
+     "d": "Tue",
+     "ma": "Subtraction hide: put 5 coins under a cup, take some out; how many still under?",
+     "en": "Robot words: say h-a-n-d and l-a-m-p; your child blends them and does an action."
+    },
+    {
+     "d": "Wed",
+     "ma": "Five frogs on a log: sing and act it out with toys, saying '5 take away 1 is 4' each time.",
+     "en": "Camping chat: build a den with a blanket and talk about what you would pack and why."
+    },
+    {
+     "d": "Thu",
+     "ma": "Bond quickfire: you say a number 0 to 5; your child says what goes with it to make 5.",
+     "en": "Spell it: say best, help and lost; your child taps four sounds and writes the word."
+    },
+    {
+     "d": "Fri",
+     "ma": "Quick check: three quick take-away stories within 5 and how many are left.",
+     "en": "Quick check: read 'come to the tent' and 'we were lost'."
+    }
+   ]
+  },
+  {
+   "w": 28,
+   "term": "Summer 1",
+   "title": "Doubling and halving; blends at the start of words",
+   "ma": [
+    "r:ma:1:2",
+    "r:ma:0:2"
+   ],
+   "en": [
+    "r:en:3:1",
+    "r:en:3:2",
+    "r:en:1:1"
+   ],
+   "spell": {
+    "rule": "Adjacent consonants at the start: st sp sn sl tr dr fr gr pl cl (tricky words: there, little)",
+    "words": [
+     "stop",
+     "spin",
+     "snap",
+     "slip",
+     "trip",
+     "drum",
+     "frog",
+     "grab",
+     "plum",
+     "clap"
+    ]
+   },
+   "read": "A non-fiction library book about frogs or minibeasts",
+   "days": [
+    {
+     "d": "Mon",
+     "ma": "Half each: share 6 or 8 pieces of fruit equally between two plates; 'half of 8 is 4'.",
+     "en": "Blends at the start: read stop, spin and snap, saying both starting sounds clearly."
+    },
+    {
+     "d": "Tue",
+     "ma": "Double it: show a number on one hand and the same on the other; 'double 4 is 8'.",
+     "en": "Read drum, frog, grab and clap, then play a quick game of each action."
+    },
+    {
+     "d": "Wed",
+     "ma": "Folding halves: fold paper in half and cut out a shape; are the two halves the same?",
+     "en": "Why do frogs jump? Read the frog book and ask your child to explain one thing they learnt."
+    },
+    {
+     "d": "Thu",
+     "ma": "Fair share: share 10 toys between two teddies, then 9; can it be done fairly?",
+     "en": "Read a sentence: 'a little frog is there on a plum'."
+    },
+    {
+     "d": "Fri",
+     "ma": "Quick check: doubles to 5 and halves of 2, 4, 6, 8 and 10.",
+     "en": "Quick check: read stop, frog, clap, there and little."
+    }
+   ]
+  },
+  {
+   "w": 29,
+   "term": "Summer 1",
+   "title": "Odd and even again; blends with digraphs",
+   "ma": [
+    "r:ma:1:2",
+    "r:ma:1:1"
+   ],
+   "en": [
+    "r:en:3:1",
+    "r:en:4:1",
+    "r:en:2:1"
+   ],
+   "spell": {
+    "rule": "Blends with Phase 3 sounds (tricky words: one, when)",
+    "words": [
+     "train",
+     "sweet",
+     "float",
+     "spoon",
+     "green",
+     "start",
+     "storm",
+     "chimp",
+     "crown",
+     "sport"
+    ]
+   },
+   "read": "A story with a train or a long journey",
+   "days": [
+    {
+     "d": "Mon",
+     "ma": "Odd one out: make piles of 1 to 10 socks; pair them and say which piles have an odd one left over.",
+     "en": "Read train, sweet and float – blend the first two sounds, then the digraph, then the end."
+    },
+    {
+     "d": "Tue",
+     "ma": "Even steps: climb the stairs saying the even numbers loudly and the odd numbers in a whisper.",
+     "en": "Read spoon, green and start; your child acts each word."
+    },
+    {
+     "d": "Wed",
+     "ma": "Which is more? Compare two piles of up to 10 and say how many more one has than the other.",
+     "en": "Read the train story, stopping to guess what happens at the next station."
+    },
+    {
+     "d": "Thu",
+     "ma": "Pattern of pairs: lay pairs of pasta in a line for 2, 4, 6, 8 and 10; what do you notice?",
+     "en": "Spell it: your child writes train, storm and chimp, using a digraph for one sound."
+    },
+    {
+     "d": "Fri",
+     "ma": "Quick check: say a number to 10; your child says odd or even and shows it with paired objects.",
+     "en": "Quick check: read 'when one train can start' and two words from the list."
+    }
+   ]
+  },
+  {
+   "w": 30,
+   "term": "Summer 1",
+   "title": "Counting beyond 20; longer words with blends",
+   "ma": [
+    "r:ma:1:0",
+    "r:ma:0:0"
+   ],
+   "en": [
+    "r:en:3:1",
+    "r:en:3:2",
+    "r:en:4:0",
+    "r:en:0:0"
+   ],
+   "spell": {
+    "rule": "Longer words with adjacent consonants: stamp crust plant twist (tricky words: out, what)",
+    "words": [
+     "stamp",
+     "crust",
+     "plant",
+     "twist",
+     "frost",
+     "blend",
+     "crisp",
+     "trunk",
+     "spend",
+     "drink"
+    ]
+   },
+   "read": "A non-fiction book about plants or trees",
+   "days": [
+    {
+     "d": "Mon",
+     "ma": "Counting walk: count steps on a walk past 20, 30 or as far as you can; pause on each ten and cheer.",
+     "en": "Read stamp, crust and plant, stamping on each sound."
+    },
+    {
+     "d": "Tue",
+     "ma": "Count with a pattern: count to 30 in a quiet voice and say the tens (10, 20, 30) loudly; spot the repeating 1 to 9 pattern.",
+     "en": "Read twist, frost and blend, then make up a silly sentence using one."
+    },
+    {
+     "d": "Wed",
+     "ma": "Number spot: find numbers above 20 on household items (food packets, clocks, letters) and read them together.",
+     "en": "Read the plant book; your child listens and answers 'What does a plant need?'"
+    },
+    {
+     "d": "Thu",
+     "ma": "Big collection: count a big collection of pasta into tens; how many tens and ones?",
+     "en": "Letter practice: write stamp, plant and frost with careful letter shapes."
+    },
+    {
+     "d": "Fri",
+     "ma": "Quick check: count from 17 to 27, then from 25 to 35.",
+     "en": "Quick check: read 'what is out in the frost?' and three words from the list."
+    }
+   ]
+  },
+  {
+   "w": 31,
+   "term": "Summer 1",
+   "title": "Patterns and shape; two-syllable words",
+   "ma": [
+    "r:ma:1:2",
+    "r:ma:1:1"
+   ],
+   "en": [
+    "r:en:3:1",
+    "r:en:3:2",
+    "r:en:4:2",
+    "r:en:2:2"
+   ],
+   "spell": {
+    "rule": "Two-syllable words with blends (tricky words: do, so, said)",
+    "words": [
+     "sandpit",
+     "windmill",
+     "lunchbox",
+     "helmet",
+     "pumpkin",
+     "children",
+     "picnic",
+     "napkin"
+    ]
+   },
+   "read": "A book of poems or rhymes",
+   "days": [
+    {
+     "d": "Mon",
+     "ma": "Necklace pattern: thread pasta or beads in a repeating pattern; what comes next? Make a tricky one with three colours.",
+     "en": "Clap and read: clap the beats in sandpit and windmill, then read each part and push them together."
+    },
+    {
+     "d": "Tue",
+     "ma": "Shape patterns: make a pattern of shapes with buttons or cut paper; continue and correct a mistake.",
+     "en": "Read lunchbox, helmet and pumpkin, covering half of each word."
+    },
+    {
+     "d": "Wed",
+     "ma": "Dot patterns: make patterns of dots for numbers up to 10 (like dice) – which can be made into two equal rows?",
+     "en": "Poem time: read a short poem twice and talk about the new words in it; your child picks a favourite word."
+    },
+    {
+     "d": "Thu",
+     "ma": "Compare towers: build two towers of up to 10 bricks; which is taller and by how many bricks?",
+     "en": "Picnic plan: write a sentence about a picnic: 'We had a picnic in the sandpit'."
+    },
+    {
+     "d": "Fri",
+     "ma": "Quick check: continue a pattern you start, then explain the rule.",
+     "en": "Quick check: read 'do the children like a picnic?' and 'so said the windmill'."
+    }
+   ]
+  },
+  {
+   "w": 32,
+   "term": "Summer 1",
+   "title": "Consolidation: summer number and reading review",
+   "ma": [
+    "r:ma:0:0",
+    "r:ma:0:1",
+    "r:ma:0:2",
+    "r:ma:1:0",
+    "r:ma:1:1",
+    "r:ma:1:2"
+   ],
+   "en": [
+    "r:en:0:1",
+    "r:en:2:0",
+    "r:en:3:0",
+    "r:en:3:1",
+    "r:en:3:2",
+    "r:en:4:1",
+    "r:en:4:2"
+   ],
+   "spell": {
+    "rule": "Review Phase 4 blends (tricky words: said, have, like, so, do, some, come, were, there, little, one, when, out, what)",
+    "words": [
+     "tent",
+     "jump",
+     "frog",
+     "clap",
+     "train",
+     "spoon",
+     "stamp",
+     "plant",
+     "sandpit",
+     "picnic"
+    ]
+   },
+   "read": "A book your child has heard before – they tell you the story first",
+   "days": [
+    {
+     "d": "Mon",
+     "ma": "Number mix: subitise a dot card, make it with fingers, then say its partner to 10.",
+     "en": "Blend it: say words from the list in robot sounds for your child to blend."
+    },
+    {
+     "d": "Tue",
+     "ma": "Doubles and halves: double 2, 3, 4 and 5, then halve 6, 8 and 10.",
+     "en": "Story retell: your child tells the story first, then you read it and compare."
+    },
+    {
+     "d": "Wed",
+     "ma": "Counting game: count past 20 together with each person saying the next two numbers.",
+     "en": "Writing: your child writes a sentence about their favourite part of the book."
+    },
+    {
+     "d": "Thu",
+     "ma": "Comparing: two groups up to 10; which is more, how many more, odd or even?",
+     "en": "Ask me: your child asks you three questions about a picture and you answer."
+    },
+    {
+     "d": "Fri",
+     "ma": "Celebration check: one dot card at a glance, one bond to 10, one double, one odd-or-even and a count from 18 to 25.",
+     "en": "Quick check: read the word list and the tricky words; mark any to keep practising."
+    }
+   ]
+  },
+  {
+   "w": 33,
+   "term": "Summer 2",
+   "title": "Understanding 10; blends with long vowel sounds",
+   "ma": [
+    "r:ma:0:0",
+    "r:ma:0:2"
+   ],
+   "en": [
+    "r:en:3:1",
+    "r:en:3:2",
+    "r:en:1:0",
+    "r:en:2:1"
+   ],
+   "spell": {
+    "rule": "Blends with long vowel sounds: tr-ai-n, st-ar-t, fl-oa-t (tricky words: little, one)",
+    "words": [
+     "train",
+     "start",
+     "float",
+     "spoon",
+     "sweet",
+     "brown",
+     "sport",
+     "toast",
+     "bright",
+     "grown"
+    ]
+   },
+   "read": "A story about growing up or growing things",
+   "days": [
+    {
+     "d": "Mon",
+     "ma": "Ten frame tricks: make 10 on a ten frame in as many ways as you can with two colours.",
+     "en": "Read train, start and float, then make up a sentence with one of them."
+    },
+    {
+     "d": "Tue",
+     "ma": "Bonds race: you say a number; your child shows its partner to 10 on fingers as fast as they can.",
+     "en": "Read the growing-up story; stop to predict what the character will do next."
+    },
+    {
+     "d": "Wed",
+     "ma": "Ten in two hands: hide 10 pasta pieces in two hands; open one – how many in the other?",
+     "en": "Talking time: talk about what your child can do now that they couldn't do as a baby, giving reasons."
+    },
+    {
+     "d": "Thu",
+     "ma": "Many ways to 10: show 10 with fingers, toys, jumps and claps.",
+     "en": "Read 'a little spoon on one bright toast' and draw it."
+    },
+    {
+     "d": "Fri",
+     "ma": "Quick check: number bonds to 10 quickfire.",
+     "en": "Quick check: read sweet, brown, sport and bright."
+    }
+   ]
+  },
+  {
+   "w": 34,
+   "term": "Summer 2",
+   "title": "Comparing in real life; compound words",
+   "ma": [
+    "r:ma:1:1"
+   ],
+   "en": [
+    "r:en:3:1",
+    "r:en:4:1",
+    "r:en:1:1",
+    "r:en:2:2"
+   ],
+   "spell": {
+    "rule": "Compound words: sun+light, star+fish (tricky words: said, have, like)",
+    "words": [
+     "sunlight",
+     "starfish",
+     "handbag",
+     "treetop",
+     "bedroom",
+     "toothbrush",
+     "chopstick",
+     "fishpond"
+    ]
+   },
+   "read": "A non-fiction book about the seaside or rock pools",
+   "days": [
+    {
+     "d": "Mon",
+     "ma": "Toy shop: price toys 1p to 10p with paper labels and use pretend coins; which costs more?",
+     "en": "Compound words: read sun and light, then sunlight; try starfish and treetop."
+    },
+    {
+     "d": "Tue",
+     "ma": "Puddle compare: after rain, find the longest and shortest puddle or the deepest and shallowest.",
+     "en": "Read handbag, bedroom and toothbrush, splitting them into two words."
+    },
+    {
+     "d": "Wed",
+     "ma": "Height line-up: line up family members or toys from shortest to tallest.",
+     "en": "Read the seaside book; ask your child why a starfish lives in a rock pool."
+    },
+    {
+     "d": "Thu",
+     "ma": "Compare collections: compare two piles of up to 10 and use 'more', 'fewer' and 'the same'.",
+     "en": "Spell it: your child writes sunlight and fishpond, one part at a time."
+    },
+    {
+     "d": "Fri",
+     "ma": "Quick check: compare two groups up to 10 and say which has more and by how many.",
+     "en": "Quick check: read 'I like the starfish' and 'I have a toothbrush'."
+    }
+   ]
+  },
+  {
+   "w": 35,
+   "term": "Summer 2",
+   "title": "Numbers in stories and games; writing sentences",
+   "ma": [
+    "r:ma:0:0",
+    "r:ma:1:0",
+    "r:ma:1:1"
+   ],
+   "en": [
+    "r:en:4:0",
+    "r:en:4:1",
+    "r:en:4:2",
+    "r:en:1:2"
+   ],
+   "spell": {
+    "rule": "Writing sentences with blends (tricky words: said, have, like, come, some)",
+    "words": [
+     "crept",
+     "stamp",
+     "slept",
+     "frost",
+     "swing",
+     "string",
+     "splash",
+     "grand",
+     "trunk",
+     "spring"
+    ]
+   },
+   "read": "A story with a journey or adventure – your child makes up a new ending",
+   "days": [
+    {
+     "d": "Mon",
+     "ma": "Story maths: read a story and count characters, objects or pages; who has more?",
+     "en": "Write a sentence: 'I can swing on the swing'; your child writes it with spaces between words."
+    },
+    {
+     "d": "Tue",
+     "ma": "Counting game: play a board game made on paper with a die, counting squares to 30.",
+     "en": "Read splash, string and spring; your child writes one in a sentence."
+    },
+    {
+     "d": "Wed",
+     "ma": "Number line hop: chalk 0 to 20; hop to a number one more or one less.",
+     "en": "New ending: your child says a new ending for the adventure story and you write it down together."
+    },
+    {
+     "d": "Thu",
+     "ma": "Comparing scores: play skittles and compare scores each round.",
+     "en": "Feelings chat: talk about a time your child felt proud, using 'because'."
+    },
+    {
+     "d": "Fri",
+     "ma": "Quick check: count past 20 and compare two numbers up to 10.",
+     "en": "Quick check: your child writes 'I like…' with three of their own ideas."
+    }
+   ]
+  },
+  {
+   "w": 36,
+   "term": "Summer 2",
+   "title": "Bonds to 10 and doubles; all the tricky words",
+   "ma": [
+    "r:ma:0:2",
+    "r:ma:1:2"
+   ],
+   "en": [
+    "r:en:3:0",
+    "r:en:3:2",
+    "r:en:2:0",
+    "r:en:0:1"
+   ],
+   "spell": {
+    "rule": "Phase 4 review (tricky words: were, there, little, one, when, out, what)",
+    "words": [
+     "glass",
+     "dress",
+     "brush",
+     "clock",
+     "shelf",
+     "crunch",
+     "blink",
+     "spring",
+     "grand",
+     "twist"
+    ]
+   },
+   "read": "A favourite book – read it twice this week",
+   "days": [
+    {
+     "d": "Mon",
+     "ma": "Doubles snap: roll a die, say the double, then check by showing the same number on both hands.",
+     "en": "Sound race: write every sound learnt this year on a sheet and time how fast your child can say them all; try to beat it on Friday."
+    },
+    {
+     "d": "Tue",
+     "ma": "Bonds to 10 relay: you say 3, your child says 7; swap and speed up.",
+     "en": "Read the favourite book; your child hunts for tricky words on each page and reads them."
+    },
+    {
+     "d": "Wed",
+     "ma": "Sharing equally: share 6, then 7, then 8 pieces of pasta between two plates; which amounts share equally?",
+     "en": "Story retell: your child retells the favourite book using socks or toys as puppets."
+    },
+    {
+     "d": "Thu",
+     "ma": "Odd and even: count out groups of 1 to 10 buttons, pair them up and sort each into an odd or even pile.",
+     "en": "Ask me: your child asks you three questions about your day, and you ask three back, listening to each answer."
+    },
+    {
+     "d": "Fri",
+     "ma": "Quick check: double 1 to 5 and five bonds to 10, as fast as possible.",
+     "en": "Quick check: read this week's tricky words from cards, then the word list."
+    }
+   ]
+  },
+  {
+   "w": 37,
+   "term": "Summer 2",
+   "title": "Review: favourite number games; Phase 2 and 3 sounds",
+   "ma": [
+    "r:ma:0:0",
+    "r:ma:0:1",
+    "r:ma:1:1"
+   ],
+   "en": [
+    "r:en:0:2",
+    "r:en:2:0",
+    "r:en:3:0",
+    "r:en:3:1"
+   ],
+   "spell": {
+    "rule": "Review Phase 2 and 3 sounds (tricky words: the, to, I, no, go, into, he, she, we, me, be)",
+    "words": [
+     "sat",
+     "pin",
+     "dog",
+     "duck",
+     "ship",
+     "rain",
+     "night",
+     "moon",
+     "farm",
+     "coin"
+    ]
+   },
+   "read": "A library book chosen by your child",
+   "days": [
+    {
+     "d": "Mon",
+     "ma": "Teacher swap: your child chooses a favourite number game from this year and teaches it to you.",
+     "en": "Sound chart: write all the Phase 2 and 3 sounds on a sheet; your child says each one and finds an object for five of them."
+    },
+    {
+     "d": "Tue",
+     "ma": "Dice flash: roll two dice and name each amount at a glance, then say which is bigger.",
+     "en": "Read the library book together; your child reads any words they can sound out and you read the rest."
+    },
+    {
+     "d": "Wed",
+     "ma": "Snack compare: two bowls with up to 10 pieces of fruit each; your child says which has more and makes them the same.",
+     "en": "Retell: your child retells the library book to a toy, using at least one new word from it."
+    },
+    {
+     "d": "Thu",
+     "ma": "Two-box 10: put 10 toys into two boxes in a different way each time and say the pair ('7 and 3 make 10').",
+     "en": "Back-and-forth chat: take turns asking each other about favourite foods, animals or places and why, keeping it going for five turns each."
+    },
+    {
+     "d": "Fri",
+     "ma": "Quick check: count to 20 and back from 10, name three dice rolls at a glance and say which of two piles has more.",
+     "en": "Quick check: read the word list, then splat the tricky words with a hand as you call them out."
+    }
+   ]
+  },
+  {
+   "w": 38,
+   "term": "Summer 2",
+   "title": "Review: patterns, doubles and sharing; Phase 4 blends",
+   "ma": [
+    "r:ma:0:2",
+    "r:ma:1:2"
+   ],
+   "en": [
+    "r:en:1:1",
+    "r:en:2:1",
+    "r:en:3:1",
+    "r:en:3:2",
+    "r:en:4:1"
+   ],
+   "spell": {
+    "rule": "Review Phase 4 blends (tricky words: was, my, you, her, they, all, are, said, have, like)",
+    "words": [
+     "tent",
+     "frog",
+     "stamp",
+     "plant",
+     "train",
+     "spoon",
+     "starfish",
+     "sunlight",
+     "splash",
+     "crunch"
+    ]
+   },
+   "read": "A story with a twist – guess the twist before the end",
+   "days": [
+    {
+     "d": "Mon",
+     "ma": "Pattern parade: start a pattern with toys, then actions (jump, clap, clap); your child continues it and makes one for you.",
+     "en": "Blend it: write the word list on scraps of paper and turn them over one at a time for your child to read."
+    },
+    {
+     "d": "Tue",
+     "ma": "Doubles hunt: find doubles around the home (two eyes, four wheels on a toy car shown as 2 and 2) and say each double fact.",
+     "en": "Read the twist story and stop to guess what happens before the end."
+    },
+    {
+     "d": "Wed",
+     "ma": "Fair shares: share 10 pegs between two teddies, then 5 pegs; which shares fairly and which leaves one over?",
+     "en": "Why did it happen? Ask your child to explain why the twist in the story happened, using 'because'."
+    },
+    {
+     "d": "Thu",
+     "ma": "Finger bonds: show some fingers; your child says how many more make 5, then how many more make 10.",
+     "en": "Spell it: say tent, frog and plant; your child taps the sounds and writes each one."
+    },
+    {
+     "d": "Fri",
+     "ma": "Quick check: three doubles, two halves and three bonds to 10, answered as quickly as possible.",
+     "en": "Quick check: read the tricky words from cards, then read 'a frog in the sunlight' and 'they said it was a splash'."
+    }
+   ]
+  },
+  {
+   "w": 39,
+   "term": "Summer 2",
+   "title": "Ready for Year 1: counting and story celebration",
+   "ma": [
+    "r:ma:1:0",
+    "r:ma:0:0",
+    "r:ma:0:1"
+   ],
+   "en": [
+    "r:en:0:0",
+    "r:en:0:2",
+    "r:en:1:2",
+    "r:en:2:2",
+    "r:en:4:0",
+    "r:en:4:2"
+   ],
+   "spell": {
+    "rule": "Celebration review (tricky words: so, do, some, come, were, there, little, one, when, out, what)",
+    "words": [
+     "jump",
+     "frog",
+     "spoon",
+     "sunlight",
+     "picnic",
+     "starfish",
+     "train",
+     "garden",
+     "rocket",
+     "splash"
+    ]
+   },
+   "read": "Your child chooses a book to read to you",
+   "days": [
+    {
+     "d": "Mon",
+     "ma": "Big count: count as far past 20 as you can together, noticing the pattern.",
+     "en": "Story reading: your child reads a book they can decode to you or a toy, using a finger to track the words."
+    },
+    {
+     "d": "Tue",
+     "ma": "Ten frame show: fill a drawn ten frame with two colours of pasta in as many ways as you can and say each pair.",
+     "en": "Write a sentence about the best thing this year, such as 'I liked the picnic in the garden'."
+    },
+    {
+     "d": "Wed",
+     "ma": "Race to 20: roll a die, say the amount at a glance and hop that many squares along a chalk track to 20.",
+     "en": "Talk about Year 1: what will be the same, what will be new, and how your child feels."
+    },
+    {
+     "d": "Thu",
+     "ma": "Number story: your child makes up a number story within 10 with toys ('8 cars, 3 drive off…') for you to solve.",
+     "en": "Draw and write: draw a picture of yourself in Year 1 and write a caption."
+    },
+    {
+     "d": "Fri",
+     "ma": "Celebration check: count past 20, bonds to 10 and dice at a glance.",
+     "en": "Celebration check: read the word list and tricky words, then choose a favourite book to read together."
+    }
+   ]
+  }
+ ]
+}
