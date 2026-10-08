@@ -1,0 +1,11 @@
+// Cloudflare Worker settings for this site.
+// The whole site is index.html, served as static files.
+// Deploy command in Cloudflare: npx wrangler deploy   (no build command)
+// Cloudflare Workers Builds deploys automatically on every push to main.
+{
+  "name": "learnbyyear",
+  "compatibility_date": "2025-09-01",
+  "assets": {
+    "directory": "./"
+  }
+}
