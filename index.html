@@ -1,5 +1,5 @@
 <!doctype html>
-<!-- LearnbyYear v5 -->
+<!-- LearnbyYear v6 -->
 <html lang="en-GB">
 <head>
 <meta charset="utf-8">
@@ -61,7 +61,7 @@ nav.tabs button[aria-selected="true"]{color:var(--ink);border-bottom-color:var(-
 .sheet::before{content:"";position:absolute;left:52px;top:0;bottom:0;width:1.5px;background:var(--margin);opacity:.55}
 .sheet h3{font-size:1.08rem;font-weight:700;padding:14px 16px 8px 66px;border-bottom:1px solid var(--rule)}
 .sheet h3 small{display:block;font-family:var(--body);font-weight:400;font-size:.8rem;color:var(--faint);margin-top:2px}
-.goal{display:grid;grid-template-columns:36px minmax(0,1fr);gap:16px;align-items:start;padding:10px 16px 10px 12px;border-bottom:1px solid var(--rule)}
+.goal{display:grid;grid-template-columns:36px minmax(0,1fr) auto;gap:16px;align-items:start;padding:10px 16px 10px 12px;border-bottom:1px solid var(--rule)}
 .goal:last-child{border-bottom:0}
 .goal input{appearance:none;width:22px;height:22px;margin:3px 0 0 4px;border:2px solid var(--faint);border-radius:6px;cursor:pointer;display:grid;place-items:center;background:var(--sheet)}
 .goal input:checked{background:var(--done);border-color:var(--done)}
@@ -122,6 +122,18 @@ h2.sec{font-size:1.4rem;margin:6px 0 12px}
 .swcard .shead{padding:6px 10px 8px;margin:0 0 4px;border-bottom:1px solid var(--rule);font-weight:800;font-size:.95rem;line-height:1.2}
 .swcard .shead small{display:block;font-weight:400;color:var(--soft);font-size:.78rem;margin-top:2px}
 @media (max-width:560px){.swwrap{position:static}.top{position:relative}.swcard{left:0;right:0;width:auto;max-width:none}}
+/* ✨ Ask your AI – ready-made prompts for the parent's own Claude or ChatGPT */
+.aib{font:inherit;font-size:.8rem;font-weight:600;border:1.5px solid var(--rule);background:var(--sheet);color:var(--blue);border-radius:999px;padding:4px 10px;cursor:pointer;white-space:nowrap;margin-top:1px}
+.aib[aria-expanded="true"]{background:var(--blue);color:var(--sheet);border-color:var(--blue)}
+.aip{grid-column:2/-1;position:relative;z-index:1;border:1.5px solid var(--rule);border-radius:12px;padding:10px 12px;margin:2px 0 4px;background:var(--paper)}
+.aip>p{margin:0 0 8px;font-size:.88rem;color:var(--soft)}
+.aiq{border-top:1px solid var(--rule);padding:8px 0}
+.aiq b{display:block;font-size:.95rem}
+.aiq q{display:block;font-size:.86rem;color:var(--soft);margin:3px 0 6px;quotes:none}
+.aiq .row{display:flex;flex-wrap:wrap;gap:6px}
+.aiq a,.aiq button{font:inherit;font-size:.82rem;font-weight:600;text-decoration:none;border:1.5px solid var(--rule);border-radius:999px;padding:4px 10px;color:var(--ink);background:var(--sheet);cursor:pointer}
+@media (max-width:520px){.aib .ail{display:none}.aib{padding:4px 9px}}
+.aihint{margin:0 0 12px;font-size:.9rem;color:var(--soft)}
 </style>
 </head>
 <body>
@@ -200,7 +212,7 @@ h2.sec{font-size:1.4rem;margin:6px 0 12px}
       <p>All subjects and all years, the US standards, each year's version kept so your plans don't change by surprise, and building a child's own plan with Claude or ChatGPT.</p></div>
   </section>
 
-  <p class="foot">Ticks are kept on this device only. Curriculum text © Crown copyright, used under the Open Government Licence v3.0. <span class="ver">v5</span></p>
+  <p class="foot">Ticks are kept on this device only. Curriculum text © Crown copyright, used under the Open Government Licence v3.0. <span class="ver">v6</span></p>
 </div>
 
 <script>
@@ -234,13 +246,28 @@ var DATA = {"maths-y3": [{"strand": "Number – number and place value", "items"
       var secs = DATA[k[UI.subj]];
       secs.forEach(function(s, si){ h += '<div class="sheet"><h3>' + esc(s.strand) + '<small>' + (k.id === "r" ? "Children at the expected level will:" : "Pupils should be taught to:") + '</small></h3>';
         s.items.forEach(function(it, ii){ var id = k.id + ":" + UI.subj + ":" + si + ":" + ii, on = !!T[id]; total++; if(on) done++;
-          h += '<div class="goal' + (on ? ' done' : '') + '"><input type="checkbox" id="g' + id.replace(/[^a-z0-9]/gi, "_") + '" data-g="' + id + '"' + (on ? ' checked' : '') + '><label for="g' + id.replace(/[^a-z0-9]/gi, "_") + '">' + esc(cap(it.t)) + (it.sub ? '<ul>' + it.sub.map(function(x){ return '<li>' + esc(x) + '</li>'; }).join("") + '</ul>' : '') + '</label></div>'; });
+          h += '<div class="goal' + (on ? ' done' : '') + '"><input type="checkbox" id="g' + id.replace(/[^a-z0-9]/gi, "_") + '" data-g="' + id + '"' + (on ? ' checked' : '') + '><label for="g' + id.replace(/[^a-z0-9]/gi, "_") + '">' + esc(cap(it.t)) + (it.sub ? '<ul>' + it.sub.map(function(x){ return '<li>' + esc(x) + '</li>'; }).join("") + '</ul>' : '') + '</label><button type="button" class="aib" data-ai="' + id + '" aria-expanded="' + (AIOPEN === id) + '" aria-label="Ask your AI">✨ <span class="ail">Ask your </span>AI</button>' + (AIOPEN === id ? aiPanel(k, it) : '') + '</div>'; });
         h += '</div>'; });
       $("note").textContent = k.note;
+      h = '<p class="aihint">Tap <b>✨ Ask your AI</b> beside any goal for ready-made prompts to use with your own Claude or ChatGPT – practice questions, a simple explanation, a quick game.</p>' + h;
     }
     $("sheets").innerHTML = h;
     var pct = total ? Math.round(100 * done / total) : 0;
     $("meta").innerHTML = '<span><b>' + esc(k.name) + '</b> · ' + esc(k.year) + ' ' + (SUBJ.filter(function(s){ return s[0] === UI.subj; })[0] || [0,""])[1] + '</span><span class="bar" role="img" aria-label="' + pct + '% covered"><i style="width:' + pct + '%"></i></span><span>' + done + ' of ' + total + ' covered</span>'; }
+  // ✨ Ask your AI: prompts built from the goal, the year and the age, opened in the parent's own Claude or ChatGPT
+  var AIOPEN = null;
+  function aiPrompts(k, it){ var g = cap(it.t).replace(/[.:;]+$/, "") + (it.sub ? " (" + it.sub.join("; ").replace(/[.;]+$/, "") + ")" : ""),
+      who = "My child is in " + k.name + " (" + k.year.toLowerCase() + ") in England. ", subj = UI.subj === "ma" ? "maths" : "English";
+    return [["10 practice questions", who + "In " + subj + " we're working on: \"" + g + "\". Write 10 short practice questions for them, starting easy and getting harder. Make them fun and use everyday things they know. Put the answers at the end, for me."],
+      ["Explain it simply", who + "Explain this " + subj + " goal so they can understand it, in a few short sentences with one everyday example: \"" + g + "\". Then give me one tip on how to explain it if they get stuck."],
+      ["A 10-minute game", who + "Suggest a quick game we can play at home or on a walk, with no special equipment, to practise: \"" + g + "\". Keep the rules simple."],
+      ["Check they've got it", who + "Give me 3 questions I can ask out loud to check they've understood: \"" + g + "\". Tell me what a good answer sounds like, and what to do if they're not there yet."]]; }
+  function aiPanel(k, it){ return '<div class="aip"><p>Pick one. It opens in your own Claude or ChatGPT with the question already written – or copy it.</p>' + aiPrompts(k, it).map(function(p){ var q = encodeURIComponent(p[1]);
+      return '<div class="aiq"><b>' + esc(p[0]) + '</b><q>' + esc(p[1]) + '</q><div class="row"><a href="https://claude.ai/new?q=' + q + '" target="_blank" rel="noopener">Open in Claude ↗</a><a href="https://chatgpt.com/?q=' + q + '" target="_blank" rel="noopener">Open in ChatGPT ↗</a><button type="button" data-aicopy="' + esc(p[1]) + '">Copy</button></div></div>'; }).join("") + '</div>'; }
+  document.addEventListener("click", function(e){ var b = e.target.closest("[data-ai],[data-aicopy]"); if(!b) return;
+    if(b.dataset.ai){ AIOPEN = AIOPEN === b.dataset.ai ? null : b.dataset.ai; drawSheets(); return; }
+    var t = b.dataset.aicopy, done = function(){ b.textContent = "Copied ✓"; setTimeout(function(){ b.textContent = "Copy"; }, 1500); };
+    if(navigator.clipboard) navigator.clipboard.writeText(t).then(done, function(){}); });
   function draw(){ drawWho(); drawSheets(); keep(); }
   document.addEventListener("click", function(e){ var b = e.target.closest("button"); if(!b) return;
     if(b.dataset.kid){ UI.kid = b.dataset.kid; draw(); return; }
