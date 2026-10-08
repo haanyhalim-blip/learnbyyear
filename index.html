@@ -1,5 +1,5 @@
 <!doctype html>
-<!-- LearnbyYear v20 -->
+<!-- LearnbyYear v21 -->
 <html lang="en-GB">
 <head>
 <meta charset="utf-8">
@@ -201,6 +201,22 @@ h2.sec{font-size:1.4rem;margin:6px 0 12px}
 .ks-say .tag{font-weight:700}
 .ks-say .tag.ahead{color:var(--done)} .ks-say .tag.on{color:var(--blue)} .ks-say .tag.catch{color:var(--margin)}
 .ks-h{font-weight:700;font-size:.92rem;margin:12px 0 4px}
+/* This week from school: the school's homework as tick-off tasks, each with its link */
+.hwbox{margin:12px 0 4px;padding:10px 12px;border:1.5px solid var(--rule);border-radius:12px;background:var(--paper)}
+.hwbox .ks-h{margin:0 0 6px}
+.hwt{display:flex;gap:9px;align-items:flex-start;padding:7px 0;border-top:1px solid var(--rule);font-size:.92rem}
+.hwt:first-of-type{border-top:0}
+.hwt input{flex:none;width:20px;height:20px;margin:1px 0 0;accent-color:var(--done)}
+.hwt .tx{flex:1;min-width:0}
+.hwt .tx small{display:block;color:var(--soft);font-size:.8rem}
+.hwt.done .tx b{text-decoration:line-through;opacity:.55}
+.hwt a{font-weight:700;color:var(--blue);white-space:nowrap}
+.hwt .rm{flex:none;background:none;border:0;color:var(--soft);font-size:1.1rem;line-height:1;cursor:pointer;padding:0 2px}
+.hwbox details{margin-top:6px;font-size:.88rem}
+.hwbox details summary{cursor:pointer;color:var(--blue);font-weight:600}
+.hwbox form{display:grid;gap:6px;margin-top:8px}
+.hwbox input[type=text],.hwbox input[type=url],.hwbox input[type=date]{font:inherit;font-size:.9rem;padding:7px 9px;border:1.5px solid var(--rule);border-radius:8px;background:var(--sheet);color:var(--ink)}
+.hwbox .add{justify-self:start;font:inherit;font-weight:600;border:0;border-radius:999px;padding:7px 16px;background:var(--blue);color:#fff;cursor:pointer}
 .ks-list{margin:0;padding-left:18px;font-size:.9rem}
 .ks-list li{margin:3px 0}
 .ks-list button{background:none;border:0;padding:0;color:var(--blue);text-decoration:underline;cursor:pointer;font:inherit;text-align:left}
@@ -377,7 +393,7 @@ h2.sec{font-size:1.4rem;margin:6px 0 12px}
       <p>All subjects and all years, the US standards, each year's version kept so your plans don't change by surprise, and building a child's own plan with Claude or ChatGPT.</p></div>
   </section>
 
-  <p class="foot">Ticks stay on this device – or sign in to keep them in your account. England curriculum text © Crown copyright, used under the Open Government Licence v3.0. Common Core State Standards © 2010 NGA Center and CCSSO. <button type="button" class="fbfoot" id="fbFoot">Feedback</button> · <span class="ver">v20</span></p>
+  <p class="foot">Ticks stay on this device – or sign in to keep them in your account. England curriculum text © Crown copyright, used under the Open Government Licence v3.0. Common Core State Standards © 2010 NGA Center and CCSSO. <button type="button" class="fbfoot" id="fbFoot">Feedback</button> · <span class="ver">v21</span></p>
 </div>
 
 <div id="acct" hidden role="dialog" aria-modal="true" aria-labelledby="acTitle"><div class="acbox"><button class="acx" id="acX" type="button" aria-label="Close">×</button>
@@ -553,7 +569,7 @@ var DATA = {"maths-y3": [{"strand": "Number – number and place value", "items"
     return {n:n, got:got, exp:exp, wk:wk, ah:ah, two:two}; }
   function short(t){ t = cap(t).replace(/[.:;]+$/, ""); return t.length > 90 ? t.slice(0, 88).replace(/\s+\S*$/, "") + "…" : t; }
   function drawKidSum(){ var el = $("kidsum"), c = child(); if(!c || KF){ el.hidden = true; el.innerHTML = ""; return; } el.hidden = false;
-    var y = kid(), h = '<h3>' + esc(c.name) + ' · ' + esc(y.name) + '</h3>' + (c.about ? '<p class="about">' + esc(c.about) + '</p>' : '');
+    var y = kid(), h = '<h3>' + esc(c.name) + ' · ' + esc(y.name) + '</h3>' + (c.about ? '<p class="about">' + esc(c.about) + '</p>' : '') + hwHTML(c);
     var wk = [], ah = [];
     ["en","ma"].forEach(function(sj){ var r = subjStats(c, sj), pc = r.n ? 100 * r.got / r.n : 0, ex = r.n ? 100 * r.exp / r.n : 0, tag;
       if(r.got >= r.exp + Math.max(2, Math.round(r.n * .1))) tag = '<span class="tag ahead">Ahead of where most children are now</span>';
@@ -580,11 +596,27 @@ var DATA = {"maths-y3": [{"strand": "Number – number and place value", "items"
       + docs.map(function(x){ return '<div class="ent">' + (AUSER ? '<button type="button" class="docrm" data-docrm="' + esc(x.id) + '" aria-label="Remove ' + esc(x.n) + '">Remove</button>' : '') + '<small>' + esc(fmtD(x.d)) + ' · ' + esc(x.src || "") + '</small><button type="button" class="docb" data-doc="' + esc(x.id) + '">📄 ' + esc(x.n) + '</button></div>'; }).join("") + '</details>';
     h += '<p class="ks-note">"Most children by now" is a rough guide: the year\'s goals spread evenly from September to July. Statuses come from what you, the school and tutors have noted – tap a status on any goal to change it.</p>';
     el.innerHTML = h; var dd = $("updD"); if(dd) dd.value = new Date().toISOString().slice(0, 10); var d2 = $("docD"); if(d2) d2.value = new Date().toISOString().slice(0, 10); }
+  // ---------- This week from school: homework as tasks you tick off, each with its link (c.hw = [{id, d: date set, t, u: link, n: note, due, done: date}]) ----------
+  var HWADD = false;
+  function hwOpen(c){ return (c.hw || []).filter(function(x){ return !x.done; }).sort(function(a, b){ return (a.due || "9").localeCompare(b.due || "9") || (a.d || "").localeCompare(b.d || ""); }); }
+  function hwRow(x){ var safe = /^https?:\/\//i.test(x.u || "");
+    return '<div class="hwt' + (x.done ? " done" : "") + '"><input type="checkbox" data-hw="' + esc(x.id) + '"' + (x.done ? " checked" : "") + ' aria-label="Done: ' + esc(x.t) + '"><span class="tx"><b>' + esc(x.t) + '</b>'
+      + (x.n || x.due ? '<small>' + (x.due ? "Due " + esc(fmtD(x.due)) + (x.n ? " · " : "") : "") + esc(x.n || "") + '</small>' : '') + '</span>'
+      + (safe ? '<a href="' + esc(x.u) + '" target="_blank" rel="noopener">Open ↗</a>' : '') + '<button type="button" class="rm" data-hwrm="' + esc(x.id) + '" aria-label="Remove ' + esc(x.t) + '">×</button></div>'; }
+  function hwHTML(c){ var open = hwOpen(c), since = new Date(Date.now() - 14 * 864e5).toISOString().slice(0, 10), done = (c.hw || []).filter(function(x){ return x.done && x.done >= since; });
+    return '<div class="hwbox"><p class="ks-h">This week from school</p>'
+      + (open.length ? open.map(hwRow).join("") : '<p class="docnote">' + ((c.hw || []).length ? "All done – nothing left from school. 🎉" : "Nothing here yet. When the school sets homework, add it below – or send me the post and I'll send you a link that adds it all, with the links.") + '</p>')
+      + (done.length ? '<details><summary>Done recently (' + done.length + ')</summary>' + done.map(hwRow).join("") + '</details>' : '')
+      + '<details' + (HWADD ? " open" : "") + ' class="hwadd"><summary>+ Add a task</summary><form id="hwForm"><input type="text" id="hwT" maxlength="200" placeholder="e.g. Phonics video for his book colour" aria-label="Task"><input type="text" inputmode="url" autocapitalize="off" id="hwU" maxlength="600" placeholder="Link (optional) – paste it here" aria-label="Link"><input type="text" id="hwN" maxlength="200" placeholder="Note (optional)" aria-label="Note"><label class="docnote">Due (optional) <input type="date" id="hwD"></label><button type="submit" class="add">Add task</button></form></details></div>'; }
+  function hwToggle(id, on){ var c = child(); if(!c) return; (c.hw || []).forEach(function(x){ if(x.id === id) x.done = on ? new Date().toISOString().slice(0, 10) : ""; }); keep(true); drawKidSum(); if(UI.tab === "week") drawWeek(); }
   var UPDOPEN = false, DOCOPEN = false, DOCBOX = "learnbyyear-docs";
   function docOf(c, id){ return (c.docs || []).filter(function(x){ return x.id === id; })[0]; }
   function fmtD(d){ if(!d) return ""; var p = d.split("-"); return p.length === 3 ? +p[2] + " " + ["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"][+p[1] - 1] + " " + p[0] : d; }
-  $("kidsum").addEventListener("toggle", function(e){ if(e.target.classList && e.target.classList.contains("upd")){ if(e.target.classList.contains("docs")) DOCOPEN = e.target.open; else UPDOPEN = e.target.open; } }, true);
-  $("kidsum").addEventListener("submit", function(e){ e.preventDefault(); if(e.target.id === "docForm") return docUpload(); var c = child(), t = $("updT").value.trim(); if(!c || !t) return;
+  $("kidsum").addEventListener("change", function(e){ if(e.target.dataset && e.target.dataset.hw) hwToggle(e.target.dataset.hw, e.target.checked); });
+  $("kidsum").addEventListener("toggle", function(e){ if(e.target.classList && e.target.classList.contains("hwadd")) HWADD = e.target.open; if(e.target.classList && e.target.classList.contains("upd")){ if(e.target.classList.contains("docs")) DOCOPEN = e.target.open; else UPDOPEN = e.target.open; } }, true);
+  $("kidsum").addEventListener("submit", function(e){ e.preventDefault(); if(e.target.id === "docForm") return docUpload();
+    if(e.target.id === "hwForm"){ var hc = child(), ht = $("hwT").value.trim(), hu = $("hwU").value.trim(); if(!hc || !ht) return; if(hu && !/^https?:\/\//i.test(hu)) hu = "https://" + hu;
+      hc.hw = hc.hw || []; hc.hw.push({id:Date.now().toString(36) + Math.random().toString(36).slice(2, 5), d:new Date().toISOString().slice(0, 10), t:ht, u:hu, n:$("hwN").value.trim(), due:$("hwD").value || "", done:""}); HWADD = false; keep(true); drawKidSum(); return; } var c = child(), t = $("updT").value.trim(); if(!c || !t) return;
     var u = {d:$("updD").value, src:$("updS").value, t:t}, dsel = $("updDoc"); if(dsel && dsel.value) u.doc = dsel.value;
     c.log = c.log || []; c.log.push(u); UPDOPEN = true; keep(true); drawKidSum(); });
   // Documents: the real files go into a private storage box in your own account folder (<your id>/<child>/…); the child keeps only the name, date and where it's stored
@@ -606,7 +638,8 @@ var DATA = {"maths-y3": [{"strand": "Number – number and place value", "items"
     var w = window.open("", "_blank"); if(w) try{ w.document.write("<p style='font:16px system-ui;padding:20px'>Opening " + esc(x.n) + "…</p>"); }catch(e){}
     asb.storage.from(DOCBOX).createSignedUrl(x.p, 600).then(function(r){ if(r.data && r.data.signedUrl){ if(w) w.location.href = r.data.signedUrl; else location.href = r.data.signedUrl; }
       else { if(w) w.close(); alert("Couldn't open " + x.n + ". Make sure you're signed in to the same account that uploaded it."); } }, function(){ if(w) w.close(); alert("Can't reach the server just now – try again in a minute."); }); }
-  $("kidsum").addEventListener("click", function(e){ var rm = e.target.closest("[data-docrm]"); if(rm) return docRemove(rm.dataset.docrm); var dn = e.target.closest("[data-doc]"); if(dn) return docOpen(dn.dataset.doc); if(e.target.closest("[data-docsign]")){ DOCOPEN = true; $("acctBtn").click(); return; }
+  $("kidsum").addEventListener("click", function(e){ var hr = e.target.closest("[data-hwrm]"); if(hr){ var c0 = child(), x0 = c0 && (c0.hw || []).filter(function(x){ return x.id === hr.dataset.hwrm; })[0]; if(x0 && confirm("Remove “" + x0.t + "”?")){ c0.hw = c0.hw.filter(function(x){ return x !== x0; }); keep(true); drawKidSum(); } return; }
+    var rm = e.target.closest("[data-docrm]"); if(rm) return docRemove(rm.dataset.docrm); var dn = e.target.closest("[data-doc]"); if(dn) return docOpen(dn.dataset.doc); if(e.target.closest("[data-docsign]")){ DOCOPEN = true; $("acctBtn").click(); return; }
     var b = e.target.closest("[data-jump]"); if(!b) return; var p = b.dataset.jump.split(":"); UI.subj = p[1]; drawWho(); drawSheets();
     var g = document.querySelector('[data-g="' + b.dataset.jump + '"]'); if(g){ g.closest(".goal").scrollIntoView({behavior:"smooth", block:"center"}); g.closest(".goal").style.outline = "2px solid var(--blue)"; setTimeout(function(){ g.closest(".goal").style.outline = ""; }, 2500); } });
   // ---------- Bring in children from a private link (#add=…): nothing in the link reaches our server ----------
@@ -615,14 +648,25 @@ var DATA = {"maths-y3": [{"strand": "Number – number and place value", "items"
     var b64 = m[1].replace(/-/g, "+").replace(/_/g, "/"), bin = atob(b64), u = new Uint8Array(bin.length); for(var i = 0; i < bin.length; i++) u[i] = bin.charCodeAt(i);
     new Response(new Blob([u]).stream().pipeThrough(new DecompressionStream("deflate-raw"))).text().then(function(txt){ var d = JSON.parse(txt); if(!d || !Array.isArray(d.kids)) return;
       var bar = $("impbar"); bar.hidden = false;
-      bar.innerHTML = '<p><b>Add ' + d.kids.map(function(k){ return esc(k.name); }).join(", ") + '</b> with their notes so far? They\'re added to this device' + (AUSER ? " and your account" : " – sign in first to keep them in your account") + '.</p><button type="button" class="go" id="impGo">Add them</button><button type="button" id="impNo">Not now</button>';
+      var onlyHw = d.kids.every(function(k){ return !k.y && (k.hw || []).length; }), nh = d.kids.reduce(function(a, k){ return a + (k.hw || []).length; }, 0);
+      bar.innerHTML = onlyHw ? '<p><b>Add ' + nh + (nh === 1 ? " task" : " tasks") + ' from school</b> for ' + d.kids.map(function(k){ return esc(k.name); }).join(" and ") + '? They go in “This week from school”, with their links.</p><button type="button" class="go" id="impGo">Add them</button><button type="button" id="impNo">Not now</button>'
+        : '<p><b>Add ' + d.kids.map(function(k){ return esc(k.name); }).join(", ") + '</b> with their notes so far? They\'re added to this device' + (AUSER ? " and your account" : " – sign in first to keep them in your account") + '.</p><button type="button" class="go" id="impGo">Add them</button><button type="button" id="impNo">Not now</button>';
       $("impNo").onclick = function(){ bar.hidden = true; };
       $("impGo").onclick = function(){ d.kids.forEach(function(k){ var c = C.kids.filter(function(x){ return x.name.toLowerCase() === k.name.toLowerCase(); })[0];
-          if(!c){ c = {id:Date.now().toString(36) + Math.random().toString(36).slice(2, 5), name:k.name, y:k.y}; C.kids.push(c); }
-          c.y = k.y; if(k.about) c.about = k.about; c.st = c.st || {}; Object.keys(k.st || {}).forEach(function(g){ c.st[g] = k.st[g]; if(k.st[g].s !== "working") T["c:" + c.id + ":" + g] = 1; });
+          if(!c && !k.y) return; if(!c){ c = {id:Date.now().toString(36) + Math.random().toString(36).slice(2, 5), name:k.name, y:k.y}; C.kids.push(c); }
+          if(k.y) c.y = k.y; c.hw = c.hw || []; (k.hw || []).forEach(function(x){ var xd = x && x.d || new Date().toISOString().slice(0, 10); if(!x || !x.t || c.hw.some(function(y){ return y.t === String(x.t).slice(0, 200) && y.d === xd; })) return;   // the same link opened twice adds nothing new
+            c.hw.push({id:Date.now().toString(36) + Math.random().toString(36).slice(2, 6), d:xd, t:String(x.t).slice(0, 200), u:/^https?:\/\//i.test(x.u || "") ? x.u : "", n:x.n || "", due:x.due || "", done:""}); }); if(k.about) c.about = k.about; c.st = c.st || {}; Object.keys(k.st || {}).forEach(function(g){ c.st[g] = k.st[g]; if(k.st[g].s !== "working") T["c:" + c.id + ":" + g] = 1; });
           c.log = c.log || []; (k.log || []).forEach(function(x){ if(!c.log.some(function(y){ return y.d === x.d && y.t === x.t; })) c.log.push(x); }); });
-        UI.child = C.kids[0].id; bar.hidden = true; keep(true); draw(); window.scrollTo(0, 0); }; }, function(){}); }
+        var first = C.kids.filter(function(x){ return x.name.toLowerCase() === String(d.kids[0].name).toLowerCase(); })[0]; if(!first){ bar.innerHTML = '<p>Add ' + esc(d.kids[0].name) + ' first – then open this link again.</p>'; return; }
+        UI.child = first.id; bar.hidden = true; keep(true); draw(); window.scrollTo(0, 0); }; }, function(){}); }
   addFromLink(); window.addEventListener("hashchange", addFromLink);
+  // learnbyyear.com/#child=Destin opens that child's page (used by the home learning reminder on a DobyToday card)
+  function childFromLink(){ var m = location.hash.match(/^#child=([^&]+)/); if(!m) return; var n; try{ n = decodeURIComponent(m[1]).trim().toLowerCase(); }catch(e){ return; }
+    history.replaceState(null, "", location.pathname + location.search); if(pickChild(n)){ keep(); draw(); window.scrollTo(0, 0); } }
+  var CHILDWANT = "";   // a #child= link opened before your account's children have arrived on this device
+  function pickChild(n){ var c = C.kids.filter(function(x){ return x.name.toLowerCase() === n; })[0]; if(!c){ CHILDWANT = n; return false; } CHILDWANT = "";
+    UI.child = c.id; var k = KIDS.filter(function(x){ return x.id === c.y; })[0]; if(k) UI.cc = k.cc; return true; }
+  childFromLink(); window.addEventListener("hashchange", childFromLink);
 
   // ---------- Week by week: the playbook for the year (generic), fitted to each child when one is chosen ----------
   var PB = {}, WK = null;   // WK: the week being looked at (null = this school week)
@@ -660,8 +704,10 @@ var DATA = {"maths-y3": [{"strand": "Number – number and place value", "items"
     if(c){ var all = (w.ma || []).concat(w.en || []), sec = all.filter(function(id){ var x = stOf2(id); return x && (x.s === "secure" || x.s === "ahead"); }), wk = all.filter(function(id){ var x = stOf2(id); return x && x.s === "working"; }),
         earlier = Object.keys(c.st || {}).filter(function(id){ return c.st[id].s === "working" && all.indexOf(id) < 0; }).slice(0, 3),
         since = new Date(Date.now() - 10 * 864e5).toISOString().slice(0, 10), fresh = (c.log || []).filter(function(x){ return (x.d || "") >= since; });
-      if(sec.length || wk.length || earlier.length || fresh.length){
+      var hwo = hwOpen(c);
+      if(sec.length || wk.length || earlier.length || fresh.length || hwo.length){
         h += '<div class="blk forkid"><h4>For ' + esc(c.name) + ' this week</h4><ul>'
+          + hwo.map(function(x){ return '<li>From school: ' + esc(x.t) + (x.due ? ' – due ' + esc(fmtD(x.due)) : '') + (/^https?:\/\//i.test(x.u || "") ? ' <a href="' + esc(x.u) + '" target="_blank" rel="noopener">Open ↗</a>' : '') + '</li>'; }).join("")
           + sec.map(function(id){ return '<li>Already secure: ' + esc(short(goalText(id))) + ' – a quick check is enough, or stretch it.</li>'; }).join("")
           + wk.map(function(id){ var x = stOf2(id); return '<li>Keep going: ' + esc(short(goalText(id))) + (x.n ? ' <i>(' + esc(x.n) + ')</i>' : '') + '</li>'; }).join("")
           + earlier.map(function(id){ return '<li>From earlier, still working on: ' + esc(short(goalText(id))) + '</li>'; }).join("")
@@ -701,7 +747,7 @@ var DATA = {"maths-y3": [{"strand": "Number – number and place value", "items"
         if(first){ var ids = {}; d.kids.forEach(function(x){ ids[x.id] = 1; }); C.kids = d.kids.concat(C.kids.filter(function(x){ return !ids[x.id]; })); var tt = d.ticks || {}; Object.keys(T).forEach(function(x){ if(!(x in tt)) tt[x] = T[x]; }); T = tt; }
         else { C.kids = d.kids; T = d.ticks || {}; }
         if(!UI.child && C.kids.length) UI.child = C.kids[0].id;
-        setLocalT(first ? Date.now() : (d.t || Date.now())); keep(); draw(); aApplying = false; acctState("✓ Saved to your account"); if(first) acctPush(); }
+        setLocalT(first ? Date.now() : (d.t || Date.now())); if(CHILDWANT) pickChild(CHILDWANT); keep(); draw(); aApplying = false; acctState("✓ Saved to your account"); if(first) acctPush(); }
       else if(!d || lt > (d.t || 0)) acctPush();
       else acctState("✓ Saved to your account"); }); }
   function acctUI(){ var b = $("acctBtn"); b.textContent = AUSER ? "✓ Signed in" : "Sign in"; b.classList.toggle("on", !!AUSER);
