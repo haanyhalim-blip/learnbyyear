@@ -1,11 +1,11 @@
 <!doctype html>
-<!-- LearnbyYear v12 -->
+<!-- LearnbyYear v13 -->
 <html lang="en-GB">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
-<title>LearnbyYear – what your child learns this year, from England's national curriculum</title>
-<meta name="description" content="England's national curriculum, one child and one year at a time: every English and maths goal for Reception, Year 3 and Year 5 to tick off, the statutory spelling lists, two ready-made routines and the best free resources. For families who homeschool and families helping at home alongside school.">
+<title>LearnbyYear – what your child learns this year, from England's national curriculum or the US Common Core</title>
+<meta name="description" content="England's national curriculum and the US Common Core, one child and one year at a time: every English and maths goal for Reception, Year 3 and Year 5, and Kindergarten to Grade 5 to tick off, the statutory spelling lists, two ready-made routines and the best free resources. For families who homeschool and families helping at home alongside school.">
 <link rel="canonical" href="https://learnbyyear.com/">
 <meta property="og:title" content="LearnbyYear">
 <meta property="og:description" content="What your child learns this year, from England's national curriculum – goals to tick off, spelling lists, routines and resources.">
@@ -150,7 +150,11 @@ h2.sec{font-size:1.4rem;margin:6px 0 12px}
 .kidform .row{display:flex;gap:8px;flex-wrap:wrap;margin-top:12px;align-items:center}
 .kidform .row .pri{background:var(--blue);color:#fff;border-color:var(--blue);font-weight:600}
 .kidform .row .del{margin-left:auto;color:var(--margin);border-color:transparent;background:none;text-decoration:underline}
-.kidform small{color:var(--soft)}
+.kidform small{color:var(--soft);display:block;margin:6px 0 4px}
+.ccsw{display:inline-flex;border:1.5px solid var(--rule);border-radius:999px;padding:3px;margin:0 0 12px;background:var(--sheet)}
+.ccsw button{font:inherit;font-size:.88rem;font-weight:600;border:0;border-radius:999px;padding:5px 12px;background:none;color:var(--soft);cursor:pointer}
+.ccsw button[aria-pressed="true"]{background:var(--ink);color:var(--paper)}
+.goal label small.code{font-size:.72rem;color:var(--faint);font-weight:500;letter-spacing:.02em;white-space:nowrap}
 .editkid{background:none;border:0;color:var(--blue);text-decoration:underline;cursor:pointer;font:inherit;font-size:.85rem;padding:0;margin-left:6px}
 /* Sign in (same account as the other sites) */
 .acctb{font:inherit;font-size:.85rem;font-weight:600;border:1.5px solid var(--rule);background:var(--sheet);color:var(--ink);border-radius:999px;padding:5px 12px;cursor:pointer;white-space:nowrap}
@@ -241,7 +245,7 @@ h2.sec{font-size:1.4rem;margin:6px 0 12px}
   <header class="top">
     <div>
       <div class="brand">Learn<b>by</b>Year</div>
-      <p class="tag">What your child learns this year, from England's national curriculum. For families who homeschool, and for families who want to help at home alongside school. Tick off each goal as you cover it.</p>
+      <p class="tag">What your child learns this year – from England's national curriculum or the US Common Core. For families who homeschool, and for families who want to help at home alongside school. Tick off each goal as you cover it.</p>
 <details class="bwy" id="bwy"><summary>🌱 We're building this with you…</summary><div class="bwyb"><button type="button" class="bwyx" id="bwyX" aria-label="Close">×</button><p class="bwyh">We're building this with you</p>
   <p>These apps have one job: to be a handy, on-the-go helper for you and your family. That's it.</p>
   <p>They keep growing based on what you need. If there's anything that would make them more helpful, let us know. We read every message, and we usually add things quickly.</p>
@@ -264,7 +268,7 @@ h2.sec{font-size:1.4rem;margin:6px 0 12px}
 </script>
 
     </div>
-    <span class="topr"><button type="button" class="acctb" id="acctBtn">Sign in</button><span class="draft">New · Reception, Year 3 &amp; Year 5</span><button type="button" class="ideasb" id="ideasBtn" aria-expanded="false" aria-controls="bwy" title="Tell us what would help"><svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 12a8 8 0 0 1-11.6 7.1L4 20l1-4.6A8 8 0 1 1 21 12z"/></svg>Ideas</button><span class="swwrap"><button class="swb" id="swBtn" type="button" aria-expanded="false" aria-controls="swCard" title="Our other sites" aria-label="Switch to our other sites"><svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true" fill="currentColor"><circle cx="5" cy="5" r="2"/><circle cx="12" cy="5" r="2"/><circle cx="19" cy="5" r="2"/><circle cx="5" cy="12" r="2"/><circle cx="12" cy="12" r="2"/><circle cx="19" cy="12" r="2"/><circle cx="5" cy="19" r="2"/><circle cx="12" cy="19" r="2"/><circle cx="19" cy="19" r="2"/></svg></button><div class="swcard" id="swCard" hidden>
+    <span class="topr"><button type="button" class="acctb" id="acctBtn">Sign in</button><span class="draft">New · England &amp; US</span><button type="button" class="ideasb" id="ideasBtn" aria-expanded="false" aria-controls="bwy" title="Tell us what would help"><svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 12a8 8 0 0 1-11.6 7.1L4 20l1-4.6A8 8 0 1 1 21 12z"/></svg>Ideas</button><span class="swwrap"><button class="swb" id="swBtn" type="button" aria-expanded="false" aria-controls="swCard" title="Our other sites" aria-label="Switch to our other sites"><svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true" fill="currentColor"><circle cx="5" cy="5" r="2"/><circle cx="12" cy="5" r="2"/><circle cx="19" cy="5" r="2"/><circle cx="5" cy="12" r="2"/><circle cx="12" cy="12" r="2"/><circle cx="19" cy="12" r="2"/><circle cx="5" cy="19" r="2"/><circle cx="12" cy="19" r="2"/><circle cx="19" cy="19" r="2"/></svg></button><div class="swcard" id="swCard" hidden>
       <div class="shead">Family Ecosphere<small>Everyday tools for you and your family</small></div>
       <a href="https://dobytoday.com/"><span class="sic" style="background:#f7e3d6">✅</span><span><b>DoByToday</b><small>To-do lists, by when</small></span></a>
       <a href="https://packbybag.com/"><span class="sic" style="background:#dfeee6">🧳</span><span><b>PackByBag</b><small>Packing lists, by bag</small></span></a>
@@ -283,6 +287,7 @@ h2.sec{font-size:1.4rem;margin:6px 0 12px}
   </nav>
 
   <section id="p-curr">
+    <div class="ccsw" id="ccsw" role="group" aria-label="Which curriculum"><button type="button" data-cc="uk">🇬🇧 England</button><button type="button" data-cc="us">🇺🇸 United States</button></div>
     <div class="who" id="who"></div>
     <div class="impbar" id="impbar" hidden></div>
     <div class="wholinks" id="wholinks"></div>
@@ -311,6 +316,10 @@ h2.sec{font-size:1.4rem;margin:6px 0 12px}
       <p>Parents can choose to homeschool their children (the law calls it “elective home education”). You don't have to follow the national curriculum, but the education must be efficient, full-time and suitable for the child's age, ability and any special needs.</p>
       <p>If your child is registered at a school, write to the head teacher to say you're taking them out to homeschool. The school tells the council, and the council may ask how you're educating them. A special school needs the council's agreement first.</p>
       <p>Before deciding, read the official guidance and talk to your council: <a href="https://www.gov.uk/home-education" target="_blank" rel="noopener">gov.uk/home-education</a>.</p></div>
+    <div class="card"><h3>Homeschooling in the United States</h3>
+      <p>There's no national curriculum in the US, and homeschooling law is set by each state: some only ask you to tell the school district, others want test results or a portfolio. Check your own state's rules before you start – HSLDA keeps a plain summary for every state: <a href="https://hslda.org/legal" target="_blank" rel="noopener">hslda.org/legal</a>.</p>
+      <p>Kindergarten to Grade 5 here are the <b>Common Core State Standards</b> for English Language Arts and Mathematics, word for word. Most states use them, or a version very close; a few (for example Texas, Virginia and Florida) set their own. US grades run about a year older than England's years: a Grade 3 child is usually the age of a Year 4 child in England.</p>
+      <p class="small">Common Core State Standards © Copyright 2010. National Governors Association Center for Best Practices and Council of Chief State School Officers. All rights reserved.</p></div>
     <div class="card"><h3>What's on this site, and where it comes from</h3>
       <p>Year 3 and Year 5 English and maths are the <b>statutory requirements</b> from <i>The national curriculum in England: primary curriculum</i> (Department for Education), word for word. English is set for two years at a time, so Year 3 shows the Years 3–4 programme and Year 5 the Years 5–6 programme. Maths is set for each year.</p>
       <p>Reception shows the <b>early learning goals</b> from the <i>Early years foundation stage statutory framework for group and school-based providers</i>, effective from September 2026. They describe the expected level at the end of Reception; the framework says they shouldn't be used as a curriculum, so treat them as a guide to where children are heading.</p>
@@ -320,7 +329,7 @@ h2.sec{font-size:1.4rem;margin:6px 0 12px}
       <p>All subjects and all years, the US standards, each year's version kept so your plans don't change by surprise, and building a child's own plan with Claude or ChatGPT.</p></div>
   </section>
 
-  <p class="foot">Ticks stay on this device – or sign in to keep them in your account. Curriculum text © Crown copyright, used under the Open Government Licence v3.0. <span class="ver">v12</span></p>
+  <p class="foot">Ticks stay on this device – or sign in to keep them in your account. England curriculum text © Crown copyright, used under the Open Government Licence v3.0. Common Core State Standards © 2010 NGA Center and CCSSO. <span class="ver">v13</span></p>
 </div>
 
 <div id="acct" hidden role="dialog" aria-modal="true" aria-labelledby="acTitle"><div class="acbox"><button class="acx" id="acX" type="button" aria-label="Close">×</button>
@@ -342,47 +351,54 @@ var DATA = {"maths-y3": [{"strand": "Number – number and place value", "items"
 (function(){
   "use strict";
   var KIDS = [
-    {id:"r", name:"Reception", year:"Age 4–5", stage:"Early years (EYFS)", en:"english-r", ma:"maths-r", words:null,
+    {id:"r", cc:"uk", name:"Reception", year:"Age 4–5", stage:"Early years (EYFS)", en:"english-r", ma:"maths-r", words:null,
      note:"These are the early learning goals: what most children can do by the end of Reception. Phonics, reading together and counting games every day cover most of them."},
-    {id:"y3", name:"Year 3", year:"Age 7–8", stage:"Lower key stage 2", en:"english-y34", ma:"maths-y3", words:"words-y34",
+    {id:"y3", cc:"uk", name:"Year 3", year:"Age 7–8", stage:"Lower key stage 2", en:"english-y34", ma:"maths-y3", words:"words-y34",
      note:"English is set for Years 3 and 4 together, so this is two years' worth. Maths is Year 3 only."},
-    {id:"y5", name:"Year 5", year:"Age 9–10", stage:"Upper key stage 2", en:"english-y56", ma:"maths-y5", words:"words-y56",
-     note:"English is set for Years 5 and 6 together, so this is two years' worth. Maths is Year 5 only."}];
+    {id:"y5", cc:"uk", name:"Year 5", year:"Age 9–10", stage:"Upper key stage 2", en:"english-y56", ma:"maths-y5", words:"words-y56",
+     note:"English is set for Years 5 and 6 together, so this is two years' worth. Maths is Year 5 only."}].concat(
+    [["k","Kindergarten","Age 5–6"],["g1","Grade 1","Age 6–7"],["g2","Grade 2","Age 7–8"],["g3","Grade 3","Age 8–9"],["g4","Grade 4","Age 9–10"],["g5","Grade 5","Age 10–11"]].map(function(g){
+      return {id:g[0], cc:"us", name:g[1], year:g[2], stage:"Common Core", en:"ela-" + g[0], ma:"math-" + g[0], words:null,
+        note:"The Common Core State Standards for " + g[1] + ". Most US states use these, or a version close to them; a few, like Texas, Virginia and Florida, set their own."}; }));
   var SUBJ = [["en","English"],["ma","Maths"],["sp","Spelling words"]];
-  var KEY = "learnbyyear-ticks", T = {}, UI = {kid:"y3", subj:"en", tab:"curr", child:""};
+  function subjName(sj){ return sj === "ma" && kid().cc === "us" ? "Math" : (SUBJ.filter(function(x){ return x[0] === sj; })[0] || [0, ""])[1]; }
+  var KEY = "learnbyyear-ticks", T = {}, UI = {kid:"y3", subj:"en", tab:"curr", child:"", cc:"uk"};
   // My children: first name and school year. Each child's ticks are kept apart from the others ("c:<id>:<goal>").
   var acctPush = null;
   var CKEY = "learnbyyear-children", C = {kids:[]}, KF = null;   // KF: the add / edit form while it's open
   try{ C = JSON.parse(localStorage.getItem(CKEY) || "null") || {kids:[]}; if(!Array.isArray(C.kids)) C.kids = []; }catch(e){ C = {kids:[]}; }
   try{ T = JSON.parse(localStorage.getItem(KEY) || "{}") || {}; }catch(e){ T = {}; }
-  try{ var u = JSON.parse(localStorage.getItem("learnbyyear-ui") || "{}"); if(u && u.kid) UI.kid = u.kid; if(u && u.subj) UI.subj = u.subj; if(u && u.child) UI.child = u.child; }catch(e){}
-  function keep(push){ try{ localStorage.setItem(KEY, JSON.stringify(T)); localStorage.setItem(CKEY, JSON.stringify(C)); localStorage.setItem("learnbyyear-ui", JSON.stringify({kid:UI.kid, subj:UI.subj, child:UI.child})); }catch(e){} if(push && acctPush) acctPush(); }
+  try{ var u = JSON.parse(localStorage.getItem("learnbyyear-ui") || "{}"); if(u && u.kid) UI.kid = u.kid; if(u && u.subj) UI.subj = u.subj; if(u && u.child) UI.child = u.child; if(u && u.cc) UI.cc = u.cc; }catch(e){}
+  function keep(push){ try{ localStorage.setItem(KEY, JSON.stringify(T)); localStorage.setItem(CKEY, JSON.stringify(C)); localStorage.setItem("learnbyyear-ui", JSON.stringify({kid:UI.kid, subj:UI.subj, child:UI.child, cc:UI.cc})); }catch(e){} if(push && acctPush) acctPush(); }
   function child(){ return C.kids.filter(function(c){ return c.id === UI.child; })[0] || null; }
   function tk(id){ var c = child(); return c ? "c:" + c.id + ":" + id : id; }
-  function covered(c){ var y = KIDS.filter(function(k){ return k.id === c.y; })[0], n = 0, d = 0; if(!y) return 0;
+  function covered(c){ var y = KIDS.filter(function(k){ return k.id === c.y; })[0], n = 0, d = 0; if(!y) return 0; if(!DATA[y.en] || !DATA[y.ma]){ loadUS(); return 0; }
     ["en","ma"].forEach(function(sj){ DATA[y[sj]].forEach(function(st, si){ st.items.forEach(function(it, ii){ n++; if(T["c:" + c.id + ":" + y.id + ":" + sj + ":" + si + ":" + ii]) d++; }); }); });
     return n ? Math.round(100 * d / n) : 0; }
   function $(id){ return document.getElementById(id); }
   function esc(s){ return String(s).replace(/[&<>"]/g, function(c){ return {"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]; }); }
+  var USLOAD = null;
+  function loadUS(){ if(USLOAD) return; USLOAD = fetch("us-common-core.json").then(function(r){ return r.json(); }).then(function(d){ Object.keys(d).forEach(function(k){ DATA[k] = d[k]; }); draw(); }, function(){ USLOAD = null; }); }
   function kid(){ var c = child(), y = c ? c.y : UI.kid; return KIDS.filter(function(k){ return k.id === y; })[0] || KIDS[1]; }
   function cap(s){ return s.charAt(0).toUpperCase() + s.slice(1); }
   function drawWho(){ if(UI.child && !child()) UI.child = "";
+    document.querySelectorAll("#ccsw [data-cc]").forEach(function(b){ b.setAttribute("aria-pressed", String(b.dataset.cc === UI.cc)); }); $("ccsw").hidden = !!UI.child;
     var mine = !!UI.child || (C.kids.length && UI.child !== null && UI.kid === "");
     if(UI.child) $("who").innerHTML = C.kids.map(function(c){ var y = KIDS.filter(function(k){ return k.id === c.y; })[0] || {}; return '<button type="button" data-child="' + c.id + '" aria-pressed="' + (c.id === UI.child) + '"><b>' + esc(c.name) + '</b><small>' + esc(y.name || "") + ' · ' + covered(c) + '% covered</small></button>'; }).join("") + '<button type="button" class="add" data-addkid="1">+ Add a child</button>';
-    else $("who").innerHTML = KIDS.map(function(k){ return '<button type="button" data-kid="' + k.id + '" aria-pressed="' + (k.id === UI.kid) + '"><b>' + esc(k.name) + '</b><small>' + esc(k.year) + ' · ' + esc(k.stage) + '</small></button>'; }).join("") + (C.kids.length ? "" : '<button type="button" class="add" data-addkid="1">+ Add your child</button>');
+    else $("who").innerHTML = KIDS.filter(function(k){ return (k.cc || "uk") === UI.cc; }).map(function(k){ return '<button type="button" data-kid="' + k.id + '" aria-pressed="' + (k.id === UI.kid) + '"><b>' + esc(k.name) + '</b><small>' + esc(k.year) + ' · ' + esc(k.stage) + '</small></button>'; }).join("") + (C.kids.length ? "" : '<button type="button" class="add" data-addkid="1">+ Add your child</button>');
     $("wholinks").innerHTML = UI.child ? '<button type="button" data-browse="1">Browse any year</button>' : (C.kids.length ? '<button type="button" data-mine="1">← My children</button>' : "");
     drawKidForm();
-    var k = kid(); $("subj").innerHTML = SUBJ.filter(function(s){ return s[0] !== "sp" || k.words; }).map(function(s){ return '<button type="button" data-subj="' + s[0] + '" aria-pressed="' + (s[0] === UI.subj) + '">' + s[1] + '</button>'; }).join(""); }
+    var k = kid(); $("subj").innerHTML = SUBJ.filter(function(s){ return s[0] !== "sp" || k.words; }).map(function(s){ return '<button type="button" data-subj="' + s[0] + '" aria-pressed="' + (s[0] === UI.subj) + '">' + subjName(s[0]) + '</button>'; }).join(""); }
   function drawSheets(){ var k = kid(); if(UI.subj === "sp" && !k.words) UI.subj = "en"; var h = "", total = 0, done = 0;
     if(UI.subj === "sp"){ var w = DATA[k.words], id0 = tk(k.id + ":w:");
       w.forEach(function(x){ total++; if(T[id0 + x]) done++; });
       h = '<div class="sheet"><h3>Statutory spelling list<small>' + (k.id === "y3" ? "Years 3 and 4" : "Years 5 and 6") + ' · tap a word once it\'s secure</small></h3><div class="words">' + w.map(function(x){ return '<button type="button" data-w="' + esc(x) + '" aria-pressed="' + !!T[id0 + x] + '">' + esc(x) + '</button>'; }).join("") + '</div></div>';
       $("note").textContent = "The words schools are expected to teach by the end of " + (k.id === "y3" ? "Year 4" : "Year 6") + ". Five or six a week, practised with look, say, cover, write, check, gets through the list in about a school year.";
     } else {
-      var secs = DATA[k[UI.subj]];
-      secs.forEach(function(s, si){ h += '<div class="sheet"><h3>' + esc(s.strand) + '<small>' + (k.id === "r" ? "Children at the expected level will:" : "Pupils should be taught to:") + '</small></h3>';
+      var secs = DATA[k[UI.subj]]; if(!secs){ loadUS(); $("sheets").innerHTML = '<p class="note">Loading the US standards…</p>'; return; }
+      secs.forEach(function(s, si){ h += '<div class="sheet"><h3>' + esc(s.strand) + '<small>' + (k.cc === "us" ? "Students should be able to:" : k.id === "r" ? "Children at the expected level will:" : "Pupils should be taught to:") + '</small></h3>';
         s.items.forEach(function(it, ii){ var id = k.id + ":" + UI.subj + ":" + si + ":" + ii, on = !!T[tk(id)] || isGot(id); total++; if(on) done++;
-          h += '<div class="goal' + (on ? ' done' : '') + '"><input type="checkbox" id="g' + id.replace(/[^a-z0-9]/gi, "_") + '" data-g="' + id + '"' + (on ? ' checked' : '') + '><label for="g' + id.replace(/[^a-z0-9]/gi, "_") + '">' + esc(cap(it.t)) + (it.sub ? '<ul>' + it.sub.map(function(x){ return '<li>' + esc(x) + '</li>'; }).join("") + '</ul>' : '') + stHTML(id) + '</label><span class="gbtns"><button type="button" class="qb" data-q="' + id + '" aria-expanded="' + (QOPEN === id) + '">📝 Practice</button><button type="button" class="aib" data-ai="' + id + '" aria-expanded="' + (AIOPEN === id) + '" aria-label="Ask your AI">✨ <span class="ail">Ask your </span>AI</button></span>' + (AIOPEN === id ? aiPanel(k, it) : '') + (QOPEN === id ? qPanel(id) : '') + '</div>'; });
+          h += '<div class="goal' + (on ? ' done' : '') + '"><input type="checkbox" id="g' + id.replace(/[^a-z0-9]/gi, "_") + '" data-g="' + id + '"' + (on ? ' checked' : '') + '><label for="g' + id.replace(/[^a-z0-9]/gi, "_") + '">' + esc(cap(it.t)) + (it.code ? ' <small class="code">' + esc(it.code) + '</small>' : '') + (it.sub ? '<ul>' + it.sub.map(function(x){ return '<li>' + esc(x) + '</li>'; }).join("") + '</ul>' : '') + stHTML(id) + '</label><span class="gbtns"><button type="button" class="qb" data-q="' + id + '" aria-expanded="' + (QOPEN === id) + '">📝 Practice</button><button type="button" class="aib" data-ai="' + id + '" aria-expanded="' + (AIOPEN === id) + '" aria-label="Ask your AI">✨ <span class="ail">Ask your </span>AI</button></span>' + (AIOPEN === id ? aiPanel(k, it) : '') + (QOPEN === id ? qPanel(id) : '') + '</div>'; });
         h += '</div>'; });
       $("note").textContent = k.note;
       h = '<p class="aihint">Beside each goal: <b>📝 Practice</b> has five ready-made questions (or things to try together), and <b>✨ Ask your AI</b> writes more with your own Claude or ChatGPT.</p>' + h;
@@ -390,10 +406,10 @@ var DATA = {"maths-y3": [{"strand": "Number – number and place value", "items"
     $("sheets").innerHTML = h;
     var pct = total ? Math.round(100 * done / total) : 0;
     var ch = child();
-    $("meta").innerHTML = '<span><b>' + (ch ? esc(ch.name) + '</b> · ' + esc(k.name) : esc(k.name) + '</b> · ' + esc(k.year)) + ' ' + (SUBJ.filter(function(s){ return s[0] === UI.subj; })[0] || [0,""])[1] + '</span><span class="bar" role="img" aria-label="' + pct + '% covered"><i style="width:' + pct + '%"></i></span><span>' + done + ' of ' + total + ' covered' + (ch ? '<button type="button" class="editkid" data-editkid="' + ch.id + '">edit</button>' : '') + '</span>'; }
+    $("meta").innerHTML = '<span><b>' + (ch ? esc(ch.name) + '</b> · ' + esc(k.name) : esc(k.name) + '</b> · ' + esc(k.year)) + ' ' + subjName(UI.subj) + '</span><span class="bar" role="img" aria-label="' + pct + '% covered"><i style="width:' + pct + '%"></i></span><span>' + done + ' of ' + total + ' covered' + (ch ? '<button type="button" class="editkid" data-editkid="' + ch.id + '">edit</button>' : '') + '</span>'; }
   // 📝 Practice: five ready-made questions or things to try for each goal (questions.json, loaded the first time it's needed)
   var QOPEN = null, QS = null;
-  function qPanel(id){ if(!QS) return '<div class="qp"><p>Loading…</p></div>'; var q = QS[id]; if(!q) return '<div class="qp"><p>Coming soon for this goal.</p></div>';
+  function qPanel(id){ if(!QS) return '<div class="qp"><p>Loading…</p></div>'; var q = QS[id]; if(!q) return '<div class="qp"><p>Ready-made questions for this one are coming soon. Meanwhile, tap ✨ Ask your AI for practice questions.</p></div>';
     return '<div class="qp"><p>' + (q.t === "q" ? "Ask these out loud. Tap “answer” to check." : "Things to try together – a few minutes each.") + '</p><ol>'
       + q.items.map(function(x){ return q.t === "q" ? '<li>' + esc(x[0]) + '<details><summary>answer</summary><span class="ans">' + esc(x[1]) + '</span></details></li>' : '<li>' + esc(x) + '</li>'; }).join("")
       + '</ol><p class="more">Want more? Tap ✨ Ask your AI.</p></div>'; }
@@ -403,7 +419,7 @@ var DATA = {"maths-y3": [{"strand": "Number – number and place value", "items"
   // ✨ Ask your AI: prompts built from the goal, the year and the age, opened in the parent's own Claude or ChatGPT
   var AIOPEN = null;
   function aiPrompts(k, it){ var g = cap(it.t).replace(/[.:;]+$/, "") + (it.sub ? " (" + it.sub.join("; ").replace(/[.;]+$/, "") + ")" : ""),
-      who = "My child is in " + k.name + " (" + k.year.toLowerCase() + ") in England. ", subj = UI.subj === "ma" ? "maths" : "English";
+      who = "My child is in " + k.name + " (" + k.year.toLowerCase() + ") in " + (k.cc === "us" ? "the United States (Common Core). " : "England. "), subj = UI.subj === "ma" ? (k.cc === "us" ? "math" : "maths") : (k.cc === "us" ? "English Language Arts" : "English");
     return [["10 practice questions", who + "In " + subj + " we're working on: \"" + g + "\". Write 10 short practice questions for them, starting easy and getting harder. Make them fun and use everyday things they know. Put the answers at the end, for me."],
       ["Explain it simply", who + "Explain this " + subj + " goal so they can understand it, in a few short sentences with one everyday example: \"" + g + "\". Then give me one tip on how to explain it if they get stuck."],
       ["A 10-minute game", who + "Suggest a quick game we can play at home or on a walk, with no special equipment, to practise: \"" + g + "\". Keep the rules simple."],
@@ -417,8 +433,9 @@ var DATA = {"maths-y3": [{"strand": "Number – number and place value", "items"
   function draw(){ drawWho(); drawKidSum(); drawSheets(); keep(); }
   document.addEventListener("click", function(e){ var b = e.target.closest("button"); if(!b) return;
     if(b.dataset.kid){ UI.kid = b.dataset.kid; draw(); return; }
+    if(b.dataset.cc){ UI.cc = b.dataset.cc; var first = KIDS.filter(function(k){ return k.cc === UI.cc; }); if(kid().cc !== UI.cc) UI.kid = (UI.cc === "us" ? first[3] : first[1]).id; if(UI.cc === "us") loadUS(); draw(); return; }
     if(b.dataset.child){ UI.child = b.dataset.child; draw(); return; }
-    if(b.dataset.browse){ UI.kid = kid().id; UI.child = ""; draw(); return; }
+    if(b.dataset.browse){ UI.kid = kid().id; UI.cc = kid().cc; UI.child = ""; draw(); return; }
     if(b.dataset.mine){ UI.child = (C.kids[0] || {}).id || ""; draw(); return; }
     if(b.dataset.addkid){ KF = {id:"", name:"", y:""}; drawKidForm(); setTimeout(function(){ var i = $("kfName"); if(i) i.focus(); }, 30); return; }
     if(b.dataset.editkid){ var ck = child(); if(ck){ KF = {id:ck.id, name:ck.name, y:ck.y}; drawKidForm(); } return; }
@@ -431,8 +448,8 @@ var DATA = {"maths-y3": [{"strand": "Number – number and place value", "items"
   function drawKidForm(){ var f = $("kidform"); if(!KF){ f.hidden = true; f.innerHTML = ""; return; } f.hidden = false;
     f.innerHTML = '<h3>' + (KF.id ? "Change " + esc(KF.name || "your child") : "Add your child") + '</h3>'
       + '<label for="kfName">First name</label><input id="kfName" maxlength="30" autocomplete="off" value="' + esc(KF.name) + '">'
-      + '<label>School year this year</label><div class="ys">' + KIDS.map(function(k){ return '<button type="button" data-kfy="' + k.id + '" aria-pressed="' + (KF.y === k.id) + '">' + esc(k.name) + '</button>'; }).join("") + '</div>'
-      + '<small>Reception, Year 3 and Year 5 for now – more years are coming.</small>'
+      + '<label>School year this year</label>' + [["uk","England"],["us","United States"]].map(function(c){ return '<small>' + c[1] + '</small><div class="ys">' + KIDS.filter(function(k){ return k.cc === c[0]; }).map(function(k){ return '<button type="button" data-kfy="' + k.id + '" aria-pressed="' + (KF.y === k.id) + '">' + esc(k.name) + '</button>'; }).join("") + '</div>'; }).join("")
+      + '<small>England: Reception, Year 3 and Year 5 for now – more years are coming.</small>'
       + (KF.del ? '<div class="row"><span>Remove ' + esc(KF.name) + ' and their ticks?</span><button type="button" class="pri" data-kfdel2="1">Yes, remove</button><button type="button" data-kfdel0="1">Keep</button></div>'
         : '<div class="row"><button type="button" class="pri" data-kfsave="1">' + (KF.id ? "Save" : "Add") + '</button><button type="button" data-kfx="1">Cancel</button>' + (KF.id ? '<button type="button" class="del" data-kfdel="1">Remove</button>' : '') + '</div>'); }
   $("kidform").addEventListener("input", function(e){ if(e.target.id === "kfName" && KF) KF.name = e.target.value; });
@@ -469,10 +486,11 @@ var DATA = {"maths-y3": [{"strand": "Number – number and place value", "items"
   function yearFrac(){ var n = new Date(), y = n.getMonth() >= 7 ? n.getFullYear() : n.getFullYear() - 1, a = new Date(y, 8, 1), b = new Date(y + 1, 6, 20);
     return Math.max(0, Math.min(1, (n - a) / (b - a))); }
   function subjStats(c, sj){ var y = KIDS.filter(function(k){ return k.id === c.y; })[0], n = 0, got = 0, wk = [], ah = [];
+    if(!DATA[y[sj]]){ loadUS(); return {n:0, got:0, exp:0, wk:[], ah:[], two:false}; }
     DATA[y[sj]].forEach(function(st, si){ st.items.forEach(function(it, ii){ var id = y.id + ":" + sj + ":" + si + ":" + ii, x = (c.st || {})[id] || {}; n++;
       if(T["c:" + c.id + ":" + id] || x.s === "secure" || x.s === "ahead") got++;
       if(x.s === "working") wk.push({id:id, sj:sj, t:it.t, n:x.n}); if(x.s === "ahead") ah.push({id:id, sj:sj, t:it.t, n:x.n}); }); });
-    var two = sj === "en" && y.id !== "r", exp = Math.round(n * yearFrac() * (two ? .5 : 1));
+    var two = sj === "en" && y.cc === "uk" && y.id !== "r", exp = Math.round(n * yearFrac() * (two ? .5 : 1));
     return {n:n, got:got, exp:exp, wk:wk, ah:ah, two:two}; }
   function short(t){ t = cap(t).replace(/[.:;]+$/, ""); return t.length > 90 ? t.slice(0, 88).replace(/\s+\S*$/, "") + "…" : t; }
   function drawKidSum(){ var el = $("kidsum"), c = child(); if(!c || KF){ el.hidden = true; el.innerHTML = ""; return; } el.hidden = false;
@@ -482,7 +500,7 @@ var DATA = {"maths-y3": [{"strand": "Number – number and place value", "items"
       if(r.got >= r.exp + Math.max(2, Math.round(r.n * .1))) tag = '<span class="tag ahead">Ahead of where most children are now</span>';
       else if(r.got >= r.exp - 2) tag = '<span class="tag on">On track for this point in the year</span>';
       else tag = '<span class="tag catch">Behind this point in the year – or not ticked here yet</span>';
-      h += '<div class="ks-sub"><b>' + (sj === "en" ? "English" : "Maths") + '</b><span class="ks-bar" role="img" aria-label="' + r.got + ' of ' + r.n + ' covered"><i style="width:' + pc + '%"></i><u style="left:' + ex + '%"></u></span>'
+      h += '<div class="ks-sub"><b>' + (sj === "en" ? "English" : y.cc === "us" ? "Math" : "Maths") + '</b><span class="ks-bar" role="img" aria-label="' + r.got + ' of ' + r.n + ' covered"><i style="width:' + pc + '%"></i><u style="left:' + ex + '%"></u></span>'
         + '<span class="ks-say">' + r.got + ' of ' + r.n + ' secure · most children are around ' + r.exp + ' by now' + (r.two ? ' (this list covers two years)' : '') + ' · ' + tag + '</span></div>';
       wk = wk.concat(r.wk); ah = ah.concat(r.ah); });
     if(wk.length) h += '<p class="ks-h">Where to help next</p><ul class="ks-list">' + wk.slice(0, 8).map(function(x){ return '<li><button type="button" data-jump="' + x.id + '">' + (x.sj === "en" ? "English: " : "Maths: ") + esc(short(x.t)) + '</button>' + (x.n ? ' <small>– ' + esc(x.n) + '</small>' : '') + '</li>'; }).join("") + '</ul>';
