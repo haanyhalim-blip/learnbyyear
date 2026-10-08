@@ -1,5 +1,5 @@
 <!doctype html>
-<!-- LearnbyYear v16 -->
+<!-- LearnbyYear v17 -->
 <html lang="en-GB">
 <head>
 <meta charset="utf-8">
@@ -372,7 +372,7 @@ h2.sec{font-size:1.4rem;margin:6px 0 12px}
       <p>All subjects and all years, the US standards, each year's version kept so your plans don't change by surprise, and building a child's own plan with Claude or ChatGPT.</p></div>
   </section>
 
-  <p class="foot">Ticks stay on this device – or sign in to keep them in your account. England curriculum text © Crown copyright, used under the Open Government Licence v3.0. Common Core State Standards © 2010 NGA Center and CCSSO. <span class="ver">v16</span></p>
+  <p class="foot">Ticks stay on this device – or sign in to keep them in your account. England curriculum text © Crown copyright, used under the Open Government Licence v3.0. Common Core State Standards © 2010 NGA Center and CCSSO. <span class="ver">v17</span></p>
 </div>
 
 <div id="acct" hidden role="dialog" aria-modal="true" aria-labelledby="acTitle"><div class="acbox"><button class="acx" id="acX" type="button" aria-label="Close">×</button>
@@ -429,7 +429,7 @@ var DATA = {"maths-y3": [{"strand": "Number – number and place value", "items"
   function $(id){ return document.getElementById(id); }
   function esc(s){ return String(s).replace(/[&<>"]/g, function(c){ return {"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]; }); }
   var USLOAD = null;
-  function loadUS(){ if(USLOAD) return; USLOAD = fetch("us-common-core.json").then(function(r){ return r.json(); }).then(function(d){ Object.keys(d).forEach(function(k){ DATA[k] = d[k]; }); draw(); }, function(){ USLOAD = null; }); }
+  function loadUS(){ if(USLOAD) return; USLOAD = fetch("us-common-core.json").then(function(r){ return r.json(); }).then(function(d){ Object.keys(d).forEach(function(k){ DATA[k] = d[k]; }); draw(); if(UI.tab === "week") drawWeek(); }, function(){ USLOAD = null; }); }
   function kid(){ var c = child(), y = c ? c.y : UI.kid; return KIDS.filter(function(k){ return k.id === y; })[0] || KIDS.filter(function(k){ return k.id === "y3"; })[0]; }
   function cap(s){ return s.charAt(0).toUpperCase() + s.slice(1); }
   function drawWho(){ if(UI.child && !child()) UI.child = "";
@@ -596,19 +596,30 @@ var DATA = {"maths-y3": [{"strand": "Number – number and place value", "items"
     for(var w = 1; w <= 39; w++){ var end = new Date(+d + 7 * DAYMS); if(n < end) return {w:w}; d = end;
       if(gaps[w]){ var back = new Date(+d + gaps[w] * 7 * DAYMS); if(n < back) return {w:w + 1, hol:w === 14 ? "Christmas holiday" : w === 26 ? "Easter holiday" : "Half term"}; d = back; } }
     return {w:39, hol:"Summer holiday"}; }
+  function usWeek(){ var n = new Date(), y = n.getMonth() >= 7 ? n.getFullYear() : n.getFullYear() - 1, DAYMS = 864e5, d = new Date(y, 7, 20); while(d.getDay() !== 1) d.setDate(d.getDate() + 1);
+    // US: 36 weeks from the Monday after 20 August; breaks for Thanksgiving week, two weeks over Christmas and New Year, and a spring break after week 27 (districts vary)
+    var tg = new Date(y, 10, 1); while(tg.getDay() !== 4) tg.setDate(tg.getDate() + 1); tg = new Date(+tg + 18 * DAYMS);
+    var xm = new Date(y, 11, 24), spring = false; xm = new Date(+xm - ((xm.getDay() + 6) % 7) * DAYMS);
+    if(n < d) return {w:1, hol:"Before school starts"};
+    for(var w = 0; w < 36;){ var len = 0, hol = "";
+      if(Math.abs(d - tg) < DAYMS){ len = 1; hol = "Thanksgiving break"; } else if(Math.abs(d - xm) < DAYMS){ len = 2; hol = "Winter break"; } else if(w === 27 && !spring){ len = 1; hol = "Spring break"; spring = true; }
+      if(len){ var back = new Date(+d + len * 7 * DAYMS); if(n < back) return {w:w + 1, hol:hol}; d = back; continue; }
+      w++; var end = new Date(+d + 7 * DAYMS); if(n < end) return {w:w}; d = end; }
+    return {w:36, hol:"Summer break"}; }
   function loadPB(y){ if(PB[y] !== undefined) return; PB[y] = null; fetch("playbook-" + y + ".json").then(function(r){ if(!r.ok) throw 0; return r.json(); }).then(function(d){ PB[y] = d; if(UI.tab === "week") drawWeek(); }, function(){ PB[y] = false; if(UI.tab === "week") drawWeek(); }); }
   function goalText(id){ var p = id.split(":"), y = KIDS.filter(function(k){ return k.id === p[0]; })[0]; if(!y) return ""; var secs = DATA[y[p[1]]]; var it = secs && secs[+p[2]] && secs[+p[2]].items[+p[3]]; return it ? it.t : ""; }
   function drawWeek(){ var el = $("weekView"), k = kid(), c = child();
-    var pick = '<div class="wk-top"><label for="wkYear" class="note">Plan for</label><select id="wkYear">' + (c ? '<option value="">' + esc(c.name) + ' – ' + esc(k.name) + '</option>' : '') + KIDS.filter(function(x){ return x.cc === "uk"; }).map(function(x){ return '<option value="' + x.id + '"' + (!c && x.id === k.id ? " selected" : "") + '>' + esc(x.name) + '</option>'; }).join("") + '</select></div>';
-    if(k.cc === "us"){ el.innerHTML = pick + '<p class="note">The week-by-week plan is coming for US grades. England\'s Reception, Year 3 and Year 5 are ready.</p>'; return; }
+    var pick = '<div class="wk-top"><label for="wkYear" class="note">Plan for</label><select id="wkYear">' + (c ? '<option value="">' + esc(c.name) + ' – ' + esc(k.name) + '</option>' : '') + KIDS.filter(function(x){ return x.cc === k.cc; }).map(function(x){ return '<option value="' + x.id + '"' + (!c && x.id === k.id ? " selected" : "") + '>' + esc(x.name) + '</option>'; }).join("") + '</select></div>';
+    var us = k.cc === "us", NW = us ? 36 : 39;
+    if(us && !DATA[k.ma]){ loadUS(); el.innerHTML = pick + '<p class="note">Loading the plan…</p>'; return; }
     if(PB[k.id] === undefined) loadPB(k.id);
     if(PB[k.id] === null){ el.innerHTML = pick + '<p class="note">Loading the plan…</p>'; return; }
-    if(PB[k.id] === false){ el.innerHTML = pick + '<p class="note">The week-by-week plan for ' + esc(k.name) + ' is coming soon. Reception, Year 3 and Year 5 are ready now.</p>'; return; }
-    var now = schoolWeek(), wn = WK || now.w, w = PB[k.id].weeks.filter(function(x){ return x.w === wn; })[0]; if(!w) return;
+    if(PB[k.id] === false){ el.innerHTML = pick + '<p class="note">The week-by-week plan for ' + esc(k.name) + ' isn\'t available right now. Please try again in a moment.</p>'; return; }
+    var now = us ? usWeek() : schoolWeek(), wn = WK || now.w, w = PB[k.id].weeks.filter(function(x){ return x.w === wn; })[0]; if(!w) return;
     var dow = new Date().getDay(), today = (!WK || WK === now.w) && !now.hol && dow >= 1 && dow <= 5 ? ["Mon","Tue","Wed","Thu","Fri"][dow - 1] : "";
     var stOf2 = function(id){ return c && c.st ? c.st[id] : null; };
     var gl = function(ids){ return '<ul class="glist">' + ids.map(function(id){ var x = stOf2(id) || {}; return '<li><span>' + esc(short(goalText(id))) + (x.s ? ' <span class="st s-' + x.s + '">' + STN[x.s] + '</span>' : '') + '</span><button type="button" data-wjump="' + id + '">📝 Practice</button></li>'; }).join("") + '</ul>'; };
-    var h = pick + '<div class="wk-nav"><button type="button" data-wkgo="-1" aria-label="Previous week"' + (wn <= 1 ? " disabled" : "") + '>‹</button><div class="mid"><b>Week ' + wn + ' · ' + esc(w.term) + '</b><small>' + (wn === now.w && !WK ? (now.hol ? now.hol + " – this is the week after it" : "This week") : "Week " + wn + " of 39") + '</small>' + (WK && WK !== now.w ? '<button type="button" class="now" data-wknow="1">Back to this week</button>' : '') + '</div><button type="button" data-wkgo="1" aria-label="Next week"' + (wn >= 39 ? " disabled" : "") + '>›</button></div>';
+    var h = pick + '<div class="wk-nav"><button type="button" data-wkgo="-1" aria-label="Previous week"' + (wn <= 1 ? " disabled" : "") + '>‹</button><div class="mid"><b>Week ' + wn + ' · ' + esc(w.term) + '</b><small>' + (wn === now.w && !WK ? (now.hol ? now.hol + " – this is the week after it" : "This week") : "Week " + wn + " of " + NW) + '</small>' + (WK && WK !== now.w ? '<button type="button" class="now" data-wknow="1">Back to this week</button>' : '') + '</div><button type="button" data-wkgo="1" aria-label="Next week"' + (wn >= NW ? " disabled" : "") + '>›</button></div>';
     h += '<div class="wk"><h3>' + esc(w.title) + '</h3>';
     if(c){ var all = (w.ma || []).concat(w.en || []), sec = all.filter(function(id){ var x = stOf2(id); return x && (x.s === "secure" || x.s === "ahead"); }), wk = all.filter(function(id){ var x = stOf2(id); return x && x.s === "working"; }),
         earlier = Object.keys(c.st || {}).filter(function(id){ return c.st[id].s === "working" && all.indexOf(id) < 0; }).slice(0, 3),
@@ -624,13 +635,13 @@ var DATA = {"maths-y3": [{"strand": "Number – number and place value", "items"
     if(w.spell) h += '<div class="blk spell"><h4>Spelling and sounds</h4><b>' + esc(w.spell.rule || "") + '</b>' + (w.spell.words && w.spell.words.length ? '<div class="chips">' + w.spell.words.map(function(x){ return '<span>' + esc(x) + '</span>'; }).join("") + '</div>' : '') + '</div>';
     if(w.read) h += '<div class="blk"><h4>Reading</h4>' + esc(w.read) + '</div>';
     h += (w.days || []).map(function(d){ var isT = d.d === today; return '<details class="day' + (isT ? " today" : "") + '"' + (isT || (!today && d.d === "Mon") ? " open" : "") + '><summary>' + esc({Mon:"Monday",Tue:"Tuesday",Wed:"Wednesday",Thu:"Thursday",Fri:"Friday"}[d.d] || d.d) + (isT ? ' <small>Today</small>' : '') + '</summary><div class="db"><p><b>' + (k.cc === "us" ? "Math" : "Maths") + '</b>' + esc(d.ma) + '</p><p><b>English</b>' + esc(d.en) + '</p></div></details>'; }).join("");
-    h += '<p class="note">About 15–20 minutes each for maths and English. It\'s a guide, not a rulebook – follow your child, and skip what they already know. Weeks follow the usual school terms in England.</p></div>';
+    h += '<p class="note">About 15–20 minutes each for ' + (us ? "math" : "maths") + ' and English. It\'s a guide, not a rulebook – follow your child, and skip what they already know. ' + (us ? 'Weeks follow a typical US school year, with breaks for Thanksgiving, winter and spring – districts vary, so use the arrows if yours is ahead or behind.' : 'Weeks follow the usual school terms in England.') + '</p></div>';
     el.innerHTML = h; }
-  $("weekView").addEventListener("change", function(e){ if(e.target.id !== "wkYear") return; var v = e.target.value; if(v){ UI.child = ""; UI.kid = v; UI.cc = "uk"; } WK = null; draw(); drawWeek(); });
+  $("weekView").addEventListener("change", function(e){ if(e.target.id !== "wkYear") return; var v = e.target.value; if(v){ UI.child = ""; UI.kid = v; UI.cc = /^(k|g\d)$/.test(v) ? "us" : "uk"; } WK = null; draw(); drawWeek(); });
   $("weekView").addEventListener("click", function(e){ var b = e.target.closest("button"); if(!b) return;
-    if(b.dataset.wkgo){ WK = Math.max(1, Math.min(39, (WK || schoolWeek().w) + +b.dataset.wkgo)); drawWeek(); return; }
+    if(b.dataset.wkgo){ var usw = kid().cc === "us"; WK = Math.max(1, Math.min(usw ? 36 : 39, (WK || (usw ? usWeek() : schoolWeek()).w) + +b.dataset.wkgo)); drawWeek(); return; }
     if(b.dataset.wknow){ WK = null; drawWeek(); return; }
-    if(b.dataset.wjump){ var id = b.dataset.wjump, p = id.split(":"); document.querySelector('nav.tabs [data-tab="curr"]').click(); UI.subj = p[1]; drawWho(); QOPEN = id; AIOPEN = null; drawSheets(); loadQs("questions.json");
+    if(b.dataset.wjump){ var id = b.dataset.wjump, p = id.split(":"); document.querySelector('nav.tabs [data-tab="curr"]').click(); UI.subj = p[1]; drawWho(); QOPEN = id; AIOPEN = null; drawSheets(); loadQs(/^(k|g\d):/.test(id) ? "questions-us.json" : "questions.json");
       setTimeout(function(){ var g = document.querySelector('[data-g="' + id + '"]'); if(g) g.closest(".goal").scrollIntoView({behavior:"smooth", block:"center"}); }, 120); } });
   // ---------- Sign in (optional): same account as the other Family Ecosphere sites ----------
   // Your children and their ticks are saved under your account (site "learnbyyear"), so they open on any phone or laptop.

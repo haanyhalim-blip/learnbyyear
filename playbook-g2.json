@@ -1,0 +1,2138 @@
+{
+ "year": "g2",
+ "weeks": [
+  {
+   "w": 1,
+   "term": "Fall",
+   "title": "Addition facts: counting on and doubles",
+   "ma": [
+    "g2:ma:0:1"
+   ],
+   "en": [
+    "g2:en:0:0",
+    "g2:en:2:0",
+    "g2:en:2:1",
+    "g2:en:4:0",
+    "g2:en:4:5"
+   ],
+   "spell": {
+    "rule": "Short vowels a, e, i, o, u in one-syllable words (flat, step, pick, frog, drum)",
+    "words": [
+     "flat",
+     "step",
+     "pick",
+     "frog",
+     "drum",
+     "sled",
+     "chip",
+     "plum",
+     "said",
+     "was"
+    ]
+   },
+   "read": "A short story your child can mostly read alone, plus a longer story you read aloud each evening.",
+   "days": [
+    {
+     "d": "Mon",
+     "ma": "Write 0–10 on paper scraps. Flip two and add by counting on from the bigger number (7 + 3: start at 7, say 8, 9, 10). Do ten flips and tally the answers said within 3 seconds.",
+     "en": "Read a short story together. Afterward ask one who, what, where, when, why and how question each, and have your child answer in a full sentence, e.g. 'The fox went to the river because he was thirsty.'"
+    },
+    {
+     "d": "Tue",
+     "ma": "Doubles: use fingers or pairs of socks to show 1 + 1 up to 10 + 10. Write the ten doubles facts in a list, read them aloud twice, then cover the answers and quiz.",
+     "en": "Short vowel sort: write flat, step, pick, frog and drum as column headings. Say sled, chip, plum, cat, hot, bed, fun and sit; your child writes each under the word with the same vowel sound."
+    },
+    {
+     "d": "Wed",
+     "ma": "Near doubles: if 6 + 6 = 12, then 6 + 7 is one more. Solve 5 + 6, 7 + 8, 8 + 9 and 4 + 5 by saying the double first, then check with dried pasta pieces.",
+     "en": "Fluency: your child reads one page of the story aloud, you read it back with expression, then they read it a third time trying to sound like you. Which reading sounded best?"
+    },
+    {
+     "d": "Thu",
+     "ma": "Turnaround facts: show with two piles of pasta that 3 + 8 and 8 + 3 make the same total. List five facts and their turnarounds, always counting on from the bigger number.",
+     "en": "Agree on three rules for family book talks (one person speaks at a time, look at the speaker, ask when you don't understand). Practice them in a five-minute talk about the story's best part."
+    },
+    {
+     "d": "Fri",
+     "ma": "Friday check: 4 + 4, 9 + 2, 6 + 7, 3 + 8, 5 + 5, 8 + 9, 7 + 0, 2 + 9. Say each answer within 3 seconds; circle any that took longer to practice next week.",
+     "en": "Dictation: read 'The frog sat on a flat log.' and 'He said it was fun.' Your child writes them, then checks capital letters, periods and the spellings of said and was."
+    }
+   ]
+  },
+  {
+   "w": 2,
+   "term": "Fall",
+   "title": "Making ten and subtraction facts",
+   "ma": [
+    "g2:ma:0:1"
+   ],
+   "en": [
+    "g2:en:0:4",
+    "g2:en:2:0",
+    "g2:en:3:2",
+    "g2:en:4:3",
+    "g2:en:5:1"
+   ],
+   "spell": {
+    "rule": "Long vowels with silent e: a_e, i_e, o_e, u_e (cake, smile, rope, cube)",
+    "words": [
+     "cake",
+     "plane",
+     "smile",
+     "bike",
+     "rope",
+     "stone",
+     "cube",
+     "mule",
+     "there",
+     "they"
+    ]
+   },
+   "read": "A story with a clear beginning, middle and end – a folktale or picture book from the library.",
+   "days": [
+    {
+     "d": "Mon",
+     "ma": "Make ten: draw a ten-frame (two rows of five boxes). Put 8 pasta pieces in it and 5 outside. Move 2 in to fill it: 10 + 3 = 13, so 8 + 5 = 13. Repeat with 9 + 4, 7 + 6 and 9 + 7.",
+     "en": "Read a story, then fold a sheet into three: Beginning, Middle, End. Your child draws one picture in each and tells you how the beginning introduced the characters and how the ending wrapped things up."
+    },
+    {
+     "d": "Tue",
+     "ma": "Partners of ten: call out a number from 0 to 10 and your child answers with the partner that makes 10 (3 → 7). Then do partners of 20 with numbers from 10 to 20 (14 → 6).",
+     "en": "Silent e: write cap, kit, hop, cub and plan. Add an e to each (cape, kite, hope, cube, plane) and read both words aloud. Talk about how the e makes the first vowel say its name."
+    },
+    {
+     "d": "Wed",
+     "ma": "Think addition to subtract: for 13 – 8, ask '8 plus what makes 13?' Practice with 15 – 7, 12 – 9, 16 – 8 and 11 – 4, counting up on fingers if needed.",
+     "en": "Small moment story: your child tells you about one thing that happened this summer, out loud, with a beginning, middle and end and what they saw, heard and felt. Then they write the first three sentences."
+    },
+    {
+     "d": "Thu",
+     "ma": "Fact families: with 6, 9 and 15, write the four facts (6 + 9, 9 + 6, 15 – 6, 15 – 9). Then make fact families for 7, 8, 15 and for 5, 8, 13.",
+     "en": "Finish the small moment story with a closing sentence about how it ended or how they felt. Check that every sentence starts with a capital and ends with a period."
+    },
+    {
+     "d": "Fri",
+     "ma": "Friday check: 9 + 5, 8 + 6, 7 + 7, 14 – 6, 17 – 9, 12 – 5, 10 – 3, 13 – 4. Your child explains the make-ten or think-addition step for two of them.",
+     "en": "Dictation: 'They rode a bike to the lake.' and 'There is a cake on the plate.' Check the silent e words and the periods, then your child reads their story to someone."
+    }
+   ]
+  },
+  {
+   "w": 3,
+   "term": "Fall",
+   "title": "Odd and even numbers",
+   "ma": [
+    "g2:ma:0:2",
+    "g2:ma:0:1"
+   ],
+   "en": [
+    "g2:en:0:2",
+    "g2:en:2:0",
+    "g2:en:5:0",
+    "g2:en:3:2",
+    "g2:en:3:3"
+   ],
+   "spell": {
+    "rule": "Short or long? Word pairs where a silent e changes the vowel (tap/tape, kit/kite, hop/hope, cub/cube)",
+    "words": [
+     "tap",
+     "tape",
+     "kit",
+     "kite",
+     "hop",
+     "hope",
+     "cub",
+     "cube",
+     "could",
+     "would"
+    ]
+   },
+   "read": "A story where a character faces a big problem – talk about how they feel and what they do.",
+   "days": [
+    {
+     "d": "Mon",
+     "ma": "Pairs test: grab a handful of pasta (up to 20) and line the pieces up in pairs. If every piece has a partner the number is even; if one is left over it is odd. Record five handfuls in a two-column table.",
+     "en": "Read a story and stop at the big problem. Ask 'How does the character feel? What will they do?' After finishing, compare: did they respond the way your child guessed?"
+    },
+    {
+     "d": "Tue",
+     "ma": "Count by 2s from 0 to 20 while hopping, then from 1 to 19. Write both lists and notice the last digit of every even number (0, 2, 4, 6, 8).",
+     "en": "Collective nouns: match group words to things – a flock of birds, a team of players, a herd of cows, a bunch of grapes, a pack of wolves. Your child says a sentence using each one."
+    },
+    {
+     "d": "Wed",
+     "ma": "Doubles make evens: write each even number to 20 as two equal addends (10 = 5 + 5, 14 = 7 + 7). Use pairs of socks to check 16 and 18.",
+     "en": "Write tap, tape, kit, kite, hop, hope, cub and cube on cards. Your child sorts them into short and long vowel piles, reads each one, then uses one pair in a single sentence."
+    },
+    {
+     "d": "Thu",
+     "ma": "Odd or even hunt: count things around the house – chairs, windows, stairs, forks in the drawer. Predict odd or even first, then pair them up to check.",
+     "en": "Your child writes about a time they faced a challenge (a first day, a lost toy): how they felt at first and what they did. Read it aloud together and add one detail where you ask 'What happened next?'"
+    },
+    {
+     "d": "Fri",
+     "ma": "Friday check: Is 13 odd or even? 18? 7? Write 12 and 20 as doubles. Can 15 crackers be shared equally between two people? Your child explains how they know.",
+     "en": "Dictation: 'Could you fly a kite near a flock of birds?' and 'I would hope so.' Check the question mark, the capital I and the long and short vowel words."
+    }
+   ]
+  },
+  {
+   "w": 4,
+   "term": "Fall",
+   "title": "Word problems within 20",
+   "ma": [
+    "g2:ma:0:0",
+    "g2:ma:0:1"
+   ],
+   "en": [
+    "g2:en:1:0",
+    "g2:en:1:1",
+    "g2:en:1:9",
+    "g2:en:2:0",
+    "g2:en:3:1"
+   ],
+   "spell": {
+    "rule": "Long a spelled ai and ay: ai in the middle of a word, ay at the end (rain, paint, day, play)",
+    "words": [
+     "rain",
+     "train",
+     "paint",
+     "mail",
+     "day",
+     "play",
+     "stay",
+     "gray",
+     "because",
+     "any"
+    ]
+   },
+   "read": "A nonfiction book about an animal – look at the pictures first and guess what you'll learn.",
+   "days": [
+    {
+     "d": "Mon",
+     "ma": "Act out problems with toys: '9 cars are in a box. 4 more are added. How many now?' Then 'Some cars were in a box. 5 more came and now there are 12. How many were there at first?' Write ☐ + 5 = 12.",
+     "en": "Read a nonfiction animal book. Ask: What does it eat? Where does it live? How does it stay safe? Your child finds the page that answers each question."
+    },
+    {
+     "d": "Tue",
+     "ma": "Compare problems: 'You have 14 grapes and I have 9. How many more do you have?' Line up two rows of pasta to see the difference, then solve two more like it.",
+     "en": "Main topic: read one section. Your child says in one sentence what the whole section is about, then what one paragraph inside it focuses on."
+    },
+    {
+     "d": "Wed",
+     "ma": "Bar drawing: draw a long bar for the total and split it into two parts. Use it for 'There are 17 birds. 8 fly away. How many are left?' and '6 red apples and some green apples make 15.'",
+     "en": "ai or ay? Write rain, paint, train, mail, day, play, stay and gray. Your child sorts them, notices that ay comes at the end, then adds one more word to each group."
+    },
+    {
+     "d": "Thu",
+     "ma": "Your child makes up a word problem about the kitchen (spoons, eggs, cups) for you to solve aloud, then you swap. Write the equation for each, using ☐ for the unknown.",
+     "en": "Fact writing: your child writes three facts about the animal as full sentences, with a heading and a closing sentence such as 'Owls are amazing night hunters.'"
+    },
+    {
+     "d": "Fri",
+     "ma": "Friday check: three word problems – one adding to, one taking from, one comparing – each with an equation using ☐. Your child draws a picture or bar for one of them.",
+     "en": "Dictation: 'The train was late because of the rain.' and 'Can we play all day?' Check the ai and ay words, the question mark and the spelling of because."
+    }
+   ]
+  },
+  {
+   "w": 5,
+   "term": "Fall",
+   "title": "Place value: hundreds, tens and ones",
+   "ma": [
+    "g2:ma:1:0"
+   ],
+   "en": [
+    "g2:en:1:4",
+    "g2:en:5:3",
+    "g2:en:3:1",
+    "g2:en:2:0",
+    "g2:en:4:2"
+   ],
+   "spell": {
+    "rule": "Long e spelled ee and ea (seed, sleep, beach, team)",
+    "words": [
+     "seed",
+     "green",
+     "sleep",
+     "tree",
+     "seat",
+     "beach",
+     "team",
+     "read",
+     "people",
+     "very"
+    ]
+   },
+   "read": "A nonfiction book with headings, bold words and a glossary – about space, weather or the human body.",
+   "days": [
+    {
+     "d": "Mon",
+     "ma": "Bundle it: count 100 pasta pieces or paper clips into piles of ten. Ten tens make one hundred. Show 1 hundred, 3 tens and 4 ones and say the number: 134.",
+     "en": "Text feature tour: in a nonfiction book find the table of contents, a heading, a caption, a bold word and the glossary. Your child explains what each one is for."
+    },
+    {
+     "d": "Tue",
+     "ma": "Quick draw: you say 253; your child draws 2 hundred squares, 5 ten sticks and 3 ones dots. Then draw 407 and 360 and talk about what each zero means.",
+     "en": "Glossary detective: pick two bold words. Your child guesses their meaning from the sentence around them, then checks the glossary. Were the guesses right?"
+    },
+    {
+     "d": "Wed",
+     "ma": "What's it worth? Write 528 and point at each digit: the 5 means 5 hundreds or 500, the 2 means 2 tens or 20, the 8 means 8 ones. Then do 706 and 870.",
+     "en": "Long e sort: write seed, green, sleep, tree, seat, beach, team and read. Sort them into ee and ea lists and read each list fast. Add one more word to each."
+    },
+    {
+     "d": "Thu",
+     "ma": "Trade game: draw 9 ten sticks and add one more. Ten tens make 1 hundred, so swap them for a square. Then show that 300 is 3 hundreds, 0 tens and 0 ones, or 30 tens.",
+     "en": "Make a mini fact page about one thing from the book: a heading, three fact sentences, one word in bold (traced over darkly) and a one-line glossary at the bottom explaining it."
+    },
+    {
+     "d": "Fri",
+     "ma": "Friday check: What is the 4 worth in 342? Draw 615. Write the number with 7 hundreds, 0 tens and 9 ones. How many tens make 100? How many hundreds are in 800?",
+     "en": "Dictation: 'People sleep in the green tent by the beach.' and 'Read me a very good book.' Then your child reads you their fact page and you ask one question to find out more."
+    }
+   ]
+  },
+  {
+   "w": 6,
+   "term": "Fall",
+   "title": "Counting and skip-counting to 1,000",
+   "ma": [
+    "g2:ma:1:1"
+   ],
+   "en": [
+    "g2:en:0:1",
+    "g2:en:4:1",
+    "g2:en:2:1",
+    "g2:en:5:0",
+    "g2:en:3:2"
+   ],
+   "spell": {
+    "rule": "Long o spelled oa, ow and oe (boat, snow, toe)",
+    "words": [
+     "boat",
+     "coat",
+     "road",
+     "snow",
+     "grow",
+     "show",
+     "toe",
+     "goes",
+     "does",
+     "only"
+    ]
+   },
+   "read": "Fables – short animal stories with a lesson at the end. Read one each day.",
+   "days": [
+    {
+     "d": "Mon",
+     "ma": "Skip-count by 10s from 0 to 200 while clapping, then start at 30, then at 45 (45, 55, 65 …). Write the 45 list up to 145.",
+     "en": "Read a fable. Your child retells it in four sentences using first, next, then and last, and says the lesson in their own words."
+    },
+    {
+     "d": "Tue",
+     "ma": "Count by 5s using nickels or tally marks: 5, 10, 15 … 100. Then keep going from 100 to 200. What digits do the numbers always end in?",
+     "en": "Irregular past tense: change sit, hide, tell, run, go and see into the past (sat, hid, told, ran, went, saw). Use three of them to retell yesterday's fable."
+    },
+    {
+     "d": "Wed",
+     "ma": "Count by 100s: 100, 200 … 1,000. Then start at 50 (50, 150, 250 …) and at 23 (23, 123, 223 …). Which digit changes each time?",
+     "en": "Read a new fable aloud three times – once to learn the words, once more smoothly, once with voices for the animals. Your child picks the best version to read to someone."
+    },
+    {
+     "d": "Thu",
+     "ma": "Count across a hundred: count by ones from 96 to 112, from 387 to 405 and from 695 to 710. Write the tricky part where the hundreds digit changes.",
+     "en": "Your child writes a new ending for one fable: what if the character had made a different choice? Three to five sentences, ending with a new lesson."
+    },
+    {
+     "d": "Fri",
+     "ma": "Friday check: count by 5s from 35 to 85; by 10s from 470 to 560; by 100s from 200 to 1,000; fill in 298, 299, ☐, ☐, 302.",
+     "en": "Dictation: 'Does the snow show on the road?' and 'The goat only goes by boat.' Then your child tells the lesson of their favorite fable this week."
+    }
+   ]
+  },
+  {
+   "w": 7,
+   "term": "Fall",
+   "title": "Reading and writing numbers to 1,000",
+   "ma": [
+    "g2:ma:1:2"
+   ],
+   "en": [
+    "g2:en:0:3",
+    "g2:en:4:4",
+    "g2:en:2:1",
+    "g2:en:5:4"
+   ],
+   "spell": {
+    "rule": "Long i spelled igh, y and ie (night, fly, pie)",
+    "words": [
+     "night",
+     "light",
+     "high",
+     "fly",
+     "try",
+     "sky",
+     "pie",
+     "tie",
+     "again",
+     "four"
+    ]
+   },
+   "read": "A poetry collection – read two or three poems each day and choose a favorite to learn.",
+   "days": [
+    {
+     "d": "Mon",
+     "ma": "Number names: write one to nineteen, then twenty, thirty … ninety and hundred on paper scraps. Build 'three hundred forty-two' from the cards and write it in numerals.",
+     "en": "Read three rhyming poems aloud. Your child claps the beat, then finds the rhyming pairs and any repeated lines. Talk about how the beat makes the poem fun to say."
+    },
+    {
+     "d": "Tue",
+     "ma": "Expanded form: write 586 as 500 + 80 + 6. Do 349, 702 and 960. Then go backward: 400 + 70 + 3 = ?",
+     "en": "Alliteration: find a line in a poem where several words start with the same sound. Make up your own, e.g. 'Silly snakes slide slowly', then two more about family pets or foods."
+    },
+    {
+     "d": "Wed",
+     "ma": "Three ways: you say a number (such as 815); your child writes it in numerals, in words and in expanded form. Do four numbers, including one with a zero in the tens.",
+     "en": "Shades of meaning: write walk, stroll, march, stomp and tiptoe on cards. Act each one out and line them up from quietest to loudest. Use one in a sentence."
+    },
+    {
+     "d": "Thu",
+     "ma": "Hide-and-seek numbers: write ten three-digit numbers in words on scraps and hide them around a room. Your child finds each one and writes it in numerals beside it.",
+     "en": "Learn four lines of a favorite poem by heart. Record it on a phone or tablet with expression, play it back, decide what to improve and record it again."
+    },
+    {
+     "d": "Fri",
+     "ma": "Friday check: write 'six hundred nine' in numerals; write 473 in words and in expanded form; what is 300 + 5? What is 900 + 40 + 1?",
+     "en": "Dictation: 'The light was high in the night sky.' and 'I will try again at four.' Then your child performs their poem for the family."
+    }
+   ]
+  },
+  {
+   "w": 8,
+   "term": "Fall",
+   "title": "Consolidation: facts, odd and even, place value",
+   "ma": [
+    "g2:ma:0:1",
+    "g2:ma:0:2",
+    "g2:ma:1:0",
+    "g2:ma:1:1",
+    "g2:ma:1:2"
+   ],
+   "en": [
+    "g2:en:0:8",
+    "g2:en:2:1",
+    "g2:en:3:3",
+    "g2:en:4:3",
+    "g2:en:5:1"
+   ],
+   "spell": {
+    "rule": "Review: short vowels, silent e and the vowel teams ai, ay, ee, ea, oa, ow, igh",
+    "words": [
+     "plum",
+     "smile",
+     "paint",
+     "play",
+     "beach",
+     "coat",
+     "snow",
+     "night",
+     "said",
+     "because"
+    ]
+   },
+   "read": "Re-read a favorite book from the last seven weeks and choose a page to perform aloud.",
+   "days": [
+    {
+     "d": "Mon",
+     "ma": "Fact sprint: write 20 mixed addition and subtraction facts within 20. Your child answers them all, then tries the missed ones again a second time.",
+     "en": "Re-read a favorite story. Your child sums it up in three sentences, then gives it a rating out of five and one reason for the rating."
+    },
+    {
+     "d": "Tue",
+     "ma": "Odd or even totals: pick two number cards (0–9) and add them. Is the total odd or even? Prove it by pairing pasta. Play six rounds and look for a pattern.",
+     "en": "Spelling review game: you say a word from the past seven weeks; your child spells it aloud and names the rule or vowel team (silent e, ai, ee …)."
+    },
+    {
+     "d": "Wed",
+     "ma": "Draw 365, 506 and 740 as hundred squares, ten sticks and ones dots. Write each one in words and in expanded form.",
+     "en": "Edit a story written earlier this fall: add one detail, fix two spellings and check that every sentence starts with a capital and ends with punctuation."
+    },
+    {
+     "d": "Thu",
+     "ma": "Skip-counting chain: count by 10s from 250 to 350, by 100s back down to 50, then by 5s from 50 to 100.",
+     "en": "Your child tells a family member about the best thing they did this month, speaking clearly in full sentences and including who, where and one good detail."
+    },
+    {
+     "d": "Fri",
+     "ma": "Friday check: 8 + 7, 16 – 9, 6 + 6, 13 – 5. Is 17 odd or even? Write 452 in expanded form and in words. Count by 100s from 140 to 640.",
+     "en": "Dictation: 'Because it was a sunny day, we went to the beach.' and 'They said the coat was in the snow.' Check every review spelling and the comma."
+    }
+   ]
+  },
+  {
+   "w": 9,
+   "term": "Fall",
+   "title": "Comparing numbers; 10 and 100 more or less",
+   "ma": [
+    "g2:ma:1:3",
+    "g2:ma:1:7"
+   ],
+   "en": [
+    "g2:en:1:2",
+    "g2:en:1:6",
+    "g2:en:5:3",
+    "g2:en:3:1",
+    "g2:en:2:0"
+   ],
+   "spell": {
+    "rule": "Compound words: two small words join to make a new word (sun + shine = sunshine)",
+    "words": [
+     "sunshine",
+     "rainbow",
+     "bedroom",
+     "backpack",
+     "cupcake",
+     "birthday",
+     "mailbox",
+     "football",
+     "something",
+     "every"
+    ]
+   },
+   "read": "A how-to book or kids' craft book – look at the numbered steps and the diagrams.",
+   "days": [
+    {
+     "d": "Mon",
+     "ma": "Greater or less: write 462 and 426. Compare hundreds first, then tens, then ones, and write 462 > 426. Do five more pairs, including 709 and 790.",
+     "en": "Read a how-to text (a recipe, craft or game rules). Talk about why the steps are numbered and what would happen if you skipped step 2."
+    },
+    {
+     "d": "Tue",
+     "ma": "Alligator mouth: draw < and > as a hungry mouth that opens toward the bigger number. Compare 318 and 381, 504 and 540, 999 and 1,000, 250 and 205.",
+     "en": "Diagrams: look at a picture or diagram in the how-to text. Your child explains what it shows that the words don't, e.g. which way to fold the paper."
+    },
+    {
+     "d": "Wed",
+     "ma": "10 more, 10 less: start at 450 and say 10 more and 10 less (460, 440). Then do 723, 108 and 395 – watch the jump to 405.",
+     "en": "Cut word cards for sun, shine, rain, bow, bed, room, back, pack, cup and cake. Join them into compound words and use the two parts to explain each meaning."
+    },
+    {
+     "d": "Thu",
+     "ma": "100 more, 100 less: on a number path drawn on paper, jump 100 forward and back from 237. Do the same from 812, 150 and 904. Which digit changes?",
+     "en": "Write instructions for a simple job – making a sandwich or brushing teeth – with a title, a 'You need' list and four numbered steps. Add a small labeled drawing for one step."
+    },
+    {
+     "d": "Fri",
+     "ma": "Friday check: put >, < or = between 547 and 574, 830 and 803, 600 and 6 hundreds. What is 10 more than 395? 100 less than 702? 10 less than 900?",
+     "en": "Dictation: 'On my birthday I got a cupcake and a new backpack.' and 'Is there something in the mailbox?' Check the compound words and the question mark."
+    }
+   ]
+  },
+  {
+   "w": 10,
+   "term": "Fall",
+   "title": "Adding within 100",
+   "ma": [
+    "g2:ma:1:4",
+    "g2:ma:2:5"
+   ],
+   "en": [
+    "g2:en:3:0",
+    "g2:en:0:0",
+    "g2:en:4:0",
+    "g2:en:5:4"
+   ],
+   "spell": {
+    "rule": "R-controlled vowels ar and or (car, park, horn, storm)",
+    "words": [
+     "car",
+     "star",
+     "park",
+     "farm",
+     "horn",
+     "corn",
+     "storm",
+     "short",
+     "your",
+     "warm"
+    ]
+   },
+   "read": "A picture book where a character has a strong opinion – something they love or can't stand.",
+   "days": [
+    {
+     "d": "Mon",
+     "ma": "Tens and ones: for 34 + 25 add the tens (30 + 20 = 50), then the ones (4 + 5 = 9), so 59. Draw ten sticks and ones dots to check. Do 42 + 36 and 51 + 27.",
+     "en": "Read a picture book about a character with a strong opinion. Ask who, what, where, when, why and how questions, then ask 'Do you agree with the character? Why?'"
+    },
+    {
+     "d": "Tue",
+     "ma": "Number line: draw an empty line. Solve 47 + 30 with three jumps of 10. Then 47 + 35: jump 30, then 5. Do 26 + 48 the same way.",
+     "en": "ar or or? Write car, star, park, farm, horn, corn, storm and short. Your child sorts and reads them, then writes a sentence using two of each."
+    },
+    {
+     "d": "Wed",
+     "ma": "Make a ten: 38 + 7 – take 2 from the 7 to make 40, then 40 + 5 = 45. Try 58 + 6, 29 + 14 and 67 + 25.",
+     "en": "Opinion words: put like, love, adore, dislike and can't stand in order from strongest to weakest feeling. Use two of them in sentences about foods."
+    },
+    {
+     "d": "Thu",
+     "ma": "Regroup: for 46 + 28 draw 4 tens 6 ones and 2 tens 8 ones. The 14 ones become 1 ten and 4 ones: 74. Do 37 + 45 and 59 + 33.",
+     "en": "Write an opinion: 'The best season is … because …'. Include the opinion, two reasons joined with because and also, and a closing sentence."
+    },
+    {
+     "d": "Fri",
+     "ma": "Friday check: 53 + 24, 36 + 9, 48 + 27, 65 + 30. Show one on a number line and explain the steps for another out loud.",
+     "en": "Dictation: 'Your car is in the park.' and 'The storm was short.' Then your child reads the opinion piece to a family member, who asks a question and adds their own view."
+    }
+   ]
+  },
+  {
+   "w": 11,
+   "term": "Fall",
+   "title": "Subtracting within 100",
+   "ma": [
+    "g2:ma:1:4",
+    "g2:ma:2:5",
+    "g2:ma:1:8"
+   ],
+   "en": [
+    "g2:en:3:0",
+    "g2:en:1:7",
+    "g2:en:3:3",
+    "g2:en:5:5"
+   ],
+   "spell": {
+    "rule": "R-controlled er, ir and ur all make the same sound (her, bird, turn)",
+    "words": [
+     "her",
+     "fern",
+     "bird",
+     "girl",
+     "first",
+     "turn",
+     "nurse",
+     "burn",
+     "were",
+     "word"
+    ]
+   },
+   "read": "A nonfiction article or book that tries to convince you – why we should save water, recycle or plant trees.",
+   "days": [
+    {
+     "d": "Mon",
+     "ma": "Subtract tens: for 85 – 30 count back by tens on a number line (75, 65, 55). Then 85 – 34: back 30, then back 4. Do 72 – 41.",
+     "en": "Read a convincing text. Your child finds the author's main point and two reasons the author gives for it. Are they good reasons?"
+    },
+    {
+     "d": "Tue",
+     "ma": "Regroup: 52 – 27. Draw 5 tens 2 ones. You can't take 7 ones from 2, so break a ten into 10 ones (4 tens, 12 ones). Take away 2 tens 7 ones: 25. Do 63 – 38.",
+     "en": "Write her, fern, bird, girl, first, turn, nurse and burn. Your child reads them all and notices they share one sound. Make a silly sentence with one word for each spelling."
+    },
+    {
+     "d": "Wed",
+     "ma": "Count up to subtract: 71 – 46. Start at 46, jump 4 to 50, 20 to 70, 1 to 71 – a total jump of 25. Try 83 – 57 and 90 – 64.",
+     "en": "Plan an opinion piece on a topic your child cares about (best pet, best game): the opinion and three reasons, each linked with because, also or and."
+    },
+    {
+     "d": "Thu",
+     "ma": "Explain it: solve 64 – 29 two ways (regrouping and counting up). Your child explains why both give 35, then checks by adding 35 + 29.",
+     "en": "Write and revise the opinion piece: add a describing word you have read or heard this week ('enormous', 'gently'), a closing sentence, and fix two spellings together."
+    },
+    {
+     "d": "Fri",
+     "ma": "Friday check: 78 – 35, 60 – 24, 91 – 46, 50 – 8. Check one by adding. Explain why 40 – 19 gives the same answer as 41 – 20.",
+     "en": "Dictation: 'The bird was the first to turn and fly.' and 'Were her ferns green?' Then your child reads their finished opinion piece aloud."
+    }
+   ]
+  },
+  {
+   "w": 12,
+   "term": "Fall",
+   "title": "Adding three and four numbers",
+   "ma": [
+    "g2:ma:1:5",
+    "g2:ma:1:8"
+   ],
+   "en": [
+    "g2:en:5:1",
+    "g2:en:1:2",
+    "g2:en:1:9",
+    "g2:en:3:6"
+   ],
+   "spell": {
+    "rule": "Diphthongs ou and ow (out, cloud, cow, town); ow often comes at the end of a word",
+    "words": [
+     "out",
+     "house",
+     "cloud",
+     "round",
+     "cow",
+     "town",
+     "brown",
+     "clown",
+     "many",
+     "our"
+    ]
+   },
+   "read": "A nonfiction book about harvest time, farming or how food gets to the table.",
+   "days": [
+    {
+     "d": "Mon",
+     "ma": "Add three numbers: 23 + 15 + 7. Look for a friendly pair first (23 + 7 = 30), then add 15 to get 45. Do 16 + 24 + 18 and 35 + 12 + 5.",
+     "en": "Read about how food gets from a farm to the table. Your child tells the steps in order and explains how each step leads to the next."
+    },
+    {
+     "d": "Tue",
+     "ma": "Sock toss: label four bowls 10, 15, 20 and 25. Your child throws four rolled-up socks and adds the four scores. Play three rounds and compare totals.",
+     "en": "Capitals for holidays and places: write Thanksgiving, Fourth of July, your town and your state. Your child fixes 'we visit our cousins in ohio on thanksgiving.'"
+    },
+    {
+     "d": "Wed",
+     "ma": "Column addition: write 34 + 21 + 12 + 18 in a column. Add the ones (15), write 5 and carry 1 ten, then add the tens: 85. Do 26 + 13 + 31 + 17.",
+     "en": "Write out, house, cloud, round, cow, town, brown and clown. Your child sorts them into ou and ow and writes one sentence using three of the words."
+    },
+    {
+     "d": "Thu",
+     "ma": "Explain why order doesn't matter: add 18 + 25 + 12 left to right, then by making 30 first. Your child says which way was easier and why it gives the same total.",
+     "en": "Question and answer: your child picks a question ('Where do potatoes grow?'). Find the answer together in a book or by remembering a trip to a farm or store, and write it as a sentence."
+    },
+    {
+     "d": "Fri",
+     "ma": "Friday check: 15 + 25 + 30; 22 + 13 + 18 + 7; 41 + 19 + 26; 12 + 34 + 21 + 33. Show one in a column.",
+     "en": "Dictation: 'Our town has a parade on Thanksgiving.' and 'Many brown cows are out by the house.' Check the capital for the holiday and the ou and ow words."
+    }
+   ]
+  },
+  {
+   "w": 13,
+   "term": "Fall",
+   "title": "Two-step word problems",
+   "ma": [
+    "g2:ma:0:0",
+    "g2:ma:1:4"
+   ],
+   "en": [
+    "g2:en:5:1",
+    "g2:en:5:2",
+    "g2:en:3:3",
+    "g2:en:4:5"
+   ],
+   "spell": {
+    "rule": "Diphthongs oi and oy (coin, boil, boy, enjoy); oy usually comes at the end of a word",
+    "words": [
+     "coin",
+     "point",
+     "boil",
+     "soil",
+     "boy",
+     "toy",
+     "joy",
+     "enjoy",
+     "friend",
+     "love"
+    ]
+   },
+   "read": "Letters and postcards in a story or book – notice how a letter starts and ends.",
+   "days": [
+    {
+     "d": "Mon",
+     "ma": "Two steps: 'There were 45 apples. We ate 12, then picked 20 more. How many now?' Draw a bar for each step and write two equations.",
+     "en": "Letter layout: look at a letter, card or note together. Point out the greeting (Dear …,), the body, the closing (Love, / Your friend,) and the commas after each."
+    },
+    {
+     "d": "Tue",
+     "ma": "Start unknown: 'Some birds were on a fence. 17 flew away and 28 were left. How many were there at first?' Write ☐ – 17 = 28 and solve by adding.",
+     "en": "oi or oy? Sort coin, point, boil, soil, boy, toy, joy and enjoy. Then use the rule to spell noise, join and annoy."
+    },
+    {
+     "d": "Wed",
+     "ma": "Compare in two steps: 'You have 36 stickers and I have 19. If I get 10 more, who has more, and by how much?' Draw two bars to compare.",
+     "en": "Formal or informal: compare 'Hey! Thanks for the toy!' with 'Thank you very much for the kind gift.' Who would each one be said to? Your child writes one sentence for a teacher and one for a friend."
+    },
+    {
+     "d": "Thu",
+     "ma": "Your child writes a two-step problem about the family (shoes, plates, books) and solves it with equations. Then you solve it too to check.",
+     "en": "Write a thank-you letter to a relative or neighbor: greeting, three complete sentences, closing and signature. Read it back and fix commas and capitals."
+    },
+    {
+     "d": "Fri",
+     "ma": "Friday check: a two-step adding problem, one with the start unknown and a compare problem. Write an equation with ☐ for each.",
+     "en": "Dictation as a mini letter: 'Dear Grandma,' then 'Thank you for the shiny coin.' then 'Your friend,'. Check the commas after the greeting and closing, then deliver the thank-you letter."
+    }
+   ]
+  },
+  {
+   "w": 14,
+   "term": "Fall",
+   "title": "Money: counting coins",
+   "ma": [
+    "g2:ma:2:7"
+   ],
+   "en": [
+    "g2:en:0:5",
+    "g2:en:5:1",
+    "g2:en:2:1",
+    "g2:en:0:2"
+   ],
+   "spell": {
+    "rule": "Contractions: an apostrophe shows where letters are left out (can't, it's, we'll)",
+    "words": [
+     "can't",
+     "don't",
+     "isn't",
+     "didn't",
+     "I'm",
+     "it's",
+     "we'll",
+     "you're",
+     "want",
+     "what"
+    ]
+   },
+   "read": "A story with lots of conversation – read the characters' words in different voices.",
+   "days": [
+    {
+     "d": "Mon",
+     "ma": "Coin sort: gather coins from a purse or jar. Name the penny (1¢), nickel (5¢), dime (10¢) and quarter (25¢). Sort them and count each pile by skip-counting.",
+     "en": "Read a story with dialogue. Your child reads one character's lines and you read another's, in a different voice for each. Talk about how each sees the problem differently."
+    },
+    {
+     "d": "Tue",
+     "ma": "Count mixed coins starting with the biggest: 1 quarter, 2 dimes, 1 nickel, 3 pennies → 25, 35, 45, 50, 51, 52, 53 = 53¢. Count four more handfuls.",
+     "en": "Contractions: write do not, can not, is not, did not, I am, it is, we will and you are. Your child writes each contraction with the apostrophe where the letters were taken out."
+    },
+    {
+     "d": "Wed",
+     "ma": "Same amount, different coins: make 30¢ three ways (3 dimes; 1 quarter and 1 nickel; 6 nickels). Then make 45¢ two ways.",
+     "en": "Pick two characters from the story. How does each respond to the main problem? Your child completes 'At first ___ felt … but then …' for each one."
+    },
+    {
+     "d": "Thu",
+     "ma": "Pretend store: label five household items with prices up to 99¢. Your child pays the exact amount with real coins and writes each price with the ¢ sign.",
+     "en": "Readers' theater: practice a page of dialogue three times, then perform it for the family with different voices and expression."
+    },
+    {
+     "d": "Fri",
+     "ma": "Friday check: count 2 quarters, 1 dime and 4 pennies; show 67¢ with the fewest coins; which is more, 3 dimes or 7 nickels? Write each amount with ¢.",
+     "en": "Dictation: 'I'm sure it's not the right way.' and 'We'll go if you're ready, but don't be late.' Check every apostrophe."
+    }
+   ]
+  },
+  {
+   "w": 15,
+   "term": "Fall",
+   "title": "Money: dollars, cents and word problems",
+   "ma": [
+    "g2:ma:2:7",
+    "g2:ma:0:0"
+   ],
+   "en": [
+    "g2:en:0:6",
+    "g2:en:5:0",
+    "g2:en:5:5",
+    "g2:en:3:2"
+   ],
+   "spell": {
+    "rule": "Adding -s, -es, -ed and -ing with no change to the base word (jumps, boxes, played, helping)",
+    "words": [
+     "jumps",
+     "boxes",
+     "wishes",
+     "played",
+     "jumped",
+     "helping",
+     "fixing",
+     "rested",
+     "who",
+     "work"
+    ]
+   },
+   "read": "A picture book with detailed illustrations – look for clues in the pictures that the words don't tell you.",
+   "days": [
+    {
+     "d": "Mon",
+     "ma": "Dollars and cents: a dollar is 100¢. Count 4 quarters to make $1.00. Show $1.35 with a dollar bill (or a paper one) and coins, and write it with the $ sign and a decimal point.",
+     "en": "Picture walk: before reading, look at the illustrations and predict what happens. Afterward, find a picture that shows a feeling or the setting better than the words do."
+    },
+    {
+     "d": "Tue",
+     "ma": "Word problem: 'You have 2 dimes and 3 pennies. Grandpa gives you a quarter. How many cents do you have now?' Solve with coins, then write an equation.",
+     "en": "Adjective or adverb? Adjectives describe nouns (a loud dog); adverbs describe verbs (the dog barked loudly). Sort quick/quickly, soft/softly, happy/happily and use one of each in a sentence."
+    },
+    {
+     "d": "Wed",
+     "ma": "Toy store: draw three toys priced 35¢, 48¢ and 60¢. 'Which two can you buy with 90¢? How much is left?' Try all the pairs.",
+     "en": "Endings: add -s or -es, -ed and -ing to jump, box, wish, play, help, fix and rest. Notice that -es goes after x, sh, ch and s."
+    },
+    {
+     "d": "Thu",
+     "ma": "Change: 'A pencil costs 65¢ and you pay with a dollar. What is your change?' Count up from 65¢ to $1.00 with coins. Then do prices of 40¢ and 85¢.",
+     "en": "Write a short story about a shopping trip (real or made up) using first, next, then and finally. Use two adjectives and two adverbs to describe actions and feelings."
+    },
+    {
+     "d": "Fri",
+     "ma": "Friday check: show $1.25 with a dollar and a quarter; 3 dimes + 2 nickels + 4 pennies = ?¢; you have 75¢ and spend 38¢ – how much is left?",
+     "en": "Dictation: 'Who fixed the boxes so quickly?' and 'She jumped and played happily.' Check the -ed endings and the adverbs."
+    }
+   ]
+  },
+  {
+   "w": 16,
+   "term": "Fall",
+   "title": "Consolidation: adding, subtracting and money",
+   "ma": [
+    "g2:ma:1:4",
+    "g2:ma:1:5",
+    "g2:ma:2:7",
+    "g2:ma:0:0",
+    "g2:ma:1:3"
+   ],
+   "en": [
+    "g2:en:3:2",
+    "g2:en:3:3",
+    "g2:en:3:4",
+    "g2:en:4:3",
+    "g2:en:0:8"
+   ],
+   "spell": {
+    "rule": "Review: ar, or, er, ir, ur; ou, ow, oi, oy; contractions and compound words",
+    "words": [
+     "star",
+     "storm",
+     "bird",
+     "turn",
+     "cloud",
+     "coin",
+     "toy",
+     "don't",
+     "birthday",
+     "friend"
+    ]
+   },
+   "read": "A collection of winter stories read aloud before bed.",
+   "days": [
+    {
+     "d": "Mon",
+     "ma": "Mixed practice: 47 + 38, 26 + 19 + 14, 93 – 57, 70 – 26. Your child chooses a strategy for each and explains it.",
+     "en": "Choose a story written this fall. Read it together and pick one part to make better: more detail, stronger time words or a better ending."
+    },
+    {
+     "d": "Tue",
+     "ma": "Money review: count a handful of coins and write the amount with ¢. Then make the same amount with fewer coins.",
+     "en": "Publish the story: type it on a computer or tablet (or copy it in best handwriting) and add a title. Show your child how to fix a typo with the delete key."
+    },
+    {
+     "d": "Wed",
+     "ma": "Order six three-digit numbers written on scraps from least to greatest, then write two comparisons with < or >.",
+     "en": "Spelling relay: you say a review word; your child writes it and circles the vowel pattern (ar, or, er, ir, ur, ou, ow, oi, oy)."
+    },
+    {
+     "d": "Thu",
+     "ma": "Gift problem: 'A card costs 45¢ and a sticker costs 30¢. You have 85¢. Can you buy both? What is left?' Then your child makes one up with three items.",
+     "en": "Add two pictures to the published story. Your child reads it aloud to the family, loudly and clearly enough for everyone to hear, and answers their questions."
+    },
+    {
+     "d": "Fri",
+     "ma": "Friday check: 56 + 27; 81 – 45; 12 + 18 + 25 + 30; 4 quarters and 3 dimes = $?; compare 615 and 651; one two-step word problem.",
+     "en": "Dictation: 'Don't turn the star around.' and 'My friend found a coin on my birthday.' Then read favorite pieces of this term's writing aloud to celebrate."
+    }
+   ]
+  },
+  {
+   "w": 17,
+   "term": "Winter",
+   "title": "Telling time to five minutes",
+   "ma": [
+    "g2:ma:2:6",
+    "g2:ma:1:1"
+   ],
+   "en": [
+    "g2:en:0:7",
+    "g2:en:0:1",
+    "g2:en:2:0",
+    "g2:en:4:0"
+   ],
+   "spell": {
+    "rule": "Two sounds of oo: moon and food, book and foot",
+    "words": [
+     "moon",
+     "food",
+     "spoon",
+     "school",
+     "book",
+     "look",
+     "foot",
+     "wood",
+     "should",
+     "pull"
+    ]
+   },
+   "read": "Two versions of the same folktale from different cultures, such as a Cinderella-type tale from two countries.",
+   "days": [
+    {
+     "d": "Mon",
+     "ma": "Make a clock from a paper plate or a drawn circle, with 1–12 and two hands. Show 3:00, 7:30 and 11:00. Which hand is longer, and what does each one show?",
+     "en": "Read one version of a folktale from the library. Your child retells it and says what lesson it teaches."
+    },
+    {
+     "d": "Tue",
+     "ma": "Count by 5s around the clock: each number is 5 more minutes (1 = 5, 2 = 10 … 12 = 60). Write the minutes outside each number on your clock.",
+     "en": "Read a second version of the tale from a different culture. Make a two-column chart of what is the same and what is different (characters, setting, helper, ending)."
+    },
+    {
+     "d": "Wed",
+     "ma": "Five-minute times: show 4:15, 9:35, 2:50 and 6:05 on the paper clock. Read a real clock in the house three times today and write the time.",
+     "en": "oo sort: write moon, food, spoon, school, book, look, foot and wood. Your child reads each and sorts them by sound (oo as in moon, oo as in book)."
+    },
+    {
+     "d": "Thu",
+     "ma": "Digital to analog: write 8:25, 12:40 and 3:55 like a digital clock. Your child shows each one on the paper clock, then makes times for you to read.",
+     "en": "Talk about which version your child liked better. Take turns, listen all the way through, then build on each other: 'I agree because …' or 'I see it differently because …'"
+    },
+    {
+     "d": "Fri",
+     "ma": "Friday check: draw hands for 10:20, 5:45 and 1:05. Read three times you set on the clock. How many minutes are there from 3:00 to 3:25?",
+     "en": "Dictation: 'Look at the moon from the school.' and 'You should put the book on the wood shelf.' Then your child names one way the two tales were alike."
+    }
+   ]
+  },
+  {
+   "w": 18,
+   "term": "Winter",
+   "title": "Time: a.m., p.m. and the daily schedule",
+   "ma": [
+    "g2:ma:2:6"
+   ],
+   "en": [
+    "g2:en:1:6",
+    "g2:en:1:2",
+    "g2:en:1:3",
+    "g2:en:3:1"
+   ],
+   "spell": {
+    "rule": "The oo sound spelled ew, ue and u_e (new, blue, flute)",
+    "words": [
+     "new",
+     "grew",
+     "chew",
+     "blue",
+     "true",
+     "glue",
+     "flute",
+     "tune",
+     "two",
+     "eight"
+    ]
+   },
+   "read": "A science book about the water cycle, the seasons or weather, with diagrams.",
+   "days": [
+    {
+     "d": "Mon",
+     "ma": "a.m. is from midnight to noon, p.m. is from noon to midnight. List daily events (breakfast, lunch, bedtime, school starts, dinner) and write a time for each with a.m. or p.m.",
+     "en": "Read about the water cycle or weather. Look at a diagram together and your child explains what the arrows show and how it helps make sense of the words."
+    },
+    {
+     "d": "Tue",
+     "ma": "Day schedule: make a timeline of a weekend day with six events, each with a time to the nearest 5 minutes. Draw a clock face for two of them.",
+     "en": "Science words: find three topic words (evaporate, cloud, temperature). Your child uses the sentence and the pictures to explain what each one means."
+    },
+    {
+     "d": "Wed",
+     "ma": "Clock watch: pick three times to check the clock today (around 10:35 a.m., 2:50 p.m. and 6:15 p.m.). Your child reads the analog clock and writes the exact time with a.m. or p.m.",
+     "en": "ew, ue, u_e: write new, grew, chew, blue, true, glue, flute and tune. They all make the same sound. Your child writes a sentence using one word of each spelling."
+    },
+    {
+     "d": "Thu",
+     "ma": "Time in words: match 'seven thirty in the morning' to 7:30 a.m., 'quarter after four in the afternoon' to 4:15 p.m., and make up three more for each other to write.",
+     "en": "Explain the process: your child draws the diagram from memory and writes three sentences explaining how one step leads to the next, using first, then and finally, plus a closing sentence."
+    },
+    {
+     "d": "Fri",
+     "ma": "Friday check: show 7:45 a.m. and 4:10 p.m. on the paper clock; read three clocks you set; is dinner usually a.m. or p.m.? Write 'eight twenty-five at night' in digits.",
+     "en": "Dictation: 'The blue cloud grew and grew.' and 'It is true that we need two cups of water.' Then your child explains the diagram to another family member."
+    }
+   ]
+  },
+  {
+   "w": 19,
+   "term": "Winter",
+   "title": "Measuring in inches and feet",
+   "ma": [
+    "g2:ma:2:0",
+    "g2:ma:2:2"
+   ],
+   "en": [
+    "g2:en:3:5",
+    "g2:en:3:6",
+    "g2:en:1:5",
+    "g2:en:1:0",
+    "g2:en:1:4"
+   ],
+   "spell": {
+    "rule": "Soft c and soft g: c says /s/ and g says /j/ before e, i or y; dge after a short vowel (city, cage, badge)",
+    "words": [
+     "city",
+     "face",
+     "nice",
+     "cage",
+     "page",
+     "gem",
+     "badge",
+     "bridge",
+     "once",
+     "done"
+    ]
+   },
+   "read": "Two or three nonfiction books about one animal, for a family research project.",
+   "days": [
+    {
+     "d": "Mon",
+     "ma": "Inch hunt: use a ruler or tape measure. Measure a spoon, a crayon and a book in inches. Line the object up with 0, not with the end of the ruler!",
+     "en": "Start a shared research project: choose an animal together and read a nonfiction book about it. What does the author want to explain? Write three questions you want answered."
+    },
+    {
+     "d": "Tue",
+     "ma": "12 inches make 1 foot. Find three things about 1 foot long. Then estimate how many feet long a table, a bed and a hallway are, and measure to check.",
+     "en": "Use the table of contents and the index to find answers to your questions. Your child writes each fact on its own scrap of paper."
+    },
+    {
+     "d": "Wed",
+     "ma": "Estimate first: guess the length of a TV remote, a shoe and a door in inches or feet. Write the guesses, measure, and talk about which were close.",
+     "en": "Soft c and g: sort city, face, nice, cage, page, gem, badge and bridge. Notice dge comes right after a short vowel (badge, bridge) and ge after a long one (cage, page)."
+    },
+    {
+     "d": "Thu",
+     "ma": "Choose a tool: ruler, yardstick or tape measure? Decide which is best for a pencil, a couch and around your child's head, then measure each with that tool.",
+     "en": "Read a second source on the same animal (another book or a children's science website with an adult). Add new facts to the scraps and answer one more who, what, where or why question."
+    },
+    {
+     "d": "Fri",
+     "ma": "Friday check: measure a pencil and a fork in inches; estimate a table in feet, then measure; which tool for a hallway? How many inches are in a foot?",
+     "en": "Dictation: 'Once I saw a nice cat in the city.' and 'Put the badge on page two.' Then your child shares the three best facts found so far."
+    }
+   ]
+  },
+  {
+   "w": 20,
+   "term": "Winter",
+   "title": "Centimeters and meters; measuring with different units",
+   "ma": [
+    "g2:ma:2:0",
+    "g2:ma:2:1",
+    "g2:ma:2:2"
+   ],
+   "en": [
+    "g2:en:1:8",
+    "g2:en:3:1",
+    "g2:en:3:5",
+    "g2:en:3:4"
+   ],
+   "spell": {
+    "rule": "Adding -ed and -ing: double the last letter after a short vowel (hop → hopping); drop the silent e (hope → hoping)",
+    "words": [
+     "hopping",
+     "hoping",
+     "running",
+     "making",
+     "stopped",
+     "smiled",
+     "sitting",
+     "baked",
+     "write",
+     "know"
+    ]
+   },
+   "read": "The research books from last week, plus a short article on the same animal to compare.",
+   "days": [
+    {
+     "d": "Mon",
+     "ma": "Centimeters: find the cm edge of the ruler. Measure a paper clip, a key and a spoon in centimeters. Is a centimeter longer or shorter than an inch?",
+     "en": "Compare two texts: write the two most important points each source gives about the animal. Which points are in both? Which appear in only one?"
+    },
+    {
+     "d": "Tue",
+     "ma": "Meters: a meter is 100 cm, about one big grown-up step. Mark 1 meter on the floor with string or tape. Estimate, then measure, a couch and a room in meters.",
+     "en": "Sort the research facts into groups: looks like, eats, lives, babies. Each group becomes one section of the report."
+    },
+    {
+     "d": "Wed",
+     "ma": "Measure twice: measure a book in inches and then in centimeters. Which number is bigger? Talk about why: smaller units mean you need more of them.",
+     "en": "Write the report: a title, an opening sentence that names the animal, a short section for each group of facts and a closing sentence."
+    },
+    {
+     "d": "Thu",
+     "ma": "Spoons and paper clips: measure a table edge in spoon lengths, then in paper clips. Which needed more? Connect this to inches and centimeters.",
+     "en": "Doubling rule: run → running, stop → stopped, sit → sitting; hope → hoping, make → making, smile → smiled. Your child adds -ed or -ing to hop, bake, skip and ride."
+    },
+    {
+     "d": "Fri",
+     "ma": "Friday check: measure a book in cm and in inches and explain which number is bigger and why; estimate a door in meters; how many centimeters make a meter?",
+     "en": "Dictation: 'We were hopping and running.' Then type the report on a computer or tablet with your help, adding a heading and a picture or drawing."
+    }
+   ]
+  },
+  {
+   "w": 21,
+   "term": "Winter",
+   "title": "Comparing lengths and length word problems",
+   "ma": [
+    "g2:ma:2:3",
+    "g2:ma:2:4",
+    "g2:ma:2:5"
+   ],
+   "en": [
+    "g2:en:5:3",
+    "g2:en:5:0",
+    "g2:en:0:4",
+    "g2:en:0:0",
+    "g2:en:2:0"
+   ],
+   "spell": {
+    "rule": "Prefixes un- (not, the opposite) and re- (again): unhappy, unlock, redo, retell",
+    "words": [
+     "undo",
+     "unhappy",
+     "unlock",
+     "unkind",
+     "redo",
+     "retell",
+     "reread",
+     "refill",
+     "great",
+     "pretty"
+    ]
+   },
+   "read": "A story with a clear problem and solution – notice how the ending ties everything up.",
+   "days": [
+    {
+     "d": "Mon",
+     "ma": "How much longer? Measure two pencils in centimeters. Line them up, find the difference and write it, e.g. 15 cm – 9 cm = 6 cm. Do the same with two spoons.",
+     "en": "Read a story. Your child tells how the beginning sets up the problem and how the ending solves it. Ask a why question about the middle."
+    },
+    {
+     "d": "Tue",
+     "ma": "Ruler number line: draw a line from 0 to 20 with equal spaces. Show 8 + 7 as two jumps forward and 18 – 6 as a jump back.",
+     "en": "Prefixes: add un- or re- to happy, lock, kind, do, tell, read and fill. Your child explains each new meaning: un- means not or the opposite, re- means again."
+    },
+    {
+     "d": "Wed",
+     "ma": "Length problems: 'A ribbon is 45 inches long. You cut off 18 inches. How long is it now?' Draw a ruler picture and write 45 – 18 = ☐. Solve two more.",
+     "en": "Reflexive pronouns: myself, yourself, himself, herself, itself, ourselves, themselves. Fill in 'I made it ___.' and 'We cleaned up ___.' Your child makes up two more."
+    },
+    {
+     "d": "Thu",
+     "ma": "Jump contest: each family member does a standing jump and you measure it in inches or centimeters. Who jumped farthest? How much farther than the shortest jump?",
+     "en": "Your child retells a favorite story aloud from 'Once upon a time' to how the problem was solved, then retells it again changing only the ending."
+    },
+    {
+     "d": "Fri",
+     "ma": "Friday check: show 35 + 20 on a number line; a 62 cm ribbon has 25 cm cut off – how much is left? A desk is 36 inches and a shelf is 52 inches – how much longer is the shelf?",
+     "en": "Dictation: 'I was unhappy, so I had to redo it myself.' and 'Please reread the story and retell it.' Check the prefixes and the reflexive pronoun."
+    }
+   ]
+  },
+  {
+   "w": 22,
+   "term": "Winter",
+   "title": "Line plots",
+   "ma": [
+    "g2:ma:2:8"
+   ],
+   "en": [
+    "g2:en:4:2",
+    "g2:en:4:1",
+    "g2:en:5:5",
+    "g2:en:2:0",
+    "g2:en:5:0"
+   ],
+   "spell": {
+    "rule": "Suffixes -ful (full of), -less (without) and -ly (in that way): helpful, careless, quickly",
+    "words": [
+     "helpful",
+     "careful",
+     "hopeful",
+     "fearless",
+     "careless",
+     "sadly",
+     "quickly",
+     "slowly",
+     "full",
+     "put"
+    ]
+   },
+   "read": "An audiobook or read-aloud from your library's free app or a library visit, then a book on the same topic.",
+   "days": [
+    {
+     "d": "Mon",
+     "ma": "Measure 8 pencils or crayons to the nearest inch and write each length in a list.",
+     "en": "Listen to a short audio story or read-aloud. Your child retells the key details, then asks you a question about something they didn't understand."
+    },
+    {
+     "d": "Tue",
+     "ma": "Make a line plot: draw a number line from 1 to 8 inches. Put an X above the right number for each pencil. Add a title and label the inches.",
+     "en": "Suffixes: add -ful, -less or -ly to help, care, hope, fear, sad, quick and slow. Explain the meanings (careful = full of care, careless = without care)."
+    },
+    {
+     "d": "Wed",
+     "ma": "Repeated measures: every family member measures the same spoon to the nearest centimeter. Show the results on a line plot. Why might the measurements differ?",
+     "en": "Interview: your child asks a grandparent or neighbor (by phone or in person) three questions about when they were seven, then one follow-up question about an answer."
+    },
+    {
+     "d": "Thu",
+     "ma": "Read the pencil line plot: Which length was most common? How many were longer than 5 inches? What is the difference between the longest and shortest?",
+     "en": "Report back: your child tells the family the three most interesting things from the interview in complete sentences, using adjectives and adverbs, e.g. 'She walked to school happily.'"
+    },
+    {
+     "d": "Fri",
+     "ma": "Friday check: measure 5 toys to the nearest inch, make a line plot and answer two questions about it.",
+     "en": "Dictation: 'Be careful and walk slowly.' and 'The fearless cat was very helpful.' Check the suffixes."
+    }
+   ]
+  },
+  {
+   "w": 23,
+   "term": "Winter",
+   "title": "Consolidation: time and measurement",
+   "ma": [
+    "g2:ma:2:6",
+    "g2:ma:2:0",
+    "g2:ma:2:1",
+    "g2:ma:2:2",
+    "g2:ma:2:3",
+    "g2:ma:2:4",
+    "g2:ma:2:8"
+   ],
+   "en": [
+    "g2:en:3:3",
+    "g2:en:4:3",
+    "g2:en:4:4",
+    "g2:en:2:1",
+    "g2:en:1:9"
+   ],
+   "spell": {
+    "rule": "Review: oo, ew, ue; soft c and g; doubling and dropping e; prefixes un- and re-; suffixes -ful, -less and -ly",
+    "words": [
+     "school",
+     "blue",
+     "city",
+     "badge",
+     "running",
+     "smiled",
+     "unlock",
+     "retell",
+     "careful",
+     "quickly"
+    ]
+   },
+   "read": "Re-read the research books on your animal and choose favorite pages to share.",
+   "days": [
+    {
+     "d": "Mon",
+     "ma": "Time review: you call out five times (6:35, 11:50, 1:15 …) and your child sets them on the paper clock. Then they read three real clocks and add a.m. or p.m.",
+     "en": "Revise the animal report: read it aloud and add one more fact, a better opening or a fun closing. Check two spellings in a dictionary or word list."
+    },
+    {
+     "d": "Tue",
+     "ma": "Measure two shoes in inches and in centimeters. Write how much longer one is in each unit, and why the cm numbers are bigger.",
+     "en": "Make a poster or slide for the report with a title, three labeled pictures and a caption under each."
+    },
+    {
+     "d": "Wed",
+     "ma": "Length word problem: 'A string is 70 cm. Another is 28 cm shorter. How long is it?' Show it on a number line, then your child makes up another.",
+     "en": "Presentation practice: your child presents the report, speaking loudly enough, looking at the audience and using complete sentences."
+    },
+    {
+     "d": "Thu",
+     "ma": "Estimate, then measure, six kitchen items to the nearest inch. Make a line plot of the measurements and say what it shows.",
+     "en": "Record the presentation as audio or video on a phone. Watch it together and name one thing done well and one thing to improve."
+    },
+    {
+     "d": "Fri",
+     "ma": "Friday check: read four clocks to 5 minutes with a.m. or p.m.; measure a book in inches and in cm; solve a length word problem; add an item to the line plot.",
+     "en": "Dictation: 'We were running to school in the city.' and 'Retell the story quickly and carefully.' Then your child presents the report to the family."
+    }
+   ]
+  },
+  {
+   "w": 24,
+   "term": "Winter",
+   "title": "Picture graphs and bar graphs",
+   "ma": [
+    "g2:ma:2:9"
+   ],
+   "en": [
+    "g2:en:5:4",
+    "g2:en:3:2",
+    "g2:en:0:2",
+    "g2:en:5:5"
+   ],
+   "spell": {
+    "rule": "Silent letters: kn (know), wr (write) and mb (lamb)",
+    "words": [
+     "knee",
+     "knot",
+     "knew",
+     "wrong",
+     "wrap",
+     "wrist",
+     "lamb",
+     "climb",
+     "laugh",
+     "answer"
+    ]
+   },
+   "read": "A story where characters show strong feelings – collect the exact words the author uses for feelings and actions.",
+   "days": [
+    {
+     "d": "Mon",
+     "ma": "Survey: ask family and friends (in person or by phone) to choose their favorite fruit from four choices. Tally the answers.",
+     "en": "Read a story and collect feeling words. Rank close ones: glad, happy, thrilled; annoyed, mad, furious. Which word fits the main character best at the end?"
+    },
+    {
+     "d": "Tue",
+     "ma": "Picture graph: draw one small picture for each vote, in a row for each fruit. Add a title and label every row.",
+     "en": "Shades of meaning: toss, throw, hurl; look, peek, stare. Act each one out, then use the strongest word in each set in a sentence."
+    },
+    {
+     "d": "Wed",
+     "ma": "Bar graph: turn the same data into a bar graph on paper with grid lines you draw, counting up by 1s. Label both sides and add a title.",
+     "en": "Silent letters: write knee, knot, knew, wrong, wrap, wrist, lamb and climb. Your child crosses out the silent letter in each and reads them aloud."
+    },
+    {
+     "d": "Thu",
+     "ma": "Ask questions: 'How many more chose apples than bananas? How many voted in all? If 3 more chose grapes, which would win?' Your child makes up two questions for you.",
+     "en": "Your child writes about a time they had a big feeling, using strong verbs, feeling words and time words (first, after that, at the end) to show how the feeling changed."
+    },
+    {
+     "d": "Fri",
+     "ma": "Friday check: from a four-category bar graph you draw, find the total, how many more, how many fewer and two categories put together.",
+     "en": "Dictation: 'I knew the answer was wrong.' and 'Climb up and wrap the knot.' Then your child reads the feelings story aloud."
+    }
+   ]
+  },
+  {
+   "w": 25,
+   "term": "Winter",
+   "title": "Adding within 1,000",
+   "ma": [
+    "g2:ma:1:6",
+    "g2:ma:1:8"
+   ],
+   "en": [
+    "g2:en:5:0",
+    "g2:en:4:5",
+    "g2:en:3:3",
+    "g2:en:0:8"
+   ],
+   "spell": {
+    "rule": "Comparing words with -er and -est (taller, tallest); double the last letter after a short vowel (bigger) and change y to i (happiest)",
+    "words": [
+     "taller",
+     "tallest",
+     "faster",
+     "fastest",
+     "bigger",
+     "biggest",
+     "happier",
+     "happiest",
+     "after",
+     "other"
+    ]
+   },
+   "read": "A chapter book read aloud together over several weeks, a few pages each night.",
+   "days": [
+    {
+     "d": "Mon",
+     "ma": "Model it: draw 243 + 135 as hundred squares, ten sticks and ones dots. Add hundreds, tens and ones: 300 + 70 + 8 = 378. Then do 412 + 256.",
+     "en": "Start a chapter book. After the first chapter, your child describes the main character and the setting in complete sentences."
+    },
+    {
+     "d": "Tue",
+     "ma": "Regroup ones: 358 + 127. 8 + 7 = 15 ones, which is 1 ten and 5 ones. Show the trade in a drawing, then write it in columns. Do 246 + 538.",
+     "en": "Build a sentence: start with 'The dog ran.' Add an adjective (The big dog ran.), an adverb (ran fast) and a place (to the park). Then rearrange: 'To the park the big dog ran fast.'"
+    },
+    {
+     "d": "Wed",
+     "ma": "Regroup tens: 265 + 182. 6 + 8 = 14 tens, which is 1 hundred and 4 tens. Show it with drawings, then do 374 + 251.",
+     "en": "Compound sentences: join pairs of sentences with and, but or so – 'It rained. We stayed inside.' becomes 'It rained, so we stayed inside.' Do three more."
+    },
+    {
+     "d": "Thu",
+     "ma": "Explain it: solve 199 + 245 by moving 1 over to make 200 + 244. Your child explains why the total doesn't change, then tries 398 + 127.",
+     "en": "Edit an earlier piece of writing: expand two short sentences with describing words and join two others with and or but."
+    },
+    {
+     "d": "Fri",
+     "ma": "Friday check: 324 + 152; 467 + 218; 539 + 286; 600 + 199. Your child explains one using hundreds, tens and ones.",
+     "en": "Dictation: 'The tallest tree was bigger than the house.' and 'My dog is faster, but yours is happier.' Check the -er and -est endings and the comma before but."
+    }
+   ]
+  },
+  {
+   "w": 26,
+   "term": "Winter",
+   "title": "Subtracting within 1,000",
+   "ma": [
+    "g2:ma:1:6",
+    "g2:ma:1:7",
+    "g2:ma:1:8"
+   ],
+   "en": [
+    "g2:en:5:0",
+    "g2:en:3:5",
+    "g2:en:1:2",
+    "g2:en:1:3"
+   ],
+   "spell": {
+    "rule": "Irregular plurals that don't just add -s (foot → feet, mouse → mice, child → children)",
+    "words": [
+     "feet",
+     "teeth",
+     "mice",
+     "geese",
+     "children",
+     "men",
+     "women",
+     "fish",
+     "sheep",
+     "leaves"
+    ]
+   },
+   "read": "A science book about plants or seeds, to go with a week-long growing experiment.",
+   "days": [
+    {
+     "d": "Mon",
+     "ma": "Model subtraction: draw 586 and cross out 2 hundreds, 4 tens and 3 ones to find 586 – 243 = 343. Then do 759 – 425.",
+     "en": "Start a science observation: put a few dried beans on a damp paper towel in a clear bag or jar by a window. Your child draws and writes what they look like on day 1."
+    },
+    {
+     "d": "Tue",
+     "ma": "Break a ten: 452 – 127. You can't take 7 from 2, so trade 1 ten for 10 ones (4 hundreds, 4 tens, 12 ones). Do 563 – 238.",
+     "en": "Irregular plurals: write foot, tooth, mouse, goose, child, man, woman, fish, sheep and leaf. Your child writes the plural of each and uses three in one silly sentence."
+    },
+    {
+     "d": "Wed",
+     "ma": "Break a hundred: 534 – 172. Trade 1 hundred for 10 tens so you can take 7 tens. Draw it, then write it in columns. Do 618 – 354.",
+     "en": "Read about how seeds grow. Your child explains the steps (seed, root, sprout, leaves) and how one leads to the next, and works out the meaning of two science words."
+    },
+    {
+     "d": "Thu",
+     "ma": "10 and 100 less: 640 – 10, 640 – 100, 503 – 10, 1,000 – 100. Then check a subtraction by adding: 452 – 127 = 325, so 325 + 127 should equal 452.",
+     "en": "Observation log: draw and write about the beans again. Measure any root in centimeters. What has changed since Monday?"
+    },
+    {
+     "d": "Fri",
+     "ma": "Friday check: 785 – 342, 621 – 315, 704 – 260, 900 – 100. Check one by adding and explain one trade.",
+     "en": "Dictation: 'The children saw three mice and some geese.' and 'Brush your teeth and wash your feet.' Then your child writes a final observation sentence for the bean log."
+    }
+   ]
+  },
+  {
+   "w": 27,
+   "term": "Winter",
+   "title": "Adding and subtracting within 1,000: zeros and word problems",
+   "ma": [
+    "g2:ma:1:6",
+    "g2:ma:0:0",
+    "g2:ma:1:8"
+   ],
+   "en": [
+    "g2:en:5:3",
+    "g2:en:5:1",
+    "g2:en:2:1",
+    "g2:en:1:0"
+   ],
+   "spell": {
+    "rule": "The aw sound spelled aw, au and al (saw, sauce, walk)",
+    "words": [
+     "saw",
+     "draw",
+     "paw",
+     "yawn",
+     "haul",
+     "sauce",
+     "walk",
+     "talk",
+     "caught",
+     "also"
+    ]
+   },
+   "read": "A children's dictionary or picture dictionary, plus any nonfiction book your child chooses.",
+   "days": [
+    {
+     "d": "Mon",
+     "ma": "Across zeros: 400 – 136. Trade 1 hundred for 10 tens, then 1 ten for 10 ones. Draw it, then try 302 – 158.",
+     "en": "Dictionary skills: find words by the first letter, then the second letter. Look up draw, paw and sauce, read the meaning and use each in a sentence."
+    },
+    {
+     "d": "Tue",
+     "ma": "Count up instead: 500 – 268. Jump 2 to 270, 30 to 300 and 200 to 500, so the answer is 232. Try 700 – 445.",
+     "en": "Words with two meanings: bat, bark, ring, light, fall. Your child draws two meanings for two words, then uses the sentence to decide which fits: 'The dog will bark.'"
+    },
+    {
+     "d": "Wed",
+     "ma": "Big number problems: 'A school has 345 students. 128 go on a trip. How many stay?' and 'A library had 486 books and got 237 more. How many now?' Write equations with ☐.",
+     "en": "aw, au or al? Sort saw, draw, paw, yawn, haul, sauce, walk and talk. Notice aw often comes at the end, au in the middle. Check two in a dictionary."
+    },
+    {
+     "d": "Thu",
+     "ma": "Missing middle: 258 + ☐ = 500. Solve by counting up, then your child makes up a word problem that matches it.",
+     "en": "Read a nonfiction page aloud three times for smoothness, going back over any part that didn't make sense, then answer three who, what or where questions about it."
+    },
+    {
+     "d": "Fri",
+     "ma": "Friday check: 600 – 247, 405 – 189, 356 + 478 and a word problem with three-digit numbers. Check the subtractions by adding.",
+     "en": "Dictation: 'I saw the cat walk and yawn.' and 'We also caught the ball and talked.' Your child checks one spelling in a dictionary."
+    }
+   ]
+  },
+  {
+   "w": 28,
+   "term": "Spring",
+   "title": "Shapes: triangles to hexagons, and cubes",
+   "ma": [
+    "g2:ma:3:0"
+   ],
+   "en": [
+    "g2:en:0:3",
+    "g2:en:4:4",
+    "g2:en:0:8",
+    "g2:en:5:4"
+   ],
+   "spell": {
+    "rule": "Two-syllable words where the first syllable ends in a long vowel (o-pen, pa-per, ti-ger)",
+    "words": [
+     "open",
+     "paper",
+     "music",
+     "tiger",
+     "robot",
+     "baby",
+     "pilot",
+     "even",
+     "enough",
+     "sure"
+    ]
+   },
+   "read": "Poetry for April's poetry month – shape poems, rhyming poems and silly poems.",
+   "days": [
+    {
+     "d": "Mon",
+     "ma": "Shape hunt: find triangles, quadrilaterals (4 sides), pentagons and hexagons at home or in pictures. Count the sides and angles of each.",
+     "en": "Read three poems. Clap the rhythm, then find rhyming words and repeated lines. Talk about how the sounds make each poem funny or calm."
+    },
+    {
+     "d": "Tue",
+     "ma": "Draw from clues: 'a shape with 3 angles', 'a shape with 5 sides', 'a quadrilateral that isn't a square', 'a hexagon'. Use a ruler for straight sides.",
+     "en": "Clap o-pen, pa-per, mu-sic, ti-ger, ro-bot, ba-by, pi-lot and e-ven. Notice that the first syllable ends with a long vowel. Read them quickly."
+    },
+    {
+     "d": "Wed",
+     "ma": "Cube study: find a cube shape (a square box or an ice cube). Count its faces (6), edges (12) and corners (8). Are all the faces the same shape?",
+     "en": "Shape poem: draw an outline (a sun, a leaf) and write describing words around the edge. Choose rich words such as sparkling, golden and sizzling."
+    },
+    {
+     "d": "Thu",
+     "ma": "Build shapes flat on the table with toothpicks or cotton swabs: a triangle, a square, a pentagon and a hexagon. How many sticks for each? What do you notice?",
+     "en": "Record your child reading their poem and a favorite poem aloud with expression. Listen back and add a drawing to go with each."
+    },
+    {
+     "d": "Fri",
+     "ma": "Friday check: draw a pentagon, a hexagon and two different quadrilaterals. How many faces does a cube have? Name a shape with 3 angles.",
+     "en": "Dictation: 'The tiger can open the paper.' and 'The baby likes music, but is it enough?' Then share the recorded poems with family."
+    }
+   ]
+  },
+  {
+   "w": 29,
+   "term": "Spring",
+   "title": "Equal groups and arrays",
+   "ma": [
+    "g2:ma:0:3",
+    "g2:ma:0:2"
+   ],
+   "en": [
+    "g2:en:0:1",
+    "g2:en:0:5",
+    "g2:en:0:2",
+    "g2:en:4:1"
+   ],
+   "spell": {
+    "rule": "R-controlled ear, eer, air and are (hear, deer, chair, share)",
+    "words": [
+     "hear",
+     "near",
+     "deer",
+     "cheer",
+     "care",
+     "share",
+     "hair",
+     "chair",
+     "where",
+     "their"
+    ]
+   },
+   "read": "Folktales from around the world – a different country each day.",
+   "days": [
+    {
+     "d": "Mon",
+     "ma": "Arrays: arrange pasta or coins in 3 rows of 4 and write 4 + 4 + 4 = 12. Then make 2 rows of 5 and 5 rows of 5 and write the addition for each.",
+     "en": "Read a folktale from another country. Your child retells it and states the lesson. How is it like a fable you read in the fall?"
+    },
+    {
+     "d": "Tue",
+     "ma": "Array hunt: egg cartons, muffin pans, window panes, buttons on a remote. Your child draws three and writes the repeated addition for each.",
+     "en": "Points of view: find two characters who disagree. Your child reads their lines in two different voices, then explains what each character wants."
+    },
+    {
+     "d": "Wed",
+     "ma": "Rows and columns: draw 4 rows of 3 dots. Add by rows (3 + 3 + 3 + 3) and by columns (4 + 4 + 4). Same total!",
+     "en": "Sort hear, near, deer, cheer, care, share, hair and chair by spelling. Then write a sentence each for where and their."
+    },
+    {
+     "d": "Thu",
+     "ma": "Two-row arrays: make arrays with 2 rows for 6, 8 and 10 – even numbers fill 2 equal rows. Try 7 and 9: what happens?",
+     "en": "Retell the folktale as if you were a different character. How does the story change? How did the main character respond to the challenge?"
+    },
+    {
+     "d": "Fri",
+     "ma": "Friday check: draw 3 rows of 5 and write the addition; draw 4 rows of 4; draw 5 + 5 + 5 + 5 as an array; can 9 make 2 equal rows?",
+     "en": "Dictation: 'Where did the deer go?' and 'Their chair is near the stairs.' Then your child retells the week's favorite folktale."
+    }
+   ]
+  },
+  {
+   "w": 30,
+   "term": "Spring",
+   "title": "Consolidation: data, three-digit numbers, shapes and arrays",
+   "ma": [
+    "g2:ma:2:9",
+    "g2:ma:1:6",
+    "g2:ma:3:0",
+    "g2:ma:0:3",
+    "g2:ma:0:2"
+   ],
+   "en": [
+    "g2:en:3:0",
+    "g2:en:3:3",
+    "g2:en:5:1",
+    "g2:en:0:6"
+   ],
+   "spell": {
+    "rule": "Review: two-syllable long vowels, ear/eer/air/are, silent letters, -er and -est, irregular plurals, aw/au/al",
+    "words": [
+     "paper",
+     "tiger",
+     "chair",
+     "share",
+     "knew",
+     "wrong",
+     "biggest",
+     "children",
+     "walk",
+     "their"
+    ]
+   },
+   "read": "A favorite picture book from the year – re-read it to write a book review.",
+   "days": [
+    {
+     "d": "Mon",
+     "ma": "Data review: count four kinds of things in the toy box or pantry, make a bar graph and ask each other three questions about it.",
+     "en": "Book review plan: your child picks a favorite book of the year and lists their opinion and three reasons. Look at the illustrations for extra evidence."
+    },
+    {
+     "d": "Tue",
+     "ma": "Three-digit review: 467 + 285 and 803 – 357. Draw one, write the other in columns and check the subtraction by adding.",
+     "en": "Write the review: name the book and author, state the opinion, give reasons joined with because and also, and end with a concluding sentence."
+    },
+    {
+     "d": "Wed",
+     "ma": "Shapes and arrays: draw a hexagon, a pentagon and 4 rows of 3 dots. Write the repeated addition for the array.",
+     "en": "Edit with a checklist: capitals at the start and for names and places, end punctuation, apostrophes in contractions, and spellings checked in a dictionary."
+    },
+    {
+     "d": "Thu",
+     "ma": "Odd, even and arrays: 'Can 14 chairs make 2 equal rows? 3 equal rows?' Draw to check, then try 12 and 15.",
+     "en": "Spelling review game: you say a word; your child writes it and names the pattern. Add any tricky ones to a personal word list."
+    },
+    {
+     "d": "Fri",
+     "ma": "Friday check: a bar graph question, 356 + 278, 702 – 465, name a 5-sided shape, write an array as addition, odd or even for 19.",
+     "en": "Dictation: 'The children knew their paper was on the chair.' and 'Is the tiger the biggest cat?' Then your child reads the review to a family member."
+    }
+   ]
+  },
+  {
+   "w": 31,
+   "term": "Spring",
+   "title": "Rectangles split into rows and columns",
+   "ma": [
+    "g2:ma:3:1",
+    "g2:ma:0:3"
+   ],
+   "en": [
+    "g2:en:1:2",
+    "g2:en:1:6",
+    "g2:en:1:3",
+    "g2:en:5:1",
+    "g2:en:3:1"
+   ],
+   "spell": {
+    "rule": "More contractions (won't, they're, let's) and possessives with 's (the dog's bowl)",
+    "words": [
+     "won't",
+     "they're",
+     "she's",
+     "let's",
+     "I'll",
+     "we've",
+     "haven't",
+     "wouldn't",
+     "dog's",
+     "cat's"
+    ]
+   },
+   "read": "A nonfiction book about animal life cycles – frogs, butterflies or chickens.",
+   "days": [
+    {
+     "d": "Mon",
+     "ma": "Grid a rectangle: draw a rectangle and use a ruler to split it into 3 rows and 4 columns of same-size squares. Count the squares: 12.",
+     "en": "Read about a life cycle. Your child explains each stage and how one leads to the next, using the diagram to help."
+    },
+    {
+     "d": "Tue",
+     "ma": "Fold and count: fold a sheet of paper in half, then in half again, then once more. Open it: how many rectangles? Count them by rows.",
+     "en": "Topic words: find life-cycle words (larva, hatch, tadpole, cocoon). Use the sentence, a picture or the glossary to explain each one."
+    },
+    {
+     "d": "Wed",
+     "ma": "Count squares on a waffle, a window grid or a tiled floor by adding the rows. Then check by adding the columns.",
+     "en": "Possessive or contraction? 'The dog's bowl' (belongs to the dog) versus 'The dog's hungry' (the dog is). Your child writes two of each and checks the apostrophes."
+    },
+    {
+     "d": "Thu",
+     "ma": "Rectangles of 12: draw every rectangle you can make from 12 squares (1 by 12, 2 by 6, 3 by 4). Write the addition for each.",
+     "en": "Write an all-about page on one life cycle: a heading, a fact for each of four stages, a labeled diagram and a closing sentence."
+    },
+    {
+     "d": "Fri",
+     "ma": "Friday check: draw a rectangle with 2 rows and 5 columns of squares and count them; how many squares in 4 rows of 3? Draw a rectangle made of 9 squares.",
+     "en": "Dictation: 'Let's look at the frog's eggs.' and 'They're sure the eggs won't hatch today.' Check the apostrophes."
+    }
+   ]
+  },
+  {
+   "w": 32,
+   "term": "Spring",
+   "title": "Halves, thirds and fourths",
+   "ma": [
+    "g2:ma:3:2"
+   ],
+   "en": [
+    "g2:en:5:0",
+    "g2:en:3:2",
+    "g2:en:4:3",
+    "g2:en:3:6"
+   ],
+   "spell": {
+    "rule": "Irregular past tense verbs (sit → sat, hide → hid, tell → told)",
+    "words": [
+     "sat",
+     "hid",
+     "told",
+     "ran",
+     "came",
+     "went",
+     "gave",
+     "took",
+     "kept",
+     "felt"
+    ]
+   },
+   "read": "Picture books about family trips, celebrations or special days.",
+   "days": [
+    {
+     "d": "Mon",
+     "ma": "Fold to share: trace a plate to make paper circles and cut out paper rectangles. Fold them into halves, thirds and fourths and label the parts 'one half', 'a third of', 'a fourth of'.",
+     "en": "Past tense: change sit, hide, tell, run, come, go, give, take, keep and feel into the past. Your child tells you about yesterday using four of them."
+    },
+    {
+     "d": "Tue",
+     "ma": "Fair shares: cut a sandwich or tortilla into 2, 3 and 4 equal parts. Describe each whole as two halves, three thirds or four fourths.",
+     "en": "Plan a story about a special day: draw four boxes (first, next, then, last) with one detail each about actions, thoughts and feelings."
+    },
+    {
+     "d": "Wed",
+     "ma": "Different shapes, equal shares: cut a paper square into fourths two ways (four small squares and four strips). Are the shares equal? Cut and match to prove it.",
+     "en": "Write the special day story from the plan using past tense verbs, time words and a closing sentence about how the day ended."
+    },
+    {
+     "d": "Thu",
+     "ma": "Equal or not? Draw shapes split into equal and unequal parts. Your child sorts them and explains why some parts are not halves or thirds.",
+     "en": "Your child tells the special day story aloud without reading it, with facts and descriptive details. Each listener asks one question."
+    },
+    {
+     "d": "Fri",
+     "ma": "Friday check: shade one half of a circle, a third of a rectangle and a fourth of a square. How many fourths make a whole? Is a given split equal?",
+     "en": "Dictation: 'We went to the park and sat by the lake.' and 'She hid the gift and told no one.' Then your child reads the finished story."
+    }
+   ]
+  },
+  {
+   "w": 33,
+   "term": "Spring",
+   "title": "Revisit: place value and comparing to 1,000",
+   "ma": [
+    "g2:ma:1:0",
+    "g2:ma:1:1",
+    "g2:ma:1:2",
+    "g2:ma:1:3",
+    "g2:ma:1:7"
+   ],
+   "en": [
+    "g2:en:1:5",
+    "g2:en:1:7",
+    "g2:en:1:8",
+    "g2:en:4:2"
+   ],
+   "spell": {
+    "rule": "Two-syllable words ending in -le; double the consonant after a short vowel (lit-tle, bub-ble)",
+    "words": [
+     "table",
+     "apple",
+     "little",
+     "puzzle",
+     "candle",
+     "bubble",
+     "purple",
+     "simple",
+     "different",
+     "beautiful"
+    ]
+   },
+   "read": "Two nonfiction books or articles on the same topic, such as bees or volcanoes.",
+   "days": [
+    {
+     "d": "Mon",
+     "ma": "Number of the day: pick 507. Write it in words and expanded form, draw it, and say 10 more, 10 less, 100 more and 100 less. Repeat with a number your child picks.",
+     "en": "Read the first text. What is the author's purpose – to answer a question, explain or describe? Your child finds a sentence that shows it."
+    },
+    {
+     "d": "Tue",
+     "ma": "Ordering: write eight three-digit numbers, order them from least to greatest, then write three comparisons using <, > and =.",
+     "en": "Find one point the author makes ('Bees are important') and the reasons given for it. Your child says whether the reasons were convincing."
+    },
+    {
+     "d": "Wed",
+     "ma": "Skip-count puzzles: 350, 355, ☐, ☐, 370; 620, 720, ☐, ☐; 985, 990, ☐, ☐ (crossing 1,000).",
+     "en": "Read the second text on the same topic. Chart the most important points in each and circle the points both texts share."
+    },
+    {
+     "d": "Thu",
+     "ma": "Place value riddles: 'I have 6 hundreds, no tens and 4 ones.' 'I am 100 more than 299.' 'I have 4 hundreds and 13 tens.' Your child writes two riddles for you.",
+     "en": "-le words: clap the syllables in table, apple, little, puzzle, candle, bubble, purple and simple. Notice the double consonant after a short vowel."
+    },
+    {
+     "d": "Fri",
+     "ma": "Friday check: write 846 in expanded form and in words; 100 less than 312; compare 569 and 596; count by 5s from 980 to 1,000.",
+     "en": "Dictation: 'The little apple was purple.' and 'This puzzle is simple but different.' Then your child explains a key point; you ask a question and they answer it."
+    }
+   ]
+  },
+  {
+   "w": 34,
+   "term": "Spring",
+   "title": "Review: addition and subtraction",
+   "ma": [
+    "g2:ma:0:1",
+    "g2:ma:1:4",
+    "g2:ma:1:5",
+    "g2:ma:1:6",
+    "g2:ma:0:0",
+    "g2:ma:2:5"
+   ],
+   "en": [
+    "g2:en:0:0",
+    "g2:en:0:4",
+    "g2:en:0:7",
+    "g2:en:2:0",
+    "g2:en:2:1",
+    "g2:en:0:8"
+   ],
+   "spell": {
+    "rule": "Review fall patterns: short and long vowels, vowel teams, r-controlled vowels and diphthongs",
+    "words": [
+     "drum",
+     "smile",
+     "play",
+     "beach",
+     "snow",
+     "night",
+     "star",
+     "bird",
+     "cloud",
+     "toy"
+    ]
+   },
+   "read": "A favorite chapter book to finish, plus a fairy tale and a different version of it.",
+   "days": [
+    {
+     "d": "Mon",
+     "ma": "Fact fluency: 30 mixed facts within 20 in 3 minutes. Compare with how it went in the fall and circle any facts that still need practice.",
+     "en": "Read a fairy tale and answer who, what, where, when, why and how questions. Draw a beginning, middle and end strip."
+    },
+    {
+     "d": "Tue",
+     "ma": "Within 100: 67 + 28, 83 – 45 and 39 + 26 + 15 + 12. Show one on a number line.",
+     "en": "Read another version of the same tale, or ask a grandparent how they heard it. Compare the characters, settings and endings in a chart."
+    },
+    {
+     "d": "Wed",
+     "ma": "Within 1,000: 485 + 367 and 703 – 258. Your child explains each step aloud.",
+     "en": "Spelling review: spell the ten words aloud and in writing, then sort them by pattern."
+    },
+    {
+     "d": "Thu",
+     "ma": "Problem solving: one two-step problem within 100 and one with three-digit numbers. Your child chooses a bar drawing or number line for each.",
+     "en": "Fluency: read a page of the chapter book three times for smooth, expressive reading and record the last reading."
+    },
+    {
+     "d": "Fri",
+     "ma": "Friday check: ten facts, two problems within 100, two within 1,000 and one word problem with ☐.",
+     "en": "Dictation: 'A star was bright in the night sky.' and 'The bird sat on the toy drum.' Then your child retells the fairy tale."
+    }
+   ]
+  },
+  {
+   "w": 35,
+   "term": "Spring",
+   "title": "Review: measurement, time, money, data and shapes",
+   "ma": [
+    "g2:ma:2:6",
+    "g2:ma:2:7",
+    "g2:ma:2:0",
+    "g2:ma:2:2",
+    "g2:ma:2:8",
+    "g2:ma:2:9",
+    "g2:ma:3:0",
+    "g2:ma:3:2"
+   ],
+   "en": [
+    "g2:en:3:1",
+    "g2:en:5:0",
+    "g2:en:5:3",
+    "g2:en:5:4",
+    "g2:en:3:3",
+    "g2:en:1:9"
+   ],
+   "spell": {
+    "rule": "Review winter and spring patterns: prefixes, suffixes, contractions, silent letters, soft c and g",
+    "words": [
+     "unhappy",
+     "refill",
+     "careful",
+     "quickly",
+     "can't",
+     "they're",
+     "knee",
+     "write",
+     "city",
+     "page"
+    ]
+   },
+   "read": "A nonfiction book on a summer topic – the beach, insects or camping.",
+   "days": [
+    {
+     "d": "Mon",
+     "ma": "Time and money: show 4:25 p.m. on the clock; count 3 quarters, 2 dimes and 1 nickel; 'You have $1. A snack costs 65¢. How much is left?'",
+     "en": "Read a summer nonfiction book. Your child works out the meaning of three new words using the sentence, the glossary or a dictionary."
+    },
+    {
+     "d": "Tue",
+     "ma": "Estimate, then measure, four items in inches, feet, centimeters or meters. Show the inch lengths on a line plot.",
+     "en": "Grammar review: your child writes one sentence each with a collective noun, an irregular plural, a reflexive pronoun, an irregular past tense verb and an adverb."
+    },
+    {
+     "d": "Wed",
+     "ma": "Shapes and shares: draw a hexagon; split a rectangle into 3 rows and 3 columns; shade a third of a circle and a half of a square.",
+     "en": "Word review: sort un-, re-, -ful and -less words and put warm, hot and boiling in order. Use three of them in sentences."
+    },
+    {
+     "d": "Thu",
+     "ma": "Survey the family's favorite summer activity (four choices), draw a bar graph and write two compare questions.",
+     "en": "Write an informative paragraph on a summer topic: an opening, three facts and a closing. Revise one sentence to make it clearer."
+    },
+    {
+     "d": "Fri",
+     "ma": "Friday check: a clock to 5 minutes, a money problem, a length difference, a bar graph question, naming a shape and an equal-shares drawing.",
+     "en": "Dictation: 'I can't refill the cup quickly.' and 'They're careful in the city.' Check the prefixes, suffixes and apostrophes."
+    }
+   ]
+  },
+  {
+   "w": 36,
+   "term": "Spring",
+   "title": "Fun project: plan a family summer fair",
+   "ma": [
+    "g2:ma:2:7",
+    "g2:ma:2:6",
+    "g2:ma:2:9",
+    "g2:ma:2:0",
+    "g2:ma:1:5",
+    "g2:ma:0:0"
+   ],
+   "en": [
+    "g2:en:3:4",
+    "g2:en:4:4",
+    "g2:en:4:3",
+    "g2:en:3:0",
+    "g2:en:4:0",
+    "g2:en:3:5"
+   ],
+   "spell": {
+    "rule": "Spelling celebration: choose ten favorite words from this year's lists and make a personal dictionary page",
+    "words": [
+     "because",
+     "friend",
+     "people",
+     "beautiful",
+     "different",
+     "birthday",
+     "school",
+     "enough",
+     "again",
+     "favorite"
+    ]
+   },
+   "read": "Your child's choice – favorite books from the year to re-read and recommend.",
+   "days": [
+    {
+     "d": "Mon",
+     "ma": "Plan a backyard or living-room fair with four game stations. Make a schedule with start times to 5 minutes (2:00 p.m., 2:15 p.m., 2:35 p.m. …).",
+     "en": "Hold a planning meeting: everyone suggests game ideas, takes turns speaking and builds on others' ideas. Your child writes the final list."
+    },
+    {
+     "d": "Tue",
+     "ma": "Price board: give each game and snack a price in cents (25¢, 40¢ …). Your child makes the price board and works out the cost of playing all four games.",
+     "en": "Opinion poster for the best game: 'You should play … because … Also …' with a big title and a drawing."
+    },
+    {
+     "d": "Wed",
+     "ma": "Set up the stations: mark a beanbag or sock toss line 6 feet away and a hopping lane 3 meters long with a tape measure and string.",
+     "en": "Make an invitation on a computer or by hand with the day, time and place. If it is a note to a neighbor, use commas after the greeting and closing."
+    },
+    {
+     "d": "Thu",
+     "ma": "Run the fair: family members pay with real coins, your child gives change and keeps a tally of how many times each game is played.",
+     "en": "Research one game children play in another country, using a library book or a children's website with an adult. Write its rules in three steps and add it to the fair."
+    },
+    {
+     "d": "Fri",
+     "ma": "Friday check: make a bar graph of plays per game; how many plays in all? Which game was most popular? Add the money taken at the four stations.",
+     "en": "Celebrate: your child records a short audio or video 'news report' about the fair, then tells the family what they learned this year and what they look forward to in Grade 3."
+    }
+   ]
+  }
+ ]
+}

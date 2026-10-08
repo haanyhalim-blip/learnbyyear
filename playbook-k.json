@@ -1,0 +1,2152 @@
+{
+ "year": "k",
+ "weeks": [
+  {
+   "w": 1,
+   "term": "Fall",
+   "title": "Numbers 0 to 5; letters Mm and Ss",
+   "ma": [
+    "k:ma:0:0",
+    "k:ma:0:3",
+    "k:ma:0:4"
+   ],
+   "en": [
+    "k:en:2:0",
+    "k:en:2:2",
+    "k:en:4:0",
+    "k:en:0:8"
+   ],
+   "spell": {
+    "rule": "Letters Mm and Ss: names and sounds (sight word: I)",
+    "words": [
+     "I",
+     "mom",
+     "map",
+     "mud",
+     "moon",
+     "sun",
+     "sock",
+     "sit",
+     "sad",
+     "six"
+    ]
+   },
+   "read": "A rhyming picture book about starting school – join in with the rhymes",
+   "days": [
+    {
+     "d": "Mon",
+     "ma": "Snack count: put out up to 5 crackers or grapes; your child touches each one as they count, then says the last number again: '5 – there are 5!'",
+     "en": "Meet M: write M and m big on paper. Say 'This letter is called M and it says /m/.' Rub your tummy saying 'mmm' and hunt the kitchen for 3 things that start with /m/ (milk, mug, muffin pan)."
+    },
+    {
+     "d": "Tue",
+     "ma": "Shoe line-up: line up 5 shoes by the door and count them. Mix them into a pile and count again – is it still 5? Why?",
+     "en": "Meet S: hiss like a snake /sss/ and trace a big S in the air. Play 'Snake says': only follow the action if it starts with /s/ (sit, stand, smile, spin… jump!)."
+    },
+    {
+     "d": "Wed",
+     "ma": "Jump and count: count 5 big jumps, then march around the yard counting as far as you can go together, aiming for 10.",
+     "en": "Read the rhyming book together, sweeping your finger under the words. Stop before each rhyme and let your child shout it in."
+    },
+    {
+     "d": "Thu",
+     "ma": "Zero hero: drop 3 spoons in a cup and take them out one at a time, counting down 3, 2, 1, 0 – 'zero means none left!' Try again with 5.",
+     "en": "Letter walk: look for M and S on mail, cereal boxes or street signs. Take turns: one of you spots a letter, the other says its name and sound."
+    },
+    {
+     "d": "Fri",
+     "ma": "Quick check: put 0 to 5 dry beans or pasta pieces in a cup; your child tips them out, counts them and tells you how many without recounting.",
+     "en": "Quick check: show M, m, S and s on scraps of paper in any order for the name and sound of each, then find the word I on a page."
+    }
+   ]
+  },
+  {
+   "w": 2,
+   "term": "Fall",
+   "title": "Writing 0 to 5; letters Aa and Tt",
+   "ma": [
+    "k:ma:0:2",
+    "k:ma:0:3"
+   ],
+   "en": [
+    "k:en:2:0",
+    "k:en:2:1",
+    "k:en:2:2",
+    "k:en:1:4"
+   ],
+   "spell": {
+    "rule": "Letters Aa and Tt (sight word: a)",
+    "words": [
+     "a",
+     "at",
+     "am",
+     "sat",
+     "mat",
+     "tap",
+     "ant",
+     "ten",
+     "top",
+     "tub"
+    ]
+   },
+   "read": "An information book about ants or other bugs – look at the front cover, back cover and title page first",
+   "days": [
+    {
+     "d": "Mon",
+     "ma": "Sidewalk numbers: write 0 to 5 big in chalk outside (or with a finger in a tray of flour); your child traces each one while saying its name.",
+     "en": "Meet A: short /a/ as in ant – walk your fingers up your child's arm like ants. Then clap the syllables in family words: mom-my, ap-ple, ba-na-na."
+    },
+    {
+     "d": "Tue",
+     "ma": "Number match: write 0 to 5 on paper scraps; your child sets that many spoons next to each card. What goes next to 0?",
+     "en": "Book tour: hold the bug book and find the front cover, back cover and title page. Ask 'Where do we start reading?' and let your child point."
+    },
+    {
+     "d": "Wed",
+     "ma": "One more tower: build a tower of 1 block, then 2, then 3, up to 5. Each time say 'one more makes…' and write the new number.",
+     "en": "Meet T: tap the table /t/ /t/ /t/. Robot talk: say s-a-t, m-a-t and t-a-p slowly; your child blends and shouts the word."
+    },
+    {
+     "d": "Thu",
+     "ma": "Dot cards: draw 0 to 5 dots on paper scraps, shuffle them, and your child writes the matching numeral under each.",
+     "en": "Read the bug book; your child sweeps a finger under each line from left to right as you read. Point out the spaces between words."
+    },
+    {
+     "d": "Fri",
+     "ma": "Quick check: say a number from 0 to 5; your child writes it and draws that many circles beside it.",
+     "en": "Quick check: show A, a, T, t, M and S in any order for names and sounds, then read at, am and sat together. Spot the word a in a sentence."
+    }
+   ]
+  },
+  {
+   "w": 3,
+   "term": "Fall",
+   "title": "Sorting and counting; letters Pp and Ii",
+   "ma": [
+    "k:ma:3:2",
+    "k:ma:0:4",
+    "k:ma:0:0"
+   ],
+   "en": [
+    "k:en:2:2",
+    "k:en:2:1",
+    "k:en:0:0",
+    "k:en:4:3",
+    "k:en:5:3"
+   ],
+   "spell": {
+    "rule": "Letters Pp and Ii (sight word: the)",
+    "words": [
+     "the",
+     "it",
+     "sit",
+     "pit",
+     "pat",
+     "tip",
+     "sip",
+     "map",
+     "tap",
+     "pig"
+    ]
+   },
+   "read": "A storybook about a pig or a puppy – ask 'who' and 'what' questions as you go",
+   "days": [
+    {
+     "d": "Mon",
+     "ma": "Laundry sort: sort clean socks into piles by color. Count each pile and say which pile has the most.",
+     "en": "Meet P: puff /p/ /p/ /p/ onto your hand to feel the air. Sort the toy box into 'starts with /p/' and 'doesn't'."
+    },
+    {
+     "d": "Tue",
+     "ma": "Toy sort: sort toys into animals, vehicles and everything else; count each group and line the groups up from fewest to most.",
+     "en": "Meet I: short /i/ as in itch – wiggle your fingers like an itchy bug. Say pin, pan, pot and pig; your child says the first sound of each."
+    },
+    {
+     "d": "Wed",
+     "ma": "Nature sort: on a walk, collect up to 10 leaves, sticks and stones; sort them into three piles and count each one.",
+     "en": "Read the storybook; stop on two pages and ask 'Who is in this part? What is happening?' Your child answers in a whole sentence."
+    },
+    {
+     "d": "Thu",
+     "ma": "Counting chant: count to 10 doing big arm circles, then count to 20 as you walk down the hall and back.",
+     "en": "Mystery bag: put 4 kitchen objects in a bag; your child pulls one out and describes it (color, size, what it's for) before naming it. Then sort them: things we eat with, things we cook with."
+    },
+    {
+     "d": "Fri",
+     "ma": "Quick check: tip out a mix of buttons or pasta shapes; can your child sort them and tell you how many are in each group?",
+     "en": "Quick check: names and sounds for P, p, I, i and the earlier letters; blend sit, tip and pat. Find the word the twice on a page."
+    }
+   ]
+  },
+  {
+   "w": 4,
+   "term": "Fall",
+   "title": "Numbers 6 to 10; letters Nn and Cc",
+   "ma": [
+    "k:ma:0:0",
+    "k:ma:0:3",
+    "k:ma:0:4"
+   ],
+   "en": [
+    "k:en:2:2",
+    "k:en:2:1",
+    "k:en:0:1",
+    "k:en:4:0"
+   ],
+   "spell": {
+    "rule": "Letters Nn and Cc (sight word: to)",
+    "words": [
+     "to",
+     "nap",
+     "pin",
+     "tin",
+     "can",
+     "cap",
+     "cat",
+     "cot",
+     "nut",
+     "net"
+    ]
+   },
+   "read": "A traditional folk tale with three animals or three tries – read it twice so your child can retell it",
+   "days": [
+    {
+     "d": "Mon",
+     "ma": "Five and some more: show 5 fingers on one hand, then add fingers on the other to make 6, 7, 8, 9 and 10, saying each number.",
+     "en": "Meet N: make a 'nnn' engine noise. Split and blend: n…ap, n…et, n…ut – your child says the whole word."
+    },
+    {
+     "d": "Tue",
+     "ma": "Snack circle: put 6 to 10 grapes or crackers in a line and count, touching each. Then make them into a circle and count again, starting at one you mark so you don't count twice.",
+     "en": "Read the folk tale. Afterward, your child retells it on three fingers: first, next, last."
+    },
+    {
+     "d": "Wed",
+     "ma": "Step count: count 10 stairs (or 10 giant strides across the yard), saying one number with each step, then count back down.",
+     "en": "Meet C: c says /k/ as in cat and cup. Hunt the kitchen for /k/ things: can, cup, cookie, cabinet."
+    },
+    {
+     "d": "Thu",
+     "ma": "Count and grab: say a number from 6 to 10; your child counts out that many pennies or toys into a bowl, then checks by counting again.",
+     "en": "Story relay at dinner: take turns retelling the folk tale, one part each, then pass it on. Remind everyone to listen and wait for their turn."
+    },
+    {
+     "d": "Fri",
+     "ma": "Quick check: line up 6 to 10 objects; your child counts and says how many. Then ask 'If I count from the other end, how many?'",
+     "en": "Quick check: names and sounds for N, n, C, c and the letters so far; read cat, can and nap. Find the word to on a page."
+    }
+   ]
+  },
+  {
+   "w": 5,
+   "term": "Fall",
+   "title": "Writing 6 to 10; letters Oo and Dd",
+   "ma": [
+    "k:ma:0:2",
+    "k:ma:0:4",
+    "k:ma:0:3"
+   ],
+   "en": [
+    "k:en:2:2",
+    "k:en:5:0",
+    "k:en:0:5",
+    "k:en:2:0"
+   ],
+   "spell": {
+    "rule": "Letters Oo and Dd (sight word: see)",
+    "words": [
+     "see",
+     "on",
+     "dot",
+     "dog",
+     "not",
+     "pot",
+     "top",
+     "dad",
+     "dip",
+     "mop"
+    ]
+   },
+   "read": "A picture book whose cover shows both an author and an illustrator – read both names aloud",
+   "days": [
+    {
+     "d": "Mon",
+     "ma": "Number hops: write 6, 7, 8, 9 and 10 big in chalk; your child hops onto each one and does that many jumps.",
+     "en": "Meet O: open wide like at the doctor and say /o/ as in octopus. Find things in the house that are round like an O."
+    },
+    {
+     "d": "Tue",
+     "ma": "Flour writing: spread flour on a tray; your child writes 6 to 10 with a finger, saying each number, then shakes the tray to erase.",
+     "en": "Meet D: bang a pretend drum /d/ /d/. Write D ('down, back and around') and d ('c, then a tall line') in the air, then on paper."
+    },
+    {
+     "d": "Wed",
+     "ma": "Egg carton count: write 0 to 10 on scraps; your child picks one and puts that many beans or buttons into a cup of an egg carton or muffin pan.",
+     "en": "Read the book and point to the author's name ('the person who wrote the words') and the illustrator's name ('the person who drew the pictures'). Which job would your child like?"
+    },
+    {
+     "d": "Thu",
+     "ma": "Count the room: how many chairs, windows and pillows? Your child counts each and writes the number on a scrap of paper to set beside them.",
+     "en": "Letter practice: your child writes their first name, then capital and lowercase m, s, a, t, o and d; circle the best of each together."
+    },
+    {
+     "d": "Fri",
+     "ma": "Quick check: show 6 to 10 dots or objects; your child writes the matching numeral.",
+     "en": "Quick check: names and sounds for O, o, D, d; read dog, dot and not; read 'I see a dog.' together, pointing to each word."
+    }
+   ]
+  },
+  {
+   "w": 6,
+   "term": "Fall",
+   "title": "More, fewer or the same; letters Ff and Gg",
+   "ma": [
+    "k:ma:0:5",
+    "k:ma:0:4"
+   ],
+   "en": [
+    "k:en:2:2",
+    "k:en:2:1",
+    "k:en:0:2",
+    "k:en:4:3"
+   ],
+   "spell": {
+    "rule": "Letters Ff and Gg (sight word: we)",
+    "words": [
+     "we",
+     "fan",
+     "fit",
+     "fin",
+     "fog",
+     "got",
+     "gas",
+     "dig",
+     "tag",
+     "pig"
+    ]
+   },
+   "read": "A storybook set somewhere exciting, like a farm or a forest – talk about who is in it, where it happens and what happens",
+   "days": [
+    {
+     "d": "Mon",
+     "ma": "Plate match: put 4 apple slices on one plate and 6 on another; match them up in pairs. Which plate has more? How do you know?",
+     "en": "Meet F: bite your bottom lip and blow /fff/ like a flat tire. Rhyme time: fan, can, man, pan – your child adds another rhyme, real or silly."
+    },
+    {
+     "d": "Tue",
+     "ma": "Cups and spoons: pair up cups and spoons. Are there more cups, more spoons, or the same? Add or remove one and check again.",
+     "en": "Meet G: gulp /g/ like drinking water. Say go, dog, gas and pig: is the /g/ at the start or the end?"
+    },
+    {
+     "d": "Wed",
+     "ma": "Handful race: you each grab a handful of blocks; count both, then say 'I have more', 'I have fewer' or 'We have the same'.",
+     "en": "Read the farm or forest book and ask: 'Who are the characters? Where does it happen? What is the big thing that happens?' Draw the setting together."
+    },
+    {
+     "d": "Thu",
+     "ma": "Acorn lines: collect two piles of pebbles or acorns; line them up side by side, one across from one, to see which group has more.",
+     "en": "Guess the place: your child describes a room or the park with 3 details (colors, sounds, what's there) and you guess where it is. Swap roles."
+    },
+    {
+     "d": "Fri",
+     "ma": "Quick check: show two groups of up to 10 things; your child says which has more, fewer or the same and shows how they checked.",
+     "en": "Quick check: names and sounds for F, f, G, g and three earlier letters; read fan, dig and fog. Find we in a sentence."
+    }
+   ]
+  },
+  {
+   "w": 7,
+   "term": "Fall",
+   "title": "Comparing numbers and counting on; letters Hh and Ll",
+   "ma": [
+    "k:ma:0:6",
+    "k:ma:0:1",
+    "k:ma:0:0"
+   ],
+   "en": [
+    "k:en:2:2",
+    "k:en:2:1",
+    "k:en:0:6",
+    "k:en:4:0"
+   ],
+   "spell": {
+    "rule": "Letters Hh and Ll (sight word: can)",
+    "words": [
+     "can",
+     "hat",
+     "hop",
+     "hit",
+     "hot",
+     "lap",
+     "lid",
+     "lot",
+     "log",
+     "lip"
+    ]
+   },
+   "read": "A picture book with lots of detail in the pictures – look for things the words don't say",
+   "days": [
+    {
+     "d": "Mon",
+     "ma": "Number card battle: write 1 to 10 on paper scraps, shuffle, and each flip one; the greater number wins both. Say '7 is greater than 4'.",
+     "en": "Meet H: breathe on a cold window /h/ /h/. Hop each time you hear a word starting with /h/: hat, hop, dog, hot, sun, hen."
+    },
+    {
+     "d": "Tue",
+     "ma": "Count on: start at a number other than 1 – 'Start at 4 and count to 10' – while bouncing a ball or doing jumping jacks.",
+     "en": "Picture detective: read the picture book and on each page ask 'What can you see in the picture that the words don't tell us?'"
+    },
+    {
+     "d": "Wed",
+     "ma": "Sidewalk number line: chalk 1 to 10 in a row; call two numbers, your child stands on each and says which is greater (farther along).",
+     "en": "Meet L: tongue up behind your top teeth, /lll/. Change the first sound: hot → lot, hip → lip, hog → log."
+    },
+    {
+     "d": "Thu",
+     "ma": "Elevator: pretend you're in an elevator; you call a floor ('5!') and your child counts on from there up to 10 as the elevator rises.",
+     "en": "Cover the words on a page and ask your child to tell what is happening from the picture alone; then read the words together to check. Take turns talking about it."
+    },
+    {
+     "d": "Fri",
+     "ma": "Quick check: show two numeral cards between 1 and 10; your child says which is greater. Then ask 'Start at 6 and count to 12.'",
+     "en": "Quick check: names and sounds for H and L; read hat, lip and log; read 'I can hop.' pointing to each word."
+    }
+   ]
+  },
+  {
+   "w": 8,
+   "term": "Fall",
+   "title": "Review week: counting, comparing and letters so far",
+   "ma": [
+    "k:ma:0:1",
+    "k:ma:0:2",
+    "k:ma:0:3",
+    "k:ma:0:4",
+    "k:ma:0:5",
+    "k:ma:0:6",
+    "k:ma:3:2"
+   ],
+   "en": [
+    "k:en:2:0",
+    "k:en:2:1",
+    "k:en:2:2",
+    "k:en:4:1",
+    "k:en:0:0"
+   ],
+   "spell": {
+    "rule": "Review: m s a t p i n c o d f g h l (sight words: I, a, the, to, see, we, can)",
+    "words": [
+     "sat",
+     "pin",
+     "cot",
+     "dog",
+     "fan",
+     "hat",
+     "lip",
+     "the",
+     "see",
+     "can"
+    ]
+   },
+   "read": "A favorite book from the last few weeks – your child chooses and you read it together",
+   "days": [
+    {
+     "d": "Mon",
+     "ma": "Number hunt: hide numeral cards 0 to 10 around a room; when your child finds one, they do that many jumps.",
+     "en": "Letter fishing: write all 14 letters so far on paper fish; your child catches one, says its name and sound, then a word that starts with it."
+    },
+    {
+     "d": "Tue",
+     "ma": "Toy store: sort a basket of toys into groups, count each group and write the count on a scrap of paper beside it. Which group has the most?",
+     "en": "Read the favorite book; afterward ask your child two questions about it, then they ask you one ('What happened when…?')."
+    },
+    {
+     "d": "Wed",
+     "ma": "Bigger or smaller: flip two number cards from 1 to 10; stretch up tall for the greater number and crouch small for the smaller one.",
+     "en": "Rhyme hop: say a word (cat, pin, dog, hop); your child jumps and says a rhyming word, real or silly."
+    },
+    {
+     "d": "Thu",
+     "ma": "Start anywhere: toss a beanbag or rolled-up sock onto chalk numbers 1 to 10, then count on from where it lands up to 20.",
+     "en": "Sight word swat: write I, a, the, to, see, we and can on paper and tape them to a wall; call a word and your child swats it with a rolled-up newspaper."
+    },
+    {
+     "d": "Fri",
+     "ma": "Quick check: your child counts out 8 things, writes the numeral, and says which is greater, 8 or 5.",
+     "en": "Quick check: name and sound for 10 random letters; read 3 words from the list and 3 sight words."
+    }
+   ]
+  },
+  {
+   "w": 9,
+   "term": "Fall",
+   "title": "Flat shapes; letters Ee and Rr",
+   "ma": [
+    "k:ma:4:1",
+    "k:ma:4:0"
+   ],
+   "en": [
+    "k:en:2:2",
+    "k:en:2:1",
+    "k:en:0:4",
+    "k:en:4:1"
+   ],
+   "spell": {
+    "rule": "Letters Ee and Rr (sight word: and)",
+    "words": [
+     "and",
+     "red",
+     "rat",
+     "rip",
+     "rug",
+     "pet",
+     "ten",
+     "net",
+     "hen",
+     "rod"
+    ]
+   },
+   "read": "A book of short poems or nursery rhymes – notice how a poem looks different from a storybook",
+   "days": [
+    {
+     "d": "Mon",
+     "ma": "Shape hunt: walk around the house finding circles (plates), squares (tiles), rectangles (doors) and triangles; name each one.",
+     "en": "Meet E: short /e/ as in egg and elbow. Tap your elbow each time you hear /e/: pet, pit, ten, tan, red."
+    },
+    {
+     "d": "Tue",
+     "ma": "Turn it around: cut a triangle out of paper and turn it in different directions; cut a tiny one and a big one. Still triangles? Why? (3 sides, 3 corners)",
+     "en": "Read two short poems. Ask 'How is a poem different from a storybook?' (short lines, rhymes, a beat). Clap along to the beat."
+    },
+    {
+     "d": "Wed",
+     "ma": "Chalk shapes: draw big, small, tipped and upright shapes in chalk; your child runs to the one you name.",
+     "en": "Meet R: growl like a puppy /rrr/. Blend r-e-d, r-a-t and r-u-g, then make up silly 'and' sentences: 'a red rug and a red rat'."
+    },
+    {
+     "d": "Thu",
+     "ma": "Snack shapes: find shapes in food – round crackers, square bread – and cut a sandwich into triangles. Name each before eating.",
+     "en": "Listen and answer: read a poem twice; ask what it was about, then your child asks you about one word or line they didn't understand."
+    },
+    {
+     "d": "Fri",
+     "ma": "Quick check: draw 4 shapes in different sizes and turns; your child names each, including a tipped-over square.",
+     "en": "Quick check: names and sounds for E and R; read red, ten and net; read 'a hen and a rat'."
+    }
+   ]
+  },
+  {
+   "w": 10,
+   "term": "Fall",
+   "title": "Shapes around us and where things are; letters Bb and Kk",
+   "ma": [
+    "k:ma:4:0",
+    "k:ma:4:1"
+   ],
+   "en": [
+    "k:en:2:2",
+    "k:en:0:3",
+    "k:en:5:4",
+    "k:en:5:0"
+   ],
+   "spell": {
+    "rule": "Letters Bb and Kk (sight word: is)",
+    "words": [
+     "is",
+     "bat",
+     "bed",
+     "bus",
+     "big",
+     "bag",
+     "kit",
+     "kid",
+     "cab",
+     "tub"
+    ]
+   },
+   "read": "A storybook with some new, interesting words – stop and talk about them",
+   "days": [
+    {
+     "d": "Mon",
+     "ma": "Bear positions: put a stuffed animal above, below, beside, in front of, behind and next to a box; your child says where it is each time.",
+     "en": "Meet B: lips together and pop /b/ like a bubble. Bounce a ball for each /b/ word: ball, bed, bus, cat (no bounce!)."
+    },
+    {
+     "d": "Tue",
+     "ma": "Outdoor shape talk: find shapes outside and say where they are: 'The circle wheel is under the car', 'The rectangle window is above the door'.",
+     "en": "Read the storybook; when you reach an interesting word, stop: 'What do you think it means? How can the picture help?'"
+    },
+    {
+     "d": "Wed",
+     "ma": "Robot says: 'Robot says put the spoon behind the square plate', 'Robot says stand next to something round'. Only move when the robot says!",
+     "en": "Meet K: kick /k/ – the same sound as c! Sort word cards cat, kit, cap and kid: which start with c, which with k?"
+    },
+    {
+     "d": "Thu",
+     "ma": "Treasure clues: hide a toy and give clues with shape and position words: 'It's beside the rectangle rug, under something round.'",
+     "en": "Word challenge: pick 2 new words from the book and use them in sentences at dinner; count how many times you both use them. Your child then writes b and k five times each."
+    },
+    {
+     "d": "Fri",
+     "ma": "Quick check: your child puts a toy above, below, beside and behind a chair as you call them, then names 3 shapes in the room.",
+     "en": "Quick check: read bed, big and kid; read 'It is a big bus.' Write B, b, K and k neatly."
+    }
+   ]
+  },
+  {
+   "w": 11,
+   "term": "Fall",
+   "title": "Solid shapes: flat or solid?; letters Uu and Jj",
+   "ma": [
+    "k:ma:4:2",
+    "k:ma:4:3",
+    "k:ma:4:1"
+   ],
+   "en": [
+    "k:en:2:2",
+    "k:en:1:0",
+    "k:en:1:9",
+    "k:en:2:1"
+   ],
+   "spell": {
+    "rule": "Letters Uu and Jj (sight word: you)",
+    "words": [
+     "you",
+     "up",
+     "us",
+     "cup",
+     "bug",
+     "sun",
+     "jam",
+     "jet",
+     "jog",
+     "jug"
+    ]
+   },
+   "read": "An information book about buildings or bridges – look at photos of real buildings",
+   "days": [
+    {
+     "d": "Mon",
+     "ma": "Solid shape hunt: find a ball (sphere), a can (cylinder), a box (cube or rectangular prism) and a cone shape. Name each one.",
+     "en": "Meet U: short /u/ as in up – point both thumbs up. Jump up each time a word has /u/: cup, cap, bug, bag, sun."
+    },
+    {
+     "d": "Tue",
+     "ma": "Flat or solid: sort paper cutout shapes and real objects (box, can, ball) into two piles – flat (you can draw it) and solid (you can hold it).",
+     "en": "Read the buildings book; stop after a page and each ask a question ('What holds the bridge up?'). Look back in the book together to answer."
+    },
+    {
+     "d": "Wed",
+     "ma": "Roll, stack, slide: test a can, a box and a ball on a sloped board. Which roll? Which stack? Which slide? Talk about flat faces and curved parts.",
+     "en": "Meet J: /j/ as in jump – jump for every j word: jam, jet, jog, dog, jug."
+    },
+    {
+     "d": "Thu",
+     "ma": "Same and different: hold a paper square next to a box. How are they the same? Different? Count the corners on each.",
+     "en": "Label reading: read a cereal box, sign or label together; your child finds letters they know and asks one question about what it says."
+    },
+    {
+     "d": "Fri",
+     "ma": "Quick check: put out 4 objects; your child says flat or solid for each and names 2 solid shapes.",
+     "en": "Quick check: names and sounds for U and J; read cup, jam and bug; read 'You can see a bug.'"
+    }
+   ]
+  },
+  {
+   "w": 12,
+   "term": "Fall",
+   "title": "Building and drawing shapes; letters Ww and Vv",
+   "ma": [
+    "k:ma:4:4",
+    "k:ma:4:5",
+    "k:ma:4:3"
+   ],
+   "en": [
+    "k:en:2:2",
+    "k:en:1:1",
+    "k:en:4:2",
+    "k:en:2:1"
+   ],
+   "spell": {
+    "rule": "Letters Ww and Vv (sight word: go)",
+    "words": [
+     "go",
+     "wet",
+     "web",
+     "win",
+     "wig",
+     "wag",
+     "van",
+     "vet",
+     "vat",
+     "vest"
+    ]
+   },
+   "read": "An information book about animal homes – what is the whole book mostly about?",
+   "days": [
+    {
+     "d": "Mon",
+     "ma": "Stick shapes: use straws, sticks or uncooked spaghetti to build a triangle, square and rectangle on the table; count the sides and corners.",
+     "en": "Meet W: round your lips and blow /w/ like the wind. Wave your hand for w words: wet, win, web, pen, wig."
+    },
+    {
+     "d": "Tue",
+     "ma": "Two triangles: fold and cut a paper square corner to corner. Can your child put the 2 triangles back into a square? Can they make one big triangle?",
+     "en": "Read the animal homes book; ask 'What is this book mostly about?' and have your child tell you 2 facts they remember."
+    },
+    {
+     "d": "Wed",
+     "ma": "Dough builders: make little balls of flour-and-water dough and join them with toothpicks to build a square, then a triangle; count the corner balls.",
+     "en": "Meet V: top teeth on bottom lip, buzz /vvv/. Read van and vet, then change van → fan → man."
+    },
+    {
+     "d": "Thu",
+     "ma": "Shape pictures: draw a house from a square and a triangle, then a robot from rectangles and circles. Name each shape you used.",
+     "en": "Question time: your child asks you 3 questions about an animal home ('Where do bats sleep?'); look for the answers in the book together."
+    },
+    {
+     "d": "Fri",
+     "ma": "Quick check: your child draws a triangle, a square and a circle, then makes a rectangle from two paper triangles.",
+     "en": "Quick check: names and sounds for W and V; read wet, van and web; read 'We can go!'"
+    }
+   ]
+  },
+  {
+   "w": 13,
+   "term": "Fall",
+   "title": "Number partners for 5; letters Yy and Zz",
+   "ma": [
+    "k:ma:1:2",
+    "k:ma:1:0",
+    "k:ma:0:3"
+   ],
+   "en": [
+    "k:en:2:2",
+    "k:en:1:3",
+    "k:en:4:3",
+    "k:en:2:1"
+   ],
+   "spell": {
+    "rule": "Letters Yy and Zz (sight word: like)",
+    "words": [
+     "like",
+     "yes",
+     "yet",
+     "yum",
+     "yak",
+     "zip",
+     "zap",
+     "zig",
+     "zag",
+     "buzz"
+    ]
+   },
+   "read": "An information book about food or cooking – notice the cooking words",
+   "days": [
+    {
+     "d": "Mon",
+     "ma": "Five on the pillow: put 5 toys on a pillow and roll some off. How many on the pillow, how many on the floor? '3 and 2 make 5.'",
+     "en": "Meet Y: /y/ as in yes – nod your head yes for each y word: yes, yum, yak, mat, yell."
+    },
+    {
+     "d": "Tue",
+     "ma": "Penny toss: toss 5 pennies; how many heads, how many tails? Draw it and write it, like 5 = 4 + 1. Toss again for a new way.",
+     "en": "Thanksgiving talk: describe your holiday meal or a favorite family dinner – who was there, what you ate, how it tasted. Add one more detail each turn."
+    },
+    {
+     "d": "Wed",
+     "ma": "Hidden fingers: hold up 5 fingers and hide some behind your back. How many are hiding? Show 5 as 2 and 3, then as 1 and 4.",
+     "en": "Meet Z: buzz like a bee /zzz/. Zig-zag across the yard saying zip, zap, zig, zag, buzz."
+    },
+    {
+     "d": "Thu",
+     "ma": "Snack split: share 5 crackers between two plates in different ways; your child draws each way and you help write 5 = 3 + 2.",
+     "en": "Read the food book; find 2 words you don't know (like whisk or simmer), look at the pictures and act out what they mean."
+    },
+    {
+     "d": "Fri",
+     "ma": "Quick check: show 5 objects and cover some with a cup; your child tells you how many are hidden. Try 3 different splits.",
+     "en": "Quick check: names and sounds for Y and Z; read yes, zip and yum; read 'I like you.'"
+    }
+   ]
+  },
+  {
+   "w": 14,
+   "term": "Fall",
+   "title": "Putting together: adding; letters Xx and Qq",
+   "ma": [
+    "k:ma:1:0",
+    "k:ma:1:1",
+    "k:ma:1:4"
+   ],
+   "en": [
+    "k:en:2:2",
+    "k:en:1:5",
+    "k:en:2:1",
+    "k:en:5:0"
+   ],
+   "spell": {
+    "rule": "Letters Xx and Qq (sight word: my)",
+    "words": [
+     "my",
+     "box",
+     "fox",
+     "six",
+     "mix",
+     "fix",
+     "wax",
+     "quit",
+     "quiz",
+     "quack"
+    ]
+   },
+   "read": "An information book with photos – find who wrote the words and who took the photos or drew the pictures",
+   "days": [
+    {
+     "d": "Mon",
+     "ma": "Hop and add: chalk 0 to 10 in a row; your child stands on 3, hops 2 more and says '3 and 2 more is 5'. Try other starts.",
+     "en": "Meet X: at the end of a word x says /ks/ – box, fox, six. Make a camera-click 'ks' every time you hear it."
+    },
+    {
+     "d": "Tue",
+     "ma": "Bath-time story: '4 ducks are in the tub, 2 more jump in. How many now?' Act it out with real toys and count all.",
+     "en": "Read the information book; find the author's name and who made the pictures. What job did each person do to make the book?"
+    },
+    {
+     "d": "Wed",
+     "ma": "Claps and stamps: clap 3 times, stamp 2 times – how many sounds altogether? Write it: 3 + 2 = 5. Your child makes one for you.",
+     "en": "Meet Q: q and u are best friends – qu says /kw/ like a duck: quack! Waddle for each qu word: quit, quiz, quack."
+    },
+    {
+     "d": "Thu",
+     "ma": "Finger adding: 2 fingers on one hand and 3 on the other; touch them together and count all. Do 4 + 1, 1 + 3 and 2 + 2.",
+     "en": "My sentences: take turns saying sentences that start with 'My…' ('My box is big.'). Write one together; your child prints My and the first letter of each word."
+    },
+    {
+     "d": "Fri",
+     "ma": "Quick check: tell 5 adding stories within 5 with toys; your child shows and answers each one.",
+     "en": "Quick check: names and sounds for X and Q; read box, six and quiz; read 'My fox is in the box.'"
+    }
+   ]
+  },
+  {
+   "w": 15,
+   "term": "Fall",
+   "title": "Taking away: subtracting; short and long vowels",
+   "ma": [
+    "k:ma:1:0",
+    "k:ma:1:1",
+    "k:ma:1:4"
+   ],
+   "en": [
+    "k:en:2:2",
+    "k:en:3:2",
+    "k:en:4:4",
+    "k:en:2:1"
+   ],
+   "spell": {
+    "rule": "Short and long vowels a e i o u (sight word: me)",
+    "words": [
+     "me",
+     "cap",
+     "cape",
+     "kit",
+     "kite",
+     "hop",
+     "hope",
+     "cub",
+     "cube",
+     "pet"
+    ]
+   },
+   "read": "A storybook about a winter day or a snowy adventure",
+   "days": [
+    {
+     "d": "Mon",
+     "ma": "Bottle bowling: set up 5 empty plastic bottles and knock some down. How many fell? How many are left? '5 take away 2 is 3.'",
+     "en": "Vowel family: each vowel has a short sound (apple, egg, itch, octopus, up) and a long sound that says its own name (acorn, eagle, ice, open, unicorn). Say both for each."
+    },
+    {
+     "d": "Tue",
+     "ma": "Cookie jar: draw 6 cookies; 'Mom ate 2' – your child crosses 2 out. How many are left? Make up two more.",
+     "en": "Read the winter story; your child draws the beginning, middle and end on a folded paper and tells you the story from the pictures."
+    },
+    {
+     "d": "Wed",
+     "ma": "Couch story: 4 toys sit on the couch, 1 leaves to get a snack. How many are left? Write 4 − 1 = 3.",
+     "en": "Magic e: write cap, kit and hop; add an e to each and read cape, kite and hope. The vowel says its name!"
+    },
+    {
+     "d": "Thu",
+     "ma": "Finger take-away: show 5 fingers and fold down 2. How many are left? Keep going with facts within 5 until they're fast.",
+     "en": "True story: your child draws something that happened this week and tells it: 'First… then… at the end I felt…'. Write their words under the picture."
+    },
+    {
+     "d": "Fri",
+     "ma": "Quick check: 5 quick take-away questions within 5 using fingers or toys.",
+     "en": "Quick check: say the short and long sound for each vowel card; read cap and cape, kit and kite."
+    }
+   ]
+  },
+  {
+   "w": 16,
+   "term": "Fall",
+   "title": "Review week: alphabet, shapes, adding and taking away",
+   "ma": [
+    "k:ma:1:1",
+    "k:ma:1:2",
+    "k:ma:1:4",
+    "k:ma:4:1",
+    "k:ma:4:2",
+    "k:ma:0:2",
+    "k:ma:0:6"
+   ],
+   "en": [
+    "k:en:2:0",
+    "k:en:2:1",
+    "k:en:2:2",
+    "k:en:5:0",
+    "k:en:0:1"
+   ],
+   "spell": {
+    "rule": "Whole alphabet review (sight words: I, a, the, to, see, we, can, and, is, you, go, like, my, me)",
+    "words": [
+     "cat",
+     "dog",
+     "sun",
+     "bed",
+     "fox",
+     "web",
+     "jam",
+     "zip",
+     "yes",
+     "quack"
+    ]
+   },
+   "read": "A holiday or winter story your child has heard before – they help you retell it",
+   "days": [
+    {
+     "d": "Mon",
+     "ma": "Shape scavenger hunt: find 3 flat shapes and 3 solid shapes in the house; your child names each and says flat or solid.",
+     "en": "Alphabet line: write A to Z on paper scraps; your child lays them out in order on the floor, saying each name and sound."
+    },
+    {
+     "d": "Tue",
+     "ma": "Gift box math: put 2 small toys in a box and add 3 more. How many inside? Take 1 out. How many now?",
+     "en": "Retell the familiar story with stuffed animals as the characters; your child moves them and tells what happens."
+    },
+    {
+     "d": "Wed",
+     "ma": "Partners of 5: hide 5 buttons in two hands; show 3 different ways and write each one down.",
+     "en": "Memory match: write A to Z and a to z on separate scraps; play a memory game matching each capital with its lowercase letter, then copy 5 pairs neatly."
+    },
+    {
+     "d": "Thu",
+     "ma": "Card compare: flip two number cards from 1 to 10; your child writes both numbers and circles the greater one.",
+     "en": "Sound swap: change the first sound to make new words: cat → bat → hat → mat → sat. How many can you make?"
+    },
+    {
+     "d": "Fri",
+     "ma": "Quick check: 2 + 3, 4 − 1 and 5 − 2; name one flat and one solid shape; write 0 to 10.",
+     "en": "Quick check: your child names all 26 letters in any order with their sounds, then reads 5 words from the list and 5 sight words."
+    }
+   ]
+  },
+  {
+   "w": 17,
+   "term": "Winter",
+   "title": "Adding within 5 quickly; word family -at",
+   "ma": [
+    "k:ma:1:4",
+    "k:ma:1:1",
+    "k:ma:1:0"
+   ],
+   "en": [
+    "k:en:2:2",
+    "k:en:2:3",
+    "k:en:1:6",
+    "k:en:2:1"
+   ],
+   "spell": {
+    "rule": "Word family -at (sight word: look)",
+    "words": [
+     "look",
+     "at",
+     "cat",
+     "bat",
+     "hat",
+     "mat",
+     "sat",
+     "rat",
+     "fat",
+     "pat"
+    ]
+   },
+   "read": "A simple information book about snow or winter animals – see how each photo matches the words",
+   "days": [
+    {
+     "d": "Mon",
+     "ma": "Snowball adds: crumple paper into 'snowballs'; toss 2 into a basket, then 3 more. How many in? Keep going with sums up to 5.",
+     "en": "Word family -at: write at on paper; your child puts c, b, h, m, s and r in front and reads each new word."
+    },
+    {
+     "d": "Tue",
+     "ma": "Dot cards: draw cards with 0 to 3 dots; flip two and add, saying the answer as fast as you can.",
+     "en": "Read the winter animals book; point to a photo and ask 'Which words tell us about this picture?'"
+    },
+    {
+     "d": "Wed",
+     "ma": "Fact cards: write 1 + 1 up to 2 + 3 on cards; flip one and answer within 3 seconds. Keep the ones you know in a 'got it' pile.",
+     "en": "Little book: fold paper into a 4-page book: 'A cat. A hat. A bat. A mat.' Your child reads each page and draws the picture."
+    },
+    {
+     "d": "Thu",
+     "ma": "Door facts: every time you walk through a doorway today, say an adding fact up to 5: 'two plus three is five'.",
+     "en": "Your child reads the little -at book to a stuffed animal, pointing to each word, then asks the toy 'Look at the cat!'"
+    },
+    {
+     "d": "Fri",
+     "ma": "Quick check: 6 facts within 5 (1 + 3, 2 + 2, 4 + 1, 0 + 5, 3 + 2, 1 + 1) – aim for quick answers.",
+     "en": "Quick check: read all 8 -at words; read 'Look at the cat.'"
+    }
+   ]
+  },
+  {
+   "w": 18,
+   "term": "Winter",
+   "title": "Taking away within 5 quickly; word family -an",
+   "ma": [
+    "k:ma:1:4",
+    "k:ma:1:1"
+   ],
+   "en": [
+    "k:en:2:2",
+    "k:en:3:0",
+    "k:en:5:3",
+    "k:en:2:3"
+   ],
+   "spell": {
+    "rule": "Word family -an (sight word: he)",
+    "words": [
+     "he",
+     "an",
+     "can",
+     "fan",
+     "man",
+     "pan",
+     "ran",
+     "van",
+     "tan"
+    ]
+   },
+   "read": "Two storybooks your child likes – which one is their favorite and why?",
+   "days": [
+    {
+     "d": "Mon",
+     "ma": "Pancake flip: put 5 paper pancakes on a pan and flip some off. How many are left? Say the fact: '5 − 2 = 3'.",
+     "en": "Word family -an: write an on a paper pan; add letters to make can, fan, man, pan, ran and van. Read each one."
+    },
+    {
+     "d": "Tue",
+     "ma": "Hide and take: show 4 pennies, then hide some under a cup. How many are under the cup?",
+     "en": "Favorite book: your child draws their favorite of the two books and you write their words: 'My favorite book is … because …'."
+    },
+    {
+     "d": "Wed",
+     "ma": "Hop back: chalk 0 to 5; your child starts on 5 and hops back 2. Where do you land? Try 4 back 3 and 3 back 1.",
+     "en": "Opposites act-out: hot/cold, big/little, fast/slow, happy/sad, up/down – your child acts out each pair and you guess."
+    },
+    {
+     "d": "Thu",
+     "ma": "Grape story: 'You have 3 grapes and eat 1.' Your child eats a real grape and answers, then 4 grapes and eat 2.",
+     "en": "Read together: 'He ran. He can fan. He ran to the van.' Your child points to each word as they read."
+    },
+    {
+     "d": "Fri",
+     "ma": "Quick check: 6 take-away facts within 5 as fast as they can.",
+     "en": "Quick check: read the -an words; your child tells you their favorite food and gives one reason."
+    }
+   ]
+  },
+  {
+   "w": 19,
+   "term": "Winter",
+   "title": "Number partners for 6 to 10; word families -ap and -ag",
+   "ma": [
+    "k:ma:1:2",
+    "k:ma:1:0"
+   ],
+   "en": [
+    "k:en:2:2",
+    "k:en:2:1",
+    "k:en:4:5",
+    "k:en:2:3"
+   ],
+   "spell": {
+    "rule": "Word families -ap and -ag (sight word: she)",
+    "words": [
+     "she",
+     "cap",
+     "map",
+     "nap",
+     "tap",
+     "lap",
+     "bag",
+     "rag",
+     "tag",
+     "wag"
+    ]
+   },
+   "read": "A funny poem or song with lots of rhymes – read it aloud together in big, clear voices",
+   "days": [
+    {
+     "d": "Mon",
+     "ma": "Two-hand partners: hide 7 small things in two hands in different ways; open and say '7 is 3 and 4'. How many ways can you find?",
+     "en": "Two families: write -ap and -ag; build cap, map, nap and bag, tag, wag. Sort the word cards into two families."
+    },
+    {
+     "d": "Tue",
+     "ma": "Sock partners: take 8 socks, some white and some colored; draw them and write the partners: 8 = 5 + 3.",
+     "en": "Poem performance: practice the poem, then perform it for the family in a big, clear voice, standing tall."
+    },
+    {
+     "d": "Wed",
+     "ma": "Penny partners: toss 6 to 10 pennies; count heads and tails and record each toss as an equation.",
+     "en": "Change one letter: cap → map → mop → top. Your child reads each new word."
+    },
+    {
+     "d": "Thu",
+     "ma": "Bean spill: color one side of 10 dry beans with a marker; spill them and count each color: 10 = 6 + 4.",
+     "en": "Silly sentences: read 'She can nap in a bag.' and 'She has a map in her cap.' Is that silly or true? Laugh and read again."
+    },
+    {
+     "d": "Fri",
+     "ma": "Quick check: show 2 ways to split 6, 8 and 9 with fingers or drawings.",
+     "en": "Quick check: read the -ap and -ag words and 'She can wag a tag.' Then your child tells the family about their day in a clear voice."
+    }
+   ]
+  },
+  {
+   "w": 20,
+   "term": "Winter",
+   "title": "Making 10; word family -ig",
+   "ma": [
+    "k:ma:1:3",
+    "k:ma:1:2"
+   ],
+   "en": [
+    "k:en:2:2",
+    "k:en:5:1",
+    "k:en:0:7",
+    "k:en:2:3"
+   ],
+   "spell": {
+    "rule": "Word family -ig (sight word: it)",
+    "words": [
+     "it",
+     "big",
+     "dig",
+     "fig",
+     "pig",
+     "wig",
+     "jig",
+     "rig",
+     "zig"
+    ]
+   },
+   "read": "Two different stories with an animal character – compare what happens to each one",
+   "days": [
+    {
+     "d": "Mon",
+     "ma": "Ten frame: draw a grid of 2 rows of 5 boxes; put 7 buttons in. How many boxes are empty? '7 and 3 make 10.'",
+     "en": "Word family -ig: read big, dig, pig and wig, and act out each – big arms, dig, oink, wear a towel as a wig."
+    },
+    {
+     "d": "Tue",
+     "ma": "Bottle bowling for 10: set up 10 plastic bottles and roll a ball. How many fell? How many are standing? Do they make 10?",
+     "en": "Sentence fixers: write 'the pig can dig' with no capital or period; your child fixes it with a capital T and a period. Find the capital I in 'I see it.'"
+    },
+    {
+     "d": "Wed",
+     "ma": "Finger 10: show some fingers; your child shows how many more fingers make 10.",
+     "en": "Compare characters: think about the two animal stories. How are the characters the same? What different adventures did they have?"
+    },
+    {
+     "d": "Thu",
+     "ma": "Ladder of 10: write the pairs that make 10 (1 + 9 up to 9 + 1) as rungs of a chalk ladder and read them going up.",
+     "en": "Read sentence strips 'It is a big pig.' and 'Can it dig?' Name the end marks: period and question mark."
+    },
+    {
+     "d": "Fri",
+     "ma": "Quick check: call a number from 1 to 9; your child says its partner to make 10 quickly.",
+     "en": "Quick check: read the -ig words; your child writes 'I see a pig.' with a capital I and a period."
+    }
+   ]
+  },
+  {
+   "w": 21,
+   "term": "Winter",
+   "title": "Story problems within 10; word families -in and -ip",
+   "ma": [
+    "k:ma:1:1",
+    "k:ma:1:0"
+   ],
+   "en": [
+    "k:en:2:2",
+    "k:en:3:1",
+    "k:en:2:3",
+    "k:en:2:1"
+   ],
+   "spell": {
+    "rule": "Word families -in and -ip (sight word: are)",
+    "words": [
+     "are",
+     "pin",
+     "win",
+     "fin",
+     "tin",
+     "bin",
+     "dip",
+     "lip",
+     "zip",
+     "sip"
+    ]
+   },
+   "read": "An information book about fish or sea animals – collect three facts",
+   "days": [
+    {
+     "d": "Mon",
+     "ma": "Fish story: '6 fish swim by, 3 more come. How many now?' Draw circles for the fish, then write 6 + 3 = 9.",
+     "en": "Two families: build fin, pin, win and dip, lip, zip with letter scraps; sort into -in and -ip."
+    },
+    {
+     "d": "Tue",
+     "ma": "Parking lot: park 9 toy cars in a chalk lot; 4 drive away. How many are left? Act it out and write it.",
+     "en": "Fact page: your child draws a sea animal and tells you 2 facts about it; they write the animal's name and you write the facts."
+    },
+    {
+     "d": "Wed",
+     "ma": "Your turn to tell: your child makes up a story problem with toys for you to solve; check the answer together.",
+     "en": "Read the sea animals book, then read 'Fish are in the bin? No!' and 'Fins can zip.' with your child."
+    },
+    {
+     "d": "Thu",
+     "ma": "Apple basket: put 10 apples or balls in a basket; 2 roll away. How many are in the basket? Show it with a drawing.",
+     "en": "Sound change: pin → pit → pat → pan. Change one sound each time; your child writes the new word."
+    },
+    {
+     "d": "Fri",
+     "ma": "Quick check: three story problems within 10, solved with drawings or fingers.",
+     "en": "Quick check: read the -in and -ip words; read 'Fish are fun. Fins can zip.'"
+    }
+   ]
+  },
+  {
+   "w": 22,
+   "term": "Winter",
+   "title": "Counting to 50 and counting on; word family -it",
+   "ma": [
+    "k:ma:0:0",
+    "k:ma:0:1",
+    "k:ma:0:2"
+   ],
+   "en": [
+    "k:en:2:2",
+    "k:en:1:2",
+    "k:en:2:3",
+    "k:en:5:0"
+   ],
+   "spell": {
+    "rule": "Word family -it (sight word: said)",
+    "words": [
+     "said",
+     "it",
+     "bit",
+     "fit",
+     "hit",
+     "kit",
+     "pit",
+     "sit",
+     "lit",
+     "mitt"
+    ]
+   },
+   "read": "An information book about how a plant grows or how a chick hatches – what happens first and next?",
+   "days": [
+    {
+     "d": "Mon",
+     "ma": "Counting walk: count steps on a walk up to 50; at every ten, jump and shout the number.",
+     "en": "Word family -it: read sit, hit, kit and pit; play 'sit and fit' – sit down fast when you hear an -it word."
+    },
+    {
+     "d": "Tue",
+     "ma": "Start here: pull a number card from 10 to 40 and count on 10 more numbers from it.",
+     "en": "Read the plant or chick book; ask 'What happens after the seed gets water?' Link the steps with 'because' and 'then'."
+    },
+    {
+     "d": "Wed",
+     "ma": "Chalk ladder: write 11 to 20 up a chalk ladder; your child counts on from any rung you choose and writes the next number.",
+     "en": "One and many: one cat, two cats; one box, two boxes; one dish, two dishes. Say the 'more than one' word for things in the room."
+    },
+    {
+     "d": "Thu",
+     "ma": "Bounce count: count ball bounces past 20, 30, 40; tomorrow, start from where you stopped.",
+     "en": "Read speech sentences with voices: '“Sit,” said Mom.' and '“It is a kit,” said Dad.' Your child reads the word said each time."
+    },
+    {
+     "d": "Fri",
+     "ma": "Quick check: count from 1 to 50; then 'Start at 27 and keep going.'",
+     "en": "Quick check: read the -it words and said; your child explains how a seed becomes a plant."
+    }
+   ]
+  },
+  {
+   "w": 23,
+   "term": "Winter",
+   "title": "Review week: adding, taking away and word families",
+   "ma": [
+    "k:ma:1:0",
+    "k:ma:1:1",
+    "k:ma:1:2",
+    "k:ma:1:3",
+    "k:ma:1:4",
+    "k:ma:0:0"
+   ],
+   "en": [
+    "k:en:2:1",
+    "k:en:2:2",
+    "k:en:2:3",
+    "k:en:4:1",
+    "k:en:0:0",
+    "k:en:3:2"
+   ],
+   "spell": {
+    "rule": "Review -at -an -ap -ag -ig -in -ip -it (sight words: look, he, she, it, are, said)",
+    "words": [
+     "cat",
+     "van",
+     "map",
+     "bag",
+     "pig",
+     "fin",
+     "zip",
+     "sit",
+     "she",
+     "said"
+    ]
+   },
+   "read": "A book your child can read some of on their own – take turns reading a page each",
+   "days": [
+    {
+     "d": "Mon",
+     "ma": "Number story theater: act out '7 toys at a party, 3 go home' and '4 kids, 2 more come'. Your child writes each equation.",
+     "en": "Word family sort: write 16 words from the last six weeks on scraps; your child reads and sorts them into families."
+    },
+    {
+     "d": "Tue",
+     "ma": "Make 10 match: write 1 to 9 on cards, with two 5s; turn them face down and flip two at a time to find pairs that make 10.",
+     "en": "Take turns reading the book a page each. After each page, the listener asks one question about it."
+    },
+    {
+     "d": "Wed",
+     "ma": "Partner hunt: how many ways can you split 8 crackers on two plates? Draw them all.",
+     "en": "Rhyme and swap: say cat; your child changes the first sound for 3 rhymes, then the last sound (cat → cap → can)."
+    },
+    {
+     "d": "Thu",
+     "ma": "Speed round: 10 adding and taking-away facts within 5 – can your child beat their time from earlier in the week?",
+     "en": "Weekend story: your child draws and tells 3 things they did in order, and you help write a sentence for each."
+    },
+    {
+     "d": "Fri",
+     "ma": "Quick check: count to 50; solve 6 + 3 and 9 − 4 with drawings; say the partner to 10 for 7.",
+     "en": "Quick check: read the word list and the sight words; read a page of the book on their own."
+    }
+   ]
+  },
+  {
+   "w": 24,
+   "term": "Winter",
+   "title": "Teen numbers 11 to 15: ten and some more; word families -op and -ot",
+   "ma": [
+    "k:ma:2:0",
+    "k:ma:0:2",
+    "k:ma:0:4"
+   ],
+   "en": [
+    "k:en:2:2",
+    "k:en:3:3",
+    "k:en:2:3",
+    "k:en:0:0"
+   ],
+   "spell": {
+    "rule": "Word families -op and -ot (sight word: do)",
+    "words": [
+     "do",
+     "hop",
+     "mop",
+     "pop",
+     "top",
+     "hot",
+     "dot",
+     "pot",
+     "not",
+     "cot"
+    ]
+   },
+   "read": "A storybook with a problem to solve – ask questions about the key details",
+   "days": [
+    {
+     "d": "Mon",
+     "ma": "Ten and some more: put 10 buttons in a ten frame and 3 more beside it; '10 and 3 make 13'. Write 13 = 10 + 3.",
+     "en": "Two families: build hop, mop, pop, top and hot, dot, pot, not; your child reads and sorts them."
+    },
+    {
+     "d": "Tue",
+     "ma": "Bundle sticks: bundle 10 sticks or straws with a hair tie; add loose ones to make 11, 12, 13, 14 and 15.",
+     "en": "Add a detail: your child draws and writes about their favorite toy; ask a question ('What color is it?') and help them add one more detail."
+    },
+    {
+     "d": "Wed",
+     "ma": "Teen fingers: you show 10 fingers, your child shows some more. Together, how many? '10 and 4 is 14.'",
+     "en": "Read the problem story; ask 'What is the problem? Who helps? How is it fixed?'"
+    },
+    {
+     "d": "Thu",
+     "ma": "Write the teens: write 11 to 15 on paper; your child counts out each amount with pennies, making a group of 10 first.",
+     "en": "Read 'Do not hop on the pot!' and 'Do not mop the hot top!' Your child reads, then acts them out."
+    },
+    {
+     "d": "Fri",
+     "ma": "Quick check: show 10 and some more objects; your child says the teen number and writes it.",
+     "en": "Quick check: read the -op and -ot words; your child reads a sentence they wrote and adds one more detail when you ask a question."
+    }
+   ]
+  },
+  {
+   "w": 25,
+   "term": "Winter",
+   "title": "Teen numbers 16 to 19; word family -og",
+   "ma": [
+    "k:ma:2:0",
+    "k:ma:0:4",
+    "k:ma:0:2"
+   ],
+   "en": [
+    "k:en:2:2",
+    "k:en:1:7",
+    "k:en:1:0",
+    "k:en:2:3"
+   ],
+   "spell": {
+    "rule": "Word family -og (sight word: of)",
+    "words": [
+     "of",
+     "dog",
+     "fog",
+     "log",
+     "hog",
+     "jog",
+     "bog",
+     "frog",
+     "cog"
+    ]
+   },
+   "read": "An information book about caring for a pet – find the reasons the author gives",
+   "days": [
+    {
+     "d": "Mon",
+     "ma": "Ten frame teens: fill a ten frame with 10 buttons and add 6, 7, 8 or 9 beside it; say and write the number, like 17 = 10 + 7.",
+     "en": "Word family -og: read dog, fog, log, hog and jog; jog on the spot for each -og word you read."
+    },
+    {
+     "d": "Tue",
+     "ma": "Count 20: line up 20 toys in two rows of 10; count them all, then count out 16 and 19 from a pile.",
+     "en": "Read the pet book; ask 'Why does the author say dogs need walks?' Find the reason in the book and point to it."
+    },
+    {
+     "d": "Wed",
+     "ma": "Teen hop: chalk 10 to 20 in a line; call a teen number and your child hops to it and says '10 and …'.",
+     "en": "Ask and find: your child asks 2 questions about pets; look back in the book together to find the answers."
+    },
+    {
+     "d": "Thu",
+     "ma": "Teen builder: write 16, 17, 18 and 19 on cards; your child builds each with a bundle of 10 straws and loose ones, then draws it.",
+     "en": "Read 'A lot of dogs in the fog.' and 'A frog on a log.' Your child points to of each time."
+    },
+    {
+     "d": "Fri",
+     "ma": "Quick check: show 10 and 8 more; your child says and writes 18. Then count out 15 objects from a pile.",
+     "en": "Quick check: read the -og words and of; your child gives one reason why pets need care."
+    }
+   ]
+  },
+  {
+   "w": 26,
+   "term": "Winter",
+   "title": "Counting to 100 by tens; word families -ug and -un",
+   "ma": [
+    "k:ma:0:0",
+    "k:ma:0:1"
+   ],
+   "en": [
+    "k:en:2:2",
+    "k:en:3:4",
+    "k:en:2:3",
+    "k:en:2:1"
+   ],
+   "spell": {
+    "rule": "Word families -ug and -un (sight word: was)",
+    "words": [
+     "was",
+     "bug",
+     "hug",
+     "mug",
+     "rug",
+     "jug",
+     "sun",
+     "run",
+     "fun",
+     "bun"
+    ]
+   },
+   "read": "A storybook about a bug or a sunny day – read it, then make your own little story",
+   "days": [
+    {
+     "d": "Mon",
+     "ma": "Ten-finger count: you and your child flash 10 fingers each time while chanting 10, 20, 30 … up to 100.",
+     "en": "Two families: build bug, hug, mug, rug and sun, run, fun, bun; sort into -ug and -un."
+    },
+    {
+     "d": "Tue",
+     "ma": "Bags of ten: put 10 pennies in each of several cups or bags; count the cups by tens to see how many pennies in all.",
+     "en": "Digital story: with a grown-up, use a phone or computer to type or voice-record one sentence your child made up ('The bug was in the sun.'), then send it to a relative."
+    },
+    {
+     "d": "Wed",
+     "ma": "Jump by tens: jump once for each ten while counting 10, 20, 30 … 100; then count back down from 100 by tens.",
+     "en": "Read 'The bug was on the rug. It was fun.' Then change rug to mug, then hug."
+    },
+    {
+     "d": "Thu",
+     "ma": "Tens and more: start at 30 and count on by ones to 40; start at 60 and count on to 70.",
+     "en": "Sound count: say bug, sun and fun; your child pushes a penny forward for each sound (3 sounds!), then says the middle sound."
+    },
+    {
+     "d": "Fri",
+     "ma": "Quick check: count by tens to 100; then 'Start at 50 and count by ones to 60.'",
+     "en": "Quick check: read the -ug and -un words and was; read the typed story together."
+    }
+   ]
+  },
+  {
+   "w": 27,
+   "term": "Winter",
+   "title": "Counting to 100 by ones; word families -ut and -ub",
+   "ma": [
+    "k:ma:0:0",
+    "k:ma:0:1",
+    "k:ma:0:2"
+   ],
+   "en": [
+    "k:en:2:2",
+    "k:en:1:8",
+    "k:en:1:1",
+    "k:en:2:3"
+   ],
+   "spell": {
+    "rule": "Word families -ut and -ub (sight word: have)",
+    "words": [
+     "have",
+     "cut",
+     "hut",
+     "nut",
+     "but",
+     "tub",
+     "rub",
+     "cub",
+     "sub",
+     "scrub"
+    ]
+   },
+   "read": "Two information books about bears (or any one animal) – compare what each book shows",
+   "days": [
+    {
+     "d": "Mon",
+     "ma": "Hundred chart: draw a 10-by-10 grid (or use chalk outside) and fill in 1 to 30 together; spot the pattern down each column.",
+     "en": "Two families: build cut, hut, nut and tub, rub, cub; sort into -ut and -ub."
+    },
+    {
+     "d": "Tue",
+     "ma": "Count to 100 relay: you count to 10, your child counts the next 10, and so on to 100; clap on each ten.",
+     "en": "Read the two bear books. What does each one tell you? How are the pictures the same or different?"
+    },
+    {
+     "d": "Wed",
+     "ma": "Start anywhere: pick a number from 30 to 80; your child counts on 10 numbers and writes the last one.",
+     "en": "Main idea: your child tells you what one bear book is mostly about, then gives 2 details from it."
+    },
+    {
+     "d": "Thu",
+     "ma": "Ladder of 100: count 100 steps on a walk, stopping each ten for a silly pose.",
+     "en": "Read 'I have a nut. The cub has a nut. We have a tub.' Your child points to have each time."
+    },
+    {
+     "d": "Fri",
+     "ma": "Quick check: count from 1 to 100 (help on tricky tens); then 'Start at 67 and keep going.'",
+     "en": "Quick check: read the -ut and -ub words and have; say one thing the two bear books both had."
+    }
+   ]
+  },
+  {
+   "w": 28,
+   "term": "Spring",
+   "title": "Measuring: long, short, heavy, light; word family -et",
+   "ma": [
+    "k:ma:3:0",
+    "k:ma:3:1"
+   ],
+   "en": [
+    "k:en:2:2",
+    "k:en:3:5",
+    "k:en:2:3",
+    "k:en:1:0"
+   ],
+   "spell": {
+    "rule": "Word family -et (sight word: for)",
+    "words": [
+     "for",
+     "pet",
+     "wet",
+     "net",
+     "jet",
+     "get",
+     "let",
+     "met",
+     "set",
+     "vet"
+    ]
+   },
+   "read": "Several books by one favorite author (from the library or your shelves) – which does your child like best?",
+   "days": [
+    {
+     "d": "Mon",
+     "ma": "Describe it: pick a shoe; your child tells you how it can be measured – how long, how tall, how heavy. Try a cup and a book too.",
+     "en": "Word family -et: read pet, wet, net and jet; make a paper 'net' and catch each word as you read it."
+    },
+    {
+     "d": "Tue",
+     "ma": "Longer or shorter: compare a spoon and a fork side by side, ends lined up. Which is longer? By how much – a little or a lot?",
+     "en": "Author study: put books by one author side by side. Read the titles together and talk about what is the same in each. Which is your child's favorite?"
+    },
+    {
+     "d": "Wed",
+     "ma": "Heavy or light: hold a can in one hand and an apple in the other. Which feels heavier? Check with a hanger balance (a hanger with two bags tied on).",
+     "en": "Shared writing: write 'Our favorite book by this author is … because …' together; your child writes the words they can."
+    },
+    {
+     "d": "Thu",
+     "ma": "Outdoor measure: find a stick longer than your arm, a leaf shorter than your finger and a rock heavier than a shoe.",
+     "en": "Read 'A pet for the vet.' and 'Get the net! The jet is wet.' Your child reads and answers 'Who needs the net?'"
+    },
+    {
+     "d": "Fri",
+     "ma": "Quick check: your child compares two objects you choose and says which is longer and which is heavier.",
+     "en": "Quick check: read the -et words and for; your child names their favorite book by the author and one reason."
+    }
+   ]
+  },
+  {
+   "w": 29,
+   "term": "Spring",
+   "title": "Comparing size, weight and capacity; word families -en and -ed",
+   "ma": [
+    "k:ma:3:1",
+    "k:ma:3:0"
+   ],
+   "en": [
+    "k:en:2:2",
+    "k:en:3:6",
+    "k:en:2:3",
+    "k:en:4:2"
+   ],
+   "spell": {
+    "rule": "Word families -en and -ed (sight word: here)",
+    "words": [
+     "here",
+     "hen",
+     "ten",
+     "pen",
+     "men",
+     "den",
+     "bed",
+     "red",
+     "fed",
+     "led"
+    ]
+   },
+   "read": "An information book about growing up – how tall were you as a baby?",
+   "days": [
+    {
+     "d": "Mon",
+     "ma": "Tall and short: stand back to back with your child in front of a mirror. Who is taller? Compare with a toy and a chair.",
+     "en": "Two families: build hen, ten, pen and bed, red, fed; sort into -en and -ed."
+    },
+    {
+     "d": "Tue",
+     "ma": "Fill it: which holds more, a mug or a bowl? Fill one with water or rice and pour into the other to find out.",
+     "en": "Baby questions: look at old family photos and ask 'What could I do when I was a baby? What can I do now?' Your child dictates an answer."
+    },
+    {
+     "d": "Wed",
+     "ma": "String match: cut a piece of string as long as your child's arm; find 3 things longer and 3 shorter than the string.",
+     "en": "Read 'Here is a hen. Here is a red bed. The hen is fed.' and act it out."
+    },
+    {
+     "d": "Thu",
+     "ma": "Toy weigh-in: use the hanger balance to compare two toys at a time; line up 4 toys from lightest to heaviest.",
+     "en": "Help me please: play 'What's missing?' – your child must ask you a clear question to get the item they need for a drawing ('Where is the red crayon?')."
+    },
+    {
+     "d": "Fri",
+     "ma": "Quick check: compare two things for length, two for weight and two for how much they hold; your child says which is more each time.",
+     "en": "Quick check: read the -en and -ed words and here; your child tells one thing they learned from the photos."
+    }
+   ]
+  },
+  {
+   "w": 30,
+   "term": "Spring",
+   "title": "Review week: teen numbers, counting to 100 and measuring",
+   "ma": [
+    "k:ma:2:0",
+    "k:ma:0:0",
+    "k:ma:0:1",
+    "k:ma:3:0",
+    "k:ma:3:1",
+    "k:ma:0:6"
+   ],
+   "en": [
+    "k:en:2:1",
+    "k:en:2:2",
+    "k:en:2:3",
+    "k:en:0:1",
+    "k:en:3:0",
+    "k:en:4:3"
+   ],
+   "spell": {
+    "rule": "Review -op -ot -og -ug -un -ut -ub -et -en -ed (sight words: do, of, was, have, for, here)",
+    "words": [
+     "hop",
+     "hot",
+     "log",
+     "bug",
+     "fun",
+     "nut",
+     "tub",
+     "wet",
+     "hen",
+     "bed"
+    ]
+   },
+   "read": "A spring story about plants or animals – your child retells it with three key details",
+   "days": [
+    {
+     "d": "Mon",
+     "ma": "Teen match: write 11 to 19 on cards and draw 'ten and ones' pictures on other cards; match them up.",
+     "en": "Word family sort: write the review words on scraps; your child reads each and sorts them by vowel sound."
+    },
+    {
+     "d": "Tue",
+     "ma": "Count to 100: by tens with jumps, then by ones with claps from 41 to 60.",
+     "en": "Read the spring story; your child retells it on 3 fingers with a key detail on each."
+    },
+    {
+     "d": "Wed",
+     "ma": "Measure hunt: find something taller than you, shorter than a cup, heavier than a shoe and lighter than a spoon.",
+     "en": "Opinion: 'Is spring or winter better?' Your child draws and dictates or writes their opinion and one reason."
+    },
+    {
+     "d": "Thu",
+     "ma": "Which is greater? Flip two number cards from 1 to 10; your child writes both and says which is greater. Then count on from the bigger number to 20.",
+     "en": "Describe it: your child describes a spring flower or bug in the yard with 3 details – color, size, what it does."
+    },
+    {
+     "d": "Fri",
+     "ma": "Quick check: show 10 and 6 more; say 16. Count by tens to 100. Which is longer, a spoon or a crayon?",
+     "en": "Quick check: read 6 words from the list, then a sentence you write with 2 sight words."
+    }
+   ]
+  },
+  {
+   "w": 31,
+   "term": "Spring",
+   "title": "Sorting, counting and coins; mixed short vowels",
+   "ma": [
+    "k:ma:3:2",
+    "k:ma:0:5",
+    "k:ma:0:4"
+   ],
+   "en": [
+    "k:en:2:2",
+    "k:en:5:2",
+    "k:en:5:3",
+    "k:en:2:3"
+   ],
+   "spell": {
+    "rule": "Mixed short vowels: change the middle sound (sight word: play)",
+    "words": [
+     "play",
+     "cat",
+     "cot",
+     "cut",
+     "pin",
+     "pan",
+     "pen",
+     "bag",
+     "big",
+     "bug"
+    ]
+   },
+   "read": "A storybook full of action words – act them out as you read",
+   "days": [
+    {
+     "d": "Mon",
+     "ma": "Coin sort: tip out a handful of pennies, nickels, dimes and quarters; sort them by kind, count each pile and line the piles up from most to fewest.",
+     "en": "Middle sound swap: cat → cot → cut, pin → pan → pen. Your child changes the middle sound with letter scraps and reads each word."
+    },
+    {
+     "d": "Tue",
+     "ma": "Snack graph: sort a snack mix or a handful of cereal by kind into columns on paper; count each column. Which has more? Fewer?",
+     "en": "Two meanings: bat (an animal and a baseball bat), duck (a bird and 'duck down!'), can (a can of beans and 'I can'). Act out both meanings."
+    },
+    {
+     "d": "Wed",
+     "ma": "Laundry data: sort a basket of clean clothes into shirts, pants and socks; count each and say which has the most.",
+     "en": "Walk, march, tiptoe, stomp: your child acts out each way to move across the room; talk about how they are different."
+    },
+    {
+     "d": "Thu",
+     "ma": "Shoe vote: ask family members 'sneakers or sandals?' and make tally marks; count and compare the two groups.",
+     "en": "Word endings: jump → jumped, play → played, kind → unkind. Act out each and talk about what the ending or beginning changed."
+    },
+    {
+     "d": "Fri",
+     "ma": "Quick check: sort 10 mixed objects into 3 groups, count each and say which has the most and the fewest.",
+     "en": "Quick check: read the word list; read 'Can we play?' and 'The bug can jump.'"
+    }
+   ]
+  },
+  {
+   "w": 32,
+   "term": "Spring",
+   "title": "Shapes revisited: building bigger shapes; silent e",
+   "ma": [
+    "k:ma:4:5",
+    "k:ma:4:3",
+    "k:ma:4:4",
+    "k:ma:4:0"
+   ],
+   "en": [
+    "k:en:2:2",
+    "k:en:5:3",
+    "k:en:0:4",
+    "k:en:2:3"
+   ],
+   "spell": {
+    "rule": "Long vowels with silent e (sight word: make)",
+    "words": [
+     "make",
+     "cap",
+     "cape",
+     "tap",
+     "tape",
+     "pin",
+     "pine",
+     "rob",
+     "robe",
+     "cute"
+    ]
+   },
+   "read": "A poetry book and a storybook about the same season – how are they different?",
+   "days": [
+    {
+     "d": "Mon",
+     "ma": "Shape puzzles: cut 2 squares and 4 triangles from paper; make a house, a boat and a fish by putting shapes together.",
+     "en": "Magic e: write cap, tap and pin; add e to make cape, tape and pine. Read each pair and say which has the long vowel."
+    },
+    {
+     "d": "Tue",
+     "ma": "Shape riddles: 'I have 4 sides the same and 4 corners – what am I?' Take turns making riddles for flat and solid shapes.",
+     "en": "Category sort: sort kitchen items into fruits, vegetables and other foods; then sort your toys into a new set of groups your child chooses."
+    },
+    {
+     "d": "Wed",
+     "ma": "Build it big: build a big square from 4 smaller squares (paper or sticky notes), then a big triangle from small ones.",
+     "en": "Read a short poem and a page of the storybook. Which is the poem? How can you tell?"
+    },
+    {
+     "d": "Thu",
+     "ma": "Shape walk: on a walk, describe shapes and where they are: 'The triangle roof is above the rectangle door.'",
+     "en": "Read 'Make a cape. Tape the cape.' Your child reads and you both act it out with a towel."
+    },
+    {
+     "d": "Fri",
+     "ma": "Quick check: make a rectangle from 2 triangles and a hexagon from 6 triangles; name 2 solid shapes and say how they're different.",
+     "en": "Quick check: read the silent e words and make; sort 6 picture cards into 2 categories."
+    }
+   ]
+  },
+  {
+   "w": 33,
+   "term": "Spring",
+   "title": "Adding and subtracting within 10 revisited; sh, ch, th",
+   "ma": [
+    "k:ma:1:1",
+    "k:ma:1:2",
+    "k:ma:1:3",
+    "k:ma:1:4"
+   ],
+   "en": [
+    "k:en:2:2",
+    "k:en:2:1",
+    "k:en:0:2",
+    "k:en:3:2"
+   ],
+   "spell": {
+    "rule": "Two letters, one sound: sh, ch, th (sight word: they)",
+    "words": [
+     "they",
+     "ship",
+     "shop",
+     "fish",
+     "chip",
+     "chin",
+     "chop",
+     "thin",
+     "this",
+     "with"
+    ]
+   },
+   "read": "A storybook with a journey – talk about the characters, the places and the big events",
+   "days": [
+    {
+     "d": "Mon",
+     "ma": "Fish shop: play shop with toy 'fish'; buy 3 then 4 more; sell 2. How many now? Write each equation.",
+     "en": "Meet sh, ch and th: 'shh' finger on lips, 'ch-ch' like a train, 'th' tongue peeking out. Sort ship, chip, thin and fish by sound."
+    },
+    {
+     "d": "Tue",
+     "ma": "Make 10 snap: show some fingers; your child snaps how many more make 10, then writes it: 6 + 4 = 10.",
+     "en": "Read the journey story; your child names the characters, the places they visit and the most exciting event."
+    },
+    {
+     "d": "Wed",
+     "ma": "Split 10: 10 crackers on two plates in as many ways as possible; write each way.",
+     "en": "Sound count: say ship, chop and thin; your child taps the sounds (3 each!) and writes the word."
+    },
+    {
+     "d": "Thu",
+     "ma": "Story problems: your child makes up 3 story problems within 10 for you; solve them together with drawings.",
+     "en": "Our journey: your child draws and tells about a trip (to the park, store or a relative's house): first, next, last, and how they felt."
+    },
+    {
+     "d": "Fri",
+     "ma": "Quick check: 4 + 5, 10 − 3, 7 + 3, 8 − 6 and partners of 10 for 2 and 8.",
+     "en": "Quick check: read the word list and they; read 'They have a fish in the ship.'"
+    }
+   ]
+  },
+  {
+   "w": 34,
+   "term": "Spring",
+   "title": "Review: counting, numbers to 20 and comparing",
+   "ma": [
+    "k:ma:0:0",
+    "k:ma:0:1",
+    "k:ma:0:2",
+    "k:ma:0:5",
+    "k:ma:0:6",
+    "k:ma:2:0"
+   ],
+   "en": [
+    "k:en:2:0",
+    "k:en:2:2",
+    "k:en:2:3",
+    "k:en:3:1",
+    "k:en:4:0",
+    "k:en:5:0"
+   ],
+   "spell": {
+    "rule": "Review: CVC word families (sight words: the, a, I, to, and, is, you, see, we, can, go, like, my)",
+    "words": [
+     "hat",
+     "man",
+     "pig",
+     "pin",
+     "sit",
+     "top",
+     "dog",
+     "bug",
+     "sun",
+     "red"
+    ]
+   },
+   "read": "An information book about something your child chooses – make your own fact book after",
+   "days": [
+    {
+     "d": "Mon",
+     "ma": "Number hunt to 20: hide number cards 0 to 20; your child finds them and puts them in order.",
+     "en": "Letter and word bingo: draw a 3-by-3 grid with letters and words; call sounds and words and your child covers them with pennies."
+    },
+    {
+     "d": "Tue",
+     "ma": "More or fewer: grab two handfuls of pasta, count each (up to 20), and say which group has more.",
+     "en": "Read the chosen information book, sweeping a finger under the words and noticing spaces between words."
+    },
+    {
+     "d": "Wed",
+     "ma": "Chalk race: count by tens along a chalk path to 100; then race to count on from 85 to 100.",
+     "en": "Fact book: fold paper into a 4-page book about the topic; your child draws and writes one fact on each page."
+    },
+    {
+     "d": "Thu",
+     "ma": "Teen show: say a teen number; your child shows ten fingers plus some more from you and writes it.",
+     "en": "Table talk: at a meal, talk about the fact book; your child explains each page and answers questions, taking turns."
+    },
+    {
+     "d": "Fri",
+     "ma": "Quick check: count to 100, write 0 to 20, compare 8 and 6, and say 14 as ten and some more.",
+     "en": "Quick check: read 5 word-family words and 5 sight words; your child reads their fact book aloud."
+    }
+   ]
+  },
+  {
+   "w": 35,
+   "term": "Spring",
+   "title": "Review: adding, subtracting, shapes and measuring",
+   "ma": [
+    "k:ma:1:1",
+    "k:ma:1:3",
+    "k:ma:1:4",
+    "k:ma:4:1",
+    "k:ma:4:2",
+    "k:ma:3:1",
+    "k:ma:3:2"
+   ],
+   "en": [
+    "k:en:2:1",
+    "k:en:2:2",
+    "k:en:2:3",
+    "k:en:0:1",
+    "k:en:0:7",
+    "k:en:3:0"
+   ],
+   "spell": {
+    "rule": "Review: silent e and sh, ch, th (sight words: they, said, are, have, was, of)",
+    "words": [
+     "cape",
+     "kite",
+     "hope",
+     "cube",
+     "ship",
+     "chin",
+     "this",
+     "with",
+     "fish",
+     "chop"
+    ]
+   },
+   "read": "Two favorite stories from this year – compare the main characters",
+   "days": [
+    {
+     "d": "Mon",
+     "ma": "Backyard fair: set up 3 stations – 'make 10' with pebbles, 'take away' bowling, and 'shape hunt' – and visit each.",
+     "en": "Silly rhymes: your child makes rhymes for ship, cape and chin, real or silly."
+    },
+    {
+     "d": "Tue",
+     "ma": "Measure Olympics: who can jump farther, a toy or your child? Which ball rolls longer? Compare and describe.",
+     "en": "Retell one favorite story with toys or puppets; then compare its main character with a character from another favorite book."
+    },
+    {
+     "d": "Wed",
+     "ma": "Fast facts: 10 adding and taking-away facts within 5 – how many can your child answer in a minute?",
+     "en": "Opinion: 'My favorite book this year was … because …' Your child writes it and draws a picture."
+    },
+    {
+     "d": "Thu",
+     "ma": "Data hunt: for 5 minutes, count passing cars by color; which color wins?",
+     "en": "Sound swap: chip → ship → shop → chop. Change one sound each time; your child reads and writes each word."
+    },
+    {
+     "d": "Fri",
+     "ma": "Quick check: name 4 flat and 2 solid shapes, solve 7 + 3 and 9 − 4, and compare two things by height.",
+     "en": "Quick check: read the word list and sight words; tell one way two story characters are alike."
+    }
+   ]
+  },
+  {
+   "w": 36,
+   "term": "Spring",
+   "title": "Ready for first grade: celebration week",
+   "ma": [
+    "k:ma:0:0",
+    "k:ma:1:1",
+    "k:ma:2:0",
+    "k:ma:4:5"
+   ],
+   "en": [
+    "k:en:2:3",
+    "k:en:3:2",
+    "k:en:3:4",
+    "k:en:4:3",
+    "k:en:4:5",
+    "k:en:5:4"
+   ],
+   "spell": {
+    "rule": "Celebration review (all sight words from the year)",
+    "words": [
+     "the",
+     "you",
+     "said",
+     "they",
+     "like",
+     "have",
+     "make",
+     "ship",
+     "kite",
+     "jump"
+    ]
+   },
+   "read": "Your child chooses a book to read to you",
+   "days": [
+    {
+     "d": "Mon",
+     "ma": "Big count: count to 100 together, then count backward from 20.",
+     "en": "Read to me: your child reads a book they can read to you or a toy, sweeping a finger under the words."
+    },
+    {
+     "d": "Tue",
+     "ma": "Make a picture: put together paper shapes to make a 'first grade' picture and name each shape.",
+     "en": "Memory book: your child draws 3 favorite things from kindergarten and writes a sentence for each."
+    },
+    {
+     "d": "Wed",
+     "ma": "Story problem party: your child makes up story problems within 10 using party snacks for you to solve.",
+     "en": "Big feelings: talk about first grade – what will be the same, what will be new, and how your child feels. Speak clearly and listen in turns."
+    },
+    {
+     "d": "Thu",
+     "ma": "Teen show-off: your child builds 13 and 19 with ten and some ones and says each one.",
+     "en": "Send a message: with a grown-up, type or record a 'kindergarten was …' message for a relative using a phone or computer."
+    },
+    {
+     "d": "Fri",
+     "ma": "Celebration check: count to 100 by tens and ones, solve 6 + 4 and 8 − 3, and build 15 as 10 and 5.",
+     "en": "Celebration check: read the word list and choose a favorite book to read together."
+    }
+   ]
+  }
+ ]
+}
