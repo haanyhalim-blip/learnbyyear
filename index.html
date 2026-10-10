@@ -1,5 +1,5 @@
 <!doctype html>
-<!-- LearnbyYear v23 -->
+<!-- LearnbyYear v24 -->
 <html lang="en-GB">
 <head>
 <meta charset="utf-8">
@@ -152,10 +152,26 @@ h2.sec{font-size:1.4rem;margin:6px 0 12px}
 #ccsw[hidden]{display:none}
 /* a child's page: This week · Progress · Updates · Documents */
 .ktabs{display:flex;gap:2px;justify-content:space-between;overflow-x:auto;border-bottom:1.5px solid var(--rule);margin:10px 0 4px;scrollbar-width:none}
-.ktabs button{flex:none;font:inherit;font-size:.84rem;font-weight:600;background:none;border:0;border-bottom:3px solid transparent;margin-bottom:-1.5px;padding:8px 4px;color:var(--soft);cursor:pointer}
+.ktabs button{flex:none;font:inherit;font-size:.8rem;font-weight:600;background:none;border:0;border-bottom:3px solid transparent;margin-bottom:-1.5px;padding:8px 3px;color:var(--soft);cursor:pointer}
 .ktabs button[aria-selected="true"]{color:var(--ink);border-bottom-color:var(--blue)}
 .kidsum .kp{display:none}
-.kidsum.kt-week .kp-week,.kidsum.kt-prog .kp-prog,.kidsum.kt-upd .kp-upd,.kidsum.kt-docs .kp-docs{display:block}
+.kidsum.kt-week .kp-week,.kidsum.kt-prog .kp-prog,.kidsum.kt-upd .kp-upd,.kidsum.kt-docs .kp-docs,.kidsum.kt-art .kp-art{display:block}
+/* Today / This week switch on the homework box */
+.hwsw{display:inline-flex;border:1.5px solid var(--rule);border-radius:999px;padding:2px;margin:0 0 8px;background:var(--sheet)}
+.hwsw button{font:inherit;font-size:.82rem;font-weight:700;border:0;border-radius:999px;padding:4px 12px;background:none;color:var(--soft);cursor:pointer}
+.hwsw button[aria-pressed="true"]{background:var(--ink);color:var(--paper)}
+.kplan .kdays{margin:6px 0 0;font-size:.88rem}
+.kplan .kdays summary{cursor:pointer;color:var(--blue);font-weight:600}
+.kplan .kdays p{margin:6px 0}
+/* Art: photos of what they make, kept privately, newest first */
+#artF{width:100%;box-sizing:border-box}
+.artgrid{display:grid;grid-template-columns:repeat(auto-fill,minmax(140px,1fr));gap:10px;margin:12px 0 4px}
+.artc{margin:0;position:relative;background:var(--sheet);border:1.5px solid var(--rule);border-radius:12px;overflow:hidden}
+.artc .artimg{display:block;width:100%;aspect-ratio:1/1;border:0;padding:0;background:var(--paper);cursor:pointer}
+.artc img{width:100%;height:100%;object-fit:cover;display:block}
+.artc figcaption{padding:6px 8px;font-size:.85rem;font-weight:600}
+.artc figcaption small{display:block;font-weight:400;color:var(--soft);font-size:.76rem}
+.artc .artrm{position:absolute;top:6px;right:6px;width:26px;height:26px;border-radius:50%;border:0;background:rgba(0,0,0,.55);color:#fff;font-size:1rem;line-height:1;cursor:pointer}
 .kidsum .kp .upd{border-top:0;padding-top:0}
 .kidsum .kp .upd summary{list-style:none;pointer-events:none}
 .kidsum .kp .upd summary::-webkit-details-marker{display:none}
@@ -418,7 +434,7 @@ h2.sec{font-size:1.4rem;margin:6px 0 12px}
       <p>All subjects and all years, the US standards, each year's version kept so your plans don't change by surprise, and building a child's own plan with Claude or ChatGPT.</p></div>
   </section>
 
-  <p class="foot">Ticks stay on this device – or sign in to keep them in your account. England curriculum text © Crown copyright, used under the Open Government Licence v3.0. Common Core State Standards © 2010 NGA Center and CCSSO. <button type="button" class="fbfoot" id="fbFoot">Feedback</button> · <span class="ver">v23</span></p>
+  <p class="foot">Ticks stay on this device – or sign in to keep them in your account. England curriculum text © Crown copyright, used under the Open Government Licence v3.0. Common Core State Standards © 2010 NGA Center and CCSSO. <button type="button" class="fbfoot" id="fbFoot">Feedback</button> · <span class="ver">v24</span></p>
 </div>
 
 <div id="acct" hidden role="dialog" aria-modal="true" aria-labelledby="acTitle"><div class="acbox"><button class="acx" id="acX" type="button" aria-label="Close">×</button>
@@ -602,7 +618,7 @@ var DATA = {"maths-y3": [{"strand": "Number – number and place value", "items"
   function short(t){ t = cap(t).replace(/[.:;]+$/, ""); return t.length > 90 ? t.slice(0, 88).replace(/\s+\S*$/, "") + "…" : t; }
   function drawKidSum(){ var el = $("kidsum"), c = child(); if(!c || KF){ el.hidden = true; el.innerHTML = ""; kidParts(); return; } el.hidden = false;
     var y = kid(), nhw = hwOpen(c).length, h = '<h3>' + esc(c.name) + ' · ' + esc(y.name) + '</h3>' + (c.about ? '<p class="about">' + esc(c.about) + '</p>' : '')
-      + '<div class="ktabs" role="tablist">' + [["week", "This week" + (nhw ? " (" + nhw + ")" : "")], ["prog", "Progress"], ["upd", "Updates"], ["docs", "Docs"]].map(function(t){ return '<button type="button" role="tab" data-ktab="' + t[0] + '" aria-selected="' + (KTAB === t[0]) + '">' + esc(t[1]) + '</button>'; }).join("") + '</div>'
+      + '<div class="ktabs" role="tablist">' + [["week", "Week" + (nhw ? " (" + nhw + ")" : "")], ["prog", "Progress"], ["upd", "Updates"], ["docs", "Docs"], ["art", "Art"]].map(function(t){ return '<button type="button" role="tab" data-ktab="' + t[0] + '" aria-selected="' + (KTAB === t[0]) + '">' + esc(t[1]) + '</button>'; }).join("") + '</div>'
       + '<div class="kp kp-week">' + hwHTML(c) + planHTML(c, y) + '</div><div class="kp kp-prog">';
     var wk = [], ah = [];
     ["en","ma"].forEach(function(sj){ var r = subjStats(c, sj), pc = r.n ? 100 * r.got / r.n : 0, ex = r.n ? 100 * r.exp / r.n : 0, tag;
@@ -629,8 +645,8 @@ var DATA = {"maths-y3": [{"strand": "Number – number and place value", "items"
           + '<p class="docnote" id="docNote">Kept privately in your account – only you can open them, when signed in. Photos, PDFs or Word files, up to 20 MB each.</p></form>'
         : '<p class="docnote">Sign in to keep the real school reports, letters and homework here – stored privately in your account, never on a public page.</p><button type="button" class="add" data-docsign="1">Sign in</button>')
       + docs.map(function(x){ return '<div class="ent">' + (AUSER ? '<button type="button" class="docrm" data-docrm="' + esc(x.id) + '" aria-label="Remove ' + esc(x.n) + '">Remove</button>' : '') + '<small>' + esc(fmtD(x.d)) + ' · ' + esc(x.src || "") + '</small><button type="button" class="docb" data-doc="' + esc(x.id) + '">📄 ' + esc(x.n) + '</button></div>'; }).join("") + '</details>';
-    h += '</div>';
-    el.className = "kidsum kt-" + KTAB; el.innerHTML = h; kidParts(); var dd = $("updD"); if(dd) dd.value = new Date().toISOString().slice(0, 10); var d2 = $("docD"); if(d2) d2.value = new Date().toISOString().slice(0, 10); }
+    h += '</div><div class="kp kp-art">' + artHTML(c) + '</div>';
+    el.className = "kidsum kt-" + KTAB; el.innerHTML = h; kidParts(); if(KTAB === "art") artThumbs(); var ad = $("artD"); if(ad) ad.value = new Date().toISOString().slice(0, 10); var dd = $("updD"); if(dd) dd.value = new Date().toISOString().slice(0, 10); var d2 = $("docD"); if(d2) d2.value = new Date().toISOString().slice(0, 10); }
   // ---------- This week from school: homework as tasks you tick off, each with its link (c.hw = [{id, d: date set, t, u: link, n: note, due, done: date}]) ----------
   var HWADD = false;
   function hwOpen(c){ return (c.hw || []).filter(function(x){ return !x.done; }).sort(function(a, b){ return (a.due || "9").localeCompare(b.due || "9") || (a.d || "").localeCompare(b.d || ""); }); }
@@ -638,9 +654,10 @@ var DATA = {"maths-y3": [{"strand": "Number – number and place value", "items"
     return '<div class="hwt' + (x.done ? " done" : "") + '"><input type="checkbox" data-hw="' + esc(x.id) + '"' + (x.done ? " checked" : "") + ' aria-label="Done: ' + esc(x.t) + '"><span class="tx"><b>' + esc(x.t) + '</b>'
       + (x.n || x.due ? '<small>' + (x.due ? "Due " + esc(fmtD(x.due)) + (x.n ? " · " : "") : "") + esc(x.n || "") + '</small>' : '') + '</span>'
       + (safe ? '<a href="' + esc(x.u) + '" target="_blank" rel="noopener">Open ↗</a>' : '') + '<button type="button" class="rm" data-hwrm="' + esc(x.id) + '" aria-label="Remove ' + esc(x.t) + '">×</button></div>'; }
-  function hwHTML(c){ var open = hwOpen(c), since = new Date(Date.now() - 14 * 864e5).toISOString().slice(0, 10), done = (c.hw || []).filter(function(x){ return x.done && x.done >= since; });
-    return '<div class="hwbox"><p class="ks-h">This week from school</p>'
-      + (open.length ? open.map(hwRow).join("") : '<p class="docnote">' + ((c.hw || []).length ? "All done – nothing left from school. 🎉" : "Nothing here yet. When the school sets homework, add it below – or send me the post and I'll send you a link that adds it all, with the links.") + '</p>')
+  var HWVIEW = "today";   // the homework box: just today (due today, overdue, or no date) or the whole week
+  function hwHTML(c){ var tdy = new Date().toISOString().slice(0, 10), all = hwOpen(c), open = HWVIEW === "today" ? all.filter(function(x){ return !x.due || x.due <= tdy; }) : all, since = new Date(Date.now() - 14 * 864e5).toISOString().slice(0, 10), done = (c.hw || []).filter(function(x){ return x.done && x.done >= since; });
+    return '<div class="hwbox"><div class="hwsw" role="group" aria-label="Show"><button type="button" data-hwv="today" aria-pressed="' + (HWVIEW === "today") + '">Today</button><button type="button" data-hwv="week" aria-pressed="' + (HWVIEW === "week") + '">This week</button></div><p class="ks-h">' + (HWVIEW === "today" ? "Today from school" : "This week from school") + '</p>'
+      + (open.length ? open.map(hwRow).join("") : '<p class="docnote">' + (all.length ? (HWVIEW === "today" ? "Nothing due today – " + all.length + " more later this week (tap This week)." : "All done – nothing left from school. 🎉") : (c.hw || []).length ? "All done – nothing left from school. 🎉" : "Nothing here yet. When the school sets homework, add it below – or send me the post and I'll send you a link that adds it all, with the links.") + '</p>')
       + (done.length ? '<details><summary>Done recently (' + done.length + ')</summary>' + done.map(hwRow).join("") + '</details>' : '')
       + '<details' + (HWADD ? " open" : "") + ' class="hwadd"><summary>+ Add a task</summary><form id="hwForm"><input type="text" id="hwT" maxlength="200" placeholder="e.g. Phonics video for his book colour" aria-label="Task"><input type="text" inputmode="url" autocapitalize="off" id="hwU" maxlength="600" placeholder="Link (optional) – paste it here" aria-label="Link"><input type="text" id="hwN" maxlength="200" placeholder="Note (optional)" aria-label="Note"><label class="docnote">Due (optional) <input type="date" id="hwD"></label><button type="submit" class="add">Add task</button></form></details></div>'; }
   function hwToggle(id, on){ var c = child(); if(!c) return; (c.hw || []).forEach(function(x){ if(x.id === id) x.done = on ? new Date().toISOString().slice(0, 10) : ""; }); keep(true); drawKidSum(); if(UI.tab === "week") drawWeek(); }
@@ -651,15 +668,48 @@ var DATA = {"maths-y3": [{"strand": "Number – number and place value", "items"
     var now = y.cc === "us" ? usWeek() : schoolWeek(), w = pb.weeks.filter(function(x){ return x.w === now.w; })[0]; if(!w) return "";
     var dow = new Date().getDay(), d = !now.hol && dow >= 1 && dow <= 5 ? w.days[dow - 1] : null, mt = y.cc === "us" ? "Math" : "Maths";
     return '<div class="kplan"><p class="ks-h">This week\'s plan · Week ' + now.w + (now.hol ? ' (' + esc(now.hol) + ')' : '') + ': ' + esc(w.title) + '</p>'
-      + (d ? '<p><b>Today – ' + mt + ':</b> ' + esc(d.ma) + '</p><p><b>Today – English:</b> ' + esc(d.en) + '</p>' : '')
+      + (HWVIEW === "today" ? (d ? '<p><b>Today – ' + mt + ':</b> ' + esc(d.ma) + '</p><p><b>Today – English:</b> ' + esc(d.en) + '</p>' : '<p class="docnote">No lesson planned for today – it\'s the weekend or a holiday.</p>')
+        : '<details class="kdays" open><summary>Day by day</summary>' + (w.days || []).map(function(x){ var full = {Mon:"Monday",Tue:"Tuesday",Wed:"Wednesday",Thu:"Thursday",Fri:"Friday"}[x.d] || x.d; return '<p><b>' + full + '</b> – ' + mt + ': ' + esc(x.ma) + '<br>English: ' + esc(x.en) + '</p>'; }).join("") + '</details>')
       + (w.spell && w.spell.rule ? '<p><b>Spelling:</b> ' + esc(w.spell.rule) + '</p>' : '')
       + '<button type="button" class="gowk" data-gowk="1">See the whole week →</button></div>'; }
   var UPDOPEN = false, DOCOPEN = false, DOCBOX = "learnbyyear-docs";
+  // ---------- Art: photos of what they make, stored privately in your account folder (same private box as Docs) ----------
+  var GURL = {};   // signed links for the pictures, kept for 50 minutes
+  function artHTML(c){ var art = (c.art || []).slice().sort(function(a, b){ return (b.d || "").localeCompare(a.d || "") || (b.t || 0) - (a.t || 0); });
+    if(!AUSER) return '<p class="docnote">Sign in to keep photos of ' + esc(c.name) + '\'s drawings, paintings and things they make – kept privately in your account, never on a public page.</p><button type="button" class="add" data-docsign="1">Sign in</button>' + (art.length ? '<p class="docnote">' + art.length + ' pictures saved – sign in to see them.</p>' : '');
+    return '<div class="upd"><form id="artForm"><div class="r"><input type="text" id="artT" maxlength="80" placeholder="What is it? e.g. Rainbow fish" aria-label="Title"><input type="date" id="artD" aria-label="Date"></div>'
+      + '<input type="file" id="artF" multiple accept="image/*" aria-label="Choose photos"><button type="submit" class="add" id="artGo">Add to ' + esc(c.name) + '\'s gallery</button><p class="docnote" id="artNote">Snap a photo of something they made. Kept privately in your account – only you can see it.</p></form></div>'
+      + (art.length ? '<div class="artgrid">' + art.map(function(x){ return '<figure class="artc"><button type="button" class="artimg" data-art="' + esc(x.id) + '" aria-label="Open ' + esc(x.n || "picture") + '"><img data-artp="' + esc(x.p) + '" alt="' + esc(x.n || "Picture") + '"></button><figcaption>' + esc(x.n || "Untitled") + '<small>' + esc(fmtD(x.d)) + '</small></figcaption><button type="button" class="artrm" data-artrm="' + esc(x.id) + '" aria-label="Remove ' + esc(x.n || "picture") + '">×</button></figure>'; }).join("") + '</div>' : '<p class="docnote">No pictures yet.</p>'); }
+  function artThumbs(){ if(!AUSER || !asb) return; var imgs = Array.prototype.slice.call(document.querySelectorAll("#kidsum img[data-artp]")), need = [];
+    imgs.forEach(function(im){ var g = GURL[im.dataset.artp]; if(g && g.x > Date.now()) im.src = g.u; else if(need.indexOf(im.dataset.artp) < 0) need.push(im.dataset.artp); });
+    if(!need.length) return;
+    asb.storage.from(DOCBOX).createSignedUrls(need, 3600).then(function(r){ (r.data || []).forEach(function(x){ if(x && x.signedUrl && x.path) GURL[x.path] = {u:x.signedUrl, x:Date.now() + 3000000}; });
+      imgs.forEach(function(im){ var g = GURL[im.dataset.artp]; if(g && !im.src) im.src = g.u; }); }, function(){}); }
+  function artShrink(f, cb){ var url = URL.createObjectURL(f), img = new Image();
+    img.onload = function(){ var k = Math.min(1, 1600 / Math.max(img.width, img.height)), cv = document.createElement("canvas"); cv.width = Math.round(img.width * k); cv.height = Math.round(img.height * k);
+      cv.getContext("2d").drawImage(img, 0, 0, cv.width, cv.height); URL.revokeObjectURL(url); cv.toBlob(function(b){ cb(b); }, "image/jpeg", .82); };
+    img.onerror = function(){ URL.revokeObjectURL(url); cb(null); }; img.src = url; }
+  function artUpload(){ var c = child(), fs = Array.prototype.slice.call($("artF").files || []), note = $("artNote"), go = $("artGo"); if(!c || !AUSER || !asb) return; if(!fs.length){ note.textContent = "Choose a photo first."; return; }
+    var title = $("artT").value.trim(), d = $("artD").value || new Date().toISOString().slice(0, 10), done = 0; go.disabled = true;
+    (function next(){ if(!fs.length){ go.disabled = false; if(done){ keep(true); drawKidSum(); var n2 = $("artNote"); if(n2) n2.textContent = "✓ " + done + (done === 1 ? " picture" : " pictures") + " added."; } return; }
+      var f = fs.shift(); note.textContent = "Adding " + f.name + "…";
+      artShrink(f, function(b){ if(!b){ note.textContent = "Couldn't read " + f.name + " – try another photo."; next(); return; }
+        var path = AUSER.id + "/" + c.id + "/art-" + Date.now().toString(36) + Math.random().toString(36).slice(2, 6) + ".jpg";
+        asb.storage.from(DOCBOX).upload(path, b, {contentType:"image/jpeg", upsert:false}).then(function(r){
+          if(r.error){ go.disabled = false; note.textContent = /bucket|not found|security|policy|row-level/i.test(String(r.error.message || r.error)) ? "One setup step is still needed before pictures can be saved (the Supabase step)." : "Couldn't add " + f.name + " – try again."; if(done) keep(true); return; }
+          c.art = c.art || []; c.art.push({id:Date.now().toString(36) + Math.random().toString(36).slice(2, 6), p:path, n:title.slice(0, 80), d:d, t:Date.now()}); done++; next(); },
+          function(){ go.disabled = false; note.textContent = "Can't reach the server just now – try again in a minute."; if(done) keep(true); }); }); })(); }
+  function artOpen(id){ var c = child(), x = c && (c.art || []).filter(function(a){ return a.id === id; })[0]; if(!x || !AUSER || !asb) return; var g = GURL[x.p];
+    if(g && g.x > Date.now()){ window.open(g.u, "_blank"); return; } var w = window.open("", "_blank");
+    asb.storage.from(DOCBOX).createSignedUrl(x.p, 3600).then(function(r){ if(r.data && r.data.signedUrl){ if(w) w.location.href = r.data.signedUrl; else location.href = r.data.signedUrl; } else if(w) w.close(); }, function(){ if(w) w.close(); }); }
+  function artRemove(id){ var c = child(), x = c && (c.art || []).filter(function(a){ return a.id === id; })[0]; if(!x || !AUSER || !asb) return; if(!confirm("Remove " + (x.n || "this picture") + "? It will be deleted from your account.")) return;
+    asb.storage.from(DOCBOX).remove([x.p]).then(function(r){ if(r.error && !/not found/i.test(String(r.error.message || r.error))){ alert("Couldn't remove it just now – try again in a minute."); return; }
+      c.art = (c.art || []).filter(function(a){ return a.id !== id; }); keep(true); drawKidSum(); }, function(){ alert("Can't reach the server just now – try again in a minute."); }); }
   function docOf(c, id){ return (c.docs || []).filter(function(x){ return x.id === id; })[0]; }
   function fmtD(d){ if(!d) return ""; var p = d.split("-"); return p.length === 3 ? +p[2] + " " + ["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"][+p[1] - 1] + " " + p[0] : d; }
   $("kidsum").addEventListener("change", function(e){ if(e.target.dataset && e.target.dataset.hw) hwToggle(e.target.dataset.hw, e.target.checked); });
   $("kidsum").addEventListener("toggle", function(e){ if(e.target.classList && e.target.classList.contains("hwadd")) HWADD = e.target.open; if(e.target.classList && e.target.classList.contains("upd")){ if(e.target.classList.contains("docs")) DOCOPEN = e.target.open; else UPDOPEN = e.target.open; } }, true);
-  $("kidsum").addEventListener("submit", function(e){ e.preventDefault(); if(e.target.id === "docForm") return docUpload();
+  $("kidsum").addEventListener("submit", function(e){ e.preventDefault(); if(e.target.id === "docForm") return docUpload(); if(e.target.id === "artForm") return artUpload();
     if(e.target.id === "hwForm"){ var hc = child(), ht = $("hwT").value.trim(), hu = $("hwU").value.trim(); if(!hc || !ht) return; if(hu && !/^https?:\/\//i.test(hu)) hu = "https://" + hu;
       hc.hw = hc.hw || []; hc.hw.push({id:Date.now().toString(36) + Math.random().toString(36).slice(2, 5), d:new Date().toISOString().slice(0, 10), t:ht, u:hu, n:$("hwN").value.trim(), due:$("hwD").value || "", done:""}); HWADD = false; keep(true); drawKidSum(); return; } var c = child(), t = $("updT").value.trim(); if(!c || !t) return;
     var u = {d:$("updD").value, src:$("updS").value, t:t}, dsel = $("updDoc"); if(dsel && dsel.value) u.doc = dsel.value;
@@ -683,7 +733,9 @@ var DATA = {"maths-y3": [{"strand": "Number – number and place value", "items"
     var w = window.open("", "_blank"); if(w) try{ w.document.write("<p style='font:16px system-ui;padding:20px'>Opening " + esc(x.n) + "…</p>"); }catch(e){}
     asb.storage.from(DOCBOX).createSignedUrl(x.p, 600).then(function(r){ if(r.data && r.data.signedUrl){ if(w) w.location.href = r.data.signedUrl; else location.href = r.data.signedUrl; }
       else { if(w) w.close(); alert("Couldn't open " + x.n + ". Make sure you're signed in to the same account that uploaded it."); } }, function(){ if(w) w.close(); alert("Can't reach the server just now – try again in a minute."); }); }
-  $("kidsum").addEventListener("click", function(e){ var hr = e.target.closest("[data-hwrm]"); if(hr){ var c0 = child(), x0 = c0 && (c0.hw || []).filter(function(x){ return x.id === hr.dataset.hwrm; })[0]; if(x0 && confirm("Remove “" + x0.t + "”?")){ c0.hw = c0.hw.filter(function(x){ return x !== x0; }); keep(true); drawKidSum(); } return; }
+  $("kidsum").addEventListener("click", function(e){ var hv = e.target.closest("[data-hwv]"); if(hv){ HWVIEW = hv.dataset.hwv; drawKidSum(); return; }
+    var ao = e.target.closest("[data-art]"); if(ao){ artOpen(ao.dataset.art); return; } var ar = e.target.closest("[data-artrm]"); if(ar){ artRemove(ar.dataset.artrm); return; }
+    var hr = e.target.closest("[data-hwrm]"); if(hr){ var c0 = child(), x0 = c0 && (c0.hw || []).filter(function(x){ return x.id === hr.dataset.hwrm; })[0]; if(x0 && confirm("Remove “" + x0.t + "”?")){ c0.hw = c0.hw.filter(function(x){ return x !== x0; }); keep(true); drawKidSum(); } return; }
     var rm = e.target.closest("[data-docrm]"); if(rm) return docRemove(rm.dataset.docrm); var dn = e.target.closest("[data-doc]"); if(dn) return docOpen(dn.dataset.doc); if(e.target.closest("[data-docsign]")){ DOCOPEN = true; $("acctBtn").click(); return; }
     var kt = e.target.closest("[data-ktab]"); if(kt){ KTAB = kt.dataset.ktab; drawKidSum(); return; }
     if(e.target.closest("[data-gowk]")){ document.querySelector('nav.tabs [data-tab="week"]').click(); window.scrollTo(0, 0); return; }
